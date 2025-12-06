@@ -1,0 +1,193 @@
+{
+  "name": "PTLT",
+  "leadership": [
+    "Andrew Mohammed",
+    "Bronwyn Barnett",
+    "Ed Kelly",
+    "Guy Duncan",
+    "James Ferguson",
+    "Jenny Wong",
+    "Jonathan Finch",
+    "Kelly Looney",
+    "Kelvin Moore",
+    "Liam Roberts",
+    "Ravi Maithani",
+    "Simon Goldsmith",
+    "Steve Harris"
+  ],
+  "solutions": [],
+  "teams": [
+    {
+      "name": "Leadership Team",
+      "members": [
+        {
+          "name": "James Ferguson",
+          "email": "james.ferguson@ovo.com",
+          "role": "Senior Principal, Experience Design",
+          "role_group": "PTLT",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Jenny Wong",
+          "email": null,
+          "role": "VP Technology",
+          "role_group": "PTLT",
+          "contract_type": "Permanent",
+          "skillset": [
+            "#N/A"
+          ]
+        },
+        {
+          "name": "Bronwyn Barnett",
+          "email": "bronwyn.barnett@ovo.com",
+          "role": "Senior Principal, Product",
+          "role_group": "Product Management",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Katie Russell",
+          "email": "katie.russell@ovo.com",
+          "role": "Fellow, Data & AI",
+          "role_group": "PTLT",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Andrew Mohammed",
+          "email": "andrew.mohammed@ovo.com",
+          "role": "Director, Data & AI",
+          "role_group": "PTLT",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Ed Kelly",
+          "email": "ed.kelly@ovo.com",
+          "role": "Director, Engineering",
+          "role_group": "PTLT",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Full stack",
+            "TypeScript/JavaScript/Node.js",
+            "Terraform/HCL",
+            "React Native",
+            "React",
+            "Java",
+            "Python",
+            "Go"
+          ]
+        },
+        {
+          "name": "Simon Goldsmith",
+          "email": "simon.goldsmith@ovo.com",
+          "role": "CISO",
+          "role_group": "PTLT",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Kelvin Moore",
+          "email": "kelvin.moore@ovo.com",
+          "role": "Director, Agile Delivery",
+          "role_group": "PTLT",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Jonathan Finch",
+          "email": "jonathan.finch@ovo.com",
+          "role": "Director, Cloud",
+          "role_group": "PTLT",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Ravi Maithani",
+          "email": "ravi.maithani@ovo.com",
+          "role": "Director, Tech Ops",
+          "role_group": "PTLT",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Georgios Ampavis",
+          "email": null,
+          "role": "Technology Consultant",
+          "role_group": "PTLT",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "VP Product",
+          "role_group": "PTLT",
+          "contract_type": "Vacancy",
+          "skillset": []
+        },
+        {
+          "name": "Guy Duncan",
+          "email": null,
+          "role": "CTO",
+          "role_group": "PTLT",
+          "contract_type": "Permanent",
+          "skillset": [
+            "#N/A"
+          ]
+        },
+        {
+          "name": "Luke Hohmann",
+          "email": "luke.hohmann@ovo.com",
+          "role": "Consultant",
+          "role_group": "PTLT",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Kelly Looney",
+          "email": "kelly.looney@ovo.com",
+          "role": "Director, Cloud Infrastructure",
+          "role_group": "PTLT",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Communities of Practice",
+      "members": [
+        {
+          "name": "Steve Harris",
+          "email": "steve.m.harris@ovo.com",
+          "role": "Principal, Communities of Practice",
+          "role_group": "PTLT",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Supporting Functions",
+      "members": [
+        {
+          "name": "Liam Roberts",
+          "email": "liam.roberts@ovo.com",
+          "role": "Director, Strategic Initiatives",
+          "role_group": "PTLT",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Luke Jones",
+          "email": "luke.jones@ovo.com",
+          "role": "Agile Coach",
+          "role_group": "Agile Coach",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    }
+  ]
+}

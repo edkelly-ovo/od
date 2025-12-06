@@ -1,0 +1,101 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["name", "leadership", "solutions", "teams"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the pod"
+    },
+    "leadership": {
+      "type": "array",
+      "description": "Array of leadership names",
+      "items": {
+        "type": "string"
+      }
+    },
+    "teams": {
+      "type": "array",
+      "description": "Array of teams within the pod",
+      "items": {
+        "type": "object",
+        "required": ["name", "members"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Name of the team"
+          },
+          "members": {
+            "type": "array",
+            "description": "Array of team members",
+            "items": {
+              "type": "object",
+              "required": ["role", "role_group", "contract_type", "skillset"],
+              "properties": {
+                "name": {
+                  "type": ["string", "null"],
+                  "description": "Member's full name (nullable for vacancies)"
+                },
+                "email": {
+                  "type": ["string", "null"],
+                  "format": "email",
+                  "description": "Member's email address (nullable)"
+                },
+                "role": {
+                  "type": "string",
+                  "description": "Member's role"
+                },
+                "role_group": {
+                  "type": "string",
+                  "description": "Group/category the role belongs to"
+                },
+                "contract_type": {
+                  "type": "string",
+                  "description": "Type of employment contract",
+                  "enum": [
+                    "Permanent",
+                    "3rd Party Partner",
+                    "Vacancy"
+                  ]
+                },
+                "skillset": {
+                  "type": "array",
+                  "description": "Array of skills/technologies",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "supplier": {
+                  "type": ["string", "null"],
+                  "description": "Supplier name for 3rd Party Partner contract type (optional)"
+                },
+                "costPerDayGbp": {
+                  "type": ["number", "null"],
+                  "description": "Cost per day in GBP for 3rd Party Partner contract type (optional)"
+                }
+              },
+              "if": {
+                "properties": {
+                  "contract_type": {
+                    "const": "3rd Party Partner"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "supplier": {
+                    "type": ["string", "null"]
+                  },
+                  "costPerDayGbp": {
+                    "type": ["number", "null"]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

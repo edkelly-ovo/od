@@ -1,0 +1,555 @@
+{
+  "name": "Agile Delivery",
+  "leadership": [
+    "Claire Smith",
+    "Jack Whelan",
+    "Renae Hudson",
+    "Tom Williams"
+  ],
+  "solutions": [],
+  "teams": [
+    {
+      "name": "Customer Onboarding",
+      "members": [
+        {
+          "name": "Catherine Cetera",
+          "email": "catherine.cetera@ovo.com",
+          "role": "Delivery Lead",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Quote & Switch",
+      "members": [
+        {
+          "name": "Catherine Cetera",
+          "email": "catherine.cetera@ovo.com",
+          "role": "Delivery Lead",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Website",
+      "members": [
+        {
+          "name": "Catherine Cetera",
+          "email": "catherine.cetera@ovo.com",
+          "role": "Delivery Lead",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Products & Tariffs (Growth)",
+      "members": [
+        {
+          "name": "Catherine Cetera",
+          "email": "catherine.cetera@ovo.com",
+          "role": "Delivery Lead",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Products & Tariffs (ZCL)",
+      "members": [
+        {
+          "name": "Catherine Cetera",
+          "email": "catherine.cetera@ovo.com",
+          "role": "Delivery Lead",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "B2B Partnerships",
+      "members": [
+        {
+          "name": "Catherine Cetera",
+          "email": "catherine.cetera@ovo.com",
+          "role": "Delivery Lead",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Renewals & Home Moves",
+      "members": [
+        {
+          "name": "Catherine Cetera",
+          "email": "catherine.cetera@ovo.com",
+          "role": "Delivery Lead",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Customer Growth AI",
+      "members": [
+        {
+          "name": "Catherine Cetera",
+          "email": "catherine.cetera@ovo.com",
+          "role": "Delivery Lead",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Kaluza",
+      "members": [
+        {
+          "name": "Catherine Cetera",
+          "email": "catherine.cetera@ovo.com",
+          "role": "Delivery Lead",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Renae Hudson",
+          "email": "renae.hudson@ovo.com",
+          "role": "Principal Project Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Vacancy",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "MHHS",
+      "members": [
+        {
+          "name": "Lucy Miles",
+          "email": "lucy.miles@ovo.com",
+          "role": "Senior BA",
+          "role_group": "BA",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Kimberley Dowie",
+          "email": "kimberley.dowie@ovo.com",
+          "role": "BA",
+          "role_group": "BA",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "James Amos",
+          "email": "james.amos@ovo.com",
+          "role": "BA",
+          "role_group": "BA",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Tom Williams",
+          "email": "tom.williams1@ovo.com",
+          "role": "Principal Project Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Mark Saunders",
+          "email": "mark.saunders@ovo.com",
+          "role": "Delivery Lead",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Tim Lee-Crouch",
+          "email": "tim.lee-crouch@ovo.com",
+          "role": "Delivery Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Chris Butterfield",
+          "email": "chris.butterfield@ovo.com",
+          "role": "Change Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Katie Arcari",
+          "email": "katie.m.odonnell@ovo.com",
+          "role": "Change Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Ben Palmer",
+          "email": "ben.palmer@ovo.com",
+          "role": "Senior Project Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Simon Lewis",
+          "email": "simon.lewis@ovo.com",
+          "role": "Architect",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Other",
+            ".NET",
+            "not in an engineering team",
+            "COBOL",
+            "Elm",
+            "C#"
+          ]
+        },
+        {
+          "name": "Claire Smith",
+          "email": "claire.smith@ovo.com",
+          "role": "Lead Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Stuart Jones",
+          "email": "stuart.jones5@ovo.com",
+          "role": "PMO Analyst",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Logesh Bhoopathi",
+          "email": "logesh.bhoopathi@ovo.com",
+          "role": "Defect Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Vacancy",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "ISO & Customer Consents",
+      "members": [
+        {
+          "name": "Phil Turbitt",
+          "email": "phil.turbitt@ovo.com",
+          "role": "BA",
+          "role_group": "BA",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Tom Williams",
+          "email": "tom.williams1@ovo.com",
+          "role": "Principal Project Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Louisa Rogers",
+          "email": "louisa.rogers@ovo.com",
+          "role": "Change Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Ellen Chalonstone",
+          "email": "ellen.chalonstone@ovo.com",
+          "role": "Change Readiness Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Vacancy",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Business Planning",
+      "members": [
+        {
+          "name": "Julie Jack",
+          "email": "julie-ann.jack@ovo.com",
+          "role": "Business Planning Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Anthony Cook",
+          "email": "anthony.cook@ovo.com",
+          "role": "Business Planning Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Jack Whelan",
+          "email": "jack.whelan@ovo.com",
+          "role": "Head of Business Planning",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Vacancy",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Qualtrics Migration",
+      "members": [
+        {
+          "name": "Tom Williams",
+          "email": "tom.williams1@ovo.com",
+          "role": "Principal Project Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Greg Henderson",
+          "email": "greg.henderson@ovo.com",
+          "role": "Senior Project Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Core Acquisition",
+      "members": [
+        {
+          "name": "Renae Hudson",
+          "email": "renae.hudson@ovo.com",
+          "role": "Principal Project Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Core Customer",
+      "members": [
+        {
+          "name": "Renae Hudson",
+          "email": "renae.hudson@ovo.com",
+          "role": "Principal Project Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Core Usage",
+      "members": [
+        {
+          "name": "Renae Hudson",
+          "email": "renae.hudson@ovo.com",
+          "role": "Principal Project Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Core Billing",
+      "members": [
+        {
+          "name": "Renae Hudson",
+          "email": "renae.hudson@ovo.com",
+          "role": "Principal Project Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Core Orders & Fulfilment",
+      "members": [
+        {
+          "name": "Renae Hudson",
+          "email": "renae.hudson@ovo.com",
+          "role": "Principal Project Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Agile Operations",
+      "members": [
+        {
+          "name": "Sarah Sadler",
+          "email": "sarah.sadler@ovo.com",
+          "role": "Agile Ops 3PP Resourcing",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "David Williams",
+          "email": "david.williams2@ovo.com",
+          "role": "Jira Admin",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Greg Vincent",
+          "email": "greg.vincent@ovo.com",
+          "role": "Jira Reporting",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Eleanor Newman",
+          "email": "eleanor.newman@ovo.com",
+          "role": "Special Projects",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Vacancy",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "PAYG",
+      "members": [
+        {
+          "name": "Lewis Townsend",
+          "email": "lewis.townsend@ovo.com",
+          "role": "Senior Project Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Vacancy",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Inbound",
+      "members": [
+        {
+          "name": "Claire Smith",
+          "email": "claire.smith@ovo.com",
+          "role": "Lead Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Outbound",
+      "members": [
+        {
+          "name": "Claire Smith",
+          "email": "claire.smith@ovo.com",
+          "role": "Lead Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Exceptions inc Talos",
+      "members": [
+        {
+          "name": "Claire Smith",
+          "email": "claire.smith@ovo.com",
+          "role": "Lead Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "IOps Platform",
+      "members": [
+        {
+          "name": "Claire Smith",
+          "email": "claire.smith@ovo.com",
+          "role": "Lead Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    }
+  ]
+}

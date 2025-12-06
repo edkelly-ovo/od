@@ -1,0 +1,288 @@
+{
+  "name": "Payments",
+  "leadership": [
+    "Jon Rudin"
+  ],
+  "solutions": [],
+  "teams": [
+    {
+      "name": "Payments 1",
+      "members": [
+        {
+          "name": "Ralph Payne",
+          "email": "ralph.payne@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Full stack",
+            "Backend",
+            "TypeScript/JavaScript/Node.js",
+            "React",
+            "Python"
+          ]
+        },
+        {
+          "name": "Ritesh Das",
+          "email": "ritesh.das@ovo.com",
+          "role": "Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Jon Rudin",
+          "email": "jon.rudin@ovo.com",
+          "role": "Principal Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Other",
+            "TypeScript/JavaScript/Node.js"
+          ]
+        },
+        {
+          "name": "Michael Mayaki",
+          "email": "michael.mayaki@ovo.com",
+          "role": "BA",
+          "role_group": "BA",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Claire Charalampidou",
+          "email": "claire.charalampidou@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Full stack",
+            "TypeScript/JavaScript/Node.js",
+            "React",
+            "Terraform/HCL"
+          ]
+        },
+        {
+          "name": "AJ Stewart",
+          "email": "aj.stewart@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Full stack",
+            "TypeScript/JavaScript/Node.js",
+            "React",
+            "Terraform/HCL",
+            "React Native"
+          ]
+        },
+        {
+          "name": "Peter Sealey",
+          "email": "peter.sealey2@ovo.com",
+          "role": "QA",
+          "role_group": "QA",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Automated testing",
+            "TypeScript/JavaScript/Node.js"
+          ]
+        },
+        {
+          "name": "Sam Ayim",
+          "email": "samuel.ayim@ovo.com",
+          "role": "Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Hannah Cook",
+          "email": "hannah.r.cook@ovo.com",
+          "role": "BA",
+          "role_group": "BA",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Payments 2",
+      "members": [
+        {
+          "name": "Sevgin Mustafov",
+          "email": "sevgin.mustafov@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": "Techpods",
+          "costPerDayGbp": null
+        },
+        {
+          "name": "Ritesh Das",
+          "email": "ritesh.das@ovo.com",
+          "role": "Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Jon Rudin",
+          "email": "jon.rudin@ovo.com",
+          "role": "Principal Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Other",
+            "TypeScript/JavaScript/Node.js"
+          ]
+        },
+        {
+          "name": "Michael Mayaki",
+          "email": "michael.mayaki@ovo.com",
+          "role": "BA",
+          "role_group": "BA",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Jerica Tolentino",
+          "email": "jerica.tolentino@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Full stack",
+            "TypeScript/JavaScript/Node.js",
+            "Terraform/HCL",
+            "React"
+          ]
+        },
+        {
+          "name": "Dylan Johnson-George",
+          "email": "dylan.johnsongeorge@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Full stack",
+            "TypeScript/JavaScript/Node.js",
+            "React"
+          ]
+        },
+        {
+          "name": "Charles Inshaw",
+          "email": "charles.inshaw@ovo.com",
+          "role": "QA",
+          "role_group": "QA",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Automated testing",
+            "TypeScript/JavaScript/Node.js",
+            "React",
+            "Python"
+          ]
+        },
+        {
+          "name": "Sam Ayim",
+          "email": "samuel.ayim@ovo.com",
+          "role": "Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Hannah Cook",
+          "email": "hannah.r.cook@ovo.com",
+          "role": "BA",
+          "role_group": "BA",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Payments 3",
+      "members": [
+        {
+          "name": "Teodora Kacharova",
+          "email": "teodora.kacharova1@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "3rd Party Partner",
+          "skillset": [
+            "Full stack",
+            "TypeScript/JavaScript/Node.js",
+            "Terraform/HCL",
+            "Flutter",
+            "React"
+          ],
+          "supplier": "Techpods",
+          "costPerDayGbp": null
+        },
+        {
+          "name": "Ritesh Das",
+          "email": "ritesh.das@ovo.com",
+          "role": "Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Jon Rudin",
+          "email": "jon.rudin@ovo.com",
+          "role": "Principal Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Other",
+            "TypeScript/JavaScript/Node.js"
+          ]
+        },
+        {
+          "name": "Michael Mayaki",
+          "email": "michael.mayaki@ovo.com",
+          "role": "BA",
+          "role_group": "BA",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Vacancy",
+          "skillset": []
+        },
+        {
+          "name": "Tom Bing",
+          "email": "thomas.bing@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Full stack",
+            "TypeScript/JavaScript/Node.js",
+            "React",
+            "Terraform/HCL",
+            "React Native",
+            "Java",
+            "Python",
+            "Go"
+          ]
+        },
+        {
+          "name": "Viktor Nedelko",
+          "email": null,
+          "role": "QA",
+          "role_group": "QA",
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": "Architus Systems Ltd t/a Architus",
+          "costPerDayGbp": null
+        }
+      ]
+    }
+  ]
+}

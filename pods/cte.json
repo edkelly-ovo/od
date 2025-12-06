@@ -1,0 +1,879 @@
+{
+  "name": "CTE",
+  "leadership": [
+    "Alex Craciun",
+    "Olivia Potter",
+    "Renae Hudson"
+  ],
+  "solutions": [],
+  "teams": [
+    {
+      "name": "Core Customer",
+      "members": [
+        {
+          "name": "Janani Kumaranataraj",
+          "email": null,
+          "role": "BA",
+          "role_group": "BA",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Modestas Kažinauskas",
+          "email": null,
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": "Architus Systems Ltd t/a Architus",
+          "costPerDayGbp": null
+        },
+        {
+          "name": "Renae Hudson",
+          "email": "renae.hudson@ovo.com",
+          "role": "Principal Project Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Nathan Day",
+          "email": "nathan.day@ovo.com",
+          "role": "Data Architect",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Andy Raines",
+          "email": "andy.raines@ovo.com",
+          "role": "Senior Solutions Architect",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Backend",
+            "Other",
+            "TypeScript/JavaScript/Node.js",
+            "YAML",
+            "Markdown",
+            "Terraform/HCL",
+            "PHP"
+          ]
+        },
+        {
+          "name": "Tanya Morris",
+          "email": "tanya.morris@ovo.com",
+          "role": "Strategic Partner",
+          "role_group": "Other",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Nigel Rantor",
+          "email": "Nigel.Rantor1@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Backend",
+            "TypeScript/JavaScript/Node.js",
+            "Scala",
+            "Terraform/HCL",
+            "Java",
+            "Python",
+            "Ruby",
+            "C++"
+          ]
+        },
+        {
+          "name": "Stefan du Fresne",
+          "email": "stefan.dufresne@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Michael Rutter",
+          "email": null,
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": [
+            "#N/A"
+          ]
+        },
+        {
+          "name": "Jake Davis",
+          "email": "jake.davis1@ovo.com",
+          "role": "QA",
+          "role_group": "QA",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Automated testing",
+            "TypeScript/JavaScript/Node.js",
+            "React"
+          ]
+        },
+        {
+          "name": "Iona Harries",
+          "email": "iona.harries@ovo.com",
+          "role": "Senior Agile Coach",
+          "role_group": "Agile Coach",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Olivia Potter",
+          "email": "olivia.potter@ovo.com",
+          "role": "Lead Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Varun Datta",
+          "email": "varun.datta@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Alex Craciun",
+          "email": "alex.craciun@ovo.com",
+          "role": "Principal Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Core Billing",
+      "members": [
+        {
+          "name": "Himanshu Tiwari",
+          "email": null,
+          "role": "QA",
+          "role_group": "QA",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Lohan Bodevan",
+          "email": "lohan.bodevan@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Full stack",
+            "Backend",
+            "TypeScript/JavaScript/Node.js",
+            "Terraform/HCL",
+            "Flutter",
+            "Dart",
+            "React",
+            "Java",
+            "Python",
+            "Go"
+          ]
+        },
+        {
+          "name": "Renae Hudson",
+          "email": "renae.hudson@ovo.com",
+          "role": "Principal Project Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Nathan Day",
+          "email": "nathan.day@ovo.com",
+          "role": "Data Architect",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Andy Raines",
+          "email": "andy.raines@ovo.com",
+          "role": "Senior Solutions Architect",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Backend",
+            "Other",
+            "TypeScript/JavaScript/Node.js",
+            "YAML",
+            "Markdown",
+            "Terraform/HCL",
+            "PHP"
+          ]
+        },
+        {
+          "name": "Tanya Morris",
+          "email": "tanya.morris@ovo.com",
+          "role": "Strategic Partner",
+          "role_group": "Other",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Zoe Mackay",
+          "email": "zoe.mackay@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Backend",
+            "TypeScript/JavaScript/Node.js",
+            "Scala",
+            "Terraform/HCL",
+            "Java",
+            "Python"
+          ]
+        },
+        {
+          "name": "Mike Smith",
+          "email": "mike.smith1@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Iona Harries",
+          "email": "iona.harries@ovo.com",
+          "role": "Senior Agile Coach",
+          "role_group": "Agile Coach",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Jen Cockburn",
+          "email": "jennifer.cockburn@ovo.com",
+          "role": "Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "BA",
+          "role_group": "BA",
+          "contract_type": "Vacancy",
+          "skillset": []
+        },
+        {
+          "name": "Varun Datta",
+          "email": "varun.datta@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Alex Craciun",
+          "email": "alex.craciun@ovo.com",
+          "role": "Principal Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Core Usage",
+      "members": [
+        {
+          "name": "Florin Pinciuc",
+          "email": "florin.pinciuc@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Full stack",
+            "Backend",
+            "TypeScript/JavaScript/Node.js",
+            "React",
+            "Java"
+          ]
+        },
+        {
+          "name": "Zilvinas Jocius",
+          "email": null,
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": "Architus Systems Ltd t/a Architus",
+          "costPerDayGbp": null
+        },
+        {
+          "name": "Burak Ince",
+          "email": "burak.ince@ovo.com",
+          "role": "Data Engineer",
+          "role_group": "Data",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Data stack",
+            "Backend",
+            "TypeScript/JavaScript/Node.js",
+            "Swift",
+            "React",
+            "Scala",
+            "Java",
+            "Kotlin",
+            ".NET",
+            "Python",
+            "Go",
+            "Terraform/HCL",
+            "Ruby",
+            "Lua"
+          ]
+        },
+        {
+          "name": "Renae Hudson",
+          "email": "renae.hudson@ovo.com",
+          "role": "Principal Project Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Nathan Day",
+          "email": "nathan.day@ovo.com",
+          "role": "Data Architect",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Andy Raines",
+          "email": "andy.raines@ovo.com",
+          "role": "Senior Solutions Architect",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Backend",
+            "Other",
+            "TypeScript/JavaScript/Node.js",
+            "YAML",
+            "Markdown",
+            "Terraform/HCL",
+            "PHP"
+          ]
+        },
+        {
+          "name": "Tanya Morris",
+          "email": "tanya.morris@ovo.com",
+          "role": "Strategic Partner",
+          "role_group": "Other",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Sam Newton-Fenner",
+          "email": "sam.newton-fenner@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Full stack",
+            "TypeScript/JavaScript/Node.js",
+            "Terraform/HCL",
+            "React",
+            "Java",
+            "Kotlin",
+            ".NET"
+          ]
+        },
+        {
+          "name": "Jake Davis",
+          "email": "jake.davis1@ovo.com",
+          "role": "QA",
+          "role_group": "QA",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Automated testing",
+            "TypeScript/JavaScript/Node.js",
+            "React"
+          ]
+        },
+        {
+          "name": "Iona Harries",
+          "email": "iona.harries@ovo.com",
+          "role": "Senior Agile Coach",
+          "role_group": "Agile Coach",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Jen Cockburn",
+          "email": "jennifer.cockburn@ovo.com",
+          "role": "Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "BA",
+          "role_group": "BA",
+          "contract_type": "Vacancy",
+          "skillset": []
+        },
+        {
+          "name": "Varun Datta",
+          "email": "varun.datta@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Alex Craciun",
+          "email": "alex.craciun@ovo.com",
+          "role": "Principal Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Core Orders & Fulfilment",
+      "members": [
+        {
+          "name": "Domas Zicevicius",
+          "email": null,
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": "Architus Systems Ltd t/a Architus",
+          "costPerDayGbp": null
+        },
+        {
+          "name": "Jaroslavas Daskevicius",
+          "email": null,
+          "role": "QA",
+          "role_group": "QA",
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": "Architus Systems Ltd t/a Architus",
+          "costPerDayGbp": null
+        },
+        {
+          "name": "Catherine Brown",
+          "email": "cathy.brown@ovo.com",
+          "role": "Agile Coach",
+          "role_group": "Agile Coach",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Renae Hudson",
+          "email": "renae.hudson@ovo.com",
+          "role": "Principal Project Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Nathan Day",
+          "email": "nathan.day@ovo.com",
+          "role": "Data Architect",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Andy Raines",
+          "email": "andy.raines@ovo.com",
+          "role": "Senior Solutions Architect",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Backend",
+            "Other",
+            "TypeScript/JavaScript/Node.js",
+            "YAML",
+            "Markdown",
+            "Terraform/HCL",
+            "PHP"
+          ]
+        },
+        {
+          "name": "Tanya Morris",
+          "email": "tanya.morris@ovo.com",
+          "role": "Strategic Partner",
+          "role_group": "Other",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "David Budd",
+          "email": "david.budd@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Backend",
+            "TypeScript/JavaScript/Node.js",
+            "Python"
+          ]
+        },
+        {
+          "name": "Andy Heywood",
+          "email": "andy.heywood@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Full stack",
+            "Backend",
+            "TypeScript/JavaScript/Node.js",
+            "Terraform/HCL",
+            "React Native",
+            "Java",
+            "Kotlin",
+            ".NET",
+            "Clojure",
+            "C++"
+          ]
+        },
+        {
+          "name": "Alison Wang",
+          "email": "alison.wang@ovo.com",
+          "role": "Senior Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Varun Datta",
+          "email": "varun.datta@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Alex Craciun",
+          "email": "alex.craciun@ovo.com",
+          "role": "Principal Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Case Management",
+      "members": [
+        {
+          "name": "Catherine Brown",
+          "email": "cathy.brown@ovo.com",
+          "role": "Agile Coach",
+          "role_group": "Agile Coach",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "3rd Party Integrations",
+      "members": [
+        {
+          "name": "Catherine Brown",
+          "email": "cathy.brown@ovo.com",
+          "role": "Agile Coach",
+          "role_group": "Agile Coach",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Agent Experience PAYG",
+      "members": [
+        {
+          "name": "Catherine Brown",
+          "email": "cathy.brown@ovo.com",
+          "role": "Agile Coach",
+          "role_group": "Agile Coach",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Billing",
+      "members": [
+        {
+          "name": "Catherine Brown",
+          "email": "cathy.brown@ovo.com",
+          "role": "Agile Coach",
+          "role_group": "Agile Coach",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Kaluza",
+      "members": [
+        {
+          "name": "Renae Hudson",
+          "email": "renae.hudson@ovo.com",
+          "role": "Principal Project Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Core Acquisition",
+      "members": [
+        {
+          "name": "Renae Hudson",
+          "email": "renae.hudson@ovo.com",
+          "role": "Principal Project Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "BA",
+          "role_group": "BA",
+          "contract_type": "Vacancy",
+          "skillset": []
+        },
+        {
+          "name": "Nathan Day",
+          "email": "nathan.day@ovo.com",
+          "role": "Data Architect",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Andy Raines",
+          "email": "andy.raines@ovo.com",
+          "role": "Senior Solutions Architect",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Backend",
+            "Other",
+            "TypeScript/JavaScript/Node.js",
+            "YAML",
+            "Markdown",
+            "Terraform/HCL",
+            "PHP"
+          ]
+        },
+        {
+          "name": "Tanya Morris",
+          "email": "tanya.morris@ovo.com",
+          "role": "Strategic Partner",
+          "role_group": "Other",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Sam Barnes",
+          "email": "sam.barnes@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Full stack",
+            "Backend",
+            "TypeScript/JavaScript/Node.js",
+            "React",
+            "Terraform/HCL",
+            "bash"
+          ]
+        },
+        {
+          "name": "Brian Broughton",
+          "email": "brian.broughton@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Matt Hersee",
+          "email": "matthew.hersee@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Full stack",
+            "TypeScript/JavaScript/Node.js",
+            "None but I'd like Python to become more important",
+            "React",
+            "Java",
+            "Terraform/HCL"
+          ]
+        },
+        {
+          "name": "Jamie Barr",
+          "email": "jamie.barr@ovo.com",
+          "role": "QA",
+          "role_group": "QA",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Automated testing",
+            "TypeScript/JavaScript/Node.js"
+          ]
+        },
+        {
+          "name": "Iona Harries",
+          "email": "iona.harries@ovo.com",
+          "role": "Senior Agile Coach",
+          "role_group": "Agile Coach",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Olivia Potter",
+          "email": "olivia.potter@ovo.com",
+          "role": "Lead Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Varun Datta",
+          "email": "varun.datta@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Alex Craciun",
+          "email": "alex.craciun@ovo.com",
+          "role": "Principal Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Dmitri Aronson",
+          "email": "dmitri.aronson@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": [
+            "Full stack",
+            "TypeScript/JavaScript/Node.js",
+            "Terraform/HCL",
+            "bash",
+            "React Native",
+            "React",
+            "Java",
+            "Python",
+            "Go"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Data Platform Integration",
+      "members": [
+        {
+          "name": "Alison Wang",
+          "email": "alison.wang@ovo.com",
+          "role": "Senior Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Alex Craciun",
+          "email": "alex.craciun@ovo.com",
+          "role": "Principal Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Release Operations",
+      "members": [
+        {
+          "name": "Varun Datta",
+          "email": "varun.datta@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "AI Platform",
+      "members": [
+        {
+          "name": "Alex Craciun",
+          "email": "alex.craciun@ovo.com",
+          "role": "Principal Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "AI Platform - Innovation Risk",
+      "members": [
+        {
+          "name": "Alex Craciun",
+          "email": "alex.craciun@ovo.com",
+          "role": "Principal Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Data Platform Tooling",
+      "members": [
+        {
+          "name": "Alex Craciun",
+          "email": "alex.craciun@ovo.com",
+          "role": "Principal Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    },
+    {
+      "name": "Data Lakehouse",
+      "members": [
+        {
+          "name": "Alex Craciun",
+          "email": "alex.craciun@ovo.com",
+          "role": "Principal Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent",
+          "skillset": []
+        }
+      ]
+    }
+  ]
+}
