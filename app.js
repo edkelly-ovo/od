@@ -121,16 +121,20 @@ function renderPods() {
     podList.innerHTML = allPods.map(pod => {
         const teamCount = pod.teams?.length || 0;
         const leadership = pod.leadership?.join(', ') || 'None specified';
-        const allTeams = (pod.teams || []).map(team => {
+        const allTeams = (pod.teams || []).map((team, teamIndex) => {
             const members = team.members || [];
             const membersHtml = members.map(member => renderMember(member)).join('');
+            const teamId = `team-${pod.name.replace(/\s+/g, '-').toLowerCase()}-${teamIndex}`;
             return `
                 <div class="team-section">
-                    <div class="team-header">
+                    <div class="team-header" onclick="toggleTeam('${teamId}')">
                         <div class="team-name">${escapeHtml(team.name)}</div>
-                        <div class="team-members-count">${members.length} member${members.length !== 1 ? 's' : ''}</div>
+                        <div style="display: flex; align-items: center; gap: 10px;">
+                            <div class="team-members-count">${members.length} member${members.length !== 1 ? 's' : ''}</div>
+                            <span class="collapse-icon" id="icon-${teamId}">▼</span>
+                        </div>
                     </div>
-                    <div class="team-members-list">
+                    <div class="team-members-list collapsed" id="${teamId}">
                         ${membersHtml}
                     </div>
                 </div>
@@ -235,6 +239,20 @@ function hideTeamDetails() {
 function togglePod(podId) {
     const content = document.getElementById(podId);
     const icon = document.getElementById(`icon-${podId}`);
+    
+    if (content.classList.contains('collapsed')) {
+        content.classList.remove('collapsed');
+        icon.textContent = '▲';
+    } else {
+        content.classList.add('collapsed');
+        icon.textContent = '▼';
+    }
+}
+
+// Toggle team collapse/expand
+function toggleTeam(teamId) {
+    const content = document.getElementById(teamId);
+    const icon = document.getElementById(`icon-${teamId}`);
     
     if (content.classList.contains('collapsed')) {
         content.classList.remove('collapsed');
