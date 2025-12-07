@@ -54,13 +54,6 @@
       "name": "Data & Platform",
       "members": [
         {
-          "name": "Chris Parker",
-          "email": "chris.parker@ovo.com",
-          "role": "Product Manager",
-          "roleGroup": "Product Management",
-          "contractType": "Permanent"
-        },
-        {
           "name": "David Jones",
           "email": "david.m.jones@ovo.com",
           "role": "Data Analyst",
@@ -103,13 +96,6 @@
           "email": "lisa.burnham1@ovo.com",
           "role": "Data Analyst",
           "roleGroup": "Data",
-          "contractType": "Permanent"
-        },
-        {
-          "name": "Lorne MacLennan",
-          "email": "lorne.r.maclennan@ovo.com",
-          "role": "Principal Product Manager",
-          "roleGroup": "Product Management",
           "contractType": "Permanent"
         },
         {
@@ -161,6 +147,22 @@
           "roleGroup": "Engineering",
           "contractType": "Vacancy"
         }
+      ],
+      "supporting": [
+        {
+          "name": "Chris Parker",
+          "email": "chris.parker@ovo.com",
+          "role": "Product Manager",
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Lorne MacLennan",
+          "email": "lorne.r.maclennan@ovo.com",
+          "role": "Principal Product Manager",
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
+        }
       ]
     },
     {
@@ -187,13 +189,6 @@
             "Python",
             "Terraform/HCL"
           ]
-        },
-        {
-          "name": "Chris Parker",
-          "email": "chris.parker@ovo.com",
-          "role": "Product Manager",
-          "roleGroup": "Product Management",
-          "contractType": "Permanent"
         },
         {
           "name": "Glenise Netang",
@@ -231,13 +226,6 @@
           "email": "jenny.barron@ovo.com",
           "role": "QA",
           "roleGroup": "QA",
-          "contractType": "Permanent"
-        },
-        {
-          "name": "Lorne MacLennan",
-          "email": "lorne.r.maclennan@ovo.com",
-          "role": "Principal Product Manager",
-          "roleGroup": "Product Management",
           "contractType": "Permanent"
         },
         {
@@ -324,6 +312,22 @@
           "roleGroup": "Engineering",
           "contractType": "Vacancy"
         }
+      ],
+      "supporting": [
+        {
+          "name": "Chris Parker",
+          "email": "chris.parker@ovo.com",
+          "role": "Product Manager",
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Lorne MacLennan",
+          "email": "lorne.r.maclennan@ovo.com",
+          "role": "Principal Product Manager",
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
+        }
       ]
     },
     {
@@ -362,13 +366,6 @@
           "email": "janet.winston@ovo.com",
           "role": "SFMC Analyst",
           "roleGroup": "Comms Automation",
-          "contractType": "Permanent"
-        },
-        {
-          "name": "Lorne MacLennan",
-          "email": "lorne.r.maclennan@ovo.com",
-          "role": "Principal Product Manager",
-          "roleGroup": "Product Management",
           "contractType": "Permanent"
         },
         {
@@ -413,6 +410,15 @@
           "roleGroup": "Engineering",
           "contractType": "Vacancy"
         }
+      ],
+      "supporting": [
+        {
+          "name": "Lorne MacLennan",
+          "email": "lorne.r.maclennan@ovo.com",
+          "role": "Principal Product Manager",
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
+        }
       ]
     },
     {
@@ -447,13 +453,6 @@
           "contractType": "Permanent"
         },
         {
-          "name": "Lorne MacLennan",
-          "email": "lorne.r.maclennan@ovo.com",
-          "role": "Principal Product Manager",
-          "roleGroup": "Product Management",
-          "contractType": "Permanent"
-        },
-        {
           "name": null,
           "email": null,
           "role": "Delivery & Growth Lead",
@@ -466,6 +465,15 @@
           "role": "Principal Engineer",
           "roleGroup": "Engineering",
           "contractType": "Vacancy"
+        }
+      ],
+      "supporting": [
+        {
+          "name": "Lorne MacLennan",
+          "email": "lorne.r.maclennan@ovo.com",
+          "role": "Principal Product Manager",
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
         }
       ]
     }

@@ -98,6 +98,50 @@
       "name": "3rd Party Integrations",
       "members": [
         {
+          "name": "Aniruddha Chatterjee",
+          "email": "aniruddha.chatterjee@ovo.com",
+          "role": "Senior BA",
+          "roleGroup": "BA",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "James Kapella",
+          "email": "james.kapella1@ovo.com",
+          "role": "Engineer",
+          "roleGroup": "Engineering",
+          "contractType": "Permanent",
+          "careerSkillset": [
+            "Full stack"
+          ],
+          "teamSkillset": [
+            "Full stack"
+          ],
+          "dailySkillset": [
+            "TypeScript/JavaScript/Node.js",
+            "React"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js"
+          ]
+        },
+        {
+          "name": "Manvydas Urniezius",
+          "email": null,
+          "role": "Engineer",
+          "roleGroup": "Engineering",
+          "contractType": "3rd Party Partner",
+          "supplier": "Architus Systems Ltd t/a Architus"
+        },
+        {
+          "name": "Tatiana Turtle",
+          "email": "tatiana.turtle@ovo.com",
+          "role": "Engineer",
+          "roleGroup": "Engineering",
+          "contractType": "Permanent"
+        }
+      ],
+      "supporting": [
+        {
           "name": "Aidan Walker",
           "email": "aidan.walker@ovo.com",
           "role": "Staff Product Designer",
@@ -109,13 +153,6 @@
           "email": "alice.thorpe1@ovo.com",
           "role": "Staff Service Designer",
           "roleGroup": "XD",
-          "contractType": "Permanent"
-        },
-        {
-          "name": "Aniruddha Chatterjee",
-          "email": "aniruddha.chatterjee@ovo.com",
-          "role": "Senior BA",
-          "roleGroup": "BA",
           "contractType": "Permanent"
         },
         {
@@ -156,26 +193,6 @@
           "supplier": "Architus Systems Ltd t/a Architus"
         },
         {
-          "name": "James Kapella",
-          "email": "james.kapella1@ovo.com",
-          "role": "Engineer",
-          "roleGroup": "Engineering",
-          "contractType": "Permanent",
-          "careerSkillset": [
-            "Full stack"
-          ],
-          "teamSkillset": [
-            "Full stack"
-          ],
-          "dailySkillset": [
-            "TypeScript/JavaScript/Node.js",
-            "React"
-          ],
-          "generalCompetencies": [
-            "TypeScript/JavaScript/Node.js"
-          ]
-        },
-        {
           "name": "Jamie Law",
           "email": "jamie.law@ovo.com",
           "role": "Product Manager",
@@ -188,41 +205,12 @@
           "role": "Delivery & Growth Lead",
           "roleGroup": "Delivery & Growth Lead",
           "contractType": "Permanent"
-        },
-        {
-          "name": "Manvydas Urniezius",
-          "email": null,
-          "role": "Engineer",
-          "roleGroup": "Engineering",
-          "contractType": "3rd Party Partner",
-          "supplier": "Architus Systems Ltd t/a Architus"
-        },
-        {
-          "name": "Tatiana Turtle",
-          "email": "tatiana.turtle@ovo.com",
-          "role": "Engineer",
-          "roleGroup": "Engineering",
-          "contractType": "Permanent"
         }
       ]
     },
     {
       "name": "Case Management",
       "members": [
-        {
-          "name": "Aidan Walker",
-          "email": "aidan.walker@ovo.com",
-          "role": "Staff Product Designer",
-          "roleGroup": "XD",
-          "contractType": "Permanent"
-        },
-        {
-          "name": "Alice Thorpe",
-          "email": "alice.thorpe1@ovo.com",
-          "role": "Staff Service Designer",
-          "roleGroup": "XD",
-          "contractType": "Permanent"
-        },
         {
           "name": "Anshuman Chauhan",
           "email": null,
@@ -238,20 +226,6 @@
           "roleGroup": "Engineering",
           "contractType": "3rd Party Partner",
           "supplier": "LogNormal"
-        },
-        {
-          "name": "Catherine Brown",
-          "email": "cathy.brown@ovo.com",
-          "role": "Agile Coach",
-          "roleGroup": "Agile Coach",
-          "contractType": "Permanent"
-        },
-        {
-          "name": "Dan Fox",
-          "email": null,
-          "role": "Agile Coach",
-          "roleGroup": "Agile Coach",
-          "contractType": "Permanent"
         },
         {
           "name": "Daniel Mortensen",
@@ -273,13 +247,6 @@
             "TypeScript/JavaScript/Node.js",
             "Apex which is a Java-like language native to Salesforce"
           ]
-        },
-        {
-          "name": "David Ward",
-          "email": "david.ward@ovo.com",
-          "role": "Senior Product Designer",
-          "roleGroup": "XD",
-          "contractType": "Permanent"
         },
         {
           "name": "Deepti Doddapaneni",
@@ -305,6 +272,66 @@
             "Go",
             "I have some experience with the language above but i am primarily a salesforce developer"
           ]
+        },
+        {
+          "name": "Mohit Kumar",
+          "email": null,
+          "role": "Engineer",
+          "roleGroup": "Engineering",
+          "contractType": "3rd Party Partner",
+          "supplier": "Cynoteck Technology Solutions LLC"
+        },
+        {
+          "name": "Toby Arnot",
+          "email": "toby.arnot@ovo.com",
+          "role": "BA",
+          "roleGroup": "BA",
+          "contractType": "Permanent"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "QA",
+          "roleGroup": "QA",
+          "contractType": "Vacancy"
+        }
+      ],
+      "supporting": [
+        {
+          "name": "Aidan Walker",
+          "email": "aidan.walker@ovo.com",
+          "role": "Staff Product Designer",
+          "roleGroup": "XD",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Alice Thorpe",
+          "email": "alice.thorpe1@ovo.com",
+          "role": "Staff Service Designer",
+          "roleGroup": "XD",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Catherine Brown",
+          "email": "cathy.brown@ovo.com",
+          "role": "Agile Coach",
+          "roleGroup": "Agile Coach",
+          "contractType": "Permanent",
+          "onLeave": true
+        },
+        {
+          "name": "Dan Fox",
+          "email": null,
+          "role": "Agile Coach",
+          "roleGroup": "Agile Coach",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "David Ward",
+          "email": "david.ward@ovo.com",
+          "role": "Senior Product Designer",
+          "roleGroup": "XD",
+          "contractType": "Permanent"
         },
         {
           "name": "Hayley Wills",
@@ -334,28 +361,6 @@
           "role": "Delivery & Growth Lead",
           "roleGroup": "Delivery & Growth Lead",
           "contractType": "Permanent"
-        },
-        {
-          "name": "Mohit Kumar",
-          "email": null,
-          "role": "Engineer",
-          "roleGroup": "Engineering",
-          "contractType": "3rd Party Partner",
-          "supplier": "Cynoteck Technology Solutions LLC"
-        },
-        {
-          "name": "Toby Arnot",
-          "email": "toby.arnot@ovo.com",
-          "role": "BA",
-          "roleGroup": "BA",
-          "contractType": "Permanent"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "QA",
-          "roleGroup": "QA",
-          "contractType": "Vacancy"
         }
       ]
     }

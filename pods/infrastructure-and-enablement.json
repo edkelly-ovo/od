@@ -135,20 +135,6 @@
           ]
         },
         {
-          "name": "Neil Smith",
-          "email": "neil.smith@ovo.com",
-          "role": "Principal CloudOps Engineer",
-          "roleGroup": "I&E",
-          "contractType": "Permanent"
-        },
-        {
-          "name": "Neisha Grainger",
-          "email": "neisha.grainger@ovo.com",
-          "role": "Delivery Manager",
-          "roleGroup": "Agile Delivery",
-          "contractType": "Permanent"
-        },
-        {
           "name": "Philip Easton",
           "email": "phillip.easton@ovo.com",
           "role": "Senior Cloud Infra Engineer",
@@ -224,29 +210,31 @@
           "roleGroup": "BA",
           "contractType": "Vacancy"
         }
+      ],
+      "supporting": [
+        {
+          "name": "Neil Smith",
+          "email": "neil.smith@ovo.com",
+          "role": "Principal CloudOps Engineer",
+          "roleGroup": "I&E",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Neisha Grainger",
+          "email": "neisha.grainger@ovo.com",
+          "role": "Delivery Manager",
+          "roleGroup": "Agile Delivery",
+          "contractType": "Permanent"
+        }
       ]
     },
     {
       "name": "Commodity Platforms",
       "members": [
         {
-          "name": "Emily Horner",
-          "email": null,
-          "role": "BA",
-          "roleGroup": "BA",
-          "contractType": "Permanent"
-        },
-        {
           "name": "James Aston",
           "email": "james.aston@ovo.com",
           "role": "Platform Specialist",
-          "roleGroup": "I&E",
-          "contractType": "Permanent"
-        },
-        {
-          "name": "Neil Smith",
-          "email": "neil.smith@ovo.com",
-          "role": "Principal CloudOps Engineer",
           "roleGroup": "I&E",
           "contractType": "Permanent"
         },
@@ -273,13 +261,6 @@
             "Python",
             "Terraform/HCL"
           ]
-        },
-        {
-          "name": "Neisha Grainger",
-          "email": "neisha.grainger@ovo.com",
-          "role": "Delivery Manager",
-          "roleGroup": "Agile Delivery",
-          "contractType": "Permanent"
         },
         {
           "name": null,
@@ -309,6 +290,29 @@
           "roleGroup": "I&E",
           "contractType": "Vacancy"
         }
+      ],
+      "supporting": [
+        {
+          "name": "Neil Smith",
+          "email": "neil.smith@ovo.com",
+          "role": "Principal CloudOps Engineer",
+          "roleGroup": "I&E",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Neisha Grainger",
+          "email": "neisha.grainger@ovo.com",
+          "role": "Delivery Manager",
+          "roleGroup": "Agile Delivery",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Emily Horner",
+          "email": null,
+          "role": "BA",
+          "roleGroup": "BA",
+          "contractType": "Permanent"
+        }
       ]
     },
     {
@@ -330,17 +334,19 @@
           "supplier": "Architus Systems Ltd t/a Architus"
         },
         {
-          "name": "Neisha Grainger",
-          "email": "neisha.grainger@ovo.com",
-          "role": "Delivery Manager",
-          "roleGroup": "Agile Delivery",
-          "contractType": "Permanent"
-        },
-        {
           "name": "Raymond Fenton",
           "email": "raymond.fenton@ovo.com",
           "role": "Delivery & Growth Lead",
           "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent"
+        }
+      ],
+      "supporting": [
+        {
+          "name": "Neisha Grainger",
+          "email": "neisha.grainger@ovo.com",
+          "role": "Delivery Manager",
+          "roleGroup": "Agile Delivery",
           "contractType": "Permanent"
         }
       ]
@@ -393,13 +399,6 @@
           ]
         },
         {
-          "name": "Emily Horner",
-          "email": null,
-          "role": "BA",
-          "roleGroup": "BA",
-          "contractType": "Permanent"
-        },
-        {
           "name": "James Lucktaylor",
           "email": "james.lucktaylor@ovo.com",
           "role": "Production Engineer",
@@ -427,13 +426,6 @@
           "roleGroup": "I&E",
           "contractType": "3rd Party Partner",
           "supplier": "Crosstide Ltd"
-        },
-        {
-          "name": "Neisha Grainger",
-          "email": "neisha.grainger@ovo.com",
-          "role": "Delivery Manager",
-          "roleGroup": "Agile Delivery",
-          "contractType": "Permanent"
         },
         {
           "name": "Paolo Ventriglia",
@@ -497,6 +489,22 @@
           "roleGroup": "Delivery & Growth Lead",
           "contractType": "Vacancy"
         }
+      ],
+      "supporting": [
+        {
+          "name": "Neisha Grainger",
+          "email": "neisha.grainger@ovo.com",
+          "role": "Delivery Manager",
+          "roleGroup": "Agile Delivery",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Emily Horner",
+          "email": null,
+          "role": "BA",
+          "roleGroup": "BA",
+          "contractType": "Permanent"
+        }
       ]
     },
     {
@@ -517,31 +525,10 @@
           "contractType": "Permanent"
         },
         {
-          "name": "Emily Horner",
-          "email": null,
-          "role": "BA",
-          "roleGroup": "BA",
-          "contractType": "Permanent"
-        },
-        {
           "name": "Kenny Hall",
           "email": "kenny.hall@ovo.com",
           "role": "Senior Infrastructure Engineer",
           "roleGroup": "I&E",
-          "contractType": "Permanent"
-        },
-        {
-          "name": "Neil Smith",
-          "email": "neil.smith@ovo.com",
-          "role": "Principal CloudOps Engineer",
-          "roleGroup": "I&E",
-          "contractType": "Permanent"
-        },
-        {
-          "name": "Neisha Grainger",
-          "email": "neisha.grainger@ovo.com",
-          "role": "Delivery Manager",
-          "roleGroup": "Agile Delivery",
           "contractType": "Permanent"
         },
         {
@@ -584,6 +571,29 @@
           "roleGroup": "Delivery & Growth Lead",
           "contractType": "Vacancy"
         }
+      ],
+      "supporting": [
+        {
+          "name": "Neil Smith",
+          "email": "neil.smith@ovo.com",
+          "role": "Principal CloudOps Engineer",
+          "roleGroup": "I&E",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Neisha Grainger",
+          "email": "neisha.grainger@ovo.com",
+          "role": "Delivery Manager",
+          "roleGroup": "Agile Delivery",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Emily Horner",
+          "email": null,
+          "role": "BA",
+          "roleGroup": "BA",
+          "contractType": "Permanent"
+        }
       ]
     },
     {
@@ -608,13 +618,6 @@
           "generalCompetencies": [
             "AWS"
           ]
-        },
-        {
-          "name": "Neisha Grainger",
-          "email": "neisha.grainger@ovo.com",
-          "role": "Delivery Manager",
-          "roleGroup": "Agile Delivery",
-          "contractType": "Permanent"
         },
         {
           "name": "Oleksiy Korzhov",
@@ -648,18 +651,20 @@
           "roleGroup": "Delivery & Growth Lead",
           "contractType": "Permanent"
         }
+      ],
+      "supporting": [
+        {
+          "name": "Neisha Grainger",
+          "email": "neisha.grainger@ovo.com",
+          "role": "Delivery Manager",
+          "roleGroup": "Agile Delivery",
+          "contractType": "Permanent"
+        }
       ]
     },
     {
       "name": "SRE Ops",
       "members": [
-        {
-          "name": "Emily Horner",
-          "email": null,
-          "role": "BA",
-          "roleGroup": "BA",
-          "contractType": "Permanent"
-        },
         {
           "name": "Kerri Watson",
           "email": "kerri.watson@ovo.com",
@@ -672,13 +677,6 @@
           "email": "mark.buss@ovo.com",
           "role": "Digital Sustainability Manager",
           "roleGroup": "I&E",
-          "contractType": "Permanent"
-        },
-        {
-          "name": "Neisha Grainger",
-          "email": "neisha.grainger@ovo.com",
-          "role": "Delivery Manager",
-          "roleGroup": "Agile Delivery",
           "contractType": "Permanent"
         },
         {
@@ -794,6 +792,22 @@
           "role": "FInOps",
           "roleGroup": "I&E",
           "contractType": "Vacancy"
+        }
+      ],
+      "supporting": [
+        {
+          "name": "Neisha Grainger",
+          "email": "neisha.grainger@ovo.com",
+          "role": "Delivery Manager",
+          "roleGroup": "Agile Delivery",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Emily Horner",
+          "email": null,
+          "role": "BA",
+          "roleGroup": "BA",
+          "contractType": "Permanent"
         }
       ]
     }

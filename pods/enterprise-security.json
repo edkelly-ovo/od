@@ -45,7 +45,9 @@
           "role": "Security Engineer",
           "roleGroup": "Security",
           "contractType": "Permanent"
-        },
+        }
+      ],
+      "supporting": [
         {
           "name": "Raymond Fenton",
           "email": "raymond.fenton@ovo.com",
@@ -80,13 +82,6 @@
           "contractType": "Permanent"
         },
         {
-          "name": "Raymond Fenton",
-          "email": "raymond.fenton@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Permanent"
-        },
-        {
           "name": "VACANCY",
           "email": null,
           "role": "Security Engineer",
@@ -106,6 +101,15 @@
           "role": "Security Engineer",
           "roleGroup": "Security",
           "contractType": "Vacancy"
+        }
+      ],
+      "supporting": [
+        {
+          "name": "Raymond Fenton",
+          "email": "raymond.fenton@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent"
         }
       ]
     },
@@ -134,17 +138,19 @@
           "contractType": "Permanent"
         },
         {
-          "name": "Raymond Fenton",
-          "email": "raymond.fenton@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Permanent"
-        },
-        {
           "name": "Sam Houghton",
           "email": "sam.houghton@ovo.com",
           "role": "Security Engineer",
           "roleGroup": "Security",
+          "contractType": "Permanent"
+        }
+      ],
+      "supporting": [
+        {
+          "name": "Raymond Fenton",
+          "email": "raymond.fenton@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
           "contractType": "Permanent"
         }
       ]
@@ -181,13 +187,6 @@
           "contractType": "Permanent"
         },
         {
-          "name": "Raymond Fenton",
-          "email": "raymond.fenton@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Permanent"
-        },
-        {
           "name": "Richard Day",
           "email": "richard.day@ovo.com",
           "role": "Security Engineer",
@@ -199,6 +198,15 @@
           "email": "rob.edwards@ovo.com",
           "role": "Security Engineer",
           "roleGroup": "Security",
+          "contractType": "Permanent"
+        }
+      ],
+      "supporting": [
+        {
+          "name": "Raymond Fenton",
+          "email": "raymond.fenton@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
           "contractType": "Permanent"
         }
       ]

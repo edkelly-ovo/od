@@ -81,54 +81,10 @@
           ]
         },
         {
-          "name": "Doug Idle",
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Permanent"
-        },
-        {
           "name": "Joseph McQuade",
           "email": "joseph.mcquade@ovo.com",
           "role": "Engineer",
           "roleGroup": "Engineering",
-          "contractType": "Permanent"
-        },
-        {
-          "name": "Mayuri Mahajan",
-          "email": "mayuri.mahajan@ovo.com",
-          "role": "Product Manager",
-          "roleGroup": "Product Management",
-          "contractType": "Permanent"
-        },
-        {
-          "name": "Palas Nogueira",
-          "email": "palas.nogueira@ovo.com",
-          "role": "Principal Engineer",
-          "roleGroup": "Engineering",
-          "contractType": "Permanent",
-          "careerSkillset": [
-            "Frontend - Mobile"
-          ],
-          "teamSkillset": [
-            "Backend"
-          ],
-          "dailySkillset": [
-            "TypeScript/JavaScript/Node.js",
-            "Scala",
-            "Python",
-            "Terraform/HCL"
-          ],
-          "generalCompetencies": [
-            "Swift",
-            "Kotlin"
-          ]
-        },
-        {
-          "name": "Sarah Wilson",
-          "email": "sarah.wilson1@ovo.com",
-          "role": "Principal Product Manager",
-          "roleGroup": "Product Management",
           "contractType": "Permanent"
         },
         {
@@ -190,6 +146,52 @@
           "roleGroup": "Agile Coach",
           "contractType": "Vacancy"
         }
+      ],
+      "supporting": [
+        {
+          "name": "Doug Idle",
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Mayuri Mahajan",
+          "email": "mayuri.mahajan@ovo.com",
+          "role": "Product Manager",
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Palas Nogueira",
+          "email": "palas.nogueira@ovo.com",
+          "role": "Principal Engineer",
+          "roleGroup": "Engineering",
+          "contractType": "Permanent",
+          "careerSkillset": [
+            "Frontend - Mobile"
+          ],
+          "teamSkillset": [
+            "Backend"
+          ],
+          "dailySkillset": [
+            "TypeScript/JavaScript/Node.js",
+            "Scala",
+            "Python",
+            "Terraform/HCL"
+          ],
+          "generalCompetencies": [
+            "Swift",
+            "Kotlin"
+          ]
+        },
+        {
+          "name": "Sarah Wilson",
+          "email": "sarah.wilson1@ovo.com",
+          "role": "Principal Product Manager",
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
+        }
       ]
     },
     {
@@ -224,20 +226,6 @@
           ]
         },
         {
-          "name": "Dean Haden",
-          "email": "dean.haden@ovo.com",
-          "role": "Senior Product Manager",
-          "roleGroup": "Product Management",
-          "contractType": "Permanent"
-        },
-        {
-          "name": "Doug Idle",
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Permanent"
-        },
-        {
           "name": "Joe Ebrahim",
           "email": "joe.ebrahim@ovo.com",
           "role": "Engineer",
@@ -263,42 +251,12 @@
           ]
         },
         {
-          "name": "Palas Nogueira",
-          "email": "palas.nogueira@ovo.com",
-          "role": "Principal Engineer",
-          "roleGroup": "Engineering",
-          "contractType": "Permanent",
-          "careerSkillset": [
-            "Frontend - Mobile"
-          ],
-          "teamSkillset": [
-            "Backend"
-          ],
-          "dailySkillset": [
-            "TypeScript/JavaScript/Node.js",
-            "Scala",
-            "Python",
-            "Terraform/HCL"
-          ],
-          "generalCompetencies": [
-            "Swift",
-            "Kotlin"
-          ]
-        },
-        {
           "name": "Paulius Sukuris",
           "email": null,
           "role": "Engineer",
           "roleGroup": "Engineering",
           "contractType": "3rd Party Partner",
           "supplier": "Architus Systems Ltd t/a Architus"
-        },
-        {
-          "name": "Sarah Wilson",
-          "email": "sarah.wilson1@ovo.com",
-          "role": "Principal Product Manager",
-          "roleGroup": "Product Management",
-          "contractType": "Permanent"
         },
         {
           "name": "Shah Saraei",
@@ -328,18 +286,57 @@
           "roleGroup": "QA",
           "contractType": "Vacancy"
         }
-      ]
-    },
-    {
-      "name": "Greener Grid",
-      "members": [
+      ],
+      "supporting": [
+        {
+          "name": "Doug Idle",
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Palas Nogueira",
+          "email": "palas.nogueira@ovo.com",
+          "role": "Principal Engineer",
+          "roleGroup": "Engineering",
+          "contractType": "Permanent",
+          "careerSkillset": [
+            "Frontend - Mobile"
+          ],
+          "teamSkillset": [
+            "Backend"
+          ],
+          "dailySkillset": [
+            "TypeScript/JavaScript/Node.js",
+            "Scala",
+            "Python",
+            "Terraform/HCL"
+          ],
+          "generalCompetencies": [
+            "Swift",
+            "Kotlin"
+          ]
+        },
+        {
+          "name": "Sarah Wilson",
+          "email": "sarah.wilson1@ovo.com",
+          "role": "Principal Product Manager",
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
+        },
         {
           "name": "Dean Haden",
           "email": "dean.haden@ovo.com",
           "role": "Senior Product Manager",
           "roleGroup": "Product Management",
           "contractType": "Permanent"
-        },
+        }
+      ]
+    },
+    {
+      "name": "Greener Grid",
+      "members": [
         {
           "name": "Dominykas Siniavskis",
           "email": null,
@@ -347,13 +344,6 @@
           "roleGroup": "Engineering",
           "contractType": "3rd Party Partner",
           "supplier": "Architus Systems Ltd t/a Architus"
-        },
-        {
-          "name": "Doug Idle",
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Permanent"
         },
         {
           "name": "George Salter",
@@ -387,6 +377,29 @@
           "supplier": "Architus Systems Ltd t/a Architus"
         },
         {
+          "name": null,
+          "email": null,
+          "role": "Agile Coach",
+          "roleGroup": "Agile Coach",
+          "contractType": "Vacancy"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Engineer",
+          "roleGroup": "Engineering",
+          "contractType": "Vacancy"
+        }
+      ],
+      "supporting": [
+        {
+          "name": "Doug Idle",
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent"
+        },
+        {
           "name": "Palas Nogueira",
           "email": "palas.nogueira@ovo.com",
           "role": "Principal Engineer",
@@ -417,31 +430,17 @@
           "contractType": "Permanent"
         },
         {
-          "name": null,
-          "email": null,
-          "role": "Agile Coach",
-          "roleGroup": "Agile Coach",
-          "contractType": "Vacancy"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Engineer",
-          "roleGroup": "Engineering",
-          "contractType": "Vacancy"
+          "name": "Dean Haden",
+          "email": "dean.haden@ovo.com",
+          "role": "Senior Product Manager",
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
         }
       ]
     },
     {
       "name": "Trading & Portfolio Management",
       "members": [
-        {
-          "name": "Doug Idle",
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Permanent"
-        },
         {
           "name": "Greg Clifford",
           "email": "greg.clifford@ovo.com",
@@ -517,6 +516,45 @@
           ]
         },
         {
+          "name": "Poli Sigilipalli",
+          "email": null,
+          "role": "Engineer",
+          "roleGroup": "Engineering",
+          "contractType": "3rd Party Partner",
+          "supplier": "Lognormal Analytics Private Ltd"
+        },
+        {
+          "name": "Vaidotas Simaitis",
+          "email": null,
+          "role": "QA",
+          "roleGroup": "QA",
+          "contractType": "3rd Party Partner",
+          "supplier": "Architus Systems Ltd t/a Architus"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Agile Coach",
+          "roleGroup": "Agile Coach",
+          "contractType": "Vacancy"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "BA",
+          "roleGroup": "BA",
+          "contractType": "Vacancy"
+        }
+      ],
+      "supporting": [
+        {
+          "name": "Doug Idle",
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent"
+        },
+        {
           "name": "Mayuri Mahajan",
           "email": "mayuri.mahajan@ovo.com",
           "role": "Product Manager",
@@ -547,41 +585,11 @@
           ]
         },
         {
-          "name": "Poli Sigilipalli",
-          "email": null,
-          "role": "Engineer",
-          "roleGroup": "Engineering",
-          "contractType": "3rd Party Partner",
-          "supplier": "Lognormal Analytics Private Ltd"
-        },
-        {
           "name": "Sarah Wilson",
           "email": "sarah.wilson1@ovo.com",
           "role": "Principal Product Manager",
           "roleGroup": "Product Management",
           "contractType": "Permanent"
-        },
-        {
-          "name": "Vaidotas Simaitis",
-          "email": null,
-          "role": "QA",
-          "roleGroup": "QA",
-          "contractType": "3rd Party Partner",
-          "supplier": "Architus Systems Ltd t/a Architus"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Agile Coach",
-          "roleGroup": "Agile Coach",
-          "contractType": "Vacancy"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "BA",
-          "roleGroup": "BA",
-          "contractType": "Vacancy"
         }
       ]
     }

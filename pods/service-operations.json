@@ -76,13 +76,6 @@
           "contractType": "Permanent"
         },
         {
-          "name": "Sally Greenwell",
-          "email": "sally.greenwell@ovo.com",
-          "role": "Principal Service Operations",
-          "roleGroup": "Service Ops",
-          "contractType": "Permanent"
-        },
-        {
           "name": "Sarah Crown",
           "email": "sarah.crown@ovo.com",
           "role": "Lead Incident & Problem Manager",
@@ -102,6 +95,15 @@
           "role": "Delivery & Growth Lead",
           "roleGroup": "Delivery & Growth Lead",
           "contractType": "Vacancy"
+        }
+      ],
+      "supporting": [
+        {
+          "name": "Sally Greenwell",
+          "email": "sally.greenwell@ovo.com",
+          "role": "Principal Service Operations",
+          "roleGroup": "Service Ops",
+          "contractType": "Permanent"
         }
       ]
     },
@@ -137,18 +139,20 @@
           "contractType": "Permanent"
         },
         {
-          "name": "Sally Greenwell",
-          "email": "sally.greenwell@ovo.com",
-          "role": "Principal Service Operations",
-          "roleGroup": "Service Ops",
-          "contractType": "Permanent"
-        },
-        {
           "name": null,
           "email": null,
           "role": "Delivery & Growth Lead",
           "roleGroup": "Delivery & Growth Lead",
           "contractType": "Vacancy"
+        }
+      ],
+      "supporting": [
+        {
+          "name": "Sally Greenwell",
+          "email": "sally.greenwell@ovo.com",
+          "role": "Principal Service Operations",
+          "roleGroup": "Service Ops",
+          "contractType": "Permanent"
         }
       ]
     },
@@ -258,13 +262,6 @@
           "contractType": "Permanent"
         },
         {
-          "name": "Sally Greenwell",
-          "email": "sally.greenwell@ovo.com",
-          "role": "Principal Service Operations",
-          "roleGroup": "Service Ops",
-          "contractType": "Permanent"
-        },
-        {
           "name": "Sam Johnson",
           "email": "samuel.johnson2@ovo.com",
           "role": "Service Desk Analyst",
@@ -301,6 +298,15 @@
           "roleGroup": "Service Ops",
           "contractType": "Vacancy"
         }
+      ],
+      "supporting": [
+        {
+          "name": "Sally Greenwell",
+          "email": "sally.greenwell@ovo.com",
+          "role": "Principal Service Operations",
+          "roleGroup": "Service Ops",
+          "contractType": "Permanent"
+        }
       ]
     },
     {
@@ -321,18 +327,20 @@
           "contractType": "Permanent"
         },
         {
-          "name": "Sally Greenwell",
-          "email": "sally.greenwell@ovo.com",
-          "role": "Principal Service Operations",
-          "roleGroup": "Service Ops",
-          "contractType": "Permanent"
-        },
-        {
           "name": null,
           "email": null,
           "role": "Delivery & Growth Lead",
           "roleGroup": "Delivery & Growth Lead",
           "contractType": "Vacancy"
+        }
+      ],
+      "supporting": [
+        {
+          "name": "Sally Greenwell",
+          "email": "sally.greenwell@ovo.com",
+          "role": "Principal Service Operations",
+          "roleGroup": "Service Ops",
+          "contractType": "Permanent"
         }
       ]
     }

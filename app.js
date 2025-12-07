@@ -155,7 +155,23 @@ function renderPods() {
         const uniqueIndividuals = new Set();
         const uniqueVacancies = new Set();
         (pod.teams || []).forEach(team => {
+            // Process members
             (team.members || []).forEach(member => {
+                // Use email as primary identifier, fall back to name
+                const identifier = member.email || member.name;
+                if (identifier) {
+                    uniqueIndividuals.add(identifier.toLowerCase());
+                }
+                // Count distinct vacancies by role and roleGroup
+                if (member.contractType === 'Vacancy') {
+                    const vacancyKey = `${member.role || ''}-${member.roleGroup || ''}`.toLowerCase();
+                    if (vacancyKey.trim()) {
+                        uniqueVacancies.add(vacancyKey);
+                    }
+                }
+            });
+            // Process supporting members
+            (team.supporting || []).forEach(member => {
                 // Use email as primary identifier, fall back to name
                 const identifier = member.email || member.name;
                 if (identifier) {
@@ -190,7 +206,12 @@ function renderPods() {
                         </div>
                     </div>
                     <div class="team-members-list collapsed" id="${teamId}">
-                        ${membersHtml}
+                        <div class="members-section">
+                            <div class="members-label">Members</div>
+                            <div class="members-list">
+                                ${membersHtml}
+                            </div>
+                        </div>
                         ${supporting.length > 0 ? `
                             <div class="supporting-members-section">
                                 <div class="supporting-members-label">Supporting</div>

@@ -62,13 +62,6 @@
           "contractType": "Permanent"
         },
         {
-          "name": "Nicola Spanton",
-          "email": "nicola.spanton@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Permanent"
-        },
-        {
           "name": "Ross McDougall",
           "email": "ross.mcdougall1@ovo.com",
           "role": "DigiEx Engineer",
@@ -103,6 +96,15 @@
           "roleGroup": "Delivery & Growth Lead",
           "contractType": "Vacancy"
         }
+      ],
+      "supporting": [
+        {
+          "name": "Nicola Spanton",
+          "email": "nicola.spanton@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent"
+        }
       ]
     },
     {
@@ -113,13 +115,6 @@
           "email": "aaron.williams@ovo.com",
           "role": "TechSol Expert",
           "roleGroup": "Enterprise Technology",
-          "contractType": "Permanent"
-        },
-        {
-          "name": "Nicola Spanton",
-          "email": "nicola.spanton@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
           "contractType": "Permanent"
         },
         {
@@ -159,6 +154,15 @@
           "role": "Delivery & Growth Lead",
           "roleGroup": "Delivery & Growth Lead",
           "contractType": "Vacancy"
+        }
+      ],
+      "supporting": [
+        {
+          "name": "Nicola Spanton",
+          "email": "nicola.spanton@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent"
         }
       ]
     },
@@ -229,13 +233,6 @@
           "contractType": "Permanent"
         },
         {
-          "name": "Nicola Spanton",
-          "email": "nicola.spanton@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Permanent"
-        },
-        {
           "name": "Paul Crook",
           "email": "paul.crook@ovo.com",
           "role": "Senior Service Expert",
@@ -283,6 +280,15 @@
           "role": "Identity Engineer",
           "roleGroup": "Enterprise Technology",
           "contractType": "Vacancy"
+        }
+      ],
+      "supporting": [
+        {
+          "name": "Nicola Spanton",
+          "email": "nicola.spanton@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent"
         }
       ]
     }

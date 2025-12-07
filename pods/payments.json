@@ -101,47 +101,6 @@
           ]
         },
         {
-          "name": "Hannah Cook",
-          "email": "hannah.r.cook@ovo.com",
-          "role": "BA",
-          "roleGroup": "BA",
-          "contractType": "Permanent"
-        },
-        {
-          "name": "Hayley Wills",
-          "email": "haylew.wills@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Permanent",
-          "onLeave": true
-        },
-        {
-          "name": "Jon Rudin",
-          "email": "jon.rudin@ovo.com",
-          "role": "Principal Engineer",
-          "roleGroup": "Engineering",
-          "contractType": "Permanent",
-          "careerSkillset": [
-            "Other"
-          ],
-          "teamSkillset": [
-            "Other"
-          ],
-          "dailySkillset": [
-            "TypeScript/JavaScript/Node.js"
-          ],
-          "generalCompetencies": [
-            "TypeScript/JavaScript/Node.js"
-          ]
-        },
-        {
-          "name": "Michael Mayaki",
-          "email": "michael.mayaki@ovo.com",
-          "role": "BA",
-          "roleGroup": "BA",
-          "contractType": "Permanent"
-        },
-        {
           "name": "Peter Sealey",
           "email": "peter.sealey2@ovo.com",
           "role": "QA",
@@ -183,6 +142,56 @@
           ]
         },
         {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Vacancy"
+        }
+      ],
+      "supporting": [
+        {
+          "name": "Hannah Cook",
+          "email": "hannah.r.cook@ovo.com",
+          "role": "BA",
+          "roleGroup": "BA",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Hayley Wills",
+          "email": "haylew.wills@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent",
+          "onLeave": true
+        },
+        {
+          "name": "Jon Rudin",
+          "email": "jon.rudin@ovo.com",
+          "role": "Principal Engineer",
+          "roleGroup": "Engineering",
+          "contractType": "Permanent",
+          "careerSkillset": [
+            "Other"
+          ],
+          "teamSkillset": [
+            "Other"
+          ],
+          "dailySkillset": [
+            "TypeScript/JavaScript/Node.js"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js"
+          ]
+        },
+        {
+          "name": "Michael Mayaki",
+          "email": "michael.mayaki@ovo.com",
+          "role": "BA",
+          "roleGroup": "BA",
+          "contractType": "Permanent"
+        },
+        {
           "name": "Ritesh Das",
           "email": "ritesh.das@ovo.com",
           "role": "Product Manager",
@@ -195,13 +204,6 @@
           "role": "Product Manager",
           "roleGroup": "Product Management",
           "contractType": "Permanent"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Vacancy"
         }
       ]
     },
@@ -251,21 +253,6 @@
           ]
         },
         {
-          "name": "Hannah Cook",
-          "email": "hannah.r.cook@ovo.com",
-          "role": "BA",
-          "roleGroup": "BA",
-          "contractType": "Permanent"
-        },
-        {
-          "name": "Haylew Wills",
-          "email": "haylew.wills@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Permanent",
-          "onLeave": true
-        },
-        {
           "name": "Jerica Tolentino",
           "email": "jerica.tolentino@ovo.com",
           "role": "Engineer",
@@ -285,6 +272,52 @@
             "TypeScript/JavaScript/Node.js",
             "React"
           ]
+        },
+        {
+          "name": "Sevgin Mustafov",
+          "email": "sevgin.mustafov@ovo.com",
+          "role": "Engineer",
+          "roleGroup": "Engineering",
+          "contractType": "3rd Party Partner",
+          "supplier": "Techpods",
+          "careerSkillset": [
+            "Other"
+          ],
+          "teamSkillset": [
+            "Other"
+          ],
+          "dailySkillset": [
+            "TypeScript/JavaScript/Node.js",
+            "Terraform/HCL"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
+            "Terraform/HCL"
+          ]
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Vacancy"
+        }
+      ],
+      "supporting": [
+        {
+          "name": "Hannah Cook",
+          "email": "hannah.r.cook@ovo.com",
+          "role": "BA",
+          "roleGroup": "BA",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Hayley Wills",
+          "email": "haylew.wills@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent",
+          "onLeave": true
         },
         {
           "name": "Jon Rudin",
@@ -325,82 +358,12 @@
           "role": "Product Manager",
           "roleGroup": "Product Management",
           "contractType": "Permanent"
-        },
-        {
-          "name": "Sevgin Mustafov",
-          "email": "sevgin.mustafov@ovo.com",
-          "role": "Engineer",
-          "roleGroup": "Engineering",
-          "contractType": "3rd Party Partner",
-          "supplier": "Techpods",
-          "careerSkillset": [
-            "Other"
-          ],
-          "teamSkillset": [
-            "Other"
-          ],
-          "dailySkillset": [
-            "TypeScript/JavaScript/Node.js",
-            "Terraform/HCL"
-          ],
-          "generalCompetencies": [
-            "TypeScript/JavaScript/Node.js",
-            "Terraform/HCL"
-          ]
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Vacancy"
         }
       ]
     },
     {
       "name": "Payments 3",
       "members": [
-        {
-          "name": "Haylew Wills",
-          "email": "haylew.wills@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Permanent",
-          "onLeave": true
-        },
-        {
-          "name": "Jon Rudin",
-          "email": "jon.rudin@ovo.com",
-          "role": "Principal Engineer",
-          "roleGroup": "Engineering",
-          "contractType": "Permanent",
-          "careerSkillset": [
-            "Other"
-          ],
-          "teamSkillset": [
-            "Other"
-          ],
-          "dailySkillset": [
-            "TypeScript/JavaScript/Node.js"
-          ],
-          "generalCompetencies": [
-            "TypeScript/JavaScript/Node.js"
-          ]
-        },
-        {
-          "name": "Michael Mayaki",
-          "email": "michael.mayaki@ovo.com",
-          "role": "BA",
-          "roleGroup": "BA",
-          "contractType": "Permanent"
-        },
-        {
-          "name": "Ritesh Das",
-          "email": "ritesh.das@ovo.com",
-          "role": "Product Manager",
-          "roleGroup": "Product Management",
-          "contractType": "Permanent"
-        },
         {
           "name": "Teodora Kacharova",
           "email": "teodora.kacharova1@ovo.com",
@@ -475,6 +438,49 @@
           "role": "Delivery & Growth Lead",
           "roleGroup": "Delivery & Growth Lead",
           "contractType": "Vacancy"
+        }
+      ],
+      "supporting": [
+        {
+          "name": "Hayley Wills",
+          "email": "haylew.wills@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent",
+          "onLeave": true
+        },
+        {
+          "name": "Jon Rudin",
+          "email": "jon.rudin@ovo.com",
+          "role": "Principal Engineer",
+          "roleGroup": "Engineering",
+          "contractType": "Permanent",
+          "careerSkillset": [
+            "Other"
+          ],
+          "teamSkillset": [
+            "Other"
+          ],
+          "dailySkillset": [
+            "TypeScript/JavaScript/Node.js"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js"
+          ]
+        },
+        {
+          "name": "Michael Mayaki",
+          "email": "michael.mayaki@ovo.com",
+          "role": "BA",
+          "roleGroup": "BA",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Ritesh Das",
+          "email": "ritesh.das@ovo.com",
+          "role": "Product Manager",
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
         }
       ]
     }

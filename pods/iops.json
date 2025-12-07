@@ -125,20 +125,6 @@
           ]
         },
         {
-          "name": "Claire Smith",
-          "email": "claire.smith@ovo.com",
-          "role": "Lead Product Manager",
-          "roleGroup": "Product Management",
-          "contractType": "Permanent"
-        },
-        {
-          "name": "Idil Demircapa",
-          "email": null,
-          "role": "Lead Product Manager",
-          "roleGroup": "Product Management",
-          "contractType": "Permanent"
-        },
-        {
           "name": "Ivan Iliev",
           "email": "ivan.iliev@ovo.com",
           "role": "Engineer",
@@ -161,13 +147,6 @@
           ]
         },
         {
-          "name": "John Naughton",
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Permanent"
-        },
-        {
           "name": "Martin Yanev",
           "email": "martin.yanev@ovo.com",
           "role": "Engineer",
@@ -188,13 +167,6 @@
           ]
         },
         {
-          "name": "Richard Tiffin",
-          "email": "richard.tiffin@ovo.com",
-          "role": "Principal Engineer",
-          "roleGroup": "Engineering",
-          "contractType": "Permanent"
-        },
-        {
           "name": null,
           "email": null,
           "role": "BA",
@@ -208,11 +180,8 @@
           "roleGroup": "QA",
           "contractType": "Vacancy"
         }
-      ]
-    },
-    {
-      "name": "Inbound",
-      "members": [
+      ],
+      "supporting": [
         {
           "name": "Claire Smith",
           "email": "claire.smith@ovo.com",
@@ -220,6 +189,32 @@
           "roleGroup": "Product Management",
           "contractType": "Permanent"
         },
+        {
+          "name": "Idil Demircapa",
+          "email": null,
+          "role": "Lead Product Manager",
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "John Naughton",
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Richard Tiffin",
+          "email": "richard.tiffin@ovo.com",
+          "role": "Principal Engineer",
+          "roleGroup": "Engineering",
+          "contractType": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "Inbound",
+      "members": [
         {
           "name": "Dan Hemming",
           "email": "dan.hemming@ovo.com",
@@ -278,13 +273,6 @@
           "supplier": "YunoJuno Ltd"
         },
         {
-          "name": "John Naughton",
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Permanent"
-        },
-        {
           "name": "Lyubomir Ivanov",
           "email": "lyubomir.ivanov@ovo.com",
           "role": "Engineer",
@@ -312,13 +300,6 @@
             "Python",
             "Terraform/HCL"
           ]
-        },
-        {
-          "name": "Richard Tiffin",
-          "email": "richard.tiffin@ovo.com",
-          "role": "Principal Engineer",
-          "roleGroup": "Engineering",
-          "contractType": "Permanent"
         },
         {
           "name": "Rositsa Busarova",
@@ -372,6 +353,29 @@
           "roleGroup": "Agile Coach",
           "contractType": "Vacancy"
         }
+      ],
+      "supporting": [
+        {
+          "name": "Claire Smith",
+          "email": "claire.smith@ovo.com",
+          "role": "Lead Product Manager",
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "John Naughton",
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Richard Tiffin",
+          "email": "richard.tiffin@ovo.com",
+          "role": "Principal Engineer",
+          "roleGroup": "Engineering",
+          "contractType": "Permanent"
+        }
       ]
     },
     {
@@ -409,13 +413,6 @@
           "contractType": "Permanent"
         },
         {
-          "name": "Claire Smith",
-          "email": "claire.smith@ovo.com",
-          "role": "Lead Product Manager",
-          "roleGroup": "Product Management",
-          "contractType": "Permanent"
-        },
-        {
           "name": "Constantin Caraus",
           "email": "constantin.caraus@ovo.com",
           "role": "Engineer",
@@ -441,24 +438,10 @@
           ]
         },
         {
-          "name": "John Naughton",
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Permanent"
-        },
-        {
           "name": "Ore Alemede",
           "email": "ore.alemede@ovo.com",
           "role": "Senior Agile Coach",
           "roleGroup": "Agile Coach",
-          "contractType": "Permanent"
-        },
-        {
-          "name": "Richard Tiffin",
-          "email": "richard.tiffin@ovo.com",
-          "role": "Principal Engineer",
-          "roleGroup": "Engineering",
           "contractType": "Permanent"
         },
         {
@@ -530,11 +513,8 @@
           "roleGroup": "QA",
           "contractType": "Vacancy"
         }
-      ]
-    },
-    {
-      "name": "Platform",
-      "members": [
+      ],
+      "supporting": [
         {
           "name": "Claire Smith",
           "email": "claire.smith@ovo.com",
@@ -543,12 +523,24 @@
           "contractType": "Permanent"
         },
         {
-          "name": "Idil Demircapa",
+          "name": "John Naughton",
           "email": null,
-          "role": "Lead Product Manager",
-          "roleGroup": "Product Management",
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
           "contractType": "Permanent"
         },
+        {
+          "name": "Richard Tiffin",
+          "email": "richard.tiffin@ovo.com",
+          "role": "Principal Engineer",
+          "roleGroup": "Engineering",
+          "contractType": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "Platform",
+      "members": [
         {
           "name": "Ievgen Paliichuk",
           "email": "ievgen.paliichuk@ovo.com",
@@ -587,13 +579,6 @@
           ]
         },
         {
-          "name": "John Naughton",
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Permanent"
-        },
-        {
           "name": "Luke James",
           "email": "luke.james@ovo.com",
           "role": "Engineer",
@@ -617,13 +602,6 @@
             "Python",
             "Terraform/HCL"
           ]
-        },
-        {
-          "name": "Richard Tiffin",
-          "email": "richard.tiffin@ovo.com",
-          "role": "Principal Engineer",
-          "roleGroup": "Engineering",
-          "contractType": "Permanent"
         },
         {
           "name": "Roman Parkhomchuk",
@@ -685,6 +663,36 @@
             "Kotlin",
             "Terraform/HCL"
           ]
+        }
+      ],
+      "supporting": [
+        {
+          "name": "Claire Smith",
+          "email": "claire.smith@ovo.com",
+          "role": "Lead Product Manager",
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Idil Demircapa",
+          "email": null,
+          "role": "Lead Product Manager",
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "John Naughton",
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Richard Tiffin",
+          "email": "richard.tiffin@ovo.com",
+          "role": "Principal Engineer",
+          "roleGroup": "Engineering",
+          "contractType": "Permanent"
         }
       ]
     }

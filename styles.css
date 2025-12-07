@@ -215,13 +215,20 @@ header h1 {
 }
 
 .leadership-label,
-.solutions-label,
-.teams-label {
+.solutions-label,   
+.members-label,
+.teams-label,
+.supporting-members-label {
     font-size: 0.85em;
     text-transform: uppercase;
     padding: 8px 12px;
     border-radius: 4px;
     display: inline-block;
+}
+
+.members-label,
+.supporting-members-label {
+    margin-left: 10px;
 }
 
 .solutions-list {
@@ -351,20 +358,7 @@ header h1 {
     margin-bottom: 0;
 }
 
-.supporting-members-section {
-    margin-top: 20px;
-    padding-top: 20px;
-    border-top: 2px dashed #ccc;
-}
-
-.supporting-members-label {
-    font-size: 0.85em;
-    color: #999;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    font-weight: 600;
-}
-
+.members-list,
 .supporting-members-list {
     display: flex;
     flex-direction: column;

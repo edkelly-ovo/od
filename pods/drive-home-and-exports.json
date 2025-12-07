@@ -138,13 +138,6 @@
           "contractType": "Permanent"
         },
         {
-          "name": "Dan Laasna Reuter",
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Permanent"
-        },
-        {
           "name": "Harpal Singh",
           "email": null,
           "role": "Engineer",
@@ -178,20 +171,6 @@
             "React",
             "Terraform/HCL"
           ]
-        },
-        {
-          "name": "Sarah Wilson",
-          "email": "sarah.wilson1@ovo.com",
-          "role": "Principal Product Manager",
-          "roleGroup": "Product Management",
-          "contractType": "Permanent"
-        },
-        {
-          "name": "Thomas Gray",
-          "email": "thomas.gray1@ovo.com",
-          "role": "Senior Product Designer",
-          "roleGroup": "XD",
-          "contractType": "Permanent"
         },
         {
           "name": "Urvashi Sharma",
@@ -237,6 +216,50 @@
           "supplier": "Architus Systems Ltd t/a Architus"
         },
         {
+          "name": null,
+          "email": null,
+          "role": "Agile Coach",
+          "roleGroup": "Agile Coach",
+          "contractType": "Vacancy"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "QA",
+          "roleGroup": "QA",
+          "contractType": "Vacancy"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Engineer",
+          "roleGroup": "Engineering",
+          "contractType": "Vacancy"
+        }
+      ],
+      "supporting": [
+        {
+          "name": "Dan Laasna Reuter",
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Sarah Wilson",
+          "email": "sarah.wilson1@ovo.com",
+          "role": "Principal Product Manager",
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Thomas Gray",
+          "email": "thomas.gray1@ovo.com",
+          "role": "Senior Product Designer",
+          "roleGroup": "XD",
+          "contractType": "Permanent"
+        },
+        {
           "name": "Vincent Mary",
           "email": "vincent.mary@ovo.com",
           "role": "Principal Engineer",
@@ -261,27 +284,6 @@
             "Terraform/HCL",
             "I have used React native at my previous job 5yrs ago."
           ]
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Agile Coach",
-          "roleGroup": "Agile Coach",
-          "contractType": "Vacancy"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "QA",
-          "roleGroup": "QA",
-          "contractType": "Vacancy"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Engineer",
-          "roleGroup": "Engineering",
-          "contractType": "Vacancy"
         }
       ]
     },
@@ -324,20 +326,6 @@
             "TypeScript/JavaScript/Node.js",
             "Terraform/HCL"
           ]
-        },
-        {
-          "name": "Dan Laasna Reuter",
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Permanent"
-        },
-        {
-          "name": "Dan Parr",
-          "email": "dan.parr@ovo.com",
-          "role": "Product Manager",
-          "roleGroup": "Product Management",
-          "contractType": "Permanent"
         },
         {
           "name": "Fahed Arshad",
@@ -400,17 +388,33 @@
           ]
         },
         {
-          "name": "Sarah Wilson",
-          "email": "sarah.wilson1@ovo.com",
-          "role": "Principal Product Manager",
-          "roleGroup": "Product Management",
-          "contractType": "Permanent"
-        },
-        {
           "name": "Steven Diplock",
           "email": "steven.diplock@ovo.com",
           "role": "QA",
           "roleGroup": "QA",
+          "contractType": "Permanent"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Agile Coach",
+          "roleGroup": "Agile Coach",
+          "contractType": "Vacancy"
+        }
+      ],
+      "supporting": [
+        {
+          "name": "Dan Laasna Reuter",
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Sarah Wilson",
+          "email": "sarah.wilson1@ovo.com",
+          "role": "Principal Product Manager",
+          "roleGroup": "Product Management",
           "contractType": "Permanent"
         },
         {
@@ -447,11 +451,11 @@
           ]
         },
         {
-          "name": null,
-          "email": null,
-          "role": "Agile Coach",
-          "roleGroup": "Agile Coach",
-          "contractType": "Vacancy"
+          "name": "Dan Parr",
+          "email": "dan.parr@ovo.com",
+          "role": "Product Manager",
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
         }
       ]
     },
@@ -463,20 +467,6 @@
           "email": "alana.evans@ovo.com",
           "role": "BA",
           "roleGroup": "BA",
-          "contractType": "Permanent"
-        },
-        {
-          "name": "Dan Laasna Reuter",
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Permanent"
-        },
-        {
-          "name": "Dan Parr",
-          "email": "dan.parr@ovo.com",
-          "role": "Product Manager",
-          "roleGroup": "Product Management",
           "contractType": "Permanent"
         },
         {
@@ -532,13 +522,6 @@
           ]
         },
         {
-          "name": "Sarah Wilson",
-          "email": "sarah.wilson1@ovo.com",
-          "role": "Principal Product Manager",
-          "roleGroup": "Product Management",
-          "contractType": "Permanent"
-        },
-        {
           "name": "Shon Nguen",
           "email": "shon.nguen@ovo.com",
           "role": "Engineer",
@@ -566,17 +549,47 @@
           ]
         },
         {
-          "name": "Thomas Gray",
-          "email": "thomas.gray1@ovo.com",
-          "role": "Senior Product Designer",
-          "roleGroup": "XD",
-          "contractType": "Permanent"
-        },
-        {
           "name": "Tom Harrison",
           "email": "tom.harrison@ovo.com",
           "role": "Engineer",
           "roleGroup": "Engineering",
+          "contractType": "Permanent"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Agile Coach",
+          "roleGroup": "Agile Coach",
+          "contractType": "Vacancy"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Engineer",
+          "roleGroup": "Engineering",
+          "contractType": "Vacancy"
+        }
+      ],
+      "supporting": [
+        {
+          "name": "Dan Laasna Reuter",
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Sarah Wilson",
+          "email": "sarah.wilson1@ovo.com",
+          "role": "Principal Product Manager",
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Thomas Gray",
+          "email": "thomas.gray1@ovo.com",
+          "role": "Senior Product Designer",
+          "roleGroup": "XD",
           "contractType": "Permanent"
         },
         {
@@ -606,31 +619,17 @@
           ]
         },
         {
-          "name": null,
-          "email": null,
-          "role": "Agile Coach",
-          "roleGroup": "Agile Coach",
-          "contractType": "Vacancy"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Engineer",
-          "roleGroup": "Engineering",
-          "contractType": "Vacancy"
+          "name": "Dan Parr",
+          "email": "dan.parr@ovo.com",
+          "role": "Product Manager",
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
         }
       ]
     },
     {
       "name": "ZCL - Charge Anytime Partnerships",
       "members": [
-        {
-          "name": "Aga Florek",
-          "email": "aga.florek@ovo.com",
-          "role": "Principal Engineer",
-          "roleGroup": "Engineering",
-          "contractType": "Permanent"
-        },
         {
           "name": "Bogdan Alexandru",
           "email": "iulian.alexandru@ovo.com",
@@ -644,20 +643,6 @@
           "email": "csilla.barna@ovo.com",
           "role": "Engineer",
           "roleGroup": "Engineering",
-          "contractType": "Permanent"
-        },
-        {
-          "name": "Dan Laasna Reuter",
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Permanent"
-        },
-        {
-          "name": "Giles Routledge",
-          "email": "giles.routledge@ovo.com",
-          "role": "Senior Product Designer",
-          "roleGroup": "XD",
           "contractType": "Permanent"
         },
         {
@@ -694,31 +679,10 @@
           "supplier": "Createq"
         },
         {
-          "name": "Ore Alemede",
-          "email": "ore.alemede@ovo.com",
-          "role": "Senior Agile Coach",
-          "roleGroup": "Agile Coach",
-          "contractType": "Permanent"
-        },
-        {
-          "name": "Paul Grosvenor",
-          "email": "paul.grosvenor@ovo.com",
-          "role": "Lead Product Manager",
-          "roleGroup": "Product Management",
-          "contractType": "Permanent"
-        },
-        {
           "name": "Richard Ashworth",
           "email": "richard.ashworth@ovo.com",
           "role": "Engineer",
           "roleGroup": "Engineering",
-          "contractType": "Permanent"
-        },
-        {
-          "name": "Sarah Wilson",
-          "email": "sarah.wilson1@ovo.com",
-          "role": "Principal Product Manager",
-          "roleGroup": "Product Management",
           "contractType": "Permanent"
         },
         {
@@ -743,19 +707,55 @@
             "Terraform/HCL"
           ]
         }
-      ]
-    },
-    {
-      "name": "ZCL - EV Chargers",
-      "members": [
+      ],
+      "supporting": [
+        {
+          "name": "Dan Laasna Reuter",
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Sarah Wilson",
+          "email": "sarah.wilson1@ovo.com",
+          "role": "Principal Product Manager",
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
+        },
         {
           "name": "Aga Florek",
           "email": "aga.florek@ovo.com",
           "role": "Principal Engineer",
           "roleGroup": "Engineering",
-          "contractType": "Permanent",
-          "onLeave": true
+          "contractType": "Permanent"
         },
+        {
+          "name": "Giles Routledge",
+          "email": "giles.routledge@ovo.com",
+          "role": "Senior Product Designer",
+          "roleGroup": "XD",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Ore Alemede",
+          "email": "ore.alemede@ovo.com",
+          "role": "Senior Agile Coach",
+          "roleGroup": "Agile Coach",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Paul Grosvenor",
+          "email": "paul.grosvenor@ovo.com",
+          "role": "Lead Product Manager",
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "ZCL - EV Chargers",
+      "members": [
         {
           "name": "Brett Burman",
           "email": "brett.burman@ovo.com",
@@ -778,26 +778,12 @@
           ]
         },
         {
-          "name": "Dan Laasna Reuter",
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Permanent"
-        },
-        {
           "name": "Gabriel Hulubei",
           "email": null,
           "role": "QA",
           "roleGroup": "QA",
           "contractType": "3rd Party Partner",
           "supplier": "Createq"
-        },
-        {
-          "name": "Giles Routledge",
-          "email": "giles.routledge@ovo.com",
-          "role": "Senior Product Designer",
-          "roleGroup": "XD",
-          "contractType": "Permanent"
         },
         {
           "name": "Iain Rawson",
@@ -865,6 +851,44 @@
           ]
         },
         {
+          "name": "Roman Hacina",
+          "email": "roman.hacina@ovo.com",
+          "role": "BA",
+          "roleGroup": "BA",
+          "contractType": "3rd Party Partner",
+          "supplier": "Createq"
+        }
+      ],
+      "supporting": [
+        {
+          "name": "Dan Laasna Reuter",
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Sarah Wilson",
+          "email": "sarah.wilson1@ovo.com",
+          "role": "Principal Product Manager",
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Aga Florek",
+          "email": "aga.florek@ovo.com",
+          "role": "Principal Engineer",
+          "roleGroup": "Engineering",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Giles Routledge",
+          "email": "giles.routledge@ovo.com",
+          "role": "Senior Product Designer",
+          "roleGroup": "XD",
+          "contractType": "Permanent"
+        },
+        {
           "name": "Ore Alemede",
           "email": "ore.alemede@ovo.com",
           "role": "Senior Agile Coach",
@@ -875,21 +899,6 @@
           "name": "Paul Grosvenor",
           "email": "paul.grosvenor@ovo.com",
           "role": "Lead Product Manager",
-          "roleGroup": "Product Management",
-          "contractType": "Permanent"
-        },
-        {
-          "name": "Roman Hacina",
-          "email": "roman.hacina@ovo.com",
-          "role": "BA",
-          "roleGroup": "BA",
-          "contractType": "3rd Party Partner",
-          "supplier": "Createq"
-        },
-        {
-          "name": "Sarah Wilson",
-          "email": "sarah.wilson1@ovo.com",
-          "role": "Principal Product Manager",
           "roleGroup": "Product Management",
           "contractType": "Permanent"
         }
@@ -899,26 +908,12 @@
       "name": "ZCL - Home",
       "members": [
         {
-          "name": "Aga Florek",
-          "email": "aga.florek@ovo.com",
-          "role": "Principal Engineer",
-          "roleGroup": "Engineering",
-          "contractType": "Permanent"
-        },
-        {
           "name": "Benas Nekrosius",
           "email": null,
           "role": "Engineer",
           "roleGroup": "Engineering",
           "contractType": "3rd Party Partner",
           "supplier": null
-        },
-        {
-          "name": "Dan Laasna Reuter",
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Permanent"
         },
         {
           "name": "Joe Tkocz",
@@ -928,17 +923,27 @@
           "contractType": "Permanent"
         },
         {
-          "name": "Ore Alemede",
-          "email": "ore.alemede@ovo.com",
-          "role": "Senior Agile Coach",
-          "roleGroup": "Agile Coach",
-          "contractType": "Permanent"
+          "name": "Victor Cumpanici",
+          "email": "victor.cumpanici@ovo.com",
+          "role": "BA",
+          "roleGroup": "BA",
+          "contractType": "3rd Party Partner",
+          "supplier": "Createq"
         },
         {
-          "name": "Paul Grosvenor",
-          "email": "paul.grosvenor@ovo.com",
-          "role": "Lead Product Manager",
-          "roleGroup": "Product Management",
+          "name": null,
+          "email": null,
+          "role": "QA",
+          "roleGroup": "QA",
+          "contractType": "Vacancy"
+        }
+      ],
+      "supporting": [
+        {
+          "name": "Dan Laasna Reuter",
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
           "contractType": "Permanent"
         },
         {
@@ -956,19 +961,25 @@
           "contractType": "Permanent"
         },
         {
-          "name": "Victor Cumpanici",
-          "email": "victor.cumpanici@ovo.com",
-          "role": "BA",
-          "roleGroup": "BA",
-          "contractType": "3rd Party Partner",
-          "supplier": "Createq"
+          "name": "Aga Florek",
+          "email": "aga.florek@ovo.com",
+          "role": "Principal Engineer",
+          "roleGroup": "Engineering",
+          "contractType": "Permanent"
         },
         {
-          "name": null,
-          "email": null,
-          "role": "QA",
-          "roleGroup": "QA",
-          "contractType": "Vacancy"
+          "name": "Ore Alemede",
+          "email": "ore.alemede@ovo.com",
+          "role": "Senior Agile Coach",
+          "roleGroup": "Agile Coach",
+          "contractType": "Permanent"
+        },
+        {
+          "name": "Paul Grosvenor",
+          "email": "paul.grosvenor@ovo.com",
+          "role": "Lead Product Manager",
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
         }
       ]
     }

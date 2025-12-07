@@ -44,7 +44,9 @@
           "role": "Agile Ops 3PP Resourcing",
           "roleGroup": "Agile Delivery",
           "contractType": "Permanent"
-        },
+        }
+      ],
+      "supporting": [
         {
           "name": null,
           "email": null,
@@ -77,7 +79,9 @@
           "role": "Business Planning Manager",
           "roleGroup": "Agile Delivery",
           "contractType": "Permanent"
-        },
+        }
+      ],
+      "supporting": [
         {
           "name": null,
           "email": null,
@@ -110,7 +114,9 @@
           "role": "BA",
           "roleGroup": "BA",
           "contractType": "Permanent"
-        },
+        }
+      ],
+      "supporting": [
         {
           "name": "Tom Williams",
           "email": "tom.williams1@ovo.com",
@@ -143,7 +149,9 @@
           "role": "Principal Project Manager",
           "roleGroup": "Agile Delivery",
           "contractType": "Permanent"
-        },
+        }
+      ],
+      "supporting": [
         {
           "name": null,
           "email": null,
@@ -257,7 +265,9 @@
           "role": "Delivery Manager",
           "roleGroup": "Agile Delivery",
           "contractType": "Permanent"
-        },
+        }
+      ],
+      "supporting": [
         {
           "name": "Tom Williams",
           "email": "tom.williams1@ovo.com",
@@ -283,7 +293,9 @@
           "role": "Senior Project Manager",
           "roleGroup": "Agile Delivery",
           "contractType": "Permanent"
-        },
+        }
+      ],
+      "supporting": [
         {
           "name": null,
           "email": null,
@@ -302,13 +314,22 @@
           "role": "Senior Project Manager",
           "roleGroup": "Agile Delivery",
           "contractType": "Permanent"
-        },
+        }
+      ],
+      "supporting": [
         {
           "name": "Tom Williams",
           "email": "tom.williams1@ovo.com",
           "role": "Principal Project Manager",
           "roleGroup": "Agile Delivery",
           "contractType": "Permanent"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Vacancy"
         }
       ]
     }
