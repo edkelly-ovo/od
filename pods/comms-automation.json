@@ -132,20 +132,6 @@
           "role": "Data and Platform Lead",
           "roleGroup": "Comms Automation",
           "contractType": "Permanent"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Vacancy"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Principal Engineer",
-          "roleGroup": "Engineering",
-          "contractType": "Vacancy"
         }
       ],
       "supporting": [
@@ -162,6 +148,21 @@
           "role": "Principal Product Manager",
           "roleGroup": "Product Management",
           "contractType": "Permanent"
+        },
+        ,
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Vacancy"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Principal Engineer",
+          "roleGroup": "Engineering",
+          "contractType": "Vacancy"
         }
       ]
     },
@@ -297,20 +298,6 @@
           "generalCompetencies": [
             "Middleware"
           ]
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Vacancy"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Principal Engineer",
-          "roleGroup": "Engineering",
-          "contractType": "Vacancy"
         }
       ],
       "supporting": [
@@ -327,6 +314,20 @@
           "role": "Principal Product Manager",
           "roleGroup": "Product Management",
           "contractType": "Permanent"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Vacancy"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Principal Engineer",
+          "roleGroup": "Engineering",
+          "contractType": "Vacancy"
         }
       ]
     },
@@ -395,6 +396,15 @@
           "role": "Campaign Delivery Lead",
           "roleGroup": "Comms Automation",
           "contractType": "Permanent"
+        }
+      ],
+      "supporting": [
+        {
+          "name": "Lorne MacLennan",
+          "email": "lorne.r.maclennan@ovo.com",
+          "role": "Principal Product Manager",
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
         },
         {
           "name": null,
@@ -409,15 +419,6 @@
           "role": "Principal Engineer",
           "roleGroup": "Engineering",
           "contractType": "Vacancy"
-        }
-      ],
-      "supporting": [
-        {
-          "name": "Lorne MacLennan",
-          "email": "lorne.r.maclennan@ovo.com",
-          "role": "Principal Product Manager",
-          "roleGroup": "Product Management",
-          "contractType": "Permanent"
         }
       ]
     },
@@ -451,6 +452,15 @@
           "role": "Print Manager",
           "roleGroup": "Comms Automation",
           "contractType": "Permanent"
+        }
+      ],
+      "supporting": [
+        {
+          "name": "Lorne MacLennan",
+          "email": "lorne.r.maclennan@ovo.com",
+          "role": "Principal Product Manager",
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
         },
         {
           "name": null,
@@ -465,15 +475,6 @@
           "role": "Principal Engineer",
           "roleGroup": "Engineering",
           "contractType": "Vacancy"
-        }
-      ],
-      "supporting": [
-        {
-          "name": "Lorne MacLennan",
-          "email": "lorne.r.maclennan@ovo.com",
-          "role": "Principal Product Manager",
-          "roleGroup": "Product Management",
-          "contractType": "Permanent"
         }
       ]
     }

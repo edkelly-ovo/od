@@ -140,13 +140,6 @@
             "React",
             "Python"
           ]
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Vacancy"
         }
       ],
       "supporting": [
@@ -204,6 +197,13 @@
           "role": "Product Manager",
           "roleGroup": "Product Management",
           "contractType": "Permanent"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Vacancy"
         }
       ]
     },
@@ -294,13 +294,6 @@
             "TypeScript/JavaScript/Node.js",
             "Terraform/HCL"
           ]
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Vacancy"
         }
       ],
       "supporting": [
@@ -358,6 +351,13 @@
           "role": "Product Manager",
           "roleGroup": "Product Management",
           "contractType": "Permanent"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Vacancy"
         }
       ]
     },
@@ -431,13 +431,6 @@
           "role": "Engineer",
           "roleGroup": "Engineering",
           "contractType": "Vacancy"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Vacancy"
         }
       ],
       "supporting": [
@@ -481,6 +474,13 @@
           "role": "Product Manager",
           "roleGroup": "Product Management",
           "contractType": "Permanent"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Vacancy"
         }
       ]
     }

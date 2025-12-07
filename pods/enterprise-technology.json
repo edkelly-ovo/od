@@ -88,13 +88,6 @@
           "role": "DigiEx Engineer",
           "roleGroup": "Enterprise Technology",
           "contractType": "Vacancy"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Vacancy"
         }
       ],
       "supporting": [
@@ -104,6 +97,13 @@
           "role": "Delivery & Growth Lead",
           "roleGroup": "Delivery & Growth Lead",
           "contractType": "Permanent"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Vacancy"
         }
       ]
     },
@@ -147,13 +147,6 @@
           "roleGroup": "Enterprise Technology",
           "contractType": "3rd Party Partner",
           "supplier": "Lognormal Analytics Private Ltd"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Vacancy"
         }
       ],
       "supporting": [
@@ -163,6 +156,13 @@
           "role": "Delivery & Growth Lead",
           "roleGroup": "Delivery & Growth Lead",
           "contractType": "Permanent"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Vacancy"
         }
       ]
     },
@@ -263,13 +263,6 @@
         {
           "name": null,
           "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Vacancy"
-        },
-        {
-          "name": null,
-          "email": null,
           "role": "Identity Engineer",
           "roleGroup": "Enterprise Technology",
           "contractType": "Vacancy"
@@ -289,6 +282,13 @@
           "role": "Delivery & Growth Lead",
           "roleGroup": "Delivery & Growth Lead",
           "contractType": "Permanent"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Vacancy"
         }
       ]
     }

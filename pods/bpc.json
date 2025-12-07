@@ -886,14 +886,6 @@
           "contractType": "Permanent"
         },
         {
-          "name": "Katie Lynch",
-          "email": "katie.lynch@ovo.com",
-          "role": "Delivery Lead",
-          "roleGroup": "Agile Delivery",
-          "contractType": "Permanent",
-          "onLeave": true
-        },
-        {
           "name": "Kieran Page",
           "email": "kieran.page@ovo.com",
           "role": "Senior Product Designer",
@@ -1046,14 +1038,6 @@
           "role": "Agile Coach",
           "roleGroup": "Agile Coach",
           "contractType": "Permanent"
-        },
-        {
-          "name": "Katie Lynch",
-          "email": "katie.lynch@ovo.com",
-          "role": "Delivery Lead",
-          "roleGroup": "Agile Delivery",
-          "contractType": "Permanent",
-          "onLeave": true
         },
         {
           "name": "Tristan Ostrowski",
@@ -1474,14 +1458,6 @@
           "role": "Agile Coach",
           "roleGroup": "Agile Coach",
           "contractType": "Permanent"
-        },
-        {
-          "name": "Katie Lynch",
-          "email": "katie.lynch@ovo.com",
-          "role": "Delivery Lead",
-          "roleGroup": "Agile Delivery",
-          "contractType": "Permanent",
-          "onLeave": true
         },
         {
           "name": "Tristan Ostrowski",
@@ -2475,14 +2451,6 @@
           "role": "Senior Agile Coach",
           "roleGroup": "Agile Coach",
           "contractType": "Permanent"
-        },
-        {
-          "name": "Katie Lynch",
-          "email": "katie.lynch@ovo.com",
-          "role": "Delivery Lead",
-          "roleGroup": "Agile Delivery",
-          "contractType": "Permanent",
-          "onLeave": true
         },
         {
           "name": "Andrew Hoban",

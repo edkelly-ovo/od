@@ -192,13 +192,6 @@
         {
           "name": null,
           "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Vacancy"
-        },
-        {
-          "name": null,
-          "email": null,
           "role": "Cloud Platform Engineer",
           "roleGroup": "I&E",
           "contractType": "Vacancy"
@@ -225,6 +218,13 @@
           "role": "Delivery Manager",
           "roleGroup": "Agile Delivery",
           "contractType": "Permanent"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Vacancy"
         }
       ]
     },
@@ -265,13 +265,6 @@
         {
           "name": null,
           "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Vacancy"
-        },
-        {
-          "name": null,
-          "email": null,
           "role": "Senior Platform Specialist",
           "roleGroup": "I&E",
           "contractType": "Vacancy"
@@ -307,11 +300,11 @@
           "contractType": "Permanent"
         },
         {
-          "name": "Emily Horner",
+          "name": null,
           "email": null,
-          "role": "BA",
-          "roleGroup": "BA",
-          "contractType": "Permanent"
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Vacancy"
         }
       ]
     },
@@ -481,13 +474,6 @@
           "role": "Cloud Platform Engineer",
           "roleGroup": "I&E",
           "contractType": "Vacancy"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Vacancy"
         }
       ],
       "supporting": [
@@ -499,11 +485,11 @@
           "contractType": "Permanent"
         },
         {
-          "name": "Emily Horner",
+          "name": null,
           "email": null,
-          "role": "BA",
-          "roleGroup": "BA",
-          "contractType": "Permanent"
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Vacancy"
         }
       ]
     },
@@ -563,13 +549,6 @@
           "role": "Network Architect",
           "roleGroup": "I&E",
           "contractType": "Permanent"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Vacancy"
         }
       ],
       "supporting": [
@@ -588,11 +567,11 @@
           "contractType": "Permanent"
         },
         {
-          "name": "Emily Horner",
+          "name": null,
           "email": null,
-          "role": "BA",
-          "roleGroup": "BA",
-          "contractType": "Permanent"
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Vacancy"
         }
       ]
     },
@@ -768,13 +747,6 @@
         {
           "name": null,
           "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Vacancy"
-        },
-        {
-          "name": null,
-          "email": null,
           "role": "Platform SRE",
           "roleGroup": "I&E",
           "contractType": "Vacancy"
@@ -803,11 +775,11 @@
           "contractType": "Permanent"
         },
         {
-          "name": "Emily Horner",
+          "name": null,
           "email": null,
-          "role": "BA",
-          "roleGroup": "BA",
-          "contractType": "Permanent"
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Vacancy"
         }
       ]
     }

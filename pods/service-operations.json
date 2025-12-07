@@ -88,13 +88,6 @@
           "role": "Senior Incident & Problem Manager",
           "roleGroup": "Service Ops",
           "contractType": "Permanent"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Vacancy"
         }
       ],
       "supporting": [
@@ -104,6 +97,13 @@
           "role": "Principal Service Operations",
           "roleGroup": "Service Ops",
           "contractType": "Permanent"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Vacancy"
         }
       ]
     },
@@ -137,13 +137,6 @@
           "role": "Reliability Operations Specialist",
           "roleGroup": "Service Ops",
           "contractType": "Permanent"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Vacancy"
         }
       ],
       "supporting": [
@@ -153,6 +146,13 @@
           "role": "Principal Service Operations",
           "roleGroup": "Service Ops",
           "contractType": "Permanent"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Vacancy"
         }
       ]
     },
@@ -287,13 +287,6 @@
         {
           "name": null,
           "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Vacancy"
-        },
-        {
-          "name": null,
-          "email": null,
           "role": "Service Manager",
           "roleGroup": "Service Ops",
           "contractType": "Vacancy"
@@ -306,6 +299,13 @@
           "role": "Principal Service Operations",
           "roleGroup": "Service Ops",
           "contractType": "Permanent"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Vacancy"
         }
       ]
     },
@@ -325,13 +325,6 @@
           "role": "Senior Service Continuity Manager",
           "roleGroup": "Service Ops",
           "contractType": "Permanent"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "roleGroup": "Delivery & Growth Lead",
-          "contractType": "Vacancy"
         }
       ],
       "supporting": [
@@ -341,6 +334,13 @@
           "role": "Principal Service Operations",
           "roleGroup": "Service Ops",
           "contractType": "Permanent"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Vacancy"
         }
       ]
     }
