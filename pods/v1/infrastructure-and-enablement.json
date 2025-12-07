@@ -79,26 +79,6 @@
           ]
         },
         {
-          "name": "Chris Fox",
-          "email": "chris.fox@ovo.com",
-          "role": "Senior Platform Specialist",
-          "roleGroup": "I&E",
-          "contractType": "Permanent",
-          "careerSkillset": [
-            "Infrastructure"
-          ],
-          "teamSkillset": [
-            "Infrastructure"
-          ],
-          "dailySkillset": [
-            "Terraform/HCL",
-            "none"
-          ],
-          "generalCompetencies": [
-            "Terraform/HCL"
-          ]
-        },
-        {
           "name": "Daven Sangeelee",
           "email": "daven.sangeelee@ovo.com",
           "role": "Senior Cloud Infra Engineer",
@@ -188,6 +168,13 @@
           "role": "Senior Cloud Infra Engineer",
           "roleGroup": "I&E",
           "contractType": "Permanent"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Senior Cloud Platform Engineer",
+          "roleGroup": "I&E",
+          "contractType": "Vacancy"
         },
         {
           "name": null,
