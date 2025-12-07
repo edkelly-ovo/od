@@ -40,6 +40,36 @@ http://localhost:8000
 
 If you're using VS Code, install the "Live Server" extension and right-click on `index.html` → "Open with Live Server"
 
+## Deployment to GitHub Pages
+
+This app is configured for automatic deployment to GitHub Pages using GitHub Actions.
+
+### Automatic Deployment
+
+1. **Enable GitHub Pages** in your repository settings:
+   - Go to Settings → Pages
+   - Under "Source", select "GitHub Actions"
+
+2. **Push to main branch**: The workflow will automatically deploy when you push to the `main` branch
+
+3. **Access your site**: Your app will be available at:
+   - `https://<username>.github.io/<repository-name>/` (if repository is not named `username.github.io`)
+   - `https://<username>.github.io/` (if repository is named `username.github.io`)
+
+### Manual Deployment
+
+You can also trigger deployment manually:
+- Go to Actions tab in your repository
+- Select "Deploy to GitHub Pages" workflow
+- Click "Run workflow"
+
+### Workflow Details
+
+The deployment workflow (`.github/workflows/deploy.yml`) will:
+- Trigger on pushes to `main` branch
+- Build and deploy the static site to GitHub Pages
+- Use the latest GitHub Actions Pages deployment tools
+
 ## File Structure
 
 - `index.html` - Main HTML structure

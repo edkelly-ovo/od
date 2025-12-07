@@ -25,9 +25,20 @@ async function loadAllPods() {
         'security.json', 'serve.json', 'service-operations.json'
     ];
 
+    // Detect base path for GitHub Pages compatibility
+    // Handles both root domain (username.github.io) and project pages (username.github.io/repo-name)
+    const pathname = window.location.pathname;
+    let basePath = '';
+    if (pathname !== '/' && pathname !== '/index.html') {
+      // Extract base path (everything before the filename)
+      const pathParts = pathname.split('/').filter(p => p && p !== 'index.html');
+      basePath = pathParts.length > 0 ? '/' + pathParts[0] : '';
+    }
+    const podsPath = `${basePath}/pods`;
+    
     const loadPromises = podFiles.map(async (file) => {
         try {
-            const response = await fetch(`/pods/${file}`);
+            const response = await fetch(`${podsPath}/${file}`);
             if (response.ok) {
                 const data = await response.json();
                 return data;
