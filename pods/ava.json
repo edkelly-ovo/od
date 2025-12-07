@@ -111,15 +111,15 @@
           "name": "Aidan Walker",
           "email": "aidan.walker@ovo.com",
           "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent"
+          "roleGroup": "XD",
+          "contractType": "Permanent"
         },
         {
           "name": "Gus Porto",
           "email": "gus.porto@ovo.com",
           "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "3rd Party Partner",
+          "roleGroup": "Engineering",
+          "contractType": "3rd Party Partner",
           "supplier": "Transparity",
           "careerSkillset": [
             "Full stack"
@@ -147,57 +147,57 @@
           "name": "James Tarling",
           "email": "james.tarling@ovo.com",
           "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent"
+          "roleGroup": "Engineering",
+          "contractType": "Permanent"
         },
         {
           "name": "Matt Arter",
           "email": "matt.arter@ovo.com",
           "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent"
+          "roleGroup": "XD",
+          "contractType": "Permanent"
         },
         {
           "name": "Myat Thura Aung",
           "email": null,
           "role": "Senior Data Scientist",
-          "role_group": "Data",
-          "contract_type": "Permanent"
+          "roleGroup": "Data",
+          "contractType": "Permanent"
         },
         {
           "name": "Nicholas Drew",
           "email": null,
           "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent"
+          "roleGroup": "Engineering",
+          "contractType": "Permanent"
         },
         {
           "name": "Ollie Page",
           "email": "ollie.page@ovo.com",
           "role": "Senior Data Scientist",
-          "role_group": "Data",
-          "contract_type": "Permanent"
+          "roleGroup": "Data",
+          "contractType": "Permanent"
         },
         {
           "name": "Paul Range",
           "email": "paul.range@ovo.com",
           "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent"
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent"
         },
         {
           "name": "Rebecca Lloyd",
           "email": "rebecca.lloyd@ovo.com",
           "role": "Lead Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent"
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
         },
         {
           "name": "Sam Rumley",
           "email": "sam.rumley@ovo.com",
           "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent",
+          "roleGroup": "Engineering",
+          "contractType": "Permanent",
           "careerSkillset": [
             "Full stack"
           ],
@@ -220,30 +220,30 @@
           "name": "Sangeetha Bikkumalla",
           "email": null,
           "role": "BA",
-          "role_group": "BA",
-          "contract_type": "3rd Party Partner",
+          "roleGroup": "BA",
+          "contractType": "3rd Party Partner",
           "supplier": "Lognormal Analytics Private Ltd"
         },
         {
           "name": "Steph Keenan",
           "email": "steph.keenan@ovo.com",
           "role": "Senior Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Permanent"
+          "roleGroup": "Agile Coach",
+          "contractType": "Permanent"
         },
         {
           "name": "Thomas Armour-Reid",
           "email": "thomas.reid@ovo.com",
           "role": "Senior Data Scientist",
-          "role_group": "Data",
-          "contract_type": "Permanent"
+          "roleGroup": "Data",
+          "contractType": "Permanent"
         },
         {
           "name": "Tom West",
           "email": "tom.west@ovo.com",
           "role": "Principal Data Scientist",
-          "role_group": "Data",
-          "contract_type": "Permanent",
+          "roleGroup": "Data",
+          "contractType": "Permanent",
           "careerSkillset": [
             "Data stack"
           ],
@@ -263,15 +263,15 @@
           "name": "William Blakey",
           "email": null,
           "role": "Senior AI Engineer",
-          "role_group": "Data",
-          "contract_type": "Permanent"
+          "roleGroup": "Data",
+          "contractType": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "Staff Conversation Designer",
-          "role_group": "XD",
-          "contract_type": "Vacancy"
+          "roleGroup": "XD",
+          "contractType": "Vacancy"
         }
       ]
     },
@@ -282,15 +282,15 @@
           "name": "Aidan Walker",
           "email": "aidan.walker@ovo.com",
           "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent"
+          "roleGroup": "XD",
+          "contractType": "Permanent"
         },
         {
           "name": "Iskren Slavov",
           "email": "iskren.slavov@ovo.com",
           "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "3rd Party Partner",
+          "roleGroup": "Engineering",
+          "contractType": "3rd Party Partner",
           "supplier": "Techpods",
           "careerSkillset": [
             "Full stack"
@@ -322,43 +322,43 @@
           "name": "Matt Arter",
           "email": "matt.arter@ovo.com",
           "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent"
+          "roleGroup": "XD",
+          "contractType": "Permanent"
         },
         {
           "name": "Nicholas Drew",
           "email": null,
           "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent"
+          "roleGroup": "Engineering",
+          "contractType": "Permanent"
         },
         {
           "name": "Paul Range",
           "email": "paul.range@ovo.com",
           "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent"
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent"
         },
         {
           "name": "Rebecca Lloyd",
           "email": "rebecca.lloyd@ovo.com",
           "role": "Lead Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent"
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
         },
         {
           "name": "Steph Keenan",
           "email": "steph.keenan@ovo.com",
           "role": "Senior Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Permanent"
+          "roleGroup": "Agile Coach",
+          "contractType": "Permanent"
         },
         {
           "name": "Tom West",
           "email": "tom.west@ovo.com",
           "role": "Principal Data Scientist",
-          "role_group": "Data",
-          "contract_type": "Permanent",
+          "roleGroup": "Data",
+          "contractType": "Permanent",
           "careerSkillset": [
             "Data stack"
           ],
@@ -378,15 +378,15 @@
           "name": null,
           "email": null,
           "role": "Staff Conversation Designer",
-          "role_group": "XD",
-          "contract_type": "Vacancy"
+          "roleGroup": "XD",
+          "contractType": "Vacancy"
         },
         {
           "name": null,
           "email": null,
           "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "3rd Party Partner",
+          "roleGroup": "Engineering",
+          "contractType": "3rd Party Partner",
           "supplier": "Createq AG (formerly NSM Engineering AG)",
           "generalCompetencies": [
             "Full stack (BE+Web)",
@@ -400,8 +400,8 @@
           "name": null,
           "email": null,
           "role": "QA",
-          "role_group": "QA",
-          "contract_type": "Vacancy"
+          "roleGroup": "QA",
+          "contractType": "Vacancy"
         }
       ]
     },
@@ -412,15 +412,15 @@
           "name": "Aidan Walker",
           "email": "aidan.walker@ovo.com",
           "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent"
+          "roleGroup": "XD",
+          "contractType": "Permanent"
         },
         {
           "name": "Charlene Leong",
           "email": "charlene.leong@ovo.com",
           "role": "Senior ML Engineer",
-          "role_group": "Data",
-          "contract_type": "Permanent",
+          "roleGroup": "Data",
+          "contractType": "Permanent",
           "careerSkillset": [
             "Data stack"
           ],
@@ -441,15 +441,15 @@
           "name": "Gerald Nnodum",
           "email": "gerald.nnodum@ovo.com",
           "role": "BA",
-          "role_group": "BA",
-          "contract_type": "Permanent"
+          "roleGroup": "BA",
+          "contractType": "Permanent"
         },
         {
           "name": "Jacob Lang",
           "email": "jacob.lang@ovo.com",
           "role": "Senior Data Scientist",
-          "role_group": "Data",
-          "contract_type": "Permanent",
+          "roleGroup": "Data",
+          "contractType": "Permanent",
           "careerSkillset": [
             "Other"
           ],
@@ -467,8 +467,8 @@
           "name": "Jared Phayer",
           "email": "jared.phayer@ovo.com",
           "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent",
+          "roleGroup": "Engineering",
+          "contractType": "Permanent",
           "careerSkillset": [
             "Full stack"
           ],
@@ -492,8 +492,8 @@
           "name": "Jonny Garius",
           "email": "jonny.garius@ovo.com",
           "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent",
+          "roleGroup": "Engineering",
+          "contractType": "Permanent",
           "careerSkillset": [
             "Backend"
           ],
@@ -514,15 +514,15 @@
           "name": "Jonny Schmid",
           "email": "jonny.schmid@ovo.com",
           "role": "Senior Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent"
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
         },
         {
           "name": "Lucas Woodward",
           "email": "lucas.woodward@ovo.com",
           "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent",
+          "roleGroup": "Engineering",
+          "contractType": "Permanent",
           "careerSkillset": [
             "Full stack"
           ],
@@ -544,43 +544,43 @@
           "name": "Marcus Dawson",
           "email": "marcus.dawson@ovo.com",
           "role": "Senior Data Scientist",
-          "role_group": "Data",
-          "contract_type": "Permanent"
+          "roleGroup": "Data",
+          "contractType": "Permanent"
         },
         {
           "name": "Matt Arter",
           "email": "matt.arter@ovo.com",
           "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent"
+          "roleGroup": "XD",
+          "contractType": "Permanent"
         },
         {
           "name": "Nicholas Drew",
           "email": null,
           "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent"
+          "roleGroup": "Engineering",
+          "contractType": "Permanent"
         },
         {
           "name": "Paul Range",
           "email": "paul.range@ovo.com",
           "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent"
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent"
         },
         {
           "name": "Steph Keenan",
           "email": "steph.keenan@ovo.com",
           "role": "Senior Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Permanent"
+          "roleGroup": "Agile Coach",
+          "contractType": "Permanent"
         },
         {
           "name": "Tom West",
           "email": "tom.west@ovo.com",
           "role": "Principal Data Scientist",
-          "role_group": "Data",
-          "contract_type": "Permanent",
+          "roleGroup": "Data",
+          "contractType": "Permanent",
           "careerSkillset": [
             "Data stack"
           ],
@@ -600,23 +600,23 @@
           "name": "Yu Wang",
           "email": "Yu.wang@ovo.com",
           "role": "ML Engineer",
-          "role_group": "Data",
-          "contract_type": "3rd Party Partner",
+          "roleGroup": "Data",
+          "contractType": "3rd Party Partner",
           "supplier": "Datatonic Ltd"
         },
         {
           "name": null,
           "email": null,
           "role": "SRE",
-          "role_group": "I&E",
-          "contract_type": "Vacancy"
+          "roleGroup": "I&E",
+          "contractType": "Vacancy"
         },
         {
           "name": null,
           "email": null,
           "role": "Staff Conversation Designer",
-          "role_group": "XD",
-          "contract_type": "Vacancy"
+          "roleGroup": "XD",
+          "contractType": "Vacancy"
         }
       ]
     },
@@ -627,23 +627,23 @@
           "name": "Aidan Walker",
           "email": "aidan.walker@ovo.com",
           "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent"
+          "roleGroup": "XD",
+          "contractType": "Permanent"
         },
         {
           "name": "Andre Bigby",
           "email": null,
           "role": "Data Scientist",
-          "role_group": "Data",
-          "contract_type": "3rd Party Partner",
+          "roleGroup": "Data",
+          "contractType": "3rd Party Partner",
           "supplier": null
         },
         {
           "name": "Daemon Mark",
           "email": "daemon.mark@ovo.com",
           "role": "Analytics Engineer",
-          "role_group": "Data",
-          "contract_type": "Permanent",
+          "roleGroup": "Data",
+          "contractType": "Permanent",
           "careerSkillset": [
             "Data stack"
           ],
@@ -663,79 +663,79 @@
           "name": "Freddy Fallon",
           "email": "freddy.fallon@ovo.com",
           "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent"
+          "roleGroup": "Engineering",
+          "contractType": "Permanent"
         },
         {
           "name": "Gerald Nnodum",
           "email": "gerald.nnodum@ovo.com",
           "role": "BA",
-          "role_group": "BA",
-          "contract_type": "Permanent"
+          "roleGroup": "BA",
+          "contractType": "Permanent"
         },
         {
           "name": "Jonny Schmid",
           "email": "jonny.schmid@ovo.com",
           "role": "Senior Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent"
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
         },
         {
           "name": "Matt Arter",
           "email": "matt.arter@ovo.com",
           "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent"
+          "roleGroup": "XD",
+          "contractType": "Permanent"
         },
         {
           "name": "Miles Trevethan",
           "email": "miles.trevethan@ovo.com",
           "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "3rd Party Partner",
+          "roleGroup": "Engineering",
+          "contractType": "3rd Party Partner",
           "supplier": "Datatonic Ltd"
         },
         {
           "name": "Monica Chua",
           "email": "monica.chua@ovo.com",
           "role": "Data Scientist",
-          "role_group": "Data",
-          "contract_type": "Permanent"
+          "roleGroup": "Data",
+          "contractType": "Permanent"
         },
         {
           "name": "Nicholas Drew",
           "email": null,
           "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent"
+          "roleGroup": "Engineering",
+          "contractType": "Permanent"
         },
         {
           "name": "Paul Range",
           "email": "paul.range@ovo.com",
           "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent"
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent"
         },
         {
           "name": "Rebecca Steel",
           "email": "rebecca.steel@ovo.com",
           "role": "Lead Analyst",
-          "role_group": "Data",
-          "contract_type": "Permanent"
+          "roleGroup": "Data",
+          "contractType": "Permanent"
         },
         {
           "name": "Steph Keenan",
           "email": "steph.keenan@ovo.com",
           "role": "Senior Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Permanent"
+          "roleGroup": "Agile Coach",
+          "contractType": "Permanent"
         },
         {
           "name": "Tom West",
           "email": "tom.west@ovo.com",
           "role": "Principal Data Scientist",
-          "role_group": "Data",
-          "contract_type": "Permanent",
+          "roleGroup": "Data",
+          "contractType": "Permanent",
           "careerSkillset": [
             "Data stack"
           ],
@@ -755,8 +755,8 @@
           "name": null,
           "email": null,
           "role": "Staff Conversation Designer",
-          "role_group": "XD",
-          "contract_type": "Vacancy"
+          "roleGroup": "XD",
+          "contractType": "Vacancy"
         }
       ]
     }

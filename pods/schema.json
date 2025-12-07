@@ -43,12 +43,38 @@
             "type": "string",
             "description": "Name of the team"
           },
+          "supporting": {
+            "type": "array",
+            "description": "Array of wider pod-members who support the team but are not present within it",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": ["string", "null"],
+                  "description": "Supporting member's full name"
+                },
+                "email": {
+                  "type": ["string", "null"],
+                  "format": "email",
+                  "description": "Supporting member's email address"
+                },
+                "role": {
+                  "type": "string",
+                  "description": "Supporting member's role"
+                },
+                "roleGroup": {
+                  "type": "string",
+                  "description": "Group/category the supporting member's role belongs to"
+                }
+              }
+            }
+          },
           "members": {
             "type": "array",
             "description": "Array of team members",
             "items": {
               "type": "object",
-              "required": ["role", "role_group", "contract_type"],
+              "required": ["role", "roleGroup", "contractType"],
               "properties": {
                 "name": {
                   "type": ["string", "null"],
@@ -63,11 +89,11 @@
                   "type": "string",
                   "description": "Member's role"
                 },
-                "role_group": {
+                "roleGroup": {
                   "type": "string",
                   "description": "Group/category the role belongs to"
                 },
-                "contract_type": {
+                "contractType": {
                   "type": "string",
                   "description": "Type of employment contract",
                   "enum": [
@@ -115,7 +141,7 @@
               },
               "if": {
                 "properties": {
-                  "contract_type": {
+                  "contractType": {
                     "const": "3rd Party Partner"
                   }
                 }

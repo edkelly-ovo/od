@@ -63,15 +63,15 @@ function validateAndFixFile(filePath) {
                             wasFixed = true;
                         }
                         
-                        if (!member.hasOwnProperty('role_group')) {
-                            member.role_group = '';
-                            fixes.push(`Team "${team.name}", Member ${memberIndex + 1}: Added missing role_group`);
+                        if (!member.hasOwnProperty('roleGroup')) {
+                            member.roleGroup = '';
+                            fixes.push(`Team "${team.name}", Member ${memberIndex + 1}: Added missing roleGroup`);
                             wasFixed = true;
                         }
                         
-                        if (!member.hasOwnProperty('contract_type')) {
-                            member.contract_type = 'Vacancy';
-                            fixes.push(`Team "${team.name}", Member ${memberIndex + 1}: Added missing contract_type`);
+                        if (!member.hasOwnProperty('contractType')) {
+                            member.contractType = 'Vacancy';
+                            fixes.push(`Team "${team.name}", Member ${memberIndex + 1}: Added missing contractType`);
                             wasFixed = true;
                         }
                         
@@ -81,11 +81,11 @@ function validateAndFixFile(filePath) {
                             wasFixed = true;
                         }
                         
-                        // Validate contract_type enum
+                        // Validate contractType enum
                         const validContractTypes = ['Permanent', '3rd Party Partner', 'Vacancy'];
-                        if (!validContractTypes.includes(member.contract_type)) {
-                            fixes.push(`Team "${team.name}", Member ${member.name || memberIndex + 1}: Invalid contract_type "${member.contract_type}", changed to Vacancy`);
-                            member.contract_type = 'Vacancy';
+                        if (!validContractTypes.includes(member.contractType)) {
+                            fixes.push(`Team "${team.name}", Member ${member.name || memberIndex + 1}: Invalid contractType "${member.contractType}", changed to Vacancy`);
+                            member.contractType = 'Vacancy';
                             wasFixed = true;
                         }
                         
@@ -103,7 +103,7 @@ function validateAndFixFile(filePath) {
                         }
                         
                         // Handle supplier field - only for 3rd Party Partners
-                        if (member.contract_type === '3rd Party Partner') {
+                        if (member.contractType === '3rd Party Partner') {
                             if (!member.hasOwnProperty('supplier')) {
                                 member.supplier = null;
                                 fixes.push(`Team "${team.name}", Member ${member.name || memberIndex + 1}: Added missing supplier field`);
@@ -119,7 +119,7 @@ function validateAndFixFile(filePath) {
                             // Remove supplier from non-3rd Party Partners
                             if (member.hasOwnProperty('supplier')) {
                                 delete member.supplier;
-                                fixes.push(`Team "${team.name}", Member ${member.name || memberIndex + 1}: Removed supplier from ${member.contract_type}`);
+                                fixes.push(`Team "${team.name}", Member ${member.name || memberIndex + 1}: Removed supplier from ${member.contractType}`);
                                 wasFixed = true;
                             }
                         }
@@ -134,7 +134,7 @@ function validateAndFixFile(filePath) {
                         }
                         
                         // Remove any unknown properties (optional - can be commented out if you want to keep extra fields)
-                        const allowedProperties = ['name', 'email', 'role', 'role_group', 'contract_type', 'skillset', 'supplier', 'onLeave'];
+                        const allowedProperties = ['name', 'email', 'role', 'roleGroup', 'contractType', 'skillset', 'supplier', 'onLeave'];
                         const memberKeys = Object.keys(member);
                         memberKeys.forEach(key => {
                             if (!allowedProperties.includes(key)) {

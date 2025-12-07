@@ -15,43 +15,43 @@
           "name": "Ali Hussain",
           "email": "ali.hussain@ovo.com",
           "role": "Security Engineer",
-          "role_group": "Security",
-          "contract_type": "Permanent"
+          "roleGroup": "Security",
+          "contractType": "Permanent"
         },
         {
           "name": "Becca Liddle",
           "email": "becca.liddle@ovo.com",
           "role": "Security Engineer",
-          "role_group": "Security",
-          "contract_type": "Permanent"
+          "roleGroup": "Security",
+          "contractType": "Permanent"
         },
         {
           "name": "Grant Barnes",
           "email": "grant.barnes@ovo.com",
           "role": "Security Engineer",
-          "role_group": "Security",
-          "contract_type": "Permanent"
+          "roleGroup": "Security",
+          "contractType": "Permanent"
         },
         {
           "name": "Joshua Yewman",
           "email": null,
           "role": "Security Engineer",
-          "role_group": "Security",
-          "contract_type": "Permanent"
+          "roleGroup": "Security",
+          "contractType": "Permanent"
         },
         {
           "name": "Kelly McDonald",
           "email": "kelly.mcdonald@ovo.com",
           "role": "Security Engineer",
-          "role_group": "Security",
-          "contract_type": "Permanent"
+          "roleGroup": "Security",
+          "contractType": "Permanent"
         },
         {
           "name": "Raymond Fenton",
           "email": "raymond.fenton@ovo.com",
           "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent"
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent"
         }
       ]
     },
@@ -62,50 +62,50 @@
           "name": "Jim Hardy",
           "email": "james.hardy@ovo.com",
           "role": "Security Engineer",
-          "role_group": "Security",
-          "contract_type": "Permanent"
+          "roleGroup": "Security",
+          "contractType": "Permanent"
         },
         {
           "name": "Jodie Austin",
           "email": "jodie.austin@ovo.com",
           "role": "Security Engineer",
-          "role_group": "Security",
-          "contract_type": "Permanent"
+          "roleGroup": "Security",
+          "contractType": "Permanent"
         },
         {
           "name": "Mark Lingard",
           "email": "mark.lingard@ovo.com",
           "role": "Security Engineer",
-          "role_group": "Security",
-          "contract_type": "Permanent"
+          "roleGroup": "Security",
+          "contractType": "Permanent"
         },
         {
           "name": "Raymond Fenton",
           "email": "raymond.fenton@ovo.com",
           "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent"
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent"
         },
         {
           "name": "VACANCY",
           "email": null,
           "role": "Security Engineer",
-          "role_group": "Security",
-          "contract_type": "Permanent"
+          "roleGroup": "Security",
+          "contractType": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "Security Engineer",
-          "role_group": "Security",
-          "contract_type": "Vacancy"
+          "roleGroup": "Security",
+          "contractType": "Vacancy"
         },
         {
           "name": null,
           "email": null,
           "role": "Security Engineer",
-          "role_group": "Security",
-          "contract_type": "Vacancy"
+          "roleGroup": "Security",
+          "contractType": "Vacancy"
         }
       ]
     },
@@ -116,36 +116,36 @@
           "name": "Christopher Toole",
           "email": "christopher.toole@ovo.com",
           "role": "Security Engineer",
-          "role_group": "Security",
-          "contract_type": "Permanent"
+          "roleGroup": "Security",
+          "contractType": "Permanent"
         },
         {
           "name": "Euan Dunsmore",
           "email": "euan.dunsmore@ovo.com",
           "role": "Security Engineer",
-          "role_group": "Security",
-          "contract_type": "Permanent"
+          "roleGroup": "Security",
+          "contractType": "Permanent"
         },
         {
           "name": "Martin Brignall",
           "email": "martin.brignall@ovo.com",
           "role": "Security Engineer",
-          "role_group": "Security",
-          "contract_type": "Permanent"
+          "roleGroup": "Security",
+          "contractType": "Permanent"
         },
         {
           "name": "Raymond Fenton",
           "email": "raymond.fenton@ovo.com",
           "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent"
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent"
         },
         {
           "name": "Sam Houghton",
           "email": "sam.houghton@ovo.com",
           "role": "Security Engineer",
-          "role_group": "Security",
-          "contract_type": "Permanent"
+          "roleGroup": "Security",
+          "contractType": "Permanent"
         }
       ]
     },
@@ -156,50 +156,50 @@
           "name": "Bradley Woods",
           "email": "bradley.woods@ovo.com",
           "role": "Security Engineer",
-          "role_group": "Security",
-          "contract_type": "Permanent"
+          "roleGroup": "Security",
+          "contractType": "Permanent"
         },
         {
           "name": "Emily Wilmot",
           "email": "emily.wilmot@ovo.com",
           "role": "Security Engineer",
-          "role_group": "Security",
-          "contract_type": "Permanent"
+          "roleGroup": "Security",
+          "contractType": "Permanent"
         },
         {
           "name": "Imi Votteler",
           "email": "imanuel.votteler@ovo.com",
           "role": "Security Engineer",
-          "role_group": "Security",
-          "contract_type": "Permanent"
+          "roleGroup": "Security",
+          "contractType": "Permanent"
         },
         {
           "name": "James Pearson",
           "email": "james.pearson1@ovo.com",
           "role": "Security Engineer",
-          "role_group": "Security",
-          "contract_type": "Permanent"
+          "roleGroup": "Security",
+          "contractType": "Permanent"
         },
         {
           "name": "Raymond Fenton",
           "email": "raymond.fenton@ovo.com",
           "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent"
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent"
         },
         {
           "name": "Richard Day",
           "email": "richard.day@ovo.com",
           "role": "Security Engineer",
-          "role_group": "Security",
-          "contract_type": "Permanent"
+          "roleGroup": "Security",
+          "contractType": "Permanent"
         },
         {
           "name": "Rob Edwards",
           "email": "rob.edwards@ovo.com",
           "role": "Security Engineer",
-          "role_group": "Security",
-          "contract_type": "Permanent"
+          "roleGroup": "Security",
+          "contractType": "Permanent"
         }
       ]
     }

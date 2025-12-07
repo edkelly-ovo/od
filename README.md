@@ -107,7 +107,7 @@ Each pod JSON file follows the schema defined in `pods/schema.json` and includes
 - **teams**: Array of teams, each containing:
   - **name**: Team name
   - **members**: Array of team members with:
-    - Basic info: name, email, role, role_group, contract_type
+    - Basic info: name, email, role, roleGroup, contractType
     - Skillsets: careerSkillset, teamSkillset, dailySkillset, generalCompetencies
     - Additional: supplier (for 3rd Party Partners), onLeave status
 

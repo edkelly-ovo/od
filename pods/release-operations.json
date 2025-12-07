@@ -12,36 +12,36 @@
           "name": "Siva Velayutham",
           "email": null,
           "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent"
+          "roleGroup": "Engineering",
+          "contractType": "Permanent"
         },
         {
           "name": "Varun Datta",
           "email": "varun.datta@ovo.com",
           "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent"
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Vacancy"
+          "roleGroup": "Engineering",
+          "contractType": "Vacancy"
         },
         {
           "name": null,
           "email": null,
           "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Vacancy"
+          "roleGroup": "Engineering",
+          "contractType": "Vacancy"
         },
         {
           "name": null,
           "email": null,
           "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Vacancy"
+          "roleGroup": "Engineering",
+          "contractType": "Vacancy"
         }
       ]
     }

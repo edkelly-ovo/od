@@ -57,8 +57,8 @@
           "name": "AJ Stewart",
           "email": "aj.stewart@ovo.com",
           "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent",
+          "roleGroup": "Engineering",
+          "contractType": "Permanent",
           "careerSkillset": [
             "Full stack"
           ],
@@ -81,8 +81,8 @@
           "name": "Claire Charalampidou",
           "email": "claire.charalampidou@ovo.com",
           "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent",
+          "roleGroup": "Engineering",
+          "contractType": "Permanent",
           "careerSkillset": [
             "Full stack"
           ],
@@ -104,23 +104,23 @@
           "name": "Hannah Cook",
           "email": "hannah.r.cook@ovo.com",
           "role": "BA",
-          "role_group": "BA",
-          "contract_type": "Permanent"
+          "roleGroup": "BA",
+          "contractType": "Permanent"
         },
         {
           "name": "Hayley Wills",
           "email": "haylew.wills@ovo.com",
           "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent",
           "onLeave": true
         },
         {
           "name": "Jon Rudin",
           "email": "jon.rudin@ovo.com",
           "role": "Principal Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent",
+          "roleGroup": "Engineering",
+          "contractType": "Permanent",
           "careerSkillset": [
             "Other"
           ],
@@ -138,15 +138,15 @@
           "name": "Michael Mayaki",
           "email": "michael.mayaki@ovo.com",
           "role": "BA",
-          "role_group": "BA",
-          "contract_type": "Permanent"
+          "roleGroup": "BA",
+          "contractType": "Permanent"
         },
         {
           "name": "Peter Sealey",
           "email": "peter.sealey2@ovo.com",
           "role": "QA",
-          "role_group": "QA",
-          "contract_type": "Permanent",
+          "roleGroup": "QA",
+          "contractType": "Permanent",
           "careerSkillset": [
             "Automated testing"
           ],
@@ -164,8 +164,8 @@
           "name": "Ralph Payne",
           "email": "ralph.payne@ovo.com",
           "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent",
+          "roleGroup": "Engineering",
+          "contractType": "Permanent",
           "careerSkillset": [
             "Full stack"
           ],
@@ -186,22 +186,22 @@
           "name": "Ritesh Das",
           "email": "ritesh.das@ovo.com",
           "role": "Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent"
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
         },
         {
           "name": "Sam Ayim",
           "email": "samuel.ayim@ovo.com",
           "role": "Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent"
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Vacancy"
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Vacancy"
         }
       ]
     },
@@ -212,8 +212,8 @@
           "name": "Charles Inshaw",
           "email": "charles.inshaw@ovo.com",
           "role": "QA",
-          "role_group": "QA",
-          "contract_type": "Permanent",
+          "roleGroup": "QA",
+          "contractType": "Permanent",
           "careerSkillset": [
             "Automated testing"
           ],
@@ -233,8 +233,8 @@
           "name": "Dylan Johnson-George",
           "email": "dylan.johnsongeorge@ovo.com",
           "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent",
+          "roleGroup": "Engineering",
+          "contractType": "Permanent",
           "careerSkillset": [
             "Full stack"
           ],
@@ -254,23 +254,23 @@
           "name": "Hannah Cook",
           "email": "hannah.r.cook@ovo.com",
           "role": "BA",
-          "role_group": "BA",
-          "contract_type": "Permanent"
+          "roleGroup": "BA",
+          "contractType": "Permanent"
         },
         {
           "name": "Haylew Wills",
           "email": "haylew.wills@ovo.com",
           "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent",
           "onLeave": true
         },
         {
           "name": "Jerica Tolentino",
           "email": "jerica.tolentino@ovo.com",
           "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent",
+          "roleGroup": "Engineering",
+          "contractType": "Permanent",
           "careerSkillset": [
             "Full stack"
           ],
@@ -290,8 +290,8 @@
           "name": "Jon Rudin",
           "email": "jon.rudin@ovo.com",
           "role": "Principal Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent",
+          "roleGroup": "Engineering",
+          "contractType": "Permanent",
           "careerSkillset": [
             "Other"
           ],
@@ -309,29 +309,29 @@
           "name": "Michael Mayaki",
           "email": "michael.mayaki@ovo.com",
           "role": "BA",
-          "role_group": "BA",
-          "contract_type": "Permanent"
+          "roleGroup": "BA",
+          "contractType": "Permanent"
         },
         {
           "name": "Ritesh Das",
           "email": "ritesh.das@ovo.com",
           "role": "Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent"
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
         },
         {
           "name": "Sam Ayim",
           "email": "samuel.ayim@ovo.com",
           "role": "Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent"
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
         },
         {
           "name": "Sevgin Mustafov",
           "email": "sevgin.mustafov@ovo.com",
           "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "3rd Party Partner",
+          "roleGroup": "Engineering",
+          "contractType": "3rd Party Partner",
           "supplier": "Techpods",
           "careerSkillset": [
             "Other"
@@ -352,8 +352,8 @@
           "name": null,
           "email": null,
           "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Vacancy"
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Vacancy"
         }
       ]
     },
@@ -364,16 +364,16 @@
           "name": "Haylew Wills",
           "email": "haylew.wills@ovo.com",
           "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent",
           "onLeave": true
         },
         {
           "name": "Jon Rudin",
           "email": "jon.rudin@ovo.com",
           "role": "Principal Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent",
+          "roleGroup": "Engineering",
+          "contractType": "Permanent",
           "careerSkillset": [
             "Other"
           ],
@@ -391,22 +391,22 @@
           "name": "Michael Mayaki",
           "email": "michael.mayaki@ovo.com",
           "role": "BA",
-          "role_group": "BA",
-          "contract_type": "Permanent"
+          "roleGroup": "BA",
+          "contractType": "Permanent"
         },
         {
           "name": "Ritesh Das",
           "email": "ritesh.das@ovo.com",
           "role": "Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent"
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
         },
         {
           "name": "Teodora Kacharova",
           "email": "teodora.kacharova1@ovo.com",
           "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "3rd Party Partner",
+          "roleGroup": "Engineering",
+          "contractType": "3rd Party Partner",
           "supplier": "Techpods",
           "careerSkillset": [
             "Full stack",
@@ -431,8 +431,8 @@
           "name": "Tom Bing",
           "email": "thomas.bing@ovo.com",
           "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent",
+          "roleGroup": "Engineering",
+          "contractType": "Permanent",
           "careerSkillset": [
             "Full stack"
           ],
@@ -458,23 +458,23 @@
           "name": "Viktor Nedelko",
           "email": null,
           "role": "QA",
-          "role_group": "QA",
-          "contract_type": "3rd Party Partner",
+          "roleGroup": "QA",
+          "contractType": "3rd Party Partner",
           "supplier": "Architus Systems Ltd t/a Architus"
         },
         {
           "name": null,
           "email": null,
           "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Vacancy"
+          "roleGroup": "Engineering",
+          "contractType": "Vacancy"
         },
         {
           "name": null,
           "email": null,
           "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Vacancy"
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Vacancy"
         }
       ]
     }

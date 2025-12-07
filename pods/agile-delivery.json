@@ -21,36 +21,36 @@
           "name": "David Williams",
           "email": "david.williams2@ovo.com",
           "role": "Jira Admin",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent"
+          "roleGroup": "Agile Delivery",
+          "contractType": "Permanent"
         },
         {
           "name": "Eleanor Newman",
           "email": "eleanor.newman@ovo.com",
           "role": "Special Projects",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent"
+          "roleGroup": "Agile Delivery",
+          "contractType": "Permanent"
         },
         {
           "name": "Greg Vincent",
           "email": "greg.vincent@ovo.com",
           "role": "Jira Reporting",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent"
+          "roleGroup": "Agile Delivery",
+          "contractType": "Permanent"
         },
         {
           "name": "Sarah Sadler",
           "email": "sarah.sadler@ovo.com",
           "role": "Agile Ops 3PP Resourcing",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent"
+          "roleGroup": "Agile Delivery",
+          "contractType": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Vacancy"
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Vacancy"
         }
       ]
     },
@@ -61,29 +61,29 @@
           "name": "Anthony Cook",
           "email": "anthony.cook@ovo.com",
           "role": "Business Planning Manager",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent"
+          "roleGroup": "Agile Delivery",
+          "contractType": "Permanent"
         },
         {
           "name": "Jack Whelan",
           "email": "jack.whelan@ovo.com",
           "role": "Head of Business Planning",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent"
+          "roleGroup": "Agile Delivery",
+          "contractType": "Permanent"
         },
         {
           "name": "Julie Jack",
           "email": "julie-ann.jack@ovo.com",
           "role": "Business Planning Manager",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent"
+          "roleGroup": "Agile Delivery",
+          "contractType": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Vacancy"
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Vacancy"
         }
       ]
     },
@@ -94,36 +94,36 @@
           "name": "Ellen Chalonstone",
           "email": "ellen.chalonstone@ovo.com",
           "role": "Change Readiness Manager",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent"
+          "roleGroup": "Agile Delivery",
+          "contractType": "Permanent"
         },
         {
           "name": "Louisa Rogers",
           "email": "louisa.rogers@ovo.com",
           "role": "Change Manager",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent"
+          "roleGroup": "Agile Delivery",
+          "contractType": "Permanent"
         },
         {
           "name": "Phil Turbitt",
           "email": "phil.turbitt@ovo.com",
           "role": "BA",
-          "role_group": "BA",
-          "contract_type": "Permanent"
+          "roleGroup": "BA",
+          "contractType": "Permanent"
         },
         {
           "name": "Tom Williams",
           "email": "tom.williams1@ovo.com",
           "role": "Principal Project Manager",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent"
+          "roleGroup": "Agile Delivery",
+          "contractType": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Vacancy"
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Vacancy"
         }
       ]
     },
@@ -134,22 +134,22 @@
           "name": "Catherine Cetera",
           "email": "catherine.cetera@ovo.com",
           "role": "Delivery Lead",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent"
+          "roleGroup": "Agile Delivery",
+          "contractType": "Permanent"
         },
         {
           "name": "Renae Hudson",
           "email": "renae.hudson@ovo.com",
           "role": "Principal Project Manager",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent"
+          "roleGroup": "Agile Delivery",
+          "contractType": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Vacancy"
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Vacancy"
         }
       ]
     },
@@ -160,72 +160,72 @@
           "name": "Ben Palmer",
           "email": "ben.palmer@ovo.com",
           "role": "Senior Project Manager",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent"
+          "roleGroup": "Agile Delivery",
+          "contractType": "Permanent"
         },
         {
           "name": "Chris Butterfield",
           "email": "chris.butterfield@ovo.com",
           "role": "Change Manager",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent"
+          "roleGroup": "Agile Delivery",
+          "contractType": "Permanent"
         },
         {
           "name": "Claire Smith",
           "email": "claire.smith@ovo.com",
           "role": "Lead Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent"
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
         },
         {
           "name": "James Amos",
           "email": "james.amos@ovo.com",
           "role": "BA",
-          "role_group": "BA",
-          "contract_type": "Permanent"
+          "roleGroup": "BA",
+          "contractType": "Permanent"
         },
         {
           "name": "Katie Arcari",
           "email": "katie.m.odonnell@ovo.com",
           "role": "Change Manager",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent"
+          "roleGroup": "Agile Delivery",
+          "contractType": "Permanent"
         },
         {
           "name": "Kimberley Dowie",
           "email": "kimberley.dowie@ovo.com",
           "role": "BA",
-          "role_group": "BA",
-          "contract_type": "Permanent"
+          "roleGroup": "BA",
+          "contractType": "Permanent"
         },
         {
           "name": "Logesh Bhoopathi",
           "email": "logesh.bhoopathi@ovo.com",
           "role": "Defect Manager",
-          "role_group": "Agile Delivery",
-          "contract_type": "3rd Party Partner",
+          "roleGroup": "Agile Delivery",
+          "contractType": "3rd Party Partner",
           "supplier": "Leading Resolutions Ltd"
         },
         {
           "name": "Lucy Miles",
           "email": "lucy.miles@ovo.com",
           "role": "Senior BA",
-          "role_group": "BA",
-          "contract_type": "Permanent"
+          "roleGroup": "BA",
+          "contractType": "Permanent"
         },
         {
           "name": "Mark Saunders",
           "email": "mark.saunders@ovo.com",
           "role": "Delivery Lead",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent"
+          "roleGroup": "Agile Delivery",
+          "contractType": "Permanent"
         },
         {
           "name": "Simon Lewis",
           "email": "simon.lewis@ovo.com",
           "role": "Architect",
-          "role_group": "Engineering",
-          "contract_type": "Permanent",
+          "roleGroup": "Engineering",
+          "contractType": "Permanent",
           "careerSkillset": [
             "Other"
           ],
@@ -247,30 +247,30 @@
           "name": "Stuart Jones",
           "email": "stuart.jones5@ovo.com",
           "role": "PMO Analyst",
-          "role_group": "Agile Delivery",
-          "contract_type": "3rd Party Partner",
+          "roleGroup": "Agile Delivery",
+          "contractType": "3rd Party Partner",
           "supplier": "Leading Resolutions Ltd"
         },
         {
           "name": "Tim Lee-Crouch",
           "email": "tim.lee-crouch@ovo.com",
           "role": "Delivery Manager",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent"
+          "roleGroup": "Agile Delivery",
+          "contractType": "Permanent"
         },
         {
           "name": "Tom Williams",
           "email": "tom.williams1@ovo.com",
           "role": "Principal Project Manager",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent"
+          "roleGroup": "Agile Delivery",
+          "contractType": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Vacancy"
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Vacancy"
         }
       ]
     },
@@ -281,15 +281,15 @@
           "name": "Lewis Townsend",
           "email": "lewis.townsend@ovo.com",
           "role": "Senior Project Manager",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent"
+          "roleGroup": "Agile Delivery",
+          "contractType": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Vacancy"
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Vacancy"
         }
       ]
     },
@@ -300,15 +300,15 @@
           "name": "Greg Henderson",
           "email": "greg.henderson@ovo.com",
           "role": "Senior Project Manager",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent"
+          "roleGroup": "Agile Delivery",
+          "contractType": "Permanent"
         },
         {
           "name": "Tom Williams",
           "email": "tom.williams1@ovo.com",
           "role": "Principal Project Manager",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent"
+          "roleGroup": "Agile Delivery",
+          "contractType": "Permanent"
         }
       ]
     }

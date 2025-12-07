@@ -24,15 +24,15 @@
           "name": "Anoop Vasant Kumar",
           "email": "anoop.vasantkumar@ovo.com",
           "role": "Data Engineer",
-          "role_group": "Data",
-          "contract_type": "Permanent"
+          "roleGroup": "Data",
+          "contractType": "Permanent"
         },
         {
           "name": "Ben Kidgell",
           "email": "ben.kidgell@ovo.com",
           "role": "Data Engineer",
-          "role_group": "Data",
-          "contract_type": "Permanent",
+          "roleGroup": "Data",
+          "contractType": "Permanent",
           "careerSkillset": [
             "Data stack"
           ],
@@ -52,8 +52,8 @@
           "name": "Gourav Jain",
           "email": "gourav.jain@ovo.com",
           "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent",
+          "roleGroup": "Engineering",
+          "contractType": "Permanent",
           "careerSkillset": [
             "Full stack"
           ],
@@ -78,29 +78,29 @@
           "name": "Hannah Trent",
           "email": "hannah.trent@ovo.com",
           "role": "Lead Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent"
+          "roleGroup": "Product Management",
+          "contractType": "Permanent"
         },
         {
           "name": "Paul Range",
           "email": "paul.range@ovo.com",
           "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent"
+          "roleGroup": "Delivery & Growth Lead",
+          "contractType": "Permanent"
         },
         {
           "name": "Simon Millington",
           "email": "simon.millington2@ovo.com",
           "role": "Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Permanent"
+          "roleGroup": "Agile Coach",
+          "contractType": "Permanent"
         },
         {
           "name": "Steven Beardwell",
           "email": "steven.beardwell@ovo.com",
           "role": "Data Scientist",
-          "role_group": "Data",
-          "contract_type": "Permanent",
+          "roleGroup": "Data",
+          "contractType": "Permanent",
           "careerSkillset": [
             "Data stack"
           ],
@@ -121,15 +121,15 @@
           "name": null,
           "email": null,
           "role": "BA",
-          "role_group": "BA",
-          "contract_type": "Vacancy"
+          "roleGroup": "BA",
+          "contractType": "Vacancy"
         },
         {
           "name": null,
           "email": null,
           "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent"
+          "roleGroup": "Engineering",
+          "contractType": "Permanent"
         }
       ]
     }

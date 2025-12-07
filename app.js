@@ -66,32 +66,71 @@ function sortPods() {
 }
 
 // Render a member card
-function renderMember(member) {
-    const contractClass = member.contract_type === 'Vacancy' ? 'vacancy' : 
-                        member.contract_type === '3rd Party Partner' ? 'third-party' : '';
+function renderMember(member, supporting = false) {
+    const contractClass = member.contractType === 'Vacancy' ? 'vacancy' : 
+                        member.contractType === '3rd Party Partner' ? 'third-party' : '';
     
     const supplierInfo = member.supplier ? 
         `<div class="member-supplier">Supplier: ${escapeHtml(member.supplier)}</div>` : '';
 
-    const skillsetHtml = member.skillset && member.skillset.length > 0 ? `
+    const onLeaveLabel = member.onLeave ? 
+        `<span class="member-on-leave">On Leave</span>` : '';
+
+    // Build skillset HTML grouped by type
+    const skillsetGroups = [];
+    
+    if (member.careerSkillset && member.careerSkillset.length > 0) {
+        skillsetGroups.push({
+            label: 'Career Skillset',
+            skills: member.careerSkillset
+        });
+    }
+    
+    if (member.teamSkillset && member.teamSkillset.length > 0) {
+        skillsetGroups.push({
+            label: 'Team Skillset',
+            skills: member.teamSkillset
+        });
+    }
+    
+    if (member.dailySkillset && member.dailySkillset.length > 0) {
+        skillsetGroups.push({
+            label: 'Daily Skillset',
+            skills: member.dailySkillset
+        });
+    }
+    
+    if (member.generalCompetencies && member.generalCompetencies.length > 0) {
+        skillsetGroups.push({
+            label: 'General Competencies',
+            skills: member.generalCompetencies
+        });
+    }
+    
+    const skillsetHtml = skillsetGroups.length > 0 ? `
         <div class="member-skillset">
-            <div class="skillset-label">Skills</div>
-            <div class="skills-list">
-                ${member.skillset.map(skill => 
-                    `<span class="skill-tag">${escapeHtml(skill)}</span>`
-                ).join('')}
-            </div>
+            ${skillsetGroups.map(group => `
+                <div class="skillset-group">
+                    <div class="skillset-group-label">${escapeHtml(group.label)}</div>
+                    <div class="skills-list">
+                        ${group.skills.map(skill => 
+                            `<span class="skill-tag">${escapeHtml(skill)}</span>`
+                        ).join('')}
+                    </div>
+                </div>
+            `).join('')}
         </div>
     ` : '';
 
     return `
-        <div class="member-card-inline">
+        <div class="member-card-inline ${supporting ? 'supporting-member' : ''}">
             <div class="member-name">${member.name ? escapeHtml(member.name) : '<em>Vacancy</em>'}</div>
             ${member.email ? `<div class="member-email">${escapeHtml(member.email)}</div>` : ''}
             <div>
                 <span class="member-role">${escapeHtml(member.role)}</span>
-                <span class="member-role-group">${escapeHtml(member.role_group)}</span>
-                <span class="member-contract ${contractClass}">${escapeHtml(member.contract_type)}</span>
+                <span class="member-role-group">${escapeHtml(member.roleGroup)}</span>
+                <span class="member-contract ${contractClass}">${escapeHtml(member.contractType)}</span>
+                ${onLeaveLabel}
             </div>
             ${supplierInfo}
             ${skillsetHtml}
@@ -111,9 +150,34 @@ function renderPods() {
     podList.innerHTML = allPods.map(pod => {
         const teamCount = pod.teams?.length || 0;
         const leadership = pod.leadership?.join(', ') || 'None specified';
+        
+        // Calculate distinct individuals across all teams in the pod
+        const uniqueIndividuals = new Set();
+        const uniqueVacancies = new Set();
+        (pod.teams || []).forEach(team => {
+            (team.members || []).forEach(member => {
+                // Use email as primary identifier, fall back to name
+                const identifier = member.email || member.name;
+                if (identifier) {
+                    uniqueIndividuals.add(identifier.toLowerCase());
+                }
+                // Count distinct vacancies by role and roleGroup
+                if (member.contractType === 'Vacancy') {
+                    const vacancyKey = `${member.role || ''}-${member.roleGroup || ''}`.toLowerCase();
+                    if (vacancyKey.trim()) {
+                        uniqueVacancies.add(vacancyKey);
+                    }
+                }
+            });
+        });
+        const distinctCount = uniqueIndividuals.size;
+        const distinctVacancyCount = uniqueVacancies.size;
+        
         const allTeams = (pod.teams || []).map((team, teamIndex) => {
             const members = team.members || [];
-            const membersHtml = members.map(member => renderMember(member)).join('');
+            const supporting = team.supporting || [];
+            const membersHtml = members.map(member => renderMember(member, false)).join('');
+            const supportingHtml = supporting.length > 0 ? supporting.map(member => renderMember(member, true)).join('') : '';
             const teamId = `team-${pod.name.replace(/\s+/g, '-').toLowerCase()}-${teamIndex}`;
             return `
                 <div class="team-section">
@@ -121,11 +185,20 @@ function renderPods() {
                         <div class="team-name">${escapeHtml(team.name)}</div>
                         <div style="display: flex; align-items: center; gap: 10px;">
                             <div class="team-members-count">${members.length} member${members.length !== 1 ? 's' : ''}</div>
+                            ${supporting.length > 0 ? `<div class="team-supporting-count">${supporting.length} supporting</div>` : ''}
                             <span class="collapse-icon" id="icon-${teamId}">▼</span>
                         </div>
                     </div>
                     <div class="team-members-list collapsed" id="${teamId}">
                         ${membersHtml}
+                        ${supporting.length > 0 ? `
+                            <div class="supporting-members-section">
+                                <div class="supporting-members-label">Supporting</div>
+                                <div class="supporting-members-list">
+                                    ${supportingHtml}
+                                </div>
+                            </div>
+                        ` : ''}
                     </div>
                 </div>
             `;
@@ -146,6 +219,8 @@ function renderPods() {
                     <div class="pod-name">${escapeHtml(pod.name)}</div>
                     <div style="display: flex; align-items: center; gap: 15px;">
                         <div class="team-count">${teamCount} teams</div>
+                        <div class="individuals-count">${distinctCount} individual${distinctCount !== 1 ? 's' : ''}</div>
+                        <div class="vacancy-count">${distinctVacancyCount} ${distinctVacancyCount === 1 ? 'vacancy' : 'vacancies'}</div>
                         ${solutions.length > 0 ? `<div class="solution-count">${solutions.length} solution${solutions.length !== 1 ? 's' : ''}</div>` : ''}
                         <span class="collapse-icon" id="icon-${podId}">▼</span>
                     </div>
@@ -156,12 +231,16 @@ function renderPods() {
                         <div class="leadership-names">${escapeHtml(leadership)}</div>
                     </div>
                     <div class="solutions-section">
-                        <div class="solutions-label">Solutions</div>
-                        <div class="solutions-list">
+                        <div class="solutions-header" onclick="toggleSolutions('${podId}-solutions')">
+                            <div class="solutions-label">Solutions</div>
+                            <span class="collapse-icon" id="icon-${podId}-solutions">▼</span>
+                        </div>
+                        <div class="solutions-list collapsed" id="${podId}-solutions">
                             ${solutionsHtml}
                         </div>
                     </div>
                     <div class="teams-preview">
+                        <div class="teams-label">Teams</div>
                         ${allTeams}
                     </div>
                 </div>
@@ -185,20 +264,55 @@ function showTeamDetails(podName, teamName) {
 
     const members = team.members || [];
     const membersHtml = members.map(member => {
-        const contractClass = member.contract_type === 'Vacancy' ? 'vacancy' : 
-                            member.contract_type === '3rd Party Partner' ? 'third-party' : '';
+        const contractClass = member.contractType === 'Vacancy' ? 'vacancy' : 
+                            member.contractType === '3rd Party Partner' ? 'third-party' : '';
         
         const supplierInfo = member.supplier ? 
             `<div class="member-supplier">Supplier: ${escapeHtml(member.supplier)}</div>` : '';
 
-        const skillsetHtml = member.skillset && member.skillset.length > 0 ? `
+        // Build skillset HTML grouped by type
+        const skillsetGroups = [];
+        
+        if (member.careerSkillset && member.careerSkillset.length > 0) {
+            skillsetGroups.push({
+                label: 'Career Skillset',
+                skills: member.careerSkillset
+            });
+        }
+        
+        if (member.teamSkillset && member.teamSkillset.length > 0) {
+            skillsetGroups.push({
+                label: 'Team Skillset',
+                skills: member.teamSkillset
+            });
+        }
+        
+        if (member.dailySkillset && member.dailySkillset.length > 0) {
+            skillsetGroups.push({
+                label: 'Daily Skillset',
+                skills: member.dailySkillset
+            });
+        }
+        
+        if (member.generalCompetencies && member.generalCompetencies.length > 0) {
+            skillsetGroups.push({
+                label: 'General Competencies',
+                skills: member.generalCompetencies
+            });
+        }
+        
+        const skillsetHtml = skillsetGroups.length > 0 ? `
             <div class="member-skillset">
-                <div class="skillset-label">Skills</div>
-                <div class="skills-list">
-                    ${member.skillset.map(skill => 
-                        `<span class="skill-tag">${escapeHtml(skill)}</span>`
-                    ).join('')}
-                </div>
+                ${skillsetGroups.map(group => `
+                    <div class="skillset-group">
+                        <div class="skillset-group-label">${escapeHtml(group.label)}</div>
+                        <div class="skills-list">
+                            ${group.skills.map(skill => 
+                                `<span class="skill-tag">${escapeHtml(skill)}</span>`
+                            ).join('')}
+                        </div>
+                    </div>
+                `).join('')}
             </div>
         ` : '';
 
@@ -208,8 +322,8 @@ function showTeamDetails(podName, teamName) {
                 ${member.email ? `<div class="member-email">${escapeHtml(member.email)}</div>` : ''}
                 <div>
                     <span class="member-role">${escapeHtml(member.role)}</span>
-                    <span class="member-role-group">${escapeHtml(member.role_group)}</span>
-                    <span class="member-contract ${contractClass}">${escapeHtml(member.contract_type)}</span>
+                    <span class="member-role-group">${escapeHtml(member.roleGroup)}</span>
+                    <span class="member-contract ${contractClass}">${escapeHtml(member.contractType)}</span>
                 </div>
                 ${supplierInfo}
                 ${skillsetHtml}
@@ -258,6 +372,20 @@ function togglePod(podId) {
 function toggleTeam(teamId) {
     const content = document.getElementById(teamId);
     const icon = document.getElementById(`icon-${teamId}`);
+    
+    if (content.classList.contains('collapsed')) {
+        content.classList.remove('collapsed');
+        icon.textContent = '▲';
+    } else {
+        content.classList.add('collapsed');
+        icon.textContent = '▼';
+    }
+}
+
+// Toggle solutions collapse/expand
+function toggleSolutions(solutionsId) {
+    const content = document.getElementById(solutionsId);
+    const icon = document.getElementById(`icon-${solutionsId}`);
     
     if (content.classList.contains('collapsed')) {
         content.classList.remove('collapsed');

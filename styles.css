@@ -6,7 +6,7 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: #0D8426;
     min-height: 100vh;
     padding: 20px;
     color: #333;
@@ -174,20 +174,30 @@ header h1 {
     font-size: 0.9em;
 }
 
-.leadership {
-    margin-bottom: 15px;
+.individuals-count {
+    background: #17a2b8;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.9em;
 }
 
-.leadership-label {
-    font-size: 0.85em;
-    color: #999;
-    text-transform: uppercase;
-    margin-bottom: 5px;
+.vacancy-count {
+    background: #ffc107;
+    color: #fff;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.9em;
+}
+
+.leadership {
+    margin-bottom: 15px;
 }
 
 .leadership-names {
     font-size: 0.95em;
     color: #666;
+    padding: 0px 12px;
 }
 
 .solutions-section {
@@ -197,17 +207,41 @@ header h1 {
     border-top: 1px solid #e0e0e0;
 }
 
-.solutions-label {
+.solutions-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.leadership-label,
+.solutions-label,
+.teams-label {
     font-size: 0.85em;
-    color: #999;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    display: inline-block;
 }
 
 .solutions-list {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out, padding 0.3s ease-out, margin 0.3s ease-out;
+    max-height: 10000px;
+    opacity: 1;
+    padding-top: 0;
+}
+
+.solutions-list.collapsed {
+    max-height: 0;
+    opacity: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .solution-item {
@@ -238,7 +272,7 @@ header h1 {
 }
 
 .solution-count {
-    background: #28a745;
+    background: #922eb4;
     color: white;
     padding: 5px 12px;
     border-radius: 20px;
@@ -292,6 +326,11 @@ header h1 {
     color: #666;
 }
 
+.team-supporting-count {
+    font-size: 0.85em;
+    color: #666;
+}
+
 .team-members-list {
     display: flex;
     flex-direction: column;
@@ -310,6 +349,32 @@ header h1 {
     padding-bottom: 0;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.supporting-members-section {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px dashed #ccc;
+}
+
+.supporting-members-label {
+    font-size: 0.85em;
+    color: #999;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.supporting-members-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.member-card-inline.supporting-member {
+    border-left-color: #ffc107;
+    background: #fffbf0;
+    opacity: 0.9;
 }
 
 .member-card-inline {
@@ -432,6 +497,16 @@ header h1 {
     background: #17a2b8;
 }
 
+.member-on-leave {
+    display: inline-block;
+    background: #dc3545;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    margin: 5px 5px 5px 0;
+}
+
 .member-supplier {
     font-size: 0.85em;
     color: #666;
@@ -443,6 +518,23 @@ header h1 {
     margin-top: 15px;
     padding-top: 15px;
     border-top: 1px solid #e0e0e0;
+}
+
+.skillset-group {
+    margin-bottom: 12px;
+}
+
+.skillset-group:last-child {
+    margin-bottom: 0;
+}
+
+.skillset-group-label {
+    font-size: 0.75em;
+    color: #667eea;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    letter-spacing: 0.5px;
 }
 
 .skillset-label {

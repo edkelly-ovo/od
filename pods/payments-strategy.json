@@ -12,36 +12,36 @@
           "name": "Ben Orgill",
           "email": "ben.orgill@ovo.com",
           "role": "Interim Head of Payments Services",
-          "role_group": "Other",
-          "contract_type": "Permanent"
+          "roleGroup": "Other",
+          "contractType": "Permanent"
         },
         {
           "name": "Daniel Lewis",
           "email": "daniel.lewis2@ovo.com",
           "role": "Senior Fraud Investigator",
-          "role_group": "Other",
-          "contract_type": "Permanent"
+          "roleGroup": "Other",
+          "contractType": "Permanent"
         },
         {
           "name": "Emma Costa",
           "email": "emma.costa@ovo.com",
           "role": "Fraud Lead",
-          "role_group": "Other",
-          "contract_type": "Permanent"
+          "roleGroup": "Other",
+          "contractType": "Permanent"
         },
         {
           "name": "Maria Massini",
           "email": "maria.massini@ovo.com",
           "role": "Payment Strategy - Senior Analyst",
-          "role_group": "Other",
-          "contract_type": "Permanent"
+          "roleGroup": "Other",
+          "contractType": "Permanent"
         },
         {
           "name": "Natasha Hill",
           "email": "natasha.hill@ovo.com",
           "role": "Payments and Partnerships Manager",
-          "role_group": "Other",
-          "contract_type": "Permanent"
+          "roleGroup": "Other",
+          "contractType": "Permanent"
         }
       ]
     }
