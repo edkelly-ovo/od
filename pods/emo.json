@@ -261,12 +261,14 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "The RAD Consulting Group Ltd",
+          "supplier": "Radically Digital",
           "careerSkillset": [
-            "Backend"
+            "Backend",
+            "Other"
           ],
           "teamSkillset": [
-            "Backend"
+            "Backend",
+            "Other"
           ],
           "dailySkillset": [
             "Scala",

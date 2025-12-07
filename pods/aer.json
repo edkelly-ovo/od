@@ -129,7 +129,7 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "Createq AG (formerly NSM Engineering AG)",
+          "supplier": "Createq",
           "careerSkillset": [
             "Backend"
           ],
@@ -276,7 +276,21 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": null
+          "supplier": "Createq",
+          "careerSkillset": [
+            "Backend"
+          ],
+          "teamSkillset": [
+            "Backend"
+          ],
+          "dailySkillset": [
+            "Scala",
+            "Python"
+          ],
+          "generalCompetencies": [
+            "Scala",
+            "Python"
+          ]
         },
         {
           "name": "Pete McLean",
@@ -444,7 +458,7 @@
           "role": "BA",
           "role_group": "BA",
           "contract_type": "3rd Party Partner",
-          "supplier": "John Nixon Ltd t/a Nixon Hire"
+          "supplier": "Createq"
         },
         {
           "name": "Daniel McCaughan",
@@ -530,7 +544,7 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "John Nixon Ltd t/a Nixon Hire"
+          "supplier": "N-IX Ltd"
         },
         {
           "name": "Andrii Koiliak",
@@ -538,7 +552,7 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "John Nixon Ltd t/a Nixon Hire"
+          "supplier": "N-IX Ltd"
         },
         {
           "name": "Nuno Azevedo",
@@ -725,13 +739,24 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "Createq AG (formerly NSM Engineering AG)",
+          "supplier": "Createq",
           "generalCompetencies": [
             "Full stack (BE+Web)",
             "Full stack",
             "React",
             "TypeScript/JavaScript/Node.js",
-            "Terraform/HCL"
+            "Terraform/HCL",
+            ".NET"
+          ],
+          "careerSkillset": [
+            "Frontend"
+          ],
+          "teamSkillset": [
+            "Frontend"
+          ],
+          "dailySkillset": [
+            "TypeScript/JavaScript/Node.js",
+            ".NET"
           ]
         },
         {
@@ -776,7 +801,19 @@
           "role": "QA",
           "role_group": "QA",
           "contract_type": "3rd Party Partner",
-          "supplier": null
+          "supplier": "Createq",
+          "careerSkillset": [
+            "QA"
+          ],
+          "teamSkillset": [
+            "QA"
+          ],
+          "dailySkillset": [
+            "TypeScript/JavaScript/Node.js"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js"
+          ]
         },
         {
           "name": "Ionut Balan",

@@ -16,7 +16,19 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "N-IX Ltd"
+          "supplier": "N-IX Ltd",
+          "careerSkillset": [
+            "Other"
+          ],
+          "teamSkillset": [
+            "Other"
+          ],
+          "dailySkillset": [
+            ".NET"
+          ],
+          "generalCompetencies": [
+            ".NET"
+          ]
         },
         {
           "name": "James Clarke",
@@ -31,7 +43,7 @@
           "role": "QA",
           "role_group": "QA",
           "contract_type": "3rd Party Partner",
-          "supplier": "John Nixon Ltd t/a Nixon Hire"
+          "supplier": "N-IX Ltd"
         },
         {
           "name": "William Howard",
@@ -177,7 +189,19 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "N-IX Ltd"
+          "supplier": "N-IX Ltd",
+          "careerSkillset": [
+            "Other"
+          ],
+          "teamSkillset": [
+            "Other"
+          ],
+          "dailySkillset": [
+            ".NET"
+          ],
+          "generalCompetencies": [
+            ".NET"
+          ]
         },
         {
           "name": "Darina Kulish",
@@ -185,7 +209,19 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "N-IX Ltd"
+          "supplier": "N-IX Ltd",
+          "careerSkillset": [
+            "Other"
+          ],
+          "teamSkillset": [
+            "Other"
+          ],
+          "dailySkillset": [
+            ".NET"
+          ],
+          "generalCompetencies": [
+            ".NET"
+          ]
         },
         {
           "name": "Vitaliy Khudenko",
@@ -193,7 +229,19 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "John Nixon Ltd t/a Nixon Hire"
+          "supplier": "N-IX Ltd",
+          "careerSkillset": [
+            "Other"
+          ],
+          "teamSkillset": [
+            "Other"
+          ],
+          "dailySkillset": [
+            ".NET"
+          ],
+          "generalCompetencies": [
+            ".NET"
+          ]
         },
         {
           "name": "Yevhen Lukomskyi",
@@ -201,12 +249,14 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "John Nixon Ltd t/a Nixon Hire",
+          "supplier": "N-IX Ltd",
           "careerSkillset": [
-            "Backend"
+            "Backend",
+            "Other"
           ],
           "teamSkillset": [
-            "Backend"
+            "Backend",
+            "Other"
           ],
           "dailySkillset": [
             ".NET",
@@ -340,10 +390,12 @@
           "contract_type": "3rd Party Partner",
           "supplier": "N-IX Ltd",
           "careerSkillset": [
-            "Full stack"
+            "Full stack",
+            "Other"
           ],
           "teamSkillset": [
-            "Full stack"
+            "Full stack",
+            "Other"
           ],
           "dailySkillset": [
             ".NET",
@@ -363,10 +415,12 @@
           "contract_type": "3rd Party Partner",
           "supplier": "N-IX Ltd",
           "careerSkillset": [
-            "Full stack"
+            "Full stack",
+            "Other"
           ],
           "teamSkillset": [
-            "Full stack"
+            "Full stack",
+            "Other"
           ],
           "dailySkillset": [
             ".NET",
@@ -388,7 +442,19 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "N-IX Ltd"
+          "supplier": "N-IX Ltd",
+          "careerSkillset": [
+            "Other"
+          ],
+          "teamSkillset": [
+            "Other"
+          ],
+          "dailySkillset": [
+            ".NET"
+          ],
+          "generalCompetencies": [
+            ".NET"
+          ]
         },
         {
           "name": "Volodymyr Zahakailo",
@@ -486,10 +552,12 @@
           "contract_type": "3rd Party Partner",
           "supplier": "N-IX Ltd",
           "careerSkillset": [
-            "Full stack"
+            "Full stack",
+            "Other"
           ],
           "teamSkillset": [
-            "Full stack"
+            "Full stack",
+            "Other"
           ],
           "dailySkillset": [
             ".NET",
@@ -716,7 +784,19 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "John Nixon Ltd t/a Nixon Hire"
+          "supplier": "N-IX Ltd",
+          "careerSkillset": [
+            "Other"
+          ],
+          "teamSkillset": [
+            "Other"
+          ],
+          "dailySkillset": [
+            ".NET"
+          ],
+          "generalCompetencies": [
+            ".NET"
+          ]
         },
         {
           "name": "Vitalii Mohola",
@@ -883,10 +963,12 @@
           "contract_type": "3rd Party Partner",
           "supplier": "N-IX Ltd",
           "careerSkillset": [
-            "Manual testing"
+            "Manual testing",
+            "QA"
           ],
           "teamSkillset": [
-            "Manual testing"
+            "Manual testing",
+            "QA"
           ],
           "dailySkillset": [
             "TypeScript/JavaScript/Node.js"
@@ -903,10 +985,12 @@
           "contract_type": "3rd Party Partner",
           "supplier": "N-IX Ltd",
           "careerSkillset": [
-            "Automated testing"
+            "Automated testing",
+            "QA"
           ],
           "teamSkillset": [
-            "Automated testing"
+            "Automated testing",
+            "QA"
           ],
           "dailySkillset": [
             "TypeScript/JavaScript/Node.js",

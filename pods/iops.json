@@ -27,15 +27,18 @@
           "contract_type": "3rd Party Partner",
           "supplier": "Techpods",
           "careerSkillset": [
-            "Backend"
+            "Backend",
+            "Other"
           ],
           "teamSkillset": [
-            "Backend"
+            "Backend",
+            "Other"
           ],
           "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
             "Kotlin",
-            "Terraform/HCL"
+            "Terraform/HCL",
+            "Java"
           ],
           "generalCompetencies": [
             "Java",
@@ -50,14 +53,18 @@
           "contract_type": "3rd Party Partner",
           "supplier": "Techpods",
           "careerSkillset": [
-            "Backend"
+            "Backend",
+            "Other"
           ],
           "teamSkillset": [
-            "Backend"
+            "Backend",
+            "Other"
           ],
           "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
-            "Terraform/HCL"
+            "Terraform/HCL",
+            "Kotlin",
+            "Java"
           ],
           "generalCompetencies": [
             "TypeScript/JavaScript/Node.js",
@@ -75,18 +82,25 @@
           "contract_type": "3rd Party Partner",
           "supplier": "Techpods",
           "careerSkillset": [
-            "Backend"
+            "Backend",
+            "Other"
           ],
           "teamSkillset": [
-            "Backend"
+            "Backend",
+            "Other"
           ],
           "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
-            "Terraform/HCL"
+            "Terraform/HCL",
+            "Kotlin",
+            "Java",
+            "AWS"
           ],
           "generalCompetencies": [
             "Java",
-            "Kotlin"
+            "Kotlin",
+            "Terraform/HCL",
+            "AWS"
           ]
         },
         {
@@ -167,7 +181,23 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "Techpods"
+          "supplier": "Techpods",
+          "careerSkillset": [
+            "Frontend"
+          ],
+          "teamSkillset": [
+            "Frontend"
+          ],
+          "dailySkillset": [
+            "React",
+            "Kotlin",
+            "Java"
+          ],
+          "generalCompetencies": [
+            "React",
+            "Kotlin",
+            "Java"
+          ]
         },
         {
           "name": "Todor Pashkulov",
@@ -177,21 +207,26 @@
           "contract_type": "3rd Party Partner",
           "supplier": "Techpods",
           "careerSkillset": [
-            "Backend"
+            "Backend",
+            "Other"
           ],
           "teamSkillset": [
-            "Backend"
+            "Backend",
+            "Other"
           ],
           "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
             "Kotlin",
-            "Terraform/HCL"
+            "Terraform/HCL",
+            "Java",
+            "AWS"
           ],
           "generalCompetencies": [
             "TypeScript/JavaScript/Node.js",
             "Java",
             "Kotlin",
-            "Terraform/HCL"
+            "Terraform/HCL",
+            "AWS"
           ]
         },
         {
@@ -200,12 +235,14 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "Createq AG (formerly NSM Engineering AG)",
+          "supplier": "Createq",
           "careerSkillset": [
-            "Backend"
+            "Backend",
+            "Other"
           ],
           "teamSkillset": [
-            "Data stack"
+            "Data stack",
+            "Other"
           ],
           "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
@@ -304,10 +341,12 @@
           "contract_type": "3rd Party Partner",
           "supplier": "N-IX Ltd",
           "careerSkillset": [
-            "Full stack"
+            "Full stack",
+            "Other"
           ],
           "teamSkillset": [
-            "Infrastructure"
+            "Infrastructure",
+            "Other"
           ],
           "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
@@ -339,10 +378,12 @@
           "contract_type": "3rd Party Partner",
           "supplier": "N-IX Ltd",
           "careerSkillset": [
-            "Full stack"
+            "Full stack",
+            "Other"
           ],
           "teamSkillset": [
-            "Full stack"
+            "Full stack",
+            "Other"
           ],
           "dailySkillset": [
             "Terraform/HCL",
@@ -454,7 +495,21 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "Techpods"
+          "supplier": "Techpods",
+          "careerSkillset": [
+            "Other"
+          ],
+          "teamSkillset": [
+            "Other"
+          ],
+          "dailySkillset": [
+            "Kotlin",
+            "Java"
+          ],
+          "generalCompetencies": [
+            "Kotlin",
+            "Java"
+          ]
         },
         {
           "name": "Martin Yanev",
@@ -462,7 +517,19 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "Techpods"
+          "supplier": "Techpods",
+          "careerSkillset": [
+            "Frontend"
+          ],
+          "teamSkillset": [
+            "Frontend"
+          ],
+          "dailySkillset": [
+            "React"
+          ],
+          "generalCompetencies": [
+            "React"
+          ]
         },
         {
           "name": "Ivan Iliev",
@@ -470,7 +537,21 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "Techpods"
+          "supplier": "Techpods",
+          "careerSkillset": [
+            "Other"
+          ],
+          "teamSkillset": [
+            "Other"
+          ],
+          "dailySkillset": [
+            "Kotlin",
+            "Python"
+          ],
+          "generalCompetencies": [
+            "Kotlin",
+            "Python"
+          ]
         },
         {
           "name": "Richard Tiffin",

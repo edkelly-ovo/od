@@ -173,7 +173,21 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "Techpods"
+          "supplier": "Techpods",
+          "careerSkillset": [
+            "Other"
+          ],
+          "teamSkillset": [
+            "Other"
+          ],
+          "dailySkillset": [
+            "TypeScript/JavaScript/Node.js",
+            "Terraform/HCL"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
+            "Terraform/HCL"
+          ]
         },
         {
           "name": "Ritesh Das",
@@ -313,10 +327,12 @@
           "contract_type": "3rd Party Partner",
           "supplier": "Techpods",
           "careerSkillset": [
-            "Full stack"
+            "Full stack",
+            "Other"
           ],
           "teamSkillset": [
-            "Full stack"
+            "Full stack",
+            "Other"
           ],
           "dailySkillset": [
             "TypeScript/JavaScript/Node.js",

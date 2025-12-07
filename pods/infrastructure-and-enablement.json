@@ -659,7 +659,19 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "John Nixon Ltd t/a Nixon Hire"
+          "supplier": "N-IX Ltd",
+          "careerSkillset": [
+            "Platform"
+          ],
+          "teamSkillset": [
+            "Platform"
+          ],
+          "dailySkillset": [
+            "AWS"
+          ],
+          "generalCompetencies": [
+            "AWS"
+          ]
         },
         {
           "name": "Oleksiy Korzhov",
@@ -667,19 +679,23 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "John Nixon Ltd t/a Nixon Hire",
+          "supplier": "N-IX Ltd",
           "careerSkillset": [
-            "Infrastructure"
+            "Infrastructure",
+            "Platform"
           ],
           "teamSkillset": [
-            "Infrastructure"
+            "Infrastructure",
+            "Platform"
           ],
           "dailySkillset": [
             "Terraform/HCL",
-            "Python"
+            "Python",
+            "AWS"
           ],
           "generalCompetencies": [
-            "Terraform/HCL"
+            "Terraform/HCL",
+            "AWS"
           ]
         },
         {

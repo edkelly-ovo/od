@@ -196,7 +196,7 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": null,
+          "supplier": "Createq",
           "careerSkillset": [
             "Mobile/Web"
           ],
@@ -291,7 +291,7 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "John Nixon Ltd t/a Nixon Hire"
+          "supplier": "N-IX Ltd"
         },
         {
           "name": "Glenise Netang",
@@ -369,7 +369,7 @@
           "role": "QA",
           "role_group": "QA",
           "contract_type": "3rd Party Partner",
-          "supplier": "John Nixon Ltd t/a Nixon Hire"
+          "supplier": "N-IX Ltd"
         },
         {
           "name": null,
@@ -558,7 +558,7 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "Createq AG (formerly NSM Engineering AG)",
+          "supplier": "Createq",
           "generalCompetencies": [
             "Offered to Sagar Suri"
           ]

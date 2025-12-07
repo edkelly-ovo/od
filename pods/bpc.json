@@ -136,7 +136,7 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "Infosys Ltd"
+          "supplier": "Infosys"
         },
         {
           "name": "Hanane Chergui",
@@ -144,7 +144,7 @@
           "role": "BA",
           "role_group": "BA",
           "contract_type": "3rd Party Partner",
-          "supplier": "Infosys Ltd"
+          "supplier": "Infosys"
         },
         {
           "name": "Aidan Walker",
@@ -1089,10 +1089,12 @@
           "contract_type": "3rd Party Partner",
           "supplier": "Techpods",
           "careerSkillset": [
-            "Data stack"
+            "Data stack",
+            "Other"
           ],
           "teamSkillset": [
-            "Data stack"
+            "Data stack",
+            "Other"
           ],
           "dailySkillset": [
             "Terraform/HCL",
@@ -1111,7 +1113,19 @@
           "role": "Data Engineer",
           "role_group": "Data",
           "contract_type": "3rd Party Partner",
-          "supplier": "Techpods"
+          "supplier": "Techpods",
+          "careerSkillset": [
+            "Other"
+          ],
+          "teamSkillset": [
+            "Other"
+          ],
+          "dailySkillset": [
+            "SQL"
+          ],
+          "generalCompetencies": [
+            "SQL"
+          ]
         },
         {
           "name": "Paulius Milmantas",
@@ -1672,12 +1686,14 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "Irysan Ltd",
+          "supplier": "Irysan",
           "careerSkillset": [
-            "Backend"
+            "Backend",
+            "Other"
           ],
           "teamSkillset": [
-            "Backend"
+            "Backend",
+            "Other"
           ],
           "dailySkillset": [
             "Scala",
@@ -1693,7 +1709,19 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "Irysan Ltd"
+          "supplier": "Irysan",
+          "careerSkillset": [
+            "Other"
+          ],
+          "teamSkillset": [
+            "Other"
+          ],
+          "dailySkillset": [
+            "Scala"
+          ],
+          "generalCompetencies": [
+            "Scala"
+          ]
         },
         {
           "name": "Suresh Mandalapu",
@@ -1701,7 +1729,19 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "Oliver Bernard Ltd"
+          "supplier": "Radically Digital",
+          "careerSkillset": [
+            "Other"
+          ],
+          "teamSkillset": [
+            "Other"
+          ],
+          "dailySkillset": [
+            "Scala"
+          ],
+          "generalCompetencies": [
+            "Scala"
+          ]
         }
       ]
     },
@@ -1879,7 +1919,7 @@
           "role": "QA",
           "role_group": "QA",
           "contract_type": "3rd Party Partner",
-          "supplier": "Createq AG (formerly NSM Engineering AG)",
+          "supplier": "Createq",
           "careerSkillset": [
             "Automated testing"
           ],
@@ -2232,7 +2272,7 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": null
+          "supplier": "Radically Digital"
         },
         {
           "name": "Dominic Tunstill",
@@ -2240,7 +2280,21 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "The RAD Consulting Group Ltd"
+          "supplier": "Radically Digital",
+          "careerSkillset": [
+            "Other"
+          ],
+          "teamSkillset": [
+            "Other"
+          ],
+          "dailySkillset": [
+            "TypeScript/JavaScript/Node.js",
+            "Terraform/HCL"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
+            "Terraform/HCL"
+          ]
         },
         {
           "name": null,
@@ -2390,7 +2444,19 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": null
+          "supplier": "Radically Digital",
+          "careerSkillset": [
+            "Other"
+          ],
+          "teamSkillset": [
+            "Other"
+          ],
+          "dailySkillset": [
+            "Scala"
+          ],
+          "generalCompetencies": [
+            "Scala"
+          ]
         },
         {
           "name": "Rana Nasir",
@@ -2398,7 +2464,19 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": null
+          "supplier": "Radically Digital",
+          "careerSkillset": [
+            "Other"
+          ],
+          "teamSkillset": [
+            "Other"
+          ],
+          "dailySkillset": [
+            "Scala"
+          ],
+          "generalCompetencies": [
+            "Scala"
+          ]
         },
         {
           "name": "Ezio Intravaia",
@@ -2406,7 +2484,20 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": null
+          "supplier": "Radically Digital",
+          "careerSkillset": [
+            "Other"
+          ],
+          "teamSkillset": [
+            "Other"
+          ],
+          "dailySkillset": [
+            "Scala"
+          ],
+          "generalCompetencies": [
+            "Scala"
+          ],
+          "onLeave": true
         },
         {
           "name": "Slav Tomov",
@@ -2414,7 +2505,7 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": null
+          "supplier": "Droxic"
         }
       ]
     }

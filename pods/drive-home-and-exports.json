@@ -18,22 +18,26 @@
           "role": "Senior Infrastructure Engineer",
           "role_group": "I&E",
           "contract_type": "3rd Party Partner",
-          "supplier": "Irysan Ltd",
+          "supplier": "Irysan",
           "careerSkillset": [
-            "Infrastructure"
+            "Infrastructure",
+            "Other"
           ],
           "teamSkillset": [
-            "Infrastructure"
+            "Infrastructure",
+            "Other"
           ],
           "dailySkillset": [
             "Terraform/HCL",
             "Python",
-            "Bash"
+            "Bash",
+            "TypeScript/JavaScript/Node.js"
           ],
           "generalCompetencies": [
             "Python",
             "Terraform/HCL",
-            "Bash"
+            "Bash",
+            "TypeScript/JavaScript/Node.js"
           ]
         },
         {
@@ -44,10 +48,12 @@
           "contract_type": "3rd Party Partner",
           "supplier": "Techpods",
           "careerSkillset": [
-            "Backend"
+            "Backend",
+            "Other"
           ],
           "teamSkillset": [
-            "Infrastructure"
+            "Infrastructure",
+            "Other"
           ],
           "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
@@ -65,7 +71,21 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "Techpods"
+          "supplier": "Techpods",
+          "careerSkillset": [
+            "Other"
+          ],
+          "teamSkillset": [
+            "Other"
+          ],
+          "dailySkillset": [
+            "TypeScript/JavaScript/Node.js",
+            "Terraform/HCL"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
+            "Terraform/HCL"
+          ]
         },
         {
           "name": null,
@@ -175,7 +195,7 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "Createq AG (formerly NSM Engineering AG)",
+          "supplier": "Createq",
           "generalCompetencies": [
             "Full stack (BE+Web)",
             "Full stack",
@@ -190,7 +210,7 @@
           "role": "BA",
           "role_group": "BA",
           "contract_type": "3rd Party Partner",
-          "supplier": "Createq AG (formerly NSM Engineering AG)"
+          "supplier": "Createq"
         },
         {
           "name": "Gabriel Hulubei",
@@ -198,7 +218,7 @@
           "role": "QA",
           "role_group": "QA",
           "contract_type": "3rd Party Partner",
-          "supplier": null
+          "supplier": "Createq"
         },
         {
           "name": "Paul Grosvenor",
@@ -325,7 +345,7 @@
           "role": "QA",
           "role_group": "QA",
           "contract_type": "3rd Party Partner",
-          "supplier": "Createq AG (formerly NSM Engineering AG)"
+          "supplier": "Createq"
         },
         {
           "name": "Oana Munteanu",
@@ -333,7 +353,7 @@
           "role": "BA",
           "role_group": "BA",
           "contract_type": "3rd Party Partner",
-          "supplier": "Createq AG (formerly NSM Engineering AG)"
+          "supplier": "Createq"
         },
         {
           "name": "Veljko Popovic",
@@ -444,10 +464,12 @@
           "contract_type": "3rd Party Partner",
           "supplier": "Techpods",
           "careerSkillset": [
-            "Full stack"
+            "Full stack",
+            "Other"
           ],
           "teamSkillset": [
-            "Full stack"
+            "Full stack",
+            "Other"
           ],
           "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
@@ -469,19 +491,23 @@
           "contract_type": "3rd Party Partner",
           "supplier": "Techpods",
           "careerSkillset": [
-            "Full stack"
+            "Full stack",
+            "Other"
           ],
           "teamSkillset": [
-            "Full stack"
+            "Full stack",
+            "Other"
           ],
           "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
-            "React"
+            "React",
+            "Terraform/HCL"
           ],
           "generalCompetencies": [
             "TypeScript/JavaScript/Node.js",
             "React Native",
-            "React"
+            "React",
+            "Terraform/HCL"
           ]
         },
         {
@@ -490,19 +516,23 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "Irysan Ltd",
+          "supplier": "Irysan",
           "careerSkillset": [
-            "Full stack"
+            "Full stack",
+            "Other"
           ],
           "teamSkillset": [
-            "Full stack"
+            "Full stack",
+            "Other"
           ],
           "dailySkillset": [
-            "TypeScript/JavaScript/Node.js"
+            "TypeScript/JavaScript/Node.js",
+            "Terraform/HCL"
           ],
           "generalCompetencies": [
             "TypeScript/JavaScript/Node.js",
-            "React"
+            "React",
+            "Terraform/HCL"
           ]
         },
         {
@@ -617,13 +647,16 @@
           "contract_type": "3rd Party Partner",
           "supplier": "Techpods",
           "careerSkillset": [
-            "Full stack"
+            "Full stack",
+            "Other"
           ],
           "teamSkillset": [
-            "Backend"
+            "Backend",
+            "Other"
           ],
           "dailySkillset": [
-            "TypeScript/JavaScript/Node.js"
+            "TypeScript/JavaScript/Node.js",
+            "Terraform/HCL"
           ],
           "generalCompetencies": [
             "TypeScript/JavaScript/Node.js",
@@ -632,7 +665,8 @@
             "Go",
             "Delphi",
             "SQL",
-            "PL/pgSQL"
+            "PL/pgSQL",
+            "Terraform/HCL"
           ]
         },
         {
@@ -643,19 +677,23 @@
           "contract_type": "3rd Party Partner",
           "supplier": "Techpods",
           "careerSkillset": [
-            "Full stack"
+            "Full stack",
+            "Other"
           ],
           "teamSkillset": [
-            "Full stack"
+            "Full stack",
+            "Other"
           ],
           "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
-            "React"
+            "React",
+            "Terraform/HCL"
           ],
           "generalCompetencies": [
             "TypeScript/JavaScript/Node.js",
             "React",
-            ".NET"
+            ".NET",
+            "Terraform/HCL"
           ]
         },
         {
@@ -671,7 +709,21 @@
           "role": "QA",
           "role_group": "QA",
           "contract_type": "3rd Party Partner",
-          "supplier": "Irysan Ltd"
+          "supplier": "Irysan",
+          "careerSkillset": [
+            "QA"
+          ],
+          "teamSkillset": [
+            "QA"
+          ],
+          "dailySkillset": [
+            "TypeScript/JavaScript/Node.js",
+            "Terraform/HCL"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
+            "Terraform/HCL"
+          ]
         },
         {
           "name": "Vincent Mary",
@@ -767,7 +819,7 @@
           "role": "BA",
           "role_group": "BA",
           "contract_type": "3rd Party Partner",
-          "supplier": "Createq AG (formerly NSM Engineering AG)"
+          "supplier": "Createq"
         },
         {
           "name": null,
