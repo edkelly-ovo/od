@@ -1,23 +1,13 @@
 {
-  "name": "AI",
+  "name": "Core Tech - AI",
   "leadership": [
-    "Hannah Trent"
+    "Steven Beardwell",
+    "Hannah Trent",
+    "Andy Marsh",
+    "Andrew Mohammed"
   ],
   "solutions": [],
   "teams": [
-    {
-      "name": "Customer Growth AI",
-      "members": [
-        {
-          "name": "Hannah Trent",
-          "email": "hannah.trent@ovo.com",
-          "role": "Lead Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
     {
       "name": "Customer Actions",
       "members": [
@@ -103,101 +93,10 @@
           "skillset": []
         },
         {
-          "name": "VACANCY",
+          "name": null,
           "email": null,
           "role": "Engineer",
           "role_group": "Engineering",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "AI Advisor Interface",
-      "members": [
-        {
-          "name": "Paul Range",
-          "email": "paul.range@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Customer Assist",
-      "members": [
-        {
-          "name": "Paul Range",
-          "email": "paul.range@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Advisor Assist",
-      "members": [
-        {
-          "name": "Paul Range",
-          "email": "paul.range@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Customer Context",
-      "members": [
-        {
-          "name": "Paul Range",
-          "email": "paul.range@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Install",
-      "members": [
-        {
-          "name": "Simon Millington",
-          "email": "simon.millington2@ovo.com",
-          "role": "Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Scheduling",
-      "members": [
-        {
-          "name": "Simon Millington",
-          "email": "simon.millington2@ovo.com",
-          "role": "Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Booking",
-      "members": [
-        {
-          "name": "Simon Millington",
-          "email": "simon.millington2@ovo.com",
-          "role": "Agile Coach",
-          "role_group": "Agile Coach",
           "contract_type": "Permanent",
           "skillset": []
         }

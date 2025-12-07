@@ -1,12 +1,16 @@
 {
-  "name": "Comms Automation",
+  "name": "Core Tech - Comms Automation",
   "leadership": [
-    "Lorne MacLennan"
+    "Graham Vosper",
+    "Lorne MacLennan",
+    "Renae Hudson",
+    "Ido Padani",
+    "Malcolm Dunn"
   ],
   "solutions": [],
   "teams": [
     {
-      "name": "Comms Automation Data & Platform",
+      "name": "Data & Platform",
       "members": [
         {
           "name": "Kwame Agyemang",
@@ -210,7 +214,7 @@
       ]
     },
     {
-      "name": "Comms Automation Operations",
+      "name": "Operations",
       "members": [
         {
           "name": "Lorne MacLennan",
@@ -271,7 +275,7 @@
       ]
     },
     {
-      "name": "Comms Automation Engineering",
+      "name": "Engineering",
       "members": [
         {
           "name": "Lorne MacLennan",
@@ -398,45 +402,6 @@
           "role": "Principal Engineer",
           "role_group": "Engineering",
           "contract_type": "Vacancy",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Web/App Platform",
-      "members": [
-        {
-          "name": "Glenise Netang",
-          "email": "glenise.netang@ovo.com",
-          "role": "Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Core Journeys",
-      "members": [
-        {
-          "name": "Glenise Netang",
-          "email": "glenise.netang@ovo.com",
-          "role": "Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Design System",
-      "members": [
-        {
-          "name": "Glenise Netang",
-          "email": "glenise.netang@ovo.com",
-          "role": "Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Permanent",
           "skillset": []
         }
       ]

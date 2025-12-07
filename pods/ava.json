@@ -1,8 +1,13 @@
 {
-  "name": "AVA",
+  "name": "Core Tech - AVA",
   "leadership": [
-    "Rebecca Lloyd",
-    "Tom West"
+    "Tom West",
+    "Nicholas Drew",
+    "Jonny Schmid",
+    "Aidan Walker",
+    "Kelvin Moore",
+    "Andrew Mohammed",
+    "Bronwyn Barnett"
   ],
   "solutions": [],
   "teams": [
@@ -176,188 +181,6 @@
           "role": "Staff Conversation Designer",
           "role_group": "XD",
           "contract_type": "Vacancy",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Collections",
-      "members": [
-        {
-          "name": "Aidan Walker",
-          "email": "aidan.walker@ovo.com",
-          "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Collections Optimisation",
-      "members": [
-        {
-          "name": "Aidan Walker",
-          "email": "aidan.walker@ovo.com",
-          "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Debt",
-      "members": [
-        {
-          "name": "Aidan Walker",
-          "email": "aidan.walker@ovo.com",
-          "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Credit",
-      "members": [
-        {
-          "name": "Aidan Walker",
-          "email": "aidan.walker@ovo.com",
-          "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Billing",
-      "members": [
-        {
-          "name": "Aidan Walker",
-          "email": "aidan.walker@ovo.com",
-          "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Backbilling Forecasting",
-      "members": [
-        {
-          "name": "Aidan Walker",
-          "email": "aidan.walker@ovo.com",
-          "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Reads & Estimations",
-      "members": [
-        {
-          "name": "Aidan Walker",
-          "email": "aidan.walker@ovo.com",
-          "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Meter Work",
-      "members": [
-        {
-          "name": "Aidan Walker",
-          "email": "aidan.walker@ovo.com",
-          "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Schemes",
-      "members": [
-        {
-          "name": "Aidan Walker",
-          "email": "aidan.walker@ovo.com",
-          "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "PAYG App & Web",
-      "members": [
-        {
-          "name": "Aidan Walker",
-          "email": "aidan.walker@ovo.com",
-          "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "AI Automation - Billing Agent",
-      "members": [
-        {
-          "name": "Aidan Walker",
-          "email": "aidan.walker@ovo.com",
-          "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Data quality",
-      "members": [
-        {
-          "name": "Aidan Walker",
-          "email": "aidan.walker@ovo.com",
-          "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Legacy CMS",
-      "members": [
-        {
-          "name": "Aidan Walker",
-          "email": "aidan.walker@ovo.com",
-          "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "PAYG Reconciliation",
-      "members": [
-        {
-          "name": "Aidan Walker",
-          "email": "aidan.walker@ovo.com",
-          "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
           "skillset": []
         }
       ]
@@ -772,58 +595,6 @@
           "role": "QA",
           "role_group": "QA",
           "contract_type": "Vacancy",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Case Management",
-      "members": [
-        {
-          "name": "Aidan Walker",
-          "email": "aidan.walker@ovo.com",
-          "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "3rd Party Integrations",
-      "members": [
-        {
-          "name": "Aidan Walker",
-          "email": "aidan.walker@ovo.com",
-          "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Agent Experience PAYG",
-      "members": [
-        {
-          "name": "Aidan Walker",
-          "email": "aidan.walker@ovo.com",
-          "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Customer Actions",
-      "members": [
-        {
-          "name": "Paul Range",
-          "email": "paul.range@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
           "skillset": []
         }
       ]

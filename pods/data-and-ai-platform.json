@@ -1,7 +1,12 @@
 {
-  "name": "Data & AI Platform",
+  "name": "Core Tech - Data & AI Platform",
   "leadership": [
-    "Alex Craciun"
+    "Craig MacLachlan",
+    "Eric Young",
+    "Alex Craciun",
+    "Christine Shrader",
+    "Andrew Mohammed",
+    "Bronwyn Barnett"
   ],
   "solutions": [],
   "teams": [
@@ -96,27 +101,6 @@
           "email": null,
           "role": "BA",
           "role_group": "BA",
-          "contract_type": "Permanent",
-          "skillset": []
-        },
-        {
-          "name": "Alex Craciun",
-          "email": "alex.craciun@ovo.com",
-          "role": "Principal Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Core Orders & Fulfilment",
-      "members": [
-        {
-          "name": "Alison Wang",
-          "email": "alison.wang@ovo.com",
-          "role": "Senior Product Manager",
-          "role_group": "Product Management",
           "contract_type": "Permanent",
           "skillset": []
         },
@@ -464,58 +448,6 @@
           "contract_type": "Vacancy",
           "skillset": []
         },
-        {
-          "name": "Alex Craciun",
-          "email": "alex.craciun@ovo.com",
-          "role": "Principal Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Core Acquisition",
-      "members": [
-        {
-          "name": "Alex Craciun",
-          "email": "alex.craciun@ovo.com",
-          "role": "Principal Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Core Customer",
-      "members": [
-        {
-          "name": "Alex Craciun",
-          "email": "alex.craciun@ovo.com",
-          "role": "Principal Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Core Usage",
-      "members": [
-        {
-          "name": "Alex Craciun",
-          "email": "alex.craciun@ovo.com",
-          "role": "Principal Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Core Billing",
-      "members": [
         {
           "name": "Alex Craciun",
           "email": "alex.craciun@ovo.com",

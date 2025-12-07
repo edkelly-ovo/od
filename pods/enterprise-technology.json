@@ -1,6 +1,8 @@
 {
   "name": "Enterprise Technology",
-  "leadership": [],
+  "leadership": [
+    "Ravi Maithani"
+  ],
   "solutions": [],
   "teams": [
     {
@@ -127,6 +129,22 @@
           "email": null,
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
+          "contract_type": "Vacancy",
+          "skillset": []
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Identity Engineer",
+          "role_group": "Enterprise Technology",
+          "contract_type": "Vacancy",
+          "skillset": []
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Identity Engineer",
+          "role_group": "Enterprise Technology",
           "contract_type": "Vacancy",
           "skillset": []
         }

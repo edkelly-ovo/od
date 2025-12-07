@@ -1,9 +1,11 @@
 {
-  "name": "CTE",
+  "name": "Core Tech - Energy",
   "leadership": [
+    "Zoe Mackay",
+    "Nigel Rantor",
     "Alex Craciun",
-    "Olivia Potter",
-    "Renae Hudson"
+    "Renae Hudson",
+    "Ed Kelly"
   ],
   "solutions": [],
   "teams": [
@@ -146,6 +148,14 @@
           "role_group": "Product Management",
           "contract_type": "Permanent",
           "skillset": []
+        },
+        {
+          "name": "Robert Mackenzie",
+          "email": "robert.mackenzie@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": []
         }
       ]
     },
@@ -279,6 +289,14 @@
           "email": "alex.craciun@ovo.com",
           "role": "Principal Product Manager",
           "role_group": "Product Management",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Robert Mackenzie",
+          "email": "robert.mackenzie@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
           "contract_type": "Permanent",
           "skillset": []
         }
@@ -441,6 +459,14 @@
           "role_group": "Product Management",
           "contract_type": "Permanent",
           "skillset": []
+        },
+        {
+          "name": "Robert Mackenzie",
+          "email": "robert.mackenzie@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": []
         }
       ]
     },
@@ -473,7 +499,8 @@
           "role": "Agile Coach",
           "role_group": "Agile Coach",
           "contract_type": "Permanent",
-          "skillset": []
+          "skillset": [],
+          "onLeave": true
         },
         {
           "name": "Renae Hudson",
@@ -569,72 +596,24 @@
           "role_group": "Product Management",
           "contract_type": "Permanent",
           "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Case Management",
-      "members": [
+        },
         {
-          "name": "Catherine Brown",
-          "email": "cathy.brown@ovo.com",
+          "name": "Robert Mackenzie",
+          "email": "robert.mackenzie@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": null,
+          "email": null,
           "role": "Agile Coach",
           "role_group": "Agile Coach",
-          "contract_type": "Permanent",
+          "contract_type": "Vacancy",
           "skillset": []
         }
-      ]
-    },
-    {
-      "name": "3rd Party Integrations",
-      "members": [
-        {
-          "name": "Catherine Brown",
-          "email": "cathy.brown@ovo.com",
-          "role": "Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Agent Experience PAYG",
-      "members": [
-        {
-          "name": "Catherine Brown",
-          "email": "cathy.brown@ovo.com",
-          "role": "Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Billing",
-      "members": [
-        {
-          "name": "Catherine Brown",
-          "email": "cathy.brown@ovo.com",
-          "role": "Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Kaluza",
-      "members": [
-        {
-          "name": "Renae Hudson",
-          "email": "renae.hudson@ovo.com",
-          "role": "Principal Project Manager",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
+
       ]
     },
     {
@@ -786,90 +765,12 @@
             "Python",
             "Go"
           ]
-        }
-      ]
-    },
-    {
-      "name": "Data Platform Integration",
-      "members": [
-        {
-          "name": "Alison Wang",
-          "email": "alison.wang@ovo.com",
-          "role": "Senior Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
         },
         {
-          "name": "Alex Craciun",
-          "email": "alex.craciun@ovo.com",
-          "role": "Principal Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Release Operations",
-      "members": [
-        {
-          "name": "Varun Datta",
-          "email": "varun.datta@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "AI Platform",
-      "members": [
-        {
-          "name": "Alex Craciun",
-          "email": "alex.craciun@ovo.com",
-          "role": "Principal Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "AI Platform - Innovation Risk",
-      "members": [
-        {
-          "name": "Alex Craciun",
-          "email": "alex.craciun@ovo.com",
-          "role": "Principal Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Data Platform Tooling",
-      "members": [
-        {
-          "name": "Alex Craciun",
-          "email": "alex.craciun@ovo.com",
-          "role": "Principal Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Data Lakehouse",
-      "members": [
-        {
-          "name": "Alex Craciun",
-          "email": "alex.craciun@ovo.com",
-          "role": "Principal Product Manager",
-          "role_group": "Product Management",
+          "name": "Robert Mackenzie",
+          "email": "robert.mackenzie@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
           "contract_type": "Permanent",
           "skillset": []
         }

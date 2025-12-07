@@ -1,19 +1,7 @@
 {
   "name": "PTLT",
   "leadership": [
-    "Andrew Mohammed",
-    "Bronwyn Barnett",
-    "Ed Kelly",
-    "Guy Duncan",
-    "James Ferguson",
-    "Jenny Wong",
-    "Jonathan Finch",
-    "Kelly Looney",
-    "Kelvin Moore",
-    "Liam Roberts",
-    "Ravi Maithani",
-    "Simon Goldsmith",
-    "Steve Harris"
+    "Mat Moakes"
   ],
   "solutions": [],
   "teams": [
@@ -27,16 +15,6 @@
           "role_group": "PTLT",
           "contract_type": "Permanent",
           "skillset": []
-        },
-        {
-          "name": "Jenny Wong",
-          "email": null,
-          "role": "VP Technology",
-          "role_group": "PTLT",
-          "contract_type": "Permanent",
-          "skillset": [
-            "#N/A"
-          ]
         },
         {
           "name": "Bronwyn Barnett",
@@ -128,18 +106,24 @@
           "skillset": []
         },
         {
-          "name": "Guy Duncan",
+          "name": null,
           "email": null,
           "role": "CTO",
           "role_group": "PTLT",
-          "contract_type": "Permanent",
-          "skillset": [
-            "#N/A"
-          ]
+          "contract_type": "Vacancy",
+          "skillset": []
         },
         {
           "name": "Luke Hohmann",
           "email": "luke.hohmann@ovo.com",
+          "role": "Consultant",
+          "role_group": "PTLT",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Scott Selhorst",
+          "email": "scott.selhorst@ovo.com",
           "role": "Consultant",
           "role_group": "PTLT",
           "contract_type": "Permanent",
@@ -165,6 +149,15 @@
           "role_group": "PTLT",
           "contract_type": "Permanent",
           "skillset": []
+        },
+        {
+          "name": "Sophie Harpur",
+          "email": "sophie.harp@ovo.com",
+          "role": "Principal Product Manager",
+          "role_group": "PTLT",
+          "contract_type": "Permanent",
+          "skillset": [],
+          "onLeave": true
         }
       ]
     },
@@ -184,6 +177,38 @@
           "email": "luke.jones@ovo.com",
           "role": "Agile Coach",
           "role_group": "Agile Coach",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Zoe Elsey",
+          "email": "zoe.elsey@ovo.com",
+          "role": "People Partner",
+          "role_group": "PTLT",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Andrew Gunning",
+          "email": "andrew.gunning@ovo.com",
+          "role": "Comms & Engagement Partner",
+          "role_group": "PTLT",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Matt Roche",
+          "email": "matt.roche@ovo.com",
+          "role": "Finance Partner",
+          "role_group": "PTLT",
+          "contract_type": "Permanent",
+          "skillset": []
+        },
+        {
+          "name": "Sarah Fox",
+          "email": "sarah.fox@ovo.com",
+          "role": "Executive Assistant",
+          "role_group": "PTLT",
           "contract_type": "Permanent",
           "skillset": []
         }

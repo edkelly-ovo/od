@@ -1,7 +1,7 @@
 {
   "name": "Infrastructure & Enablement",
   "leadership": [
-    "Neil Smith"
+    "Jon Finch"
   ],
   "solutions": [],
   "teams": [
@@ -613,6 +613,14 @@
           "role_group": "Agile Delivery",
           "contract_type": "Permanent",
           "skillset": []
+        },
+        {
+          "name": "Philip Entwisle",
+          "email": "philip.entwisle@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Permanent",
+          "skillset": []
         }
       ]
     },
@@ -624,14 +632,6 @@
           "email": "arun.sathyanarayan@ovo.com",
           "role": "Security Lead",
           "role_group": "Security",
-          "contract_type": "Permanent",
-          "skillset": []
-        },
-        {
-          "name": "Robert Mackenzie",
-          "email": "robert.mackenzie@ovo.com",
-          "role": "Engineer",
-          "role_group": "Engineering",
           "contract_type": "Permanent",
           "skillset": []
         },
@@ -653,58 +653,6 @@
           "contract_type": "Permanent",
           "skillset": []
         },
-        {
-          "name": "Raymond Fenton",
-          "email": "raymond.fenton@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Cyber Defence Operations",
-      "members": [
-        {
-          "name": "Raymond Fenton",
-          "email": "raymond.fenton@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Attack Surface Management",
-      "members": [
-        {
-          "name": "Raymond Fenton",
-          "email": "raymond.fenton@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Security Engineering",
-      "members": [
-        {
-          "name": "Raymond Fenton",
-          "email": "raymond.fenton@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Controls Assurance",
-      "members": [
         {
           "name": "Raymond Fenton",
           "email": "raymond.fenton@ovo.com",

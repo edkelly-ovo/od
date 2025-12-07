@@ -2,8 +2,8 @@
   "name": "AER",
   "leadership": [
     "Amanda MacDonald",
-    "Hannah Trent",
-    "Inez Cooke"
+    "Catherine Cetera",
+    "Ido Padani"
   ],
   "solutions": [],
   "teams": [
@@ -133,14 +133,6 @@
           ],
           "supplier": "Createq AG (formerly NSM Engineering AG)",
           "costPerDayGbp": null
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "QA",
-          "role_group": "QA",
-          "contract_type": "Vacancy",
-          "skillset": []
         }
       ]
     },
@@ -413,14 +405,6 @@
           "role_group": "Delivery & Growth Lead",
           "contract_type": "Permanent",
           "skillset": []
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Vacancy",
-          "skillset": []
         }
       ]
     },
@@ -564,6 +548,14 @@
           "skillset": [],
           "supplier": "Lognormal Analytics Private Ltd",
           "costPerDayGbp": null
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Vacancy",
+          "skillset": []
         }
       ]
     },
@@ -1167,32 +1159,6 @@
           "email": null,
           "role": "BA",
           "role_group": "BA",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Kaluza",
-      "members": [
-        {
-          "name": "Catherine Cetera",
-          "email": "catherine.cetera@ovo.com",
-          "role": "Delivery Lead",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Customer Actions",
-      "members": [
-        {
-          "name": "Hannah Trent",
-          "email": "hannah.trent@ovo.com",
-          "role": "Lead Product Manager",
-          "role_group": "Product Management",
           "contract_type": "Permanent",
           "skillset": []
         }

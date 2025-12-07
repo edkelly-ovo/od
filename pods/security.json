@@ -1,5 +1,5 @@
 {
-  "name": "Security",
+  "name": "Enterprise Security",
   "leadership": [],
   "solutions": [],
   "teams": [
@@ -215,19 +215,6 @@
           "contract_type": "Permanent",
           "skillset": []
         },
-        {
-          "name": "Raymond Fenton",
-          "email": "raymond.fenton@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Customer Identity",
-      "members": [
         {
           "name": "Raymond Fenton",
           "email": "raymond.fenton@ovo.com",

@@ -1,15 +1,16 @@
 {
   "name": "Drive Home & Exports",
   "leadership": [
-    "Aga Florek",
-    "Paul Grosvenor",
+    "Vincent Mary",
+    "Iain Rawson",
     "Sarah Wilson",
-    "Vincent Mary"
+    "Alex Thwaites (Drive)",
+    "George Penman (Home)"
   ],
   "solutions": [],
   "teams": [
     {
-      "name": "Continuous Improvement",
+      "name": "Exports - Continuous Improvement",
       "members": [
         {
           "name": "Juanantonio Zea",
@@ -144,7 +145,7 @@
       ]
     },
     {
-      "name": "EV Chargers",
+      "name": "ZCL - EV Chargers",
       "members": [
         {
           "name": "Giles Routledge",
@@ -204,7 +205,8 @@
           "role": "Principal Engineer",
           "role_group": "Engineering",
           "contract_type": "Permanent",
-          "skillset": []
+          "skillset": [],
+          "onLeave": true
         },
         {
           "name": "Dan Laasna Reuter",
@@ -277,7 +279,7 @@
       ]
     },
     {
-      "name": "Charge Anytime Partnerships",
+      "name": "ZCL - Charge Anytime Partnerships",
       "members": [
         {
           "name": "Giles Routledge",
@@ -405,7 +407,7 @@
       ]
     },
     {
-      "name": "Agent & Customer Experience",
+      "name": "Exports - Agent & Customer Experience",
       "members": [
         {
           "name": "Militsa Tsvetkova",
@@ -530,11 +532,11 @@
           "skillset": []
         },
         {
-          "name": "VACANCY - Giedre Stulgyte",
+          "name": null,
           "email": null,
           "role": "Engineer",
           "role_group": "Engineering",
-          "contract_type": "Permanent",
+          "contract_type": "Vacancy",
           "skillset": []
         },
         {
@@ -556,7 +558,7 @@
       ]
     },
     {
-      "name": "Service Automation",
+      "name": "Exports - Service Automation",
       "members": [
         {
           "name": "Hristiyan Mishinkov",
@@ -683,7 +685,7 @@
       ]
     },
     {
-      "name": "Home",
+      "name": "ZCL - Home",
       "members": [
         {
           "name": "Benas Nekrosius",
@@ -761,71 +763,6 @@
           "contract_type": "Permanent",
           "skillset": []
         },
-        {
-          "name": "Ore Alemede",
-          "email": "ore.alemede@ovo.com",
-          "role": "Senior Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Trading & Portfolio Management",
-      "members": [
-        {
-          "name": "Sarah Wilson",
-          "email": "sarah.wilson1@ovo.com",
-          "role": "Principal Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Future Energy",
-      "members": [
-        {
-          "name": "Sarah Wilson",
-          "email": "sarah.wilson1@ovo.com",
-          "role": "Principal Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Greener Grid",
-      "members": [
-        {
-          "name": "Sarah Wilson",
-          "email": "sarah.wilson1@ovo.com",
-          "role": "Principal Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Energy Data Management",
-      "members": [
-        {
-          "name": "Sarah Wilson",
-          "email": "sarah.wilson1@ovo.com",
-          "role": "Principal Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Outbound",
-      "members": [
         {
           "name": "Ore Alemede",
           "email": "ore.alemede@ovo.com",

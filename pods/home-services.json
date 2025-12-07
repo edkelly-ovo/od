@@ -3,12 +3,12 @@
   "leadership": [
     "Rob Malcolm",
     "William Howard",
-    "William Taylor"
+    "Jason Howie"
   ],
   "solutions": [],
   "teams": [
     {
-      "name": "Kantan",
+      "name": "KO",
       "members": [
         {
           "name": "Oleh Plesiuk",
@@ -293,7 +293,7 @@
       ]
     },
     {
-      "name": "HS Platform",
+      "name": "Platform",
       "members": [
         {
           "name": "Sergii Slotskyi",
@@ -722,19 +722,6 @@
       ]
     },
     {
-      "name": "IOps Platform",
-      "members": [
-        {
-          "name": "James Clarke",
-          "email": "james.clarke@ovo.com",
-          "role": "Senior Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
       "name": "Growth",
       "members": [
         {
@@ -911,19 +898,6 @@
             "Python",
             "Rust"
           ]
-        }
-      ]
-    },
-    {
-      "name": "Inbound",
-      "members": [
-        {
-          "name": null,
-          "email": null,
-          "role": "Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Vacancy",
-          "skillset": []
         }
       ]
     }

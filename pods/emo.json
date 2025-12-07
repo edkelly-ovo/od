@@ -2,7 +2,9 @@
   "name": "EMO",
   "leadership": [
     "Palas Nogueira",
-    "Sarah Wilson"
+    "Sarah Wilson",
+    "Andy Marsh",
+    "Stephen Harris"
   ],
   "solutions": [],
   "teams": [
@@ -449,84 +451,6 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "Vacancy",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "EV Chargers",
-      "members": [
-        {
-          "name": "Sarah Wilson",
-          "email": "sarah.wilson1@ovo.com",
-          "role": "Principal Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Charge Anytime Partnerships",
-      "members": [
-        {
-          "name": "Sarah Wilson",
-          "email": "sarah.wilson1@ovo.com",
-          "role": "Principal Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Home",
-      "members": [
-        {
-          "name": "Sarah Wilson",
-          "email": "sarah.wilson1@ovo.com",
-          "role": "Principal Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Service Automation",
-      "members": [
-        {
-          "name": "Sarah Wilson",
-          "email": "sarah.wilson1@ovo.com",
-          "role": "Principal Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Continuous Improvement",
-      "members": [
-        {
-          "name": "Sarah Wilson",
-          "email": "sarah.wilson1@ovo.com",
-          "role": "Principal Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Agent & Customer Experience",
-      "members": [
-        {
-          "name": "Sarah Wilson",
-          "email": "sarah.wilson1@ovo.com",
-          "role": "Principal Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent",
           "skillset": []
         }
       ]

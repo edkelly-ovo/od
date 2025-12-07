@@ -1,7 +1,11 @@
 {
-  "name": "Payments",
+  "name": "Core Tech - Payments",
   "leadership": [
-    "Jon Rudin"
+    "Jon Rudin",
+    "Ritesh Das",
+    "Andy Marsh",
+    "Malcolm Dunn",
+    "Ben Orgill"
   ],
   "solutions": [],
   "teams": [
@@ -102,6 +106,23 @@
           "role_group": "BA",
           "contract_type": "Permanent",
           "skillset": []
+        },
+        {
+          "name": "Hayley Wills",
+          "email": "haylew.wills@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Permanent",
+          "skillset": [],
+          "onLeave": true
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Vacancy",
+          "skillset": []
         }
       ]
     },
@@ -198,6 +219,23 @@
           "role_group": "BA",
           "contract_type": "Permanent",
           "skillset": []
+        },
+        {
+          "name": "Haylew Wills",
+          "email": "haylew.wills@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Permanent",
+          "skillset": [],
+          "onLeave": true
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Vacancy",
+          "skillset": []
         }
       ]
     },
@@ -281,6 +319,23 @@
           "skillset": [],
           "supplier": "Architus Systems Ltd t/a Architus",
           "costPerDayGbp": null
+        },
+        {
+          "name": "Haylew Wills",
+          "email": "haylew.wills@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Permanent",
+          "skillset": [],
+          "onLeave": true
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Vacancy",
+          "skillset": []
         }
       ]
     }

@@ -2,7 +2,8 @@
   "name": "Fulfil",
   "leadership": [
     "Philip Bruland",
-    "Reza Nia"
+    "Reza Nia",
+    "Scott Wilkins"
   ],
   "solutions": [],
   "teams": [
@@ -458,19 +459,6 @@
           ],
           "supplier": "Techpods",
           "costPerDayGbp": null
-        }
-      ]
-    },
-    {
-      "name": "Customer Actions",
-      "members": [
-        {
-          "name": "Simon Millington",
-          "email": "simon.millington2@ovo.com",
-          "role": "Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Permanent",
-          "skillset": []
         }
       ]
     }

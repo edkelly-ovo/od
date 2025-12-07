@@ -1,7 +1,11 @@
 {
-  "name": "Experience Foundations",
+  "name": "Core Tech - Experience Foundations",
   "leadership": [
-    "Jessica Bridge"
+    "Jessica Bridge",
+    "Georgios Ampavis",
+    "James McCarthy",
+    "Andy Marsh",
+    "James Ferguson"
   ],
   "solutions": [],
   "teams": [
@@ -212,14 +216,6 @@
           "role_group": "Delivery & Growth Lead",
           "contract_type": "Permanent",
           "skillset": []
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Principal Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Vacancy",
-          "skillset": []
         }
       ]
     },
@@ -248,14 +244,6 @@
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
           "contract_type": "Permanent",
-          "skillset": []
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Principal Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Vacancy",
           "skillset": []
         }
       ]
@@ -365,6 +353,16 @@
           "role_group": "Engineering",
           "contract_type": "Vacancy",
           "skillset": []
+        },
+        {
+          "name": "Tomas Narvoisas",
+          "email": "tomas.narvoisas@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": "Architus Systems Ltd t/a Architus",
+          "costPerDayGbp": null
         }
       ]
     },
@@ -515,19 +513,6 @@
       ]
     },
     {
-      "name": "Comms Automation Engineering",
-      "members": [
-        {
-          "name": "Glenise Netang",
-          "email": "glenise.netang@ovo.com",
-          "role": "Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
       "name": "Beyond",
       "members": [
         {
@@ -571,14 +556,6 @@
           "skillset": [
             "#N/A"
           ]
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Principal Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Vacancy",
-          "skillset": []
         }
       ]
     }

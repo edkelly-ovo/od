@@ -1,9 +1,10 @@
 {
-  "name": "IOps",
+  "name": "Core Tech - Industry Operations",
   "leadership": [
+    "Rich Tiffin",
     "Claire Smith",
-    "Idil Demircapa",
-    "Richard Tiffin"
+    "Renae Hudson",
+    "Mike Pullin"
   ],
   "solutions": [],
   "teams": [
@@ -121,7 +122,8 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "Permanent",
-          "skillset": []
+          "skillset": [],
+          "onLeave": true
         },
         {
           "name": "Claire Smith",
@@ -254,7 +256,7 @@
       ]
     },
     {
-      "name": "IOps Platform",
+      "name": "Platform",
       "members": [
         {
           "name": "Ievgen Paliichuk",
@@ -297,14 +299,6 @@
           ],
           "supplier": "N-IX Ltd",
           "costPerDayGbp": null
-        },
-        {
-          "name": "James Clarke",
-          "email": "james.clarke@ovo.com",
-          "role": "Senior Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
         },
         {
           "name": "Richard Tiffin",
@@ -477,139 +471,6 @@
           "email": "claire.smith@ovo.com",
           "role": "Lead Product Manager",
           "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Kantan",
-      "members": [
-        {
-          "name": "James Clarke",
-          "email": "james.clarke@ovo.com",
-          "role": "Senior Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "OPJ",
-      "members": [
-        {
-          "name": "James Clarke",
-          "email": "james.clarke@ovo.com",
-          "role": "Senior Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "OPR",
-      "members": [
-        {
-          "name": "James Clarke",
-          "email": "james.clarke@ovo.com",
-          "role": "Senior Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Growth",
-      "members": [
-        {
-          "name": "James Clarke",
-          "email": "james.clarke@ovo.com",
-          "role": "Senior Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Vacancy",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Core",
-      "members": [
-        {
-          "name": "James Clarke",
-          "email": "james.clarke@ovo.com",
-          "role": "Senior Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Vacancy",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "MHHS",
-      "members": [
-        {
-          "name": "Claire Smith",
-          "email": "claire.smith@ovo.com",
-          "role": "Lead Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "EV Chargers",
-      "members": [
-        {
-          "name": "Ore Alemede",
-          "email": "ore.alemede@ovo.com",
-          "role": "Senior Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Charge Anytime Partnerships",
-      "members": [
-        {
-          "name": "Ore Alemede",
-          "email": "ore.alemede@ovo.com",
-          "role": "Senior Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Home",
-      "members": [
-        {
-          "name": "Ore Alemede",
-          "email": "ore.alemede@ovo.com",
-          "role": "Senior Agile Coach",
-          "role_group": "Agile Coach",
           "contract_type": "Permanent",
           "skillset": []
         }

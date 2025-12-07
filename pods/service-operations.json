@@ -1,7 +1,7 @@
 {
   "name": "Service Operations",
   "leadership": [
-    "Sally Greenwell"
+    "Jon Finch"
   ],
   "solutions": [],
   "teams": [
@@ -78,7 +78,8 @@
           "role": "Customer Tech Support Analyst",
           "role_group": "Service Ops",
           "contract_type": "Permanent",
-          "skillset": []
+          "skillset": [],
+          "onLeave": true
         },
         {
           "name": "Paulina Baba",
@@ -169,6 +170,14 @@
           "skillset": [],
           "supplier": "Lognormal Analytics Private Ltd",
           "costPerDayGbp": null
+        },
+        {
+          "name": "Adil Mahmood",
+          "email": "adil.mahmood@ovo.com",
+          "role": "Customer Tech Support Analyst",
+          "role_group": "Service Ops",
+          "contract_type": "Permanent",
+          "skillset": []
         }
       ]
     },

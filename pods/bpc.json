@@ -1,10 +1,11 @@
 {
   "name": "BPC",
   "leadership": [
-    "Andy Marsh",
-    "Rebecca Otte",
     "Tim Wyatt",
-    "Tom Moore"
+    "Tom Moore",
+    "Andy Marsh",
+    "Aidan Walker",
+    "Malcolm Dunn"
   ],
   "solutions": [],
   "teams": [
@@ -400,8 +401,10 @@
           "email": null,
           "role": "ML Engineer",
           "role_group": "Data",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": "Architus Systems Ltd t/a Architus",
+          "costPerDayGbp": null
         },
         {
           "name": "Aidan Walker",
@@ -534,8 +537,10 @@
           "email": null,
           "role": "Engineer",
           "role_group": "Engineering",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Third Party Partner",
+          "skillset": [],
+          "supplier": "Architus Systems Ltd t/a Architus",
+          "costPerDayGbp": null
         },
         {
           "name": "Aidan Walker",
@@ -641,6 +646,14 @@
           "role": "Principal Data Scientist",
           "role_group": "Data",
           "contract_type": "Vacancy",
+          "skillset": []
+        },
+        {
+          "name": "Matt Smith",
+          "email": "matt.smith@ovo.com",
+          "role": "Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent",
           "skillset": []
         }
       ]
@@ -820,6 +833,15 @@
           "skillset": [],
           "supplier": "Architus Systems Ltd t/a Architus",
           "costPerDayGbp": null
+        },
+        {
+          "name": "Katie Lynch",
+          "email": "katie.lynch@ovo.com",
+          "role": "Delivery Lead",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": [],
+          "onLeave": true
         }
       ]
     },
@@ -955,6 +977,15 @@
           "role_group": "BA",
           "contract_type": "Vacancy",
           "skillset": []
+        },
+        {
+          "name": "Katie Lynch",
+          "email": "katie.lynch@ovo.com",
+          "role": "Delivery Lead",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": [],
+          "onLeave": true
         }
       ]
     },
@@ -1104,6 +1135,15 @@
           "skillset": [],
           "supplier": "Architus Systems Ltd t/a Architus",
           "costPerDayGbp": null
+        },
+        {
+          "name": "Katie Lynch",
+          "email": "katie.lynch@ovo.com",
+          "role": "Delivery Lead",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": [],
+          "onLeave": true
         }
       ]
     },
@@ -1437,6 +1477,15 @@
           "role_group": "XD",
           "contract_type": "Permanent",
           "skillset": []
+        },
+        {
+          "name": "Katie Lynch",
+          "email": "katie.lynch@ovo.com",
+          "role": "Delivery Lead",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent",
+          "skillset": [],
+          "onLeave": true
         }
       ]
     },
@@ -2115,105 +2164,19 @@
           "skillset": [],
           "supplier": "The RAD Consulting Group Ltd",
           "costPerDayGbp": null
-        }
-      ]
-    },
-    {
-      "name": "Advisor Assist",
-      "members": [
-        {
-          "name": "Aidan Walker",
-          "email": "aidan.walker@ovo.com",
-          "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Customer Assist",
-      "members": [
-        {
-          "name": "Aidan Walker",
-          "email": "aidan.walker@ovo.com",
-          "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Customer Context",
-      "members": [
-        {
-          "name": "Aidan Walker",
-          "email": "aidan.walker@ovo.com",
-          "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "AI Advisor Interface",
-      "members": [
-        {
-          "name": "Aidan Walker",
-          "email": "aidan.walker@ovo.com",
-          "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Case Management",
-      "members": [
-        {
-          "name": "Aidan Walker",
-          "email": "aidan.walker@ovo.com",
-          "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
         },
         {
-          "name": "Catherine Brown",
-          "email": "cathy.brown@ovo.com",
-          "role": "Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Permanent",
+          "name": null,
+          "email": null,
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Vacancy",
           "skillset": []
         }
       ]
     },
     {
-      "name": "3rd Party Integrations",
-      "members": [
-        {
-          "name": "Aidan Walker",
-          "email": "aidan.walker@ovo.com",
-          "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
-        },
-        {
-          "name": "Catherine Brown",
-          "email": "cathy.brown@ovo.com",
-          "role": "Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Agent Experience PAYG",
+      "name": "PAYG Agent Experience",
       "members": [
         {
           "name": "Aidan Walker",
@@ -2249,14 +2212,6 @@
           "role": "Senior Service Designer",
           "role_group": "XD",
           "contract_type": "Permanent",
-          "skillset": []
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Vacancy",
           "skillset": []
         },
         {
@@ -2338,50 +2293,44 @@
           ]
         },
         {
-          "name": "Ignas Samoilovas",
-          "email": null,
+          "name": "Andrew Brook",
+          "email": "andrew.brook@ovo.com",
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
           "skillset": [],
-          "supplier": "Architus Systems Ltd t/a Architus",
+          "supplier": null,
           "costPerDayGbp": null
         },
         {
-          "name": "Tomas Jakovlevas",
-          "email": null,
+          "name": "Rana Nasir",
+          "email": "rana.nasir@ovo.com",
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
           "skillset": [],
-          "supplier": "Architus Systems Ltd t/a Architus",
+          "supplier": null,
           "costPerDayGbp": null
-        }
-      ]
-    },
-    {
-      "name": "Core Orders & Fulfilment",
-      "members": [
+        },
         {
-          "name": "Catherine Brown",
-          "email": "cathy.brown@ovo.com",
-          "role": "Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Permanent",
-          "skillset": []
-        }
-      ]
-    },
-    {
-      "name": "Data Quality",
-      "members": [
+          "name": "Ezio Intravaia",
+          "email": "ezio.intravaia@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": null,
+          "costPerDayGbp": null
+        },
         {
-          "name": "Matt Smith",
-          "email": "matt.smith@ovo.com",
-          "role": "Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
+          "name": "Slav Tomov",
+          "email": "slav.tomov@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": null,
+          "costPerDayGbp": null
         }
       ]
     }
