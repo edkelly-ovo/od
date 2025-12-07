@@ -296,13 +296,6 @@
           "role": "Engineer",
           "roleGroup": "Engineering",
           "contractType": "Vacancy"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Principal Engineer",
-          "roleGroup": "Engineering",
-          "contractType": "Vacancy"
         }
       ],
       "supporting": [
@@ -360,6 +353,13 @@
             "Terraform/HCL",
             "Rust"
           ]
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Principal Engineer",
+          "roleGroup": "Engineering",
+          "contractType": "Vacancy"
         }
       ]
     },
@@ -475,13 +475,6 @@
           "role": "QA",
           "roleGroup": "QA",
           "contractType": "Vacancy"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Principal Engineer",
-          "roleGroup": "Engineering",
-          "contractType": "Vacancy"
         }
       ],
       "supporting": [
@@ -539,6 +532,13 @@
             "Terraform/HCL",
             "Rust"
           ]
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Principal Engineer",
+          "roleGroup": "Engineering",
+          "contractType": "Vacancy"
         }
       ]
     },
@@ -615,13 +615,6 @@
         {
           "name": null,
           "email": null,
-          "role": "Principal Engineer",
-          "roleGroup": "Engineering",
-          "contractType": "Vacancy"
-        },
-        {
-          "name": null,
-          "email": null,
           "role": "Engineer",
           "roleGroup": "Engineering",
           "contractType": "Vacancy"
@@ -682,6 +675,13 @@
             "Terraform/HCL",
             "Rust"
           ]
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Principal Engineer",
+          "roleGroup": "Engineering",
+          "contractType": "Vacancy"
         }
       ]
     }
