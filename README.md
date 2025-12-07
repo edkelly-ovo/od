@@ -4,16 +4,18 @@ A web application to visualize organizational teams and members from JSON data f
 
 ## Features
 
-- **Pod Overview**: View all pods with team counts and leadership information
-- **Collapsible Teams**: Expandable pod and team sections for easy navigation
-- **Team Details**: Click on any team to see detailed member information
+- **Version Support**: Switch between v1 and v2 pod data models using the version selector
+- **Pod Overview**: View all pods with team counts, individual counts, vacancy counts, and leadership information
+- **Collapsible Sections**: Expandable pods, teams, and solutions sections for easy navigation
+- **Team Members & Supporting Members**: Teams display both regular members and supporting members separately
 - **Member Information**: View comprehensive details including:
   - Name and email
-  - Role and role group
+  - Role and roleGroup
   - Contract type (Permanent, 3rd Party Partner, Vacancy)
-  - Skillsets (career, team, daily, and general competencies)
+  - Skillsets grouped by type: careerSkillset, teamSkillset, dailySkillset, generalCompetencies
   - Supplier information (for 3rd Party Partners)
   - Leave status
+- **Solutions Display**: View solutions for each pod with collapsible sections
 - **Responsive Design**: Works seamlessly on desktop and mobile devices
 - **GitHub Pages Deployment**: Automatically deployed via GitHub Actions
 
@@ -87,10 +89,15 @@ The deployment workflow (`.github/workflows/deploy.yml`) will:
 ├── app.js                  # Application logic and data handling
 ├── pods/                   # Pod data files directory
 │   ├── schema.json         # JSON schema for pod validation
-│   └── *.json              # Individual pod data files
+│   ├── v1/                 # Version 1 pod data files
+│   │   ├── schema.json     # Schema copy for v1
+│   │   └── *.json          # Individual pod data files
+│   └── v2/                 # Version 2 pod data files
+│       ├── schema.json     # Schema copy for v2
+│       └── *.json          # Individual pod data files (when available)
 ├── scripts/                # Utility scripts
 │   └── validate-all-schema.js  # Schema validation script
-├── data/                   # Data files (gitignored)
+├── data/                   # Source data files (CSV files)
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml      # GitHub Actions deployment workflow
@@ -103,13 +110,18 @@ Each pod JSON file follows the schema defined in `pods/schema.json` and includes
 
 - **name**: Pod name
 - **leadership**: Array of leadership names
-- **solutions**: Array of solutions (currently empty)
+- **solutions**: Array of solutions, each with:
+  - **name**: Solution name
+  - **description**: Solution description
 - **teams**: Array of teams, each containing:
   - **name**: Team name
   - **members**: Array of team members with:
     - Basic info: name, email, role, roleGroup, contractType
     - Skillsets: careerSkillset, teamSkillset, dailySkillset, generalCompetencies
     - Additional: supplier (for 3rd Party Partners), onLeave status
+  - **supporting**: Array of supporting members (pod-members who support the team but are not present within it) with:
+    - Basic info: name, email, role, roleGroup
+    - Optional: contractType, skillsets, supplier, onLeave
 
 ## Validation
 
@@ -123,11 +135,18 @@ This ensures all pod data files conform to the expected structure.
 
 ## Usage
 
-1. **Browse Pods**: The main view shows all pods as collapsible cards
-2. **Expand Pods**: Click on a pod header to expand and see its teams
-3. **View Teams**: Each pod shows its teams with member counts
-4. **Expand Teams**: Click on a team header to see all team members
-5. **View Member Details**: Each member card displays their role, contract type, skillsets, and other relevant information
+1. **Select Version**: Use the version selector at the top to switch between v1 and v2 pod data
+2. **Browse Pods**: The main view shows all pods as collapsible cards, sorted alphabetically
+3. **Expand Pods**: Click on a pod header to expand and see its content (leadership, solutions, teams)
+4. **View Solutions**: Click on the solutions header to expand and view all solutions for a pod
+5. **View Teams**: Each pod shows its teams with member counts and supporting member counts
+6. **Expand Teams**: Click on a team header to see all team members and supporting members
+7. **View Member Details**: Each member card displays:
+   - Role, roleGroup, and contract type
+   - Skillsets grouped by type (career, team, daily, general competencies)
+   - Supplier information (for 3rd Party Partners)
+   - Leave status (if applicable)
+8. **Supporting Members**: Supporting members are displayed separately from regular team members with distinct styling
 
 ## Data Files
 
