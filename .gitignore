@@ -37,3 +37,4 @@ build/
 *.min.js
 *.min.css
 
+data/*
