@@ -162,11 +162,11 @@
           "supplier": "Architus Systems Ltd t/a Architus"
         },
         {
-          "name": "Emily Horner",
+          "name": null,
           "email": null,
           "role": "BA",
           "role_group": "BA",
-          "contract_type": "Permanent"
+          "contract_type": "Vacancy"
         },
         {
           "name": "Neisha Grainger",
