@@ -7,172 +7,97 @@
     "Andy Marsh",
     "James Ferguson"
   ],
-  "solutions": [],
+  "solutions": [
+    {
+      "name": "Auth on App",
+      "description": "Account set up, password reset, post first login experience"
+    },
+    {
+      "name": "Billing on app",
+      "description": "View charges and payments, Check balance, view bills, meter reads"
+    },
+    {
+      "name": "Customer settings on app",
+      "description": "View plan details, account settings, marketing preferences, data compliance, push notification"
+    },
+    {
+      "name": "Element Design System",
+      "description": "A comprehensive design system and UI component library, named 'Element', that ensures a consistent and high-quality user experience across all of OVO's digital products"
+    },
+    {
+      "name": "Energy Tracker Impact Assessment",
+      "description": "Measures the causal impact of products and features, such as energy insights or Charge Anytime, on outcomes like energy savings and customer churn."
+    },
+    {
+      "name": "Half-Hourly Bill Breakdown",
+      "description": "Provides a detailed breakdown of a customer's bill based on half-hourly consumption data."
+    },
+    {
+      "name": "Help on app and web",
+      "description": "Help articles are powered by Contentful"
+    },
+    {
+      "name": "Mobile Application",
+      "description": "The native mobile application for iOS and Android, providing customers with on-the-go access to manage their account, view usage, and interact with OVO services."
+    },
+    {
+      "name": "Navigation on app",
+      "description": "Homepage, navigation"
+    },
+    {
+      "name": "Optimizely",
+      "description": ""
+    },
+    {
+      "name": "Payments on app",
+      "description": "Set up Direct Debit, refund, manage DD, payment history"
+    },
+    {
+      "name": "Reward",
+      "description": "Manages the lifecycle of customer rewards, from earning points to redemption"
+    },
+    {
+      "name": "Similar Household Models",
+      "description": "A suite of models that compare a customer's energy usage to that of similar households to provide context and efficiency insights."
+    },
+    {
+      "name": "Usage Segmentation Model",
+      "description": "Segments customers based on their energy usage patterns and behaviours."
+    },
+    {
+      "name": "Web & App Platform",
+      "description": "Provides the foundational technology stack and shared services for building, deploying, and operating OVO's customer-facing web and mobile applications."
+    }
+  ],
   "teams": [
     {
-      "name": "Core Journeys",
+      "name": "Beyond",
       "members": [
-        {
-          "name": "Amelia Hurrell",
-          "email": "amelia.hurrell@ovo.com",
-          "role": "Senior Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Vacancy"
-        },
-        {
-          "name": "Glenise Netang",
-          "email": "glenise.netang@ovo.com",
-          "role": "Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Tom Sherman",
-          "email": "tom.sherman@ovo.com",
-          "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent",
-          "careerSkillset": [
-            "Full stack"
-          ],
-          "teamSkillset": [
-            "Frontend  - Web & mobile"
-          ],
-          "dailySkillset": [
-            "TypeScript/JavaScript/Node.js",
-            "React Native",
-            "React",
-            "Terraform/HCL"
-          ],
-          "generalCompetencies": [
-            "TypeScript/JavaScript/Node.js",
-            "React Native",
-            "React",
-            "Go",
-            "Terraform/HCL",
-            "Rust"
-          ]
-        },
-        {
-          "name": "Joanna Cholewa",
-          "email": "joanna.cholewa@ovo.com",
-          "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent",
-          "careerSkillset": [
-            "Frontend  - Web & mobile"
-          ],
-          "teamSkillset": [
-            "Other"
-          ],
-          "dailySkillset": [
-            "TypeScript/JavaScript/Node.js",
-            "React Native"
-          ],
-          "generalCompetencies": [
-            "TypeScript/JavaScript/Node.js",
-            "React Native",
-            "React"
-          ]
-        },
-        {
-          "name": "Kevwe Uwotu",
-          "email": "kevwe.uwotu@ovo.com",
-          "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Ed Patrick",
-          "email": "ed.patrick@ovo.com",
-          "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent",
-          "careerSkillset": [
-            "Frontend  - Web & mobile"
-          ],
-          "teamSkillset": [
-            "Frontend  - Web & mobile"
-          ],
-          "dailySkillset": [
-            "TypeScript/JavaScript/Node.js",
-            "React Native",
-            "React"
-          ],
-          "generalCompetencies": [
-            "TypeScript/JavaScript/Node.js",
-            "React Native",
-            "React",
-            "Terraform/HCL"
-          ]
-        },
-        {
-          "name": "Matt Gray",
-          "email": "matt.gray@ovo.com",
-          "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent",
-          "careerSkillset": [
-            "Full stack"
-          ],
-          "teamSkillset": [
-            "Frontend  - Web & mobile"
-          ],
-          "dailySkillset": [
-            "TypeScript/JavaScript/Node.js",
-            "React Native",
-            "React"
-          ],
-          "generalCompetencies": [
-            "TypeScript/JavaScript/Node.js",
-            "React Native",
-            "React",
-            "Java",
-            ".NET",
-            "Python"
-          ]
-        },
-        {
-          "name": "Alan Smith",
-          "email": "alan.smith@ovo.com",
-          "role": "QA",
-          "role_group": "QA",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Maria Dragan",
-          "email": "maricel.dragan@ovo.com",
-          "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent",
-          "careerSkillset": [
-            "Frontend  - Web & mobile"
-          ],
-          "teamSkillset": [
-            "Frontend  - Web & mobile"
-          ],
-          "dailySkillset": [
-            "TypeScript/JavaScript/Node.js",
-            "React Native",
-            "React"
-          ],
-          "generalCompetencies": [
-            "TypeScript/JavaScript/Node.js",
-            "React Native",
-            "React"
-          ]
-        },
         {
           "name": "James McCarthy",
           "email": "james.mccarthy@ovo.com",
           "role": "Staff Product Designer",
+          "role_group": "XD",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Naomi Saenz",
+          "email": null,
+          "role": "Staff Product Designer",
+          "role_group": "XD",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Olivia Sherwood",
+          "email": "olivia.sherwood@ovo.com",
+          "role": "Senior Content Designer",
+          "role_group": "XD",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Rogerio Mota",
+          "email": null,
+          "role": "Senior Product Designer",
           "role_group": "XD",
           "contract_type": "Permanent"
         },
@@ -182,44 +107,6 @@
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
           "contract_type": "Permanent"
-        },
-        {
-          "name": "Jessica Bridge",
-          "email": "jess.bridge@ovo.com",
-          "role": "Lead Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Denis Voroniuc",
-          "email": null,
-          "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "3rd Party Partner",
-          "supplier": "Createq",
-          "careerSkillset": [
-            "Mobile/Web"
-          ],
-          "teamSkillset": [
-            "Mobile/Web",
-            "Skillset: React",
-            "React Native",
-            "iOS and/or Android native"
-          ]
-        },
-        {
-          "name": "Eleri Smith",
-          "email": null,
-          "role": "Senior Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Principal Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Vacancy"
         }
       ]
     },
@@ -257,6 +144,397 @@
       ]
     },
     {
+      "name": "Core Journeys",
+      "members": [
+        {
+          "name": "Alan Smith",
+          "email": "alan.smith@ovo.com",
+          "role": "QA",
+          "role_group": "QA",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Amelia Hurrell",
+          "email": "amelia.hurrell@ovo.com",
+          "role": "Senior Product Designer",
+          "role_group": "XD",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Denis Voroniuc",
+          "email": null,
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "3rd Party Partner",
+          "supplier": "Createq",
+          "careerSkillset": [
+            "Mobile/Web"
+          ],
+          "teamSkillset": [
+            "Mobile/Web",
+            "Skillset: React",
+            "React Native",
+            "iOS and/or Android native"
+          ]
+        },
+        {
+          "name": "Ed Patrick",
+          "email": "ed.patrick@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "careerSkillset": [
+            "Frontend  - Web & mobile"
+          ],
+          "teamSkillset": [
+            "Frontend  - Web & mobile"
+          ],
+          "dailySkillset": [
+            "TypeScript/JavaScript/Node.js",
+            "React Native",
+            "React"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
+            "React Native",
+            "React",
+            "Terraform/HCL"
+          ]
+        },
+        {
+          "name": "Eleri Smith",
+          "email": null,
+          "role": "Senior Product Designer",
+          "role_group": "XD",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Glenise Netang",
+          "email": "glenise.netang@ovo.com",
+          "role": "Agile Coach",
+          "role_group": "Agile Coach",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "James McCarthy",
+          "email": "james.mccarthy@ovo.com",
+          "role": "Staff Product Designer",
+          "role_group": "XD",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Jessica Bridge",
+          "email": "jess.bridge@ovo.com",
+          "role": "Lead Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Joanna Cholewa",
+          "email": "joanna.cholewa@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "careerSkillset": [
+            "Frontend  - Web & mobile"
+          ],
+          "teamSkillset": [
+            "Other"
+          ],
+          "dailySkillset": [
+            "TypeScript/JavaScript/Node.js",
+            "React Native"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
+            "React Native",
+            "React"
+          ]
+        },
+        {
+          "name": "Kevwe Uwotu",
+          "email": "kevwe.uwotu@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Maria Dragan",
+          "email": "maricel.dragan@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "careerSkillset": [
+            "Frontend  - Web & mobile"
+          ],
+          "teamSkillset": [
+            "Frontend  - Web & mobile"
+          ],
+          "dailySkillset": [
+            "TypeScript/JavaScript/Node.js",
+            "React Native",
+            "React"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
+            "React Native",
+            "React"
+          ]
+        },
+        {
+          "name": "Matt Gray",
+          "email": "matt.gray@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "careerSkillset": [
+            "Full stack"
+          ],
+          "teamSkillset": [
+            "Frontend  - Web & mobile"
+          ],
+          "dailySkillset": [
+            "TypeScript/JavaScript/Node.js",
+            "React Native",
+            "React"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
+            "React Native",
+            "React",
+            "Java",
+            ".NET",
+            "Python"
+          ]
+        },
+        {
+          "name": "Sarah Woods",
+          "email": "sarah.woods@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Tom Sherman",
+          "email": "tom.sherman@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "careerSkillset": [
+            "Full stack"
+          ],
+          "teamSkillset": [
+            "Frontend  - Web & mobile"
+          ],
+          "dailySkillset": [
+            "TypeScript/JavaScript/Node.js",
+            "React Native",
+            "React",
+            "Terraform/HCL"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
+            "React Native",
+            "React",
+            "Go",
+            "Terraform/HCL",
+            "Rust"
+          ]
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Vacancy"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Principal Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Vacancy"
+        }
+      ]
+    },
+    {
+      "name": "Design System",
+      "members": [
+        {
+          "name": "Gideon Caspi",
+          "email": "gideon.caspi1@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "careerSkillset": [
+            "Frontend  - Web & mobile"
+          ],
+          "teamSkillset": [
+            "Frontend  - Web & mobile"
+          ],
+          "dailySkillset": [
+            "TypeScript/JavaScript/Node.js",
+            "React Native",
+            "React",
+            "CSS"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
+            "React Native",
+            "React",
+            "CSS"
+          ]
+        },
+        {
+          "name": "Glenise Netang",
+          "email": "glenise.netang@ovo.com",
+          "role": "Agile Coach",
+          "role_group": "Agile Coach",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Isabelle O'Carroll",
+          "email": "Isabelle.OCarroll1@ovo.com",
+          "role": "Senior Content Designer",
+          "role_group": "XD",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "James McCarthy",
+          "email": "james.mccarthy@ovo.com",
+          "role": "Staff Product Designer",
+          "role_group": "XD",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Jason Christie",
+          "email": "jason.christie@ovo.com",
+          "role": "Staff Product Designer",
+          "role_group": "XD",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Jessica Bridge",
+          "email": "jess.bridge@ovo.com",
+          "role": "Lead Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Lucy Wright",
+          "email": "lucy.wright@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "careerSkillset": [
+            "Frontend  - Web & mobile"
+          ],
+          "teamSkillset": [
+            "Frontend  - Web & mobile"
+          ],
+          "dailySkillset": [
+            "React Native",
+            "TypeScript/JavaScript/Node.js",
+            "React"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
+            "React Native",
+            "React"
+          ]
+        },
+        {
+          "name": "Luke Huitson",
+          "email": "luke.huitson@ovo.com",
+          "role": "Senior Product Designer",
+          "role_group": "XD",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Madalina Dulhac",
+          "email": "madalina.dulhac@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "3rd Party Partner",
+          "supplier": "Createq",
+          "generalCompetencies": [
+            "Offered to Sagar Suri"
+          ]
+        },
+        {
+          "name": "Samantha Betts",
+          "email": "samantha.betts@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "careerSkillset": [
+            "Frontend  - Web & mobile"
+          ],
+          "teamSkillset": [
+            "Frontend  - Web & mobile"
+          ],
+          "dailySkillset": [
+            "TypeScript/JavaScript/Node.js",
+            "React Native",
+            "React"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
+            "React Native",
+            "React"
+          ]
+        },
+        {
+          "name": "Sarah Woods",
+          "email": "sarah.woods@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Tom Sherman",
+          "email": "tom.sherman@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "careerSkillset": [
+            "Full stack"
+          ],
+          "teamSkillset": [
+            "Frontend  - Web & mobile"
+          ],
+          "dailySkillset": [
+            "TypeScript/JavaScript/Node.js",
+            "React Native",
+            "React",
+            "Terraform/HCL"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
+            "React Native",
+            "React",
+            "Go",
+            "Terraform/HCL",
+            "Rust"
+          ]
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "QA",
+          "role_group": "QA",
+          "contract_type": "Vacancy"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Principal Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Vacancy"
+        }
+      ]
+    },
+    {
       "name": "Strategic Partners",
       "members": [
         {
@@ -286,60 +564,17 @@
       "name": "Web/App Platform",
       "members": [
         {
-          "name": "Vladyslav Slepkan",
-          "email": "vladyslav.slepkan@ovo.com",
+          "name": "Ainsley Chang",
+          "email": "ainsley.chang1@ovo.com",
           "role": "Engineer",
           "role_group": "Engineering",
-          "contract_type": "3rd Party Partner",
-          "supplier": "N-IX Ltd"
+          "contract_type": "Permanent"
         },
         {
           "name": "Glenise Netang",
           "email": "glenise.netang@ovo.com",
           "role": "Agile Coach",
           "role_group": "Agile Coach",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Viktor Cheban",
-          "email": "viktor.cheban@ovo.com",
-          "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "3rd Party Partner",
-          "supplier": "N-IX Ltd"
-        },
-        {
-          "name": "Tom Sherman",
-          "email": "tom.sherman@ovo.com",
-          "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent",
-          "careerSkillset": [
-            "Full stack"
-          ],
-          "teamSkillset": [
-            "Frontend  - Web & mobile"
-          ],
-          "dailySkillset": [
-            "TypeScript/JavaScript/Node.js",
-            "React Native",
-            "React",
-            "Terraform/HCL"
-          ],
-          "generalCompetencies": [
-            "TypeScript/JavaScript/Node.js",
-            "React Native",
-            "React",
-            "Go",
-            "Terraform/HCL",
-            "Rust"
-          ]
-        },
-        {
-          "name": "Ainsley Chang",
-          "email": "ainsley.chang1@ovo.com",
-          "role": "Engineer",
-          "role_group": "Engineering",
           "contract_type": "Permanent"
         },
         {
@@ -350,17 +585,17 @@
           "contract_type": "Permanent"
         },
         {
-          "name": "Sarah Woods",
-          "email": "sarah.woods@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent"
-        },
-        {
           "name": "Jessica Bridge",
           "email": "jess.bridge@ovo.com",
           "role": "Lead Product Manager",
           "role_group": "Product Management",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Sarah Woods",
+          "email": "sarah.woods@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
           "contract_type": "Permanent"
         },
         {
@@ -372,40 +607,6 @@
           "supplier": "N-IX Ltd"
         },
         {
-          "name": null,
-          "email": null,
-          "role": "Principal Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Vacancy"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Vacancy"
-        },
-        {
-          "name": "Tomas Narvoisas",
-          "email": "tomas.narvoisas@ovo.com",
-          "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "3rd Party Partner",
-          "supplier": "Architus Systems Ltd t/a Architus"
-        }
-      ]
-    },
-    {
-      "name": "Design System",
-      "members": [
-        {
-          "name": "Glenise Netang",
-          "email": "glenise.netang@ovo.com",
-          "role": "Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Permanent"
-        },
-        {
           "name": "Tom Sherman",
           "email": "tom.sherman@ovo.com",
           "role": "Engineer",
@@ -433,135 +634,28 @@
           ]
         },
         {
-          "name": "Gideon Caspi",
-          "email": "gideon.caspi1@ovo.com",
-          "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent",
-          "careerSkillset": [
-            "Frontend  - Web & mobile"
-          ],
-          "teamSkillset": [
-            "Frontend  - Web & mobile"
-          ],
-          "dailySkillset": [
-            "TypeScript/JavaScript/Node.js",
-            "React Native",
-            "React",
-            "CSS"
-          ],
-          "generalCompetencies": [
-            "TypeScript/JavaScript/Node.js",
-            "React Native",
-            "React",
-            "CSS"
-          ]
-        },
-        {
-          "name": "Samantha Betts",
-          "email": "samantha.betts@ovo.com",
-          "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent",
-          "careerSkillset": [
-            "Frontend  - Web & mobile"
-          ],
-          "teamSkillset": [
-            "Frontend  - Web & mobile"
-          ],
-          "dailySkillset": [
-            "TypeScript/JavaScript/Node.js",
-            "React Native",
-            "React"
-          ],
-          "generalCompetencies": [
-            "TypeScript/JavaScript/Node.js",
-            "React Native",
-            "React"
-          ]
-        },
-        {
-          "name": "Lucy Wright",
-          "email": "lucy.wright@ovo.com",
-          "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent",
-          "careerSkillset": [
-            "Frontend  - Web & mobile"
-          ],
-          "teamSkillset": [
-            "Frontend  - Web & mobile"
-          ],
-          "dailySkillset": [
-            "React Native",
-            "TypeScript/JavaScript/Node.js",
-            "React"
-          ],
-          "generalCompetencies": [
-            "TypeScript/JavaScript/Node.js",
-            "React Native",
-            "React"
-          ]
-        },
-        {
-          "name": "Isabelle O'Carroll",
-          "email": "Isabelle.OCarroll1@ovo.com",
-          "role": "Senior Content Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "James McCarthy",
-          "email": "james.mccarthy@ovo.com",
-          "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Jason Christie",
-          "email": "jason.christie@ovo.com",
-          "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Luke Huitson",
-          "email": "luke.huitson@ovo.com",
-          "role": "Senior Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Sarah Woods",
-          "email": "sarah.woods@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Jessica Bridge",
-          "email": "jess.bridge@ovo.com",
-          "role": "Lead Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "QA",
-          "role_group": "QA",
-          "contract_type": "Vacancy"
-        },
-        {
-          "name": "Madalina Dulhac",
-          "email": "madalina.dulhac@ovo.com",
+          "name": "Tomas Narvoisas",
+          "email": "tomas.narvoisas@ovo.com",
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "Createq",
-          "generalCompetencies": [
-            "Offered to Sagar Suri"
-          ]
+          "supplier": "Architus Systems Ltd t/a Architus"
+        },
+        {
+          "name": "Viktor Cheban",
+          "email": "viktor.cheban@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "3rd Party Partner",
+          "supplier": "N-IX Ltd"
+        },
+        {
+          "name": "Vladyslav Slepkan",
+          "email": "vladyslav.slepkan@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "3rd Party Partner",
+          "supplier": "N-IX Ltd"
         },
         {
           "name": null,
@@ -569,46 +663,13 @@
           "role": "Principal Engineer",
           "role_group": "Engineering",
           "contract_type": "Vacancy"
-        }
-      ]
-    },
-    {
-      "name": "Beyond",
-      "members": [
-        {
-          "name": "James McCarthy",
-          "email": "james.mccarthy@ovo.com",
-          "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent"
         },
         {
-          "name": "Naomi Saenz",
+          "name": null,
           "email": null,
-          "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Olivia Sherwood",
-          "email": "olivia.sherwood@ovo.com",
-          "role": "Senior Content Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Sarah Woods",
-          "email": "sarah.woods@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Rogerio Mota",
-          "email": null,
-          "role": "Senior Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent"
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Vacancy"
         }
       ]
     }

@@ -7,11 +7,73 @@
     "Ido Padani",
     "Malcolm Dunn"
   ],
-  "solutions": [],
+  "solutions": [
+    {
+      "name": "Comms Decisioning",
+      "description": "Operationalisation of Customer Comms Strategies, Contact Rules and Commercial priorities to provide optimised customer contact levels and outcomes"
+    },
+    {
+      "name": "Comms execution platform",
+      "description": "Multi-stage, multi- channel and multi-product comms built and managed on SFMC"
+    },
+    {
+      "name": "Comms Snapshot Process",
+      "description": "Process to generate an image of the comms sent to a customer"
+    },
+    {
+      "name": "Customer Audience build",
+      "description": "Latest customer data, insight and consents used to build target audiences for comms"
+    },
+    {
+      "name": "Document Repository",
+      "description": "Tool with UI that allows non-SF users to see comms that have been sent to customer by customer, by comm"
+    },
+    {
+      "name": "Feedback API",
+      "description": "End point that allows OVO teams to obtain contact history and visualisation of content sent to customers."
+    },
+    {
+      "name": "Print Fulfilment",
+      "description": "Development and maintenance of print fulfilment solution for Comms Automation and other OVO teams"
+    },
+    {
+      "name": "Self Serve of Comms",
+      "description": "Self serve of comms origination and delployment for comms teams to allow relevant comms to be executed more quickly and with increased capacity for continuous improvement"
+    },
+    {
+      "name": "Service Comms Measurement",
+      "description": "For all Service Comms now on the Comms Automation Service, monitoring and presentment of Operational and Performance data to allow fast issue identification, fixes and continuous improvement"
+    },
+    {
+      "name": "Single Marketing View",
+      "description": "Multi-product view of customer details, product holding, content and other insight required for the fulfilment of marketing comms"
+    }
+  ],
   "teams": [
     {
       "name": "Data & Platform",
       "members": [
+        {
+          "name": "Chris Parker",
+          "email": "chris.parker@ovo.com",
+          "role": "Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "David Jones",
+          "email": "david.m.jones@ovo.com",
+          "role": "Data Analyst",
+          "role_group": "Data",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Gavin Lee",
+          "email": "gavin.lee@ovo.com",
+          "role": "Data Analyst",
+          "role_group": "Data",
+          "contract_type": "Permanent"
+        },
         {
           "name": "Kwame Agyemang",
           "email": "kwame.agyemang@ovo.com",
@@ -37,10 +99,24 @@
           ]
         },
         {
+          "name": "Lisa Burnham",
+          "email": "lisa.burnham1@ovo.com",
+          "role": "Data Analyst",
+          "role_group": "Data",
+          "contract_type": "Permanent"
+        },
+        {
           "name": "Lorne MacLennan",
           "email": "lorne.r.maclennan@ovo.com",
           "role": "Principal Product Manager",
           "role_group": "Product Management",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Paul Linehan",
+          "email": "paul.linehan@ovo.com",
+          "role": "Data Analyst",
+          "role_group": "Data",
           "contract_type": "Permanent"
         },
         {
@@ -65,41 +141,6 @@
           ]
         },
         {
-          "name": "David Jones",
-          "email": "david.m.jones@ovo.com",
-          "role": "Data Analyst",
-          "role_group": "Data",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Gavin Lee",
-          "email": "gavin.lee@ovo.com",
-          "role": "Data Analyst",
-          "role_group": "Data",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Lisa Burnham",
-          "email": "lisa.burnham1@ovo.com",
-          "role": "Data Analyst",
-          "role_group": "Data",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Vacancy"
-        },
-        {
-          "name": "Chris Parker",
-          "email": "chris.parker@ovo.com",
-          "role": "Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent"
-        },
-        {
           "name": "Ronnie Dowie",
           "email": "ronnie.dowie@ovo.com",
           "role": "Data and Platform Lead",
@@ -107,154 +148,11 @@
           "contract_type": "Permanent"
         },
         {
-          "name": "Paul Linehan",
-          "email": "paul.linehan@ovo.com",
-          "role": "Data Analyst",
-          "role_group": "Data",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Principal Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Vacancy"
-        }
-      ]
-    },
-    {
-      "name": "Marketing Cloud",
-      "members": [
-        {
-          "name": "Lorne MacLennan",
-          "email": "lorne.r.maclennan@ovo.com",
-          "role": "Principal Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Daniel Clissett",
-          "email": "daniel.clissett@ovo.com",
-          "role": "SFMC Lead",
-          "role_group": "Comms Automation",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Andrew Ross",
-          "email": "andrew.ross2@ovo.com",
-          "role": "SFMC Analyst",
-          "role_group": "Comms Automation",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Monica Balan",
-          "email": "monica.balan@ovo.com",
-          "role": "SFMC Analyst",
-          "role_group": "Comms Automation",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Philip Howell",
-          "email": "philip.howell@ovo.com",
-          "role": "SFMC Analyst",
-          "role_group": "Comms Automation",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Varun Reddy",
-          "email": "varun.reddy@ovo.com",
-          "role": "SFMC Analyst",
-          "role_group": "Comms Automation",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Amanda Tomes",
-          "email": "amanda.tomes@ovo.com",
-          "role": "SFMC Analyst",
-          "role_group": "Comms Automation",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Janet Winston",
-          "email": "janet.winston@ovo.com",
-          "role": "SFMC Analyst",
-          "role_group": "Comms Automation",
-          "contract_type": "Permanent"
-        },
-        {
           "name": null,
           "email": null,
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
           "contract_type": "Vacancy"
-        },
-        {
-          "name": "Hannah Mackley",
-          "email": "hannah.mackley@ovo.com",
-          "role": "Delivery Traffic Manager",
-          "role_group": "Comms Automation",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Vaughan Griffiths",
-          "email": "vaughan.griffiths@ovo.com",
-          "role": "Campaign Delivery Lead",
-          "role_group": "Comms Automation",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Principal Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Vacancy"
-        }
-      ]
-    },
-    {
-      "name": "Operations",
-      "members": [
-        {
-          "name": "Lorne MacLennan",
-          "email": "lorne.r.maclennan@ovo.com",
-          "role": "Principal Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Vacancy"
-        },
-        {
-          "name": "Grahame Farr",
-          "email": "grahame.farr@ovo.com",
-          "role": "Print Manager",
-          "role_group": "Comms Automation",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Lee Robinson",
-          "email": "lee.robinson2@ovo.com",
-          "role": "Print Manager",
-          "role_group": "Comms Automation",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Helen Davies",
-          "email": "helen.davies@ovo.com",
-          "role": "Delivery Manager",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Christopher Mathews",
-          "email": "christopher.mathews@ovo.com",
-          "role": "Operations Lead",
-          "role_group": "Engineering",
-          "contract_type": "Permanent"
         },
         {
           "name": null,
@@ -268,13 +166,6 @@
     {
       "name": "Engineering",
       "members": [
-        {
-          "name": "Lorne MacLennan",
-          "email": "lorne.r.maclennan@ovo.com",
-          "role": "Principal Product Manager",
-          "role_group": "Product Management",
-          "contract_type": "Permanent"
-        },
         {
           "name": "Alastair Martin",
           "email": "alastair.martin@ovo.com",
@@ -296,6 +187,58 @@
             "Python",
             "Terraform/HCL"
           ]
+        },
+        {
+          "name": "Chris Parker",
+          "email": "chris.parker@ovo.com",
+          "role": "Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Glenise Netang",
+          "email": "glenise.netang@ovo.com",
+          "role": "Agile Coach",
+          "role_group": "Agile Coach",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Graham Vosper",
+          "email": "graham.vosper@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "careerSkillset": [
+            "Other"
+          ],
+          "teamSkillset": [
+            "Other"
+          ],
+          "dailySkillset": [
+            "Python",
+            "Apigee",
+            "Google Application Integration",
+            "SFMC"
+          ],
+          "generalCompetencies": [
+            "Terraform/HCL",
+            "Postgres",
+            "SQL"
+          ]
+        },
+        {
+          "name": "Jenny Barron",
+          "email": "jenny.barron@ovo.com",
+          "role": "QA",
+          "role_group": "QA",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Lorne MacLennan",
+          "email": "lorne.r.maclennan@ovo.com",
+          "role": "Principal Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent"
         },
         {
           "name": "Louisa Knight",
@@ -339,6 +282,14 @@
           ]
         },
         {
+          "name": "Ruttala Ajay",
+          "email": null,
+          "role": "BA",
+          "role_group": "BA",
+          "contract_type": "3rd Party Partner",
+          "supplier": "Lognormal Analytics Private Ltd"
+        },
+        {
           "name": "Stuart Layton",
           "email": "stuart.layton@ovo.com",
           "role": "Engineer",
@@ -360,10 +311,92 @@
           ]
         },
         {
-          "name": "Jenny Barron",
-          "email": "jenny.barron@ovo.com",
-          "role": "QA",
-          "role_group": "QA",
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Vacancy"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Principal Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Vacancy"
+        }
+      ]
+    },
+    {
+      "name": "Marketing Cloud",
+      "members": [
+        {
+          "name": "Amanda Tomes",
+          "email": "amanda.tomes@ovo.com",
+          "role": "SFMC Analyst",
+          "role_group": "Comms Automation",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Andrew Ross",
+          "email": "andrew.ross2@ovo.com",
+          "role": "SFMC Analyst",
+          "role_group": "Comms Automation",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Daniel Clissett",
+          "email": "daniel.clissett@ovo.com",
+          "role": "SFMC Lead",
+          "role_group": "Comms Automation",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Hannah Mackley",
+          "email": "hannah.mackley@ovo.com",
+          "role": "Delivery Traffic Manager",
+          "role_group": "Comms Automation",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Janet Winston",
+          "email": "janet.winston@ovo.com",
+          "role": "SFMC Analyst",
+          "role_group": "Comms Automation",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Lorne MacLennan",
+          "email": "lorne.r.maclennan@ovo.com",
+          "role": "Principal Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Monica Balan",
+          "email": "monica.balan@ovo.com",
+          "role": "SFMC Analyst",
+          "role_group": "Comms Automation",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Philip Howell",
+          "email": "philip.howell@ovo.com",
+          "role": "SFMC Analyst",
+          "role_group": "Comms Automation",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Varun Reddy",
+          "email": "varun.reddy@ovo.com",
+          "role": "SFMC Analyst",
+          "role_group": "Comms Automation",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Vaughan Griffiths",
+          "email": "vaughan.griffiths@ovo.com",
+          "role": "Campaign Delivery Lead",
+          "role_group": "Comms Automation",
           "contract_type": "Permanent"
         },
         {
@@ -374,50 +407,58 @@
           "contract_type": "Vacancy"
         },
         {
-          "name": "Chris Parker",
-          "email": "chris.parker@ovo.com",
-          "role": "Product Manager",
+          "name": null,
+          "email": null,
+          "role": "Principal Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Vacancy"
+        }
+      ]
+    },
+    {
+      "name": "Operations",
+      "members": [
+        {
+          "name": "Christopher Mathews",
+          "email": "christopher.mathews@ovo.com",
+          "role": "Operations Lead",
+          "role_group": "Engineering",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Grahame Farr",
+          "email": "grahame.farr@ovo.com",
+          "role": "Print Manager",
+          "role_group": "Comms Automation",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Helen Davies",
+          "email": "helen.davies@ovo.com",
+          "role": "Delivery Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Lee Robinson",
+          "email": "lee.robinson2@ovo.com",
+          "role": "Print Manager",
+          "role_group": "Comms Automation",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Lorne MacLennan",
+          "email": "lorne.r.maclennan@ovo.com",
+          "role": "Principal Product Manager",
           "role_group": "Product Management",
           "contract_type": "Permanent"
         },
         {
-          "name": "Graham Vosper",
-          "email": "graham.vosper@ovo.com",
-          "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent",
-          "careerSkillset": [
-            "Other"
-          ],
-          "teamSkillset": [
-            "Other"
-          ],
-          "dailySkillset": [
-            "Python",
-            "Apigee",
-            "Google Application Integration",
-            "SFMC"
-          ],
-          "generalCompetencies": [
-            "Terraform/HCL",
-            "Postgres",
-            "SQL"
-          ]
-        },
-        {
-          "name": "Glenise Netang",
-          "email": "glenise.netang@ovo.com",
-          "role": "Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Ruttala Ajay",
+          "name": null,
           "email": null,
-          "role": "BA",
-          "role_group": "BA",
-          "contract_type": "3rd Party Partner",
-          "supplier": "Lognormal Analytics Private Ltd"
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Vacancy"
         },
         {
           "name": null,

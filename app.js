@@ -22,7 +22,7 @@ async function loadAllPods() {
         'experience-foundations.json', 'fulfil.json', 'home-services.json',
         'infrastructure-and-enablement.json', 'iops.json', 'payments.json',
         'payments-strategy.json', 'ptlt.json', 'release-operations.json',
-        'security.json', 'serve.json', 'service-operations.json'
+        'enterprise-security.json', 'serve.json', 'service-operations.json'
     ];
 
     // Detect base path for GitHub Pages compatibility
@@ -52,38 +52,17 @@ async function loadAllPods() {
     const results = await Promise.all(loadPromises);
     allPods = results.filter(pod => pod !== null);
     
-    // Sort pods according to specified order
+    // Sort pods alphabetically by name
     sortPods();
 }
 
-// Define pod order by rows
-const podOrder = [
-    // Row 1
-    'Home Services', 'Drive Home & Exports', 'AER', 'EMO', 'Fulfil', 'BPC', 'Serve',
-    // Row 2
-    'CTE', 'Experience Foundations', 'IOps', 'Payments', 'Comms Automation', 'AI', 'Data & AI Platform', 'AVA',
-    // Row 3
-    'Security', 'Infrastructure & Enablement', 'Enterprise Technology', 'Service Operations', 'Release Ops', 'Agile Delivery', 'Payments Strategy', 'PTLT'
-];
-
-// Sort pods according to the specified order
+// Sort pods alphabetically by name
 function sortPods() {
-    const podMap = new Map(allPods.map(pod => [pod.name, pod]));
-    const sortedPods = [];
-    
-    // Add pods in the specified order
-    podOrder.forEach(podName => {
-        const pod = podMap.get(podName);
-        if (pod) {
-            sortedPods.push(pod);
-            podMap.delete(podName);
-        }
+    allPods.sort((a, b) => {
+        const nameA = (a.name || '').toLowerCase();
+        const nameB = (b.name || '').toLowerCase();
+        return nameA.localeCompare(nameB);
     });
-    
-    // Add any remaining pods that weren't in the order list
-    podMap.forEach(pod => sortedPods.push(pod));
-    
-    allPods = sortedPods;
 }
 
 // Render a member card
@@ -153,12 +132,21 @@ function renderPods() {
         }).join('');
 
         const podId = `pod-${pod.name.replace(/\s+/g, '-').toLowerCase()}`;
+        const solutions = pod.solutions || [];
+        const solutionsHtml = solutions.length > 0 ? solutions.map(solution => `
+            <div class="solution-item">
+                <div class="solution-name">${escapeHtml(solution.name)}</div>
+                <div class="solution-description">${escapeHtml(solution.description)}</div>
+            </div>
+        `).join('') : '<div class="no-solutions">No solutions defined</div>';
+        
         return `
             <div class="pod-card">
                 <div class="pod-header" onclick="togglePod('${podId}')">
                     <div class="pod-name">${escapeHtml(pod.name)}</div>
                     <div style="display: flex; align-items: center; gap: 15px;">
                         <div class="team-count">${teamCount} teams</div>
+                        ${solutions.length > 0 ? `<div class="solution-count">${solutions.length} solution${solutions.length !== 1 ? 's' : ''}</div>` : ''}
                         <span class="collapse-icon" id="icon-${podId}">▼</span>
                     </div>
                 </div>
@@ -166,6 +154,12 @@ function renderPods() {
                     <div class="leadership">
                         <div class="leadership-label">Leadership</div>
                         <div class="leadership-names">${escapeHtml(leadership)}</div>
+                    </div>
+                    <div class="solutions-section">
+                        <div class="solutions-label">Solutions</div>
+                        <div class="solutions-list">
+                            ${solutionsHtml}
+                        </div>
                     </div>
                     <div class="teams-preview">
                         ${allTeams}

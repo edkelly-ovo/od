@@ -3,15 +3,40 @@
   "leadership": [
     "Mat Moakes"
   ],
-  "solutions": [],
+  "solutions": [
+    {
+      "name": "DX",
+      "description": ""
+    }
+  ],
   "teams": [
+    {
+      "name": "Communities of Practice",
+      "members": [
+        {
+          "name": "Sophie Harpur",
+          "email": "sophie.harp@ovo.com",
+          "role": "Principal Product Manager",
+          "role_group": "PTLT",
+          "contract_type": "Permanent",
+          "onLeave": true
+        },
+        {
+          "name": "Steve Harris",
+          "email": "steve.m.harris@ovo.com",
+          "role": "Principal, Communities of Practice",
+          "role_group": "PTLT",
+          "contract_type": "Permanent"
+        }
+      ]
+    },
     {
       "name": "Leadership Team",
       "members": [
         {
-          "name": "James Ferguson",
-          "email": "james.ferguson@ovo.com",
-          "role": "Senior Principal, Experience Design",
+          "name": "Andrew Mohammed",
+          "email": "andrew.mohammed@ovo.com",
+          "role": "Director, Data & AI",
           "role_group": "PTLT",
           "contract_type": "Permanent"
         },
@@ -20,20 +45,6 @@
           "email": "bronwyn.barnett@ovo.com",
           "role": "Senior Principal, Product",
           "role_group": "Product Management",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Katie Russell",
-          "email": "katie.russell@ovo.com",
-          "role": "Fellow, Data & AI",
-          "role_group": "PTLT",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Andrew Mohammed",
-          "email": "andrew.mohammed@ovo.com",
-          "role": "Director, Data & AI",
-          "role_group": "PTLT",
           "contract_type": "Permanent"
         },
         {
@@ -63,16 +74,17 @@
           ]
         },
         {
-          "name": "Simon Goldsmith",
-          "email": "simon.goldsmith@ovo.com",
-          "role": "CISO",
+          "name": "Georgios Ampavis",
+          "email": null,
+          "role": "Technology Consultant",
           "role_group": "PTLT",
-          "contract_type": "Permanent"
+          "contract_type": "3rd Party Partner",
+          "supplier": "YunoJuno Ltd"
         },
         {
-          "name": "Kelvin Moore",
-          "email": "kelvin.moore@ovo.com",
-          "role": "Director, Agile Delivery",
+          "name": "James Ferguson",
+          "email": "james.ferguson@ovo.com",
+          "role": "Senior Principal, Experience Design",
           "role_group": "PTLT",
           "contract_type": "Permanent"
         },
@@ -84,6 +96,36 @@
           "contract_type": "Permanent"
         },
         {
+          "name": "Katie Russell",
+          "email": "katie.russell@ovo.com",
+          "role": "Fellow, Data & AI",
+          "role_group": "PTLT",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Kelly Looney",
+          "email": "kelly.looney@ovo.com",
+          "role": "Director, Cloud Infrastructure",
+          "role_group": "PTLT",
+          "contract_type": "3rd Party Partner",
+          "supplier": "YunoJuno Ltd"
+        },
+        {
+          "name": "Kelvin Moore",
+          "email": "kelvin.moore@ovo.com",
+          "role": "Director, Agile Delivery",
+          "role_group": "PTLT",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Luke Hohmann",
+          "email": "luke.hohmann@ovo.com",
+          "role": "Consultant",
+          "role_group": "PTLT",
+          "contract_type": "3rd Party Partner",
+          "supplier": "Applied Frameworks Ltd"
+        },
+        {
           "name": "Ravi Maithani",
           "email": "ravi.maithani@ovo.com",
           "role": "Director, Tech Ops",
@@ -91,12 +133,19 @@
           "contract_type": "Permanent"
         },
         {
-          "name": "Georgios Ampavis",
-          "email": null,
-          "role": "Technology Consultant",
+          "name": "Scott Selhorst",
+          "email": "scott.selhorst@ovo.com",
+          "role": "Consultant",
           "role_group": "PTLT",
           "contract_type": "3rd Party Partner",
-          "supplier": "YunoJuno Ltd"
+          "supplier": "Applied Frameworks Ltd"
+        },
+        {
+          "name": "Simon Goldsmith",
+          "email": "simon.goldsmith@ovo.com",
+          "role": "CISO",
+          "role_group": "PTLT",
+          "contract_type": "Permanent"
         },
         {
           "name": null,
@@ -111,56 +160,19 @@
           "role": "CTO",
           "role_group": "PTLT",
           "contract_type": "Vacancy"
-        },
-        {
-          "name": "Luke Hohmann",
-          "email": "luke.hohmann@ovo.com",
-          "role": "Consultant",
-          "role_group": "PTLT",
-          "contract_type": "3rd Party Partner",
-          "supplier": "Applied Frameworks Ltd"
-        },
-        {
-          "name": "Scott Selhorst",
-          "email": "scott.selhorst@ovo.com",
-          "role": "Consultant",
-          "role_group": "PTLT",
-          "contract_type": "3rd Party Partner",
-          "supplier": "Applied Frameworks Ltd"
-        },
-        {
-          "name": "Kelly Looney",
-          "email": "kelly.looney@ovo.com",
-          "role": "Director, Cloud Infrastructure",
-          "role_group": "PTLT",
-          "contract_type": "3rd Party Partner",
-          "supplier": "YunoJuno Ltd"
-        }
-      ]
-    },
-    {
-      "name": "Communities of Practice",
-      "members": [
-        {
-          "name": "Steve Harris",
-          "email": "steve.m.harris@ovo.com",
-          "role": "Principal, Communities of Practice",
-          "role_group": "PTLT",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Sophie Harpur",
-          "email": "sophie.harp@ovo.com",
-          "role": "Principal Product Manager",
-          "role_group": "PTLT",
-          "contract_type": "Permanent",
-          "onLeave": true
         }
       ]
     },
     {
       "name": "Supporting Functions",
       "members": [
+        {
+          "name": "Andrew Gunning",
+          "email": "andrew.gunning@ovo.com",
+          "role": "Comms & Engagement Partner",
+          "role_group": "PTLT",
+          "contract_type": "Permanent"
+        },
         {
           "name": "Liam Roberts",
           "email": "liam.roberts@ovo.com",
@@ -176,20 +188,6 @@
           "contract_type": "Permanent"
         },
         {
-          "name": "Zoe Elsey",
-          "email": "zoe.elsey@ovo.com",
-          "role": "People Partner",
-          "role_group": "PTLT",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Andrew Gunning",
-          "email": "andrew.gunning@ovo.com",
-          "role": "Comms & Engagement Partner",
-          "role_group": "PTLT",
-          "contract_type": "Permanent"
-        },
-        {
           "name": "Matt Roche",
           "email": "matt.roche@ovo.com",
           "role": "Finance Partner",
@@ -200,6 +198,13 @@
           "name": "Sarah Fox",
           "email": "sarah.fox@ovo.com",
           "role": "Executive Assistant",
+          "role_group": "PTLT",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Zoe Elsey",
+          "email": "zoe.elsey@ovo.com",
+          "role": "People Partner",
           "role_group": "PTLT",
           "contract_type": "Permanent"
         }

@@ -6,17 +6,47 @@
     "Andy Marsh",
     "Andrew Mohammed"
   ],
-  "solutions": [],
+  "solutions": [
+    {
+      "name": "Marketing Eligibilty Hub",
+      "description": "90+ markers to determine customer state, for example product holding, direct debit, marketing consent. Currently integrated in NBA. Plan to split into own service to support mulitple use cases as core component for decisioning, marketing selections and insight"
+    },
+    {
+      "name": "Next Best Action",
+      "description": "Leverages AI and customer data to determine and recommend the most relevant next action for a customer, delivered as a prioritised nudge through digital channels or as guidance for support advisors."
+    }
+  ],
   "teams": [
     {
       "name": "Customer Actions",
       "members": [
         {
-          "name": "Hannah Trent",
-          "email": "hannah.trent@ovo.com",
-          "role": "Lead Product Manager",
-          "role_group": "Product Management",
+          "name": "Anoop Vasant Kumar",
+          "email": "anoop.vasantkumar@ovo.com",
+          "role": "Data Engineer",
+          "role_group": "Data",
           "contract_type": "Permanent"
+        },
+        {
+          "name": "Ben Kidgell",
+          "email": "ben.kidgell@ovo.com",
+          "role": "Data Engineer",
+          "role_group": "Data",
+          "contract_type": "Permanent",
+          "careerSkillset": [
+            "Data stack"
+          ],
+          "teamSkillset": [
+            "Data stack"
+          ],
+          "dailySkillset": [
+            "Python",
+            "Terraform/HCL"
+          ],
+          "generalCompetencies": [
+            "Python",
+            "Terraform/HCL"
+          ]
         },
         {
           "name": "Gourav Jain",
@@ -45,10 +75,24 @@
           ]
         },
         {
-          "name": "Anoop Vasant Kumar",
-          "email": "anoop.vasantkumar@ovo.com",
-          "role": "Data Engineer",
-          "role_group": "Data",
+          "name": "Hannah Trent",
+          "email": "hannah.trent@ovo.com",
+          "role": "Lead Product Manager",
+          "role_group": "Product Management",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Paul Range",
+          "email": "paul.range@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Simon Millington",
+          "email": "simon.millington2@ovo.com",
+          "role": "Agile Coach",
+          "role_group": "Agile Coach",
           "contract_type": "Permanent"
         },
         {
@@ -72,41 +116,6 @@
             "SQL",
             "R"
           ]
-        },
-        {
-          "name": "Ben Kidgell",
-          "email": "ben.kidgell@ovo.com",
-          "role": "Data Engineer",
-          "role_group": "Data",
-          "contract_type": "Permanent",
-          "careerSkillset": [
-            "Data stack"
-          ],
-          "teamSkillset": [
-            "Data stack"
-          ],
-          "dailySkillset": [
-            "Python",
-            "Terraform/HCL"
-          ],
-          "generalCompetencies": [
-            "Python",
-            "Terraform/HCL"
-          ]
-        },
-        {
-          "name": "Paul Range",
-          "email": "paul.range@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Simon Millington",
-          "email": "simon.millington2@ovo.com",
-          "role": "Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Permanent"
         },
         {
           "name": null,

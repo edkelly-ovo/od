@@ -3,27 +3,96 @@
   "leadership": [
     "Igor Savin"
   ],
-  "solutions": [],
+  "solutions": [
+    {
+      "name": "Administration",
+      "description": "Provides a centralised administration interface for support agents to access tools and perform their daily duties."
+    },
+    {
+      "name": "Complaints",
+      "description": "Manages the end-to-end process for logging, tracking, and resolving customer complaints in a compliant and timely manner. (Salesforce?)"
+    },
+    {
+      "name": "Contact",
+      "description": "Manages the creation and initiation of all inbound and outbound customer contact events across various channels. (Genesys)"
+    },
+    {
+      "name": "Contact History",
+      "description": "Maintains a comprehensive and compliant historical record of all customer interactions across every communication channel."
+    },
+    {
+      "name": "Conversation",
+      "description": "Manages real-time call controls during a customer conversation, including holds, transfers, and consultations with other agents. (Genesys)"
+    },
+    {
+      "name": "Exception Administration",
+      "description": "Provides a specialised interface for support agents to manage and resolve system-generated exceptions."
+    },
+    {
+      "name": "Exceptions Workflow",
+      "description": "Manages the lifecycle of system-generated exceptions, including categorisation, prioritisation, and assignment to agents for resolution"
+    },
+    {
+      "name": "Feedback",
+      "description": "Captures, categorises, and analyses customer feedback to drive service improvements and product enhancements. (Qualtrics)"
+    },
+    {
+      "name": "Genesys Advisor Assist Web Messaging Testing Tool",
+      "description": "Performs automated testing of Genesys Chatbots and architect flows using scripted dialogues and conversational AI to ensure quality and reliability."
+    },
+    {
+      "name": "Identity Verification",
+      "description": "Manages the process of verifying a customer's identity to prevent fraud and ensure inbound contacts are routed securely and appropriately."
+    },
+    {
+      "name": "Inbound Contact",
+      "description": "Orchestrates the handling of all incoming customer communications from channels such as phone, email, chat, and social media. (Genesys)"
+    },
+    {
+      "name": "Knowledge Base",
+      "description": "A centralised repository of support articles and documentation, enabling agents to efficiently find up-to-date information for resolving customer issues and exceptions."
+    },
+    {
+      "name": "Outbound Contact",
+      "description": "Orchestrates proactive outbound communications with customers via channels like phone and email. (Genesys)"
+    },
+    {
+      "name": "Outbound Contact Campaign",
+      "description": "Manages the creation and execution of targeted outbound dialing campaigns to achieve specific business goals, such as debt collection or sales."
+    },
+    {
+      "name": "Routing",
+      "description": "Intelligently routes incoming customer contacts to the most appropriate agent or automated system, providing callers with wait time information and callback options"
+    },
+    {
+      "name": "Support Administration",
+      "description": "Provides a dedicated interface for support agents to directly manage and assist customers with their accounts and inquiries."
+    },
+    {
+      "name": "Support Administration",
+      "description": "The service helps advisors view and manage customer casework efficiently."
+    },
+    {
+      "name": "Support Agents",
+      "description": "Provides performance insights and management tools for support agents, covering feedback, process adherence, and training requirements."
+    },
+    {
+      "name": "Support Workflow",
+      "description": "Manages the lifecycle of a customer support case, including categorisation, prioritisation, and assignment to the appropriate support agents. (Salesforce)"
+    },
+    {
+      "name": "Support Workforce",
+      "description": "Provides workforce management capabilities, including forecasting contact volumes and scheduling agent staffing levels to meet service demand."
+    },
+    {
+      "name": "Vulnerability",
+      "description": "Manages the identification and recording of customer vulnerabilities (e.g., Priority Services Register) to ensure appropriate service, triage, and care."
+    }
+  ],
   "teams": [
     {
-      "name": "Case Management",
+      "name": "3rd Party Integrations",
       "members": [
-        {
-          "name": "Anshuman Chauhan",
-          "email": null,
-          "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "3rd Party Partner",
-          "supplier": null
-        },
-        {
-          "name": "Mohit Kumar",
-          "email": null,
-          "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "3rd Party Partner",
-          "supplier": "Cynoteck Technology Solutions LLC"
-        },
         {
           "name": "Aidan Walker",
           "email": "aidan.walker@ovo.com",
@@ -39,10 +108,145 @@
           "contract_type": "Permanent"
         },
         {
+          "name": "Aniruddha Chatterjee",
+          "email": "aniruddha.chatterjee@ovo.com",
+          "role": "Senior BA",
+          "role_group": "BA",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Catherine Brown",
+          "email": "cathy.brown@ovo.com",
+          "role": "Agile Coach",
+          "role_group": "Agile Coach",
+          "contract_type": "Permanent",
+          "onLeave": true
+        },
+        {
+          "name": "Dan Fox",
+          "email": null,
+          "role": "Agile Coach",
+          "role_group": "Agile Coach",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "David Ward",
+          "email": "david.ward@ovo.com",
+          "role": "Senior Product Designer",
+          "role_group": "XD",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Hayley Wills",
+          "email": "hayley.wills@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Igor Savin",
+          "email": null,
+          "role": "Principal Engineer",
+          "role_group": "Engineering",
+          "contract_type": "3rd Party Partner",
+          "supplier": "Architus Systems Ltd t/a Architus"
+        },
+        {
+          "name": "James Kapella",
+          "email": "james.kapella1@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent",
+          "careerSkillset": [
+            "Full stack"
+          ],
+          "teamSkillset": [
+            "Full stack"
+          ],
+          "dailySkillset": [
+            "TypeScript/JavaScript/Node.js",
+            "React"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js"
+          ]
+        },
+        {
           "name": "Jamie Law",
           "email": "jamie.law@ovo.com",
           "role": "Product Manager",
           "role_group": "Product Management",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Kelzey Greening",
+          "email": "kelzey.greening@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Manvydas Urniezius",
+          "email": null,
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "3rd Party Partner",
+          "supplier": "Architus Systems Ltd t/a Architus"
+        },
+        {
+          "name": "Tatiana Turtle",
+          "email": "tatiana.turtle@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "Case Management",
+      "members": [
+        {
+          "name": "Aidan Walker",
+          "email": "aidan.walker@ovo.com",
+          "role": "Staff Product Designer",
+          "role_group": "XD",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Alice Thorpe",
+          "email": "alice.thorpe1@ovo.com",
+          "role": "Staff Service Designer",
+          "role_group": "XD",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Anshuman Chauhan",
+          "email": null,
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "3rd Party Partner",
+          "supplier": null
+        },
+        {
+          "name": "Arun KumarBV",
+          "email": "3p.arun.kumar@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "3rd Party Partner",
+          "supplier": "LogNormal"
+        },
+        {
+          "name": "Catherine Brown",
+          "email": "cathy.brown@ovo.com",
+          "role": "Agile Coach",
+          "role_group": "Agile Coach",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Dan Fox",
+          "email": null,
+          "role": "Agile Coach",
+          "role_group": "Agile Coach",
           "contract_type": "Permanent"
         },
         {
@@ -65,6 +269,13 @@
             "TypeScript/JavaScript/Node.js",
             "Apex which is a Java-like language native to Salesforce"
           ]
+        },
+        {
+          "name": "David Ward",
+          "email": "david.ward@ovo.com",
+          "role": "Senior Product Designer",
+          "role_group": "XD",
+          "contract_type": "Permanent"
         },
         {
           "name": "Deepti Doddapaneni",
@@ -92,37 +303,8 @@
           ]
         },
         {
-          "name": "Arun KumarBV",
-          "email": "3p.arun.kumar@ovo.com",
-          "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "3rd Party Partner",
-          "supplier": "LogNormal"
-        },
-        {
-          "name": "Toby Arnot",
-          "email": "toby.arnot@ovo.com",
-          "role": "BA",
-          "role_group": "BA",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Catherine Brown",
-          "email": "cathy.brown@ovo.com",
-          "role": "Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "David Ward",
-          "email": "david.ward@ovo.com",
-          "role": "Senior Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Kelzey Greening",
-          "email": "kelzey.greening@ovo.com",
+          "name": "Hayley Wills",
+          "email": "hayley.wills@ovo.com",
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
           "contract_type": "Permanent"
@@ -134,46 +316,6 @@
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
           "supplier": "Architus Systems Ltd t/a Architus"
-        },
-        {
-          "name": "Hayley Wills",
-          "email": "hayley.wills@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Dan Fox",
-          "email": null,
-          "role": "Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "QA",
-          "role_group": "QA",
-          "contract_type": "Vacancy"
-        }
-      ]
-    },
-    {
-      "name": "3rd Party Integrations",
-      "members": [
-        {
-          "name": "Aidan Walker",
-          "email": "aidan.walker@ovo.com",
-          "role": "Staff Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Alice Thorpe",
-          "email": "alice.thorpe1@ovo.com",
-          "role": "Staff Service Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent"
         },
         {
           "name": "Jamie Law",
@@ -183,63 +325,6 @@
           "contract_type": "Permanent"
         },
         {
-          "name": "Aniruddha Chatterjee",
-          "email": "aniruddha.chatterjee@ovo.com",
-          "role": "Senior BA",
-          "role_group": "BA",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "James Kapella",
-          "email": "james.kapella1@ovo.com",
-          "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent",
-          "careerSkillset": [
-            "Full stack"
-          ],
-          "teamSkillset": [
-            "Full stack"
-          ],
-          "dailySkillset": [
-            "TypeScript/JavaScript/Node.js",
-            "React"
-          ],
-          "generalCompetencies": [
-            "TypeScript/JavaScript/Node.js"
-          ]
-        },
-        {
-          "name": "Tatiana Turtle",
-          "email": "tatiana.turtle@ovo.com",
-          "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Catherine Brown",
-          "email": "cathy.brown@ovo.com",
-          "role": "Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Permanent",
-          "onLeave": true
-        },
-        {
-          "name": "David Ward",
-          "email": "david.ward@ovo.com",
-          "role": "Senior Product Designer",
-          "role_group": "XD",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Manvydas Urniezius",
-          "email": null,
-          "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "3rd Party Partner",
-          "supplier": "Architus Systems Ltd t/a Architus"
-        },
-        {
           "name": "Kelzey Greening",
           "email": "kelzey.greening@ovo.com",
           "role": "Delivery & Growth Lead",
@@ -247,26 +332,26 @@
           "contract_type": "Permanent"
         },
         {
-          "name": "Igor Savin",
+          "name": "Mohit Kumar",
           "email": null,
-          "role": "Principal Engineer",
+          "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "supplier": "Architus Systems Ltd t/a Architus"
+          "supplier": "Cynoteck Technology Solutions LLC"
         },
         {
-          "name": "Hayley Wills",
-          "email": "hayley.wills@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
+          "name": "Toby Arnot",
+          "email": "toby.arnot@ovo.com",
+          "role": "BA",
+          "role_group": "BA",
           "contract_type": "Permanent"
         },
         {
-          "name": "Dan Fox",
+          "name": null,
           "email": null,
-          "role": "Agile Coach",
-          "role_group": "Agile Coach",
-          "contract_type": "Permanent"
+          "role": "QA",
+          "role_group": "QA",
+          "contract_type": "Vacancy"
         }
       ]
     }

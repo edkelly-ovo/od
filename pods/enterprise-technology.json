@@ -3,8 +3,165 @@
   "leadership": [
     "Ravi Maithani"
   ],
-  "solutions": [],
+  "solutions": [
+    {
+      "name": "1Password",
+      "description": ""
+    },
+    {
+      "name": "Cloudflare WARP",
+      "description": ""
+    },
+    {
+      "name": "GitHub",
+      "description": ""
+    },
+    {
+      "name": "Google Workspace",
+      "description": ""
+    },
+    {
+      "name": "Okta",
+      "description": ""
+    },
+    {
+      "name": "OVO Self Service",
+      "description": ""
+    }
+  ],
   "teams": [
+    {
+      "name": "Enterprise Platforms",
+      "members": [
+        {
+          "name": "Elliot Allen",
+          "email": "elliot.allen@ovo.com",
+          "role": "Tech Service Specialist",
+          "role_group": "Enterprise Technology",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Gareth Harris",
+          "email": "gareth.harris@ovo.com",
+          "role": "Senior DigiEx Engineer",
+          "role_group": "Enterprise Technology",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "James Price",
+          "email": "james.price@ovo.com",
+          "role": "DigiEx Engineer",
+          "role_group": "Enterprise Technology",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Ken Hang",
+          "email": "ken.hang@ovo.com",
+          "role": "TechSol Expert",
+          "role_group": "Enterprise Technology",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Nicola Spanton",
+          "email": "nicola.spanton@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Ross McDougall",
+          "email": "ross.mcdougall1@ovo.com",
+          "role": "DigiEx Engineer",
+          "role_group": "Enterprise Technology",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Scott Robertson",
+          "email": "scott.robertson2@ovo.com",
+          "role": "TechSol Expert",
+          "role_group": "Enterprise Technology",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Enterprise Tech Principal Engineer",
+          "role_group": "Enterprise Technology",
+          "contract_type": "Vacancy"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "DigiEx Engineer",
+          "role_group": "Enterprise Technology",
+          "contract_type": "Vacancy"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Vacancy"
+        }
+      ]
+    },
+    {
+      "name": "Identity & Access",
+      "members": [
+        {
+          "name": "Aaron Williams",
+          "email": "aaron.williams@ovo.com",
+          "role": "TechSol Expert",
+          "role_group": "Enterprise Technology",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Nicola Spanton",
+          "email": "nicola.spanton@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Pratik Bhatt",
+          "email": null,
+          "role": "Lead Identity Engineer",
+          "role_group": "Enterprise Technology",
+          "contract_type": "3rd Party Partner",
+          "supplier": "YunoJuno Ltd"
+        },
+        {
+          "name": "Sakib Farooquie",
+          "email": "sakib.farooquie@ovo.com",
+          "role": "Identity Engineer",
+          "role_group": "Enterprise Technology",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Satyaki Mahanti",
+          "email": null,
+          "role": "Identity Engineer",
+          "role_group": "Enterprise Technology",
+          "contract_type": "3rd Party Partner",
+          "supplier": "Lognormal Analytics Private Ltd"
+        },
+        {
+          "name": "Ujwal Thapa",
+          "email": null,
+          "role": "Identity Engineer",
+          "role_group": "Enterprise Technology",
+          "contract_type": "3rd Party Partner",
+          "supplier": "Lognormal Analytics Private Ltd"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Vacancy"
+        }
+      ]
+    },
     {
       "name": "IT Service Desk",
       "members": [
@@ -19,6 +176,13 @@
           "name": "Anthony Fish",
           "email": "anthony.fish@ovo.com",
           "role": "Lead Service Expert",
+          "role_group": "Enterprise Technology",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Ashleigh Evans",
+          "email": null,
+          "role": "Tech Service Manager",
           "role_group": "Enterprise Technology",
           "contract_type": "Permanent"
         },
@@ -65,6 +229,13 @@
           "contract_type": "Permanent"
         },
         {
+          "name": "Nicola Spanton",
+          "email": "nicola.spanton@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Permanent"
+        },
+        {
           "name": "Paul Crook",
           "email": "paul.crook@ovo.com",
           "role": "Senior Service Expert",
@@ -93,20 +264,6 @@
           "contract_type": "Permanent"
         },
         {
-          "name": "Nicola Spanton",
-          "email": "nicola.spanton@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Ashleigh Evans",
-          "email": null,
-          "role": "Tech Service Manager",
-          "role_group": "Enterprise Technology",
-          "contract_type": "Permanent"
-        },
-        {
           "name": null,
           "email": null,
           "role": "Delivery & Growth Lead",
@@ -125,138 +282,6 @@
           "email": null,
           "role": "Identity Engineer",
           "role_group": "Enterprise Technology",
-          "contract_type": "Vacancy"
-        }
-      ]
-    },
-    {
-      "name": "Identity & Access",
-      "members": [
-        {
-          "name": "Nicola Spanton",
-          "email": "nicola.spanton@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Sakib Farooquie",
-          "email": "sakib.farooquie@ovo.com",
-          "role": "Identity Engineer",
-          "role_group": "Enterprise Technology",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Satyaki Mahanti",
-          "email": null,
-          "role": "Identity Engineer",
-          "role_group": "Enterprise Technology",
-          "contract_type": "3rd Party Partner",
-          "supplier": "Lognormal Analytics Private Ltd"
-        },
-        {
-          "name": "Ujwal Thapa",
-          "email": null,
-          "role": "Identity Engineer",
-          "role_group": "Enterprise Technology",
-          "contract_type": "3rd Party Partner",
-          "supplier": "Lognormal Analytics Private Ltd"
-        },
-        {
-          "name": "Aaron Williams",
-          "email": "aaron.williams@ovo.com",
-          "role": "TechSol Expert",
-          "role_group": "Enterprise Technology",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Pratik Bhatt",
-          "email": null,
-          "role": "Lead Identity Engineer",
-          "role_group": "Enterprise Technology",
-          "contract_type": "3rd Party Partner",
-          "supplier": "YunoJuno Ltd"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Vacancy"
-        }
-      ]
-    },
-    {
-      "name": "Enterprise Platforms",
-      "members": [
-        {
-          "name": "Nicola Spanton",
-          "email": "nicola.spanton@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Enterprise Tech Principal Engineer",
-          "role_group": "Enterprise Technology",
-          "contract_type": "Vacancy"
-        },
-        {
-          "name": "Ross McDougall",
-          "email": "ross.mcdougall1@ovo.com",
-          "role": "DigiEx Engineer",
-          "role_group": "Enterprise Technology",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Gareth Harris",
-          "email": "gareth.harris@ovo.com",
-          "role": "Senior DigiEx Engineer",
-          "role_group": "Enterprise Technology",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "James Price",
-          "email": "james.price@ovo.com",
-          "role": "DigiEx Engineer",
-          "role_group": "Enterprise Technology",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "DigiEx Engineer",
-          "role_group": "Enterprise Technology",
-          "contract_type": "Vacancy"
-        },
-        {
-          "name": "Elliot Allen",
-          "email": "elliot.allen@ovo.com",
-          "role": "Tech Service Specialist",
-          "role_group": "Enterprise Technology",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Ken Hang",
-          "email": "ken.hang@ovo.com",
-          "role": "TechSol Expert",
-          "role_group": "Enterprise Technology",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Scott Robertson",
-          "email": "scott.robertson2@ovo.com",
-          "role": "TechSol Expert",
-          "role_group": "Enterprise Technology",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
           "contract_type": "Vacancy"
         }
       ]

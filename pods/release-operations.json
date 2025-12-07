@@ -9,17 +9,17 @@
       "name": "Release Operations",
       "members": [
         {
-          "name": "Varun Datta",
-          "email": "varun.datta@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent"
-        },
-        {
           "name": "Siva Velayutham",
           "email": null,
           "role": "Engineer",
           "role_group": "Engineering",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Varun Datta",
+          "email": "varun.datta@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
           "contract_type": "Permanent"
         },
         {

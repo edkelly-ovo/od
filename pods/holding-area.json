@@ -1,0 +1,43 @@
+{
+  "name": "Holding Area",
+  "leadership": [],
+  "solutions": [
+    {
+      "name": "Ardoq",
+      "description": "description"
+    },
+    {
+      "name": "Connected Data",
+      "description": "Third party integration for contact details validated updates"
+    },
+    {
+      "name": "Kitchen Table",
+      "description": "description"
+    },
+    {
+      "name": "Launch Darkly",
+      "description": "description"
+    },
+    {
+      "name": "OVO Learn",
+      "description": "description"
+    },
+    {
+      "name": "OVO Rewards",
+      "description": "description"
+    },
+    {
+      "name": "ownership",
+      "description": "description"
+    },
+    {
+      "name": "Qualtrics to OVO",
+      "description": "Takes CSTAT from Qualtrics in to OVO BQ"
+    },
+    {
+      "name": "Workday",
+      "description": "description"
+    }
+  ],
+  "teams": []
+}

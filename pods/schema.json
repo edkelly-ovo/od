@@ -14,6 +14,24 @@
         "type": "string"
       }
     },
+    "solutions": {
+      "type": "array",
+      "description": "Array of solutions the pod works on",
+      "items": {
+        "type": "object",
+        "required": ["name", "description"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Name of the solution"
+          },
+          "description": {
+            "type": "string",
+            "description": "Description of the solution"
+          }
+        }
+      }
+    },
     "teams": {
       "type": "array",
       "description": "Array of teams within the pod",

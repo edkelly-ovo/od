@@ -3,53 +3,60 @@
   "leadership": [
     "Jon Finch"
   ],
-  "solutions": [],
+  "solutions": [
+    {
+      "name": "Aiven",
+      "description": ""
+    },
+    {
+      "name": "Authentication",
+      "description": "Orchestrates customer authentication and authorisation, ensuring secure entry into OVO's digital platforms and services."
+    },
+    {
+      "name": "AWS",
+      "description": ""
+    },
+    {
+      "name": "Azure",
+      "description": ""
+    },
+    {
+      "name": "Cloudflare CDN ",
+      "description": ""
+    },
+    {
+      "name": "Cloudflare WAF",
+      "description": ""
+    },
+    {
+      "name": "Datadog",
+      "description": ""
+    },
+    {
+      "name": "Evergreen",
+      "description": "Evergreen is a multi-tenant developer platform that provides a way for teams to deploy apps and services in a secure, well-maintained way without worrying about the underlying infrastructure."
+    },
+    {
+      "name": "Google Cloud Platform",
+      "description": ""
+    },
+    {
+      "name": "Gravitee API Gateway",
+      "description": ""
+    },
+    {
+      "name": "Switchboard",
+      "description": "A developer portal to help discover our systems and services, technical documentation, the Tech Handbook, and self-service Golden Pathway solutions."
+    },
+    {
+      "name": "Terraform Cloud",
+      "description": ""
+    }
+  ],
   "teams": [
     {
       "name": "Cloud Operations",
       "members": [
-        {
-          "name": "Neil Smith",
-          "email": "neil.smith@ovo.com",
-          "role": "Principal CloudOps Engineer",
-          "role_group": "I&E",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Vacancy"
-        },
-        {
-          "name": "Daven Sangeelee",
-          "email": "daven.sangeelee@ovo.com",
-          "role": "Senior Cloud Infra Engineer",
-          "role_group": "I&E",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Philip Easton",
-          "email": "phillip.easton@ovo.com",
-          "role": "Senior Cloud Infra Engineer",
-          "role_group": "I&E",
-          "contract_type": "Permanent",
-          "careerSkillset": [
-            "Infrastructure"
-          ],
-          "teamSkillset": [
-            "Infrastructure"
-          ],
-          "dailySkillset": [
-            "Terraform/HCL",
-            "Powershell",
-            "Gcloud cli"
-          ],
-          "generalCompetencies": [
-            "Terraform/HCL"
-          ]
-        },
         {
           "name": "Andrej Olas",
           "email": "andrej.olas@ovo.com",
@@ -72,8 +79,28 @@
           ]
         },
         {
-          "name": "Tom Gordine",
-          "email": "tom.gordine@ovo.com",
+          "name": "Chris Fox",
+          "email": "chris.fox@ovo.com",
+          "role": "Senior Platform Specialist",
+          "role_group": "I&E",
+          "contract_type": "Permanent",
+          "careerSkillset": [
+            "Infrastructure"
+          ],
+          "teamSkillset": [
+            "Infrastructure"
+          ],
+          "dailySkillset": [
+            "Terraform/HCL",
+            "none"
+          ],
+          "generalCompetencies": [
+            "Terraform/HCL"
+          ]
+        },
+        {
+          "name": "Daven Sangeelee",
+          "email": "daven.sangeelee@ovo.com",
           "role": "Senior Cloud Infra Engineer",
           "role_group": "I&E",
           "contract_type": "Permanent"
@@ -108,11 +135,47 @@
           ]
         },
         {
-          "name": null,
-          "email": null,
-          "role": "Cloud Platform Engineer",
+          "name": "Neil Smith",
+          "email": "neil.smith@ovo.com",
+          "role": "Principal CloudOps Engineer",
           "role_group": "I&E",
-          "contract_type": "Vacancy"
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Neisha Grainger",
+          "email": "neisha.grainger@ovo.com",
+          "role": "Delivery Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Philip Easton",
+          "email": "phillip.easton@ovo.com",
+          "role": "Senior Cloud Infra Engineer",
+          "role_group": "I&E",
+          "contract_type": "Permanent",
+          "careerSkillset": [
+            "Infrastructure"
+          ],
+          "teamSkillset": [
+            "Infrastructure"
+          ],
+          "dailySkillset": [
+            "Terraform/HCL",
+            "Powershell",
+            "Gcloud cli"
+          ],
+          "generalCompetencies": [
+            "Terraform/HCL"
+          ]
+        },
+        {
+          "name": "Ramunas Balukonis",
+          "email": null,
+          "role": "DBA",
+          "role_group": "I&E",
+          "contract_type": "3rd Party Partner",
+          "supplier": "Architus Systems Ltd t/a Architus"
         },
         {
           "name": "Sara Gotham",
@@ -134,56 +197,9 @@
           ]
         },
         {
-          "name": "Chris Fox",
-          "email": "chris.fox@ovo.com",
-          "role": "Senior Platform Specialist",
-          "role_group": "I&E",
-          "contract_type": "Permanent",
-          "careerSkillset": [
-            "Infrastructure"
-          ],
-          "teamSkillset": [
-            "Infrastructure"
-          ],
-          "dailySkillset": [
-            "Terraform/HCL",
-            "none"
-          ],
-          "generalCompetencies": [
-            "Terraform/HCL"
-          ]
-        },
-        {
-          "name": "Ramunas Balukonis",
-          "email": null,
-          "role": "DBA",
-          "role_group": "I&E",
-          "contract_type": "3rd Party Partner",
-          "supplier": "Architus Systems Ltd t/a Architus"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "BA",
-          "role_group": "BA",
-          "contract_type": "Vacancy"
-        },
-        {
-          "name": "Neisha Grainger",
-          "email": "neisha.grainger@ovo.com",
-          "role": "Delivery Manager",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent"
-        }
-      ]
-    },
-    {
-      "name": "Infrastructure Ops",
-      "members": [
-        {
-          "name": "Neil Smith",
-          "email": "neil.smith@ovo.com",
-          "role": "Principal CloudOps Engineer",
+          "name": "Tom Gordine",
+          "email": "tom.gordine@ovo.com",
+          "role": "Senior Cloud Infra Engineer",
           "role_group": "I&E",
           "contract_type": "Permanent"
         },
@@ -195,26 +211,24 @@
           "contract_type": "Vacancy"
         },
         {
-          "name": "Kenny Hall",
-          "email": "kenny.hall@ovo.com",
-          "role": "Senior Infrastructure Engineer",
+          "name": null,
+          "email": null,
+          "role": "Cloud Platform Engineer",
           "role_group": "I&E",
-          "contract_type": "Permanent"
+          "contract_type": "Vacancy"
         },
         {
-          "name": "Steve Godfrey",
-          "email": "steve.godfrey@ovo.com",
-          "role": "Network Architect",
-          "role_group": "I&E",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "David Jennings",
-          "email": "dave.jennings@ovo.com",
-          "role": "Senior Network Engineer",
-          "role_group": "I&E",
-          "contract_type": "Permanent"
-        },
+          "name": null,
+          "email": null,
+          "role": "BA",
+          "role_group": "BA",
+          "contract_type": "Vacancy"
+        }
+      ]
+    },
+    {
+      "name": "Commodity Platforms",
+      "members": [
         {
           "name": "Emily Horner",
           "email": null,
@@ -223,63 +237,18 @@
           "contract_type": "Permanent"
         },
         {
-          "name": "Neisha Grainger",
-          "email": "neisha.grainger@ovo.com",
-          "role": "Delivery Manager",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Ben Wykeham",
-          "email": "ben.wykeham@ovo.com",
-          "role": "Senior Infrastructure Services Manager",
+          "name": "James Aston",
+          "email": "james.aston@ovo.com",
+          "role": "Platform Specialist",
           "role_group": "I&E",
           "contract_type": "Permanent"
         },
-        {
-          "name": "Raf Mitura",
-          "email": "raf.mitura@ovo.com",
-          "role": "Infrastructure Architect",
-          "role_group": "I&E",
-          "contract_type": "Permanent",
-          "careerSkillset": [
-            "Infrastructure"
-          ],
-          "teamSkillset": [
-            "Infrastructure"
-          ],
-          "dailySkillset": [
-            "Python",
-            "Terraform/HCL",
-            "bash",
-            "ansible",
-            "powershell"
-          ],
-          "generalCompetencies": [
-            "Python",
-            "bash",
-            "ansible",
-            "powershell"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Commodity Platforms",
-      "members": [
         {
           "name": "Neil Smith",
           "email": "neil.smith@ovo.com",
           "role": "Principal CloudOps Engineer",
           "role_group": "I&E",
           "contract_type": "Permanent"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Vacancy"
         },
         {
           "name": "Neil Stirling",
@@ -306,11 +275,18 @@
           ]
         },
         {
-          "name": "James Aston",
-          "email": "james.aston@ovo.com",
-          "role": "Platform Specialist",
-          "role_group": "I&E",
+          "name": "Neisha Grainger",
+          "email": "neisha.grainger@ovo.com",
+          "role": "Delivery Manager",
+          "role_group": "Agile Delivery",
           "contract_type": "Permanent"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Vacancy"
         },
         {
           "name": null,
@@ -320,20 +296,6 @@
           "contract_type": "Vacancy"
         },
         {
-          "name": "Emily Horner",
-          "email": null,
-          "role": "BA",
-          "role_group": "BA",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Neisha Grainger",
-          "email": "neisha.grainger@ovo.com",
-          "role": "Delivery Manager",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent"
-        },
-        {
           "name": null,
           "email": null,
           "role": "Senior Cloud Infra Engineer",
@@ -346,371 +308,6 @@
           "role": "Senior Cloud Infra Engineer",
           "role_group": "I&E",
           "contract_type": "Vacancy"
-        }
-      ]
-    },
-    {
-      "name": "Evergreen PaaS",
-      "members": [
-        {
-          "name": null,
-          "email": null,
-          "role": "Principal Platform Engineer",
-          "role_group": "I&E",
-          "contract_type": "Vacancy"
-        },
-        {
-          "name": "James Lucktaylor",
-          "email": "james.lucktaylor@ovo.com",
-          "role": "Production Engineer",
-          "role_group": "I&E",
-          "contract_type": "Permanent",
-          "careerSkillset": [
-            "Backend"
-          ],
-          "teamSkillset": [
-            "Infrastructure"
-          ],
-          "dailySkillset": [
-            "Go",
-            "YAML"
-          ],
-          "generalCompetencies": [
-            "Go",
-            "Terraform/HCL"
-          ]
-        },
-        {
-          "name": "Richard Fudge",
-          "email": "richard.fudge@ovo.com",
-          "role": "Production Engineer",
-          "role_group": "I&E",
-          "contract_type": "Permanent",
-          "careerSkillset": [
-            "Infrastructure"
-          ],
-          "teamSkillset": [
-            "Infrastructure"
-          ],
-          "dailySkillset": [
-            "Terraform/HCL"
-          ],
-          "generalCompetencies": [
-            "Terraform/HCL"
-          ]
-        },
-        {
-          "name": "Darren Thomas",
-          "email": "darren.thomas@ovo.com",
-          "role": "Specialist Digital Services",
-          "role_group": "I&E",
-          "contract_type": "Permanent",
-          "careerSkillset": [
-            "Infrastructure"
-          ],
-          "teamSkillset": [
-            "Infrastructure"
-          ],
-          "dailySkillset": [
-            "Terraform/HCL"
-          ],
-          "generalCompetencies": [
-            ".NET",
-            "Python",
-            "Go",
-            "Terraform/HCL"
-          ]
-        },
-        {
-          "name": "Chris Brindley",
-          "email": "chris.brindley@ovo.com",
-          "role": "Production Engineer",
-          "role_group": "I&E",
-          "contract_type": "Permanent",
-          "careerSkillset": [
-            "Infrastructure"
-          ],
-          "teamSkillset": [
-            "Infrastructure"
-          ],
-          "dailySkillset": [
-            "Terraform/HCL",
-            "Go"
-          ],
-          "generalCompetencies": [
-            "Python",
-            "Go",
-            "Terraform/HCL"
-          ]
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Production Engineer",
-          "role_group": "I&E",
-          "contract_type": "Vacancy"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Production Engineer",
-          "role_group": "I&E",
-          "contract_type": "Vacancy"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Cloud Platform Engineer",
-          "role_group": "I&E",
-          "contract_type": "Vacancy"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Vacancy"
-        },
-        {
-          "name": "Emily Horner",
-          "email": null,
-          "role": "BA",
-          "role_group": "BA",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Neisha Grainger",
-          "email": "neisha.grainger@ovo.com",
-          "role": "Delivery Manager",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Paolo Ventriglia",
-          "email": "paolo.ventriglia1@ovo.com",
-          "role": "I&E Consultant",
-          "role_group": "I&E",
-          "contract_type": "3rd Party Partner",
-          "supplier": "Crosstide Ltd"
-        },
-        {
-          "name": "Naved Shah",
-          "email": null,
-          "role": "I&E Consultant",
-          "role_group": "I&E",
-          "contract_type": "3rd Party Partner",
-          "supplier": "Crosstide Ltd"
-        }
-      ]
-    },
-    {
-      "name": "SRE Ops",
-      "members": [
-        {
-          "name": null,
-          "email": null,
-          "role": "Principal Platform Engineer",
-          "role_group": "I&E",
-          "contract_type": "Vacancy"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Vacancy"
-        },
-        {
-          "name": "Simon Smart",
-          "email": "simon.smart@ovo.com",
-          "role": "DBA",
-          "role_group": "I&E",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Ross Garrett",
-          "email": "ross.garrett@ovo.com",
-          "role": "SRE SEM",
-          "role_group": "I&E",
-          "contract_type": "Permanent",
-          "careerSkillset": [
-            "Full stack"
-          ],
-          "teamSkillset": [
-            "Full stack"
-          ],
-          "dailySkillset": [
-            "TypeScript/JavaScript/Node.js",
-            "Python",
-            "Go",
-            "Terraform/HCL"
-          ],
-          "generalCompetencies": [
-            "TypeScript/JavaScript/Node.js",
-            "Python",
-            "Go",
-            "Terraform/HCL"
-          ]
-        },
-        {
-          "name": "Nick Tunstall",
-          "email": "nick.tunstall@ovo.com",
-          "role": "SRE",
-          "role_group": "I&E",
-          "contract_type": "Permanent",
-          "careerSkillset": [
-            "Infrastructure"
-          ],
-          "teamSkillset": [
-            "Infrastructure"
-          ],
-          "dailySkillset": [
-            "Terraform/HCL",
-            "TypeScript/JavaScript/Node.js",
-            "Python",
-            "Go"
-          ],
-          "generalCompetencies": [
-            "Python",
-            "Terraform/HCL"
-          ]
-        },
-        {
-          "name": "Nick Gooding",
-          "email": "nick.gooding@ovo.com",
-          "role": "SRE",
-          "role_group": "I&E",
-          "contract_type": "Permanent",
-          "careerSkillset": [
-            "Full stack"
-          ],
-          "teamSkillset": [
-            "Other"
-          ],
-          "dailySkillset": [
-            "Terraform/HCL",
-            "TypeScript/JavaScript/Node.js"
-          ],
-          "generalCompetencies": [
-            "TypeScript/JavaScript/Node.js",
-            "React",
-            "Python",
-            "Go",
-            "Terraform/HCL"
-          ]
-        },
-        {
-          "name": "Kerri Watson",
-          "email": "kerri.watson@ovo.com",
-          "role": "Security Lead",
-          "role_group": "Security",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Platform SRE",
-          "role_group": "I&E",
-          "contract_type": "Vacancy"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "Platform SRE",
-          "role_group": "I&E",
-          "contract_type": "Vacancy"
-        },
-        {
-          "name": null,
-          "email": null,
-          "role": "FInOps",
-          "role_group": "I&E",
-          "contract_type": "Vacancy"
-        },
-        {
-          "name": "Emily Horner",
-          "email": null,
-          "role": "BA",
-          "role_group": "BA",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Neisha Grainger",
-          "email": "neisha.grainger@ovo.com",
-          "role": "Delivery Manager",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Mark Buss",
-          "email": "mark.buss@ovo.com",
-          "role": "Digital Sustainability Manager",
-          "role_group": "I&E",
-          "contract_type": "Permanent"
-        }
-      ]
-    },
-    {
-      "name": "OVO Home Services",
-      "members": [
-        {
-          "name": "Andrii Tkachuk",
-          "email": "andrii.tkachuk@ovo.com",
-          "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "3rd Party Partner",
-          "supplier": "N-IX Ltd",
-          "careerSkillset": [
-            "Platform"
-          ],
-          "teamSkillset": [
-            "Platform"
-          ],
-          "dailySkillset": [
-            "AWS"
-          ],
-          "generalCompetencies": [
-            "AWS"
-          ]
-        },
-        {
-          "name": "Oleksiy Korzhov",
-          "email": "oleksiy.korzhov@ovo.com",
-          "role": "Engineer",
-          "role_group": "Engineering",
-          "contract_type": "3rd Party Partner",
-          "supplier": "N-IX Ltd",
-          "careerSkillset": [
-            "Infrastructure",
-            "Platform"
-          ],
-          "teamSkillset": [
-            "Infrastructure",
-            "Platform"
-          ],
-          "dailySkillset": [
-            "Terraform/HCL",
-            "Python",
-            "AWS"
-          ],
-          "generalCompetencies": [
-            "Terraform/HCL",
-            "AWS"
-          ]
-        },
-        {
-          "name": "Neisha Grainger",
-          "email": "neisha.grainger@ovo.com",
-          "role": "Delivery Manager",
-          "role_group": "Agile Delivery",
-          "contract_type": "Permanent"
-        },
-        {
-          "name": "Philip Entwisle",
-          "email": "philip.entwisle@ovo.com",
-          "role": "Delivery & Growth Lead",
-          "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent"
         }
       ]
     },
@@ -745,6 +342,458 @@
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
           "contract_type": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "Evergreen PaaS",
+      "members": [
+        {
+          "name": "Chris Brindley",
+          "email": "chris.brindley@ovo.com",
+          "role": "Production Engineer",
+          "role_group": "I&E",
+          "contract_type": "Permanent",
+          "careerSkillset": [
+            "Infrastructure"
+          ],
+          "teamSkillset": [
+            "Infrastructure"
+          ],
+          "dailySkillset": [
+            "Terraform/HCL",
+            "Go"
+          ],
+          "generalCompetencies": [
+            "Python",
+            "Go",
+            "Terraform/HCL"
+          ]
+        },
+        {
+          "name": "Darren Thomas",
+          "email": "darren.thomas@ovo.com",
+          "role": "Specialist Digital Services",
+          "role_group": "I&E",
+          "contract_type": "Permanent",
+          "careerSkillset": [
+            "Infrastructure"
+          ],
+          "teamSkillset": [
+            "Infrastructure"
+          ],
+          "dailySkillset": [
+            "Terraform/HCL"
+          ],
+          "generalCompetencies": [
+            ".NET",
+            "Python",
+            "Go",
+            "Terraform/HCL"
+          ]
+        },
+        {
+          "name": "Emily Horner",
+          "email": null,
+          "role": "BA",
+          "role_group": "BA",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "James Lucktaylor",
+          "email": "james.lucktaylor@ovo.com",
+          "role": "Production Engineer",
+          "role_group": "I&E",
+          "contract_type": "Permanent",
+          "careerSkillset": [
+            "Backend"
+          ],
+          "teamSkillset": [
+            "Infrastructure"
+          ],
+          "dailySkillset": [
+            "Go",
+            "YAML"
+          ],
+          "generalCompetencies": [
+            "Go",
+            "Terraform/HCL"
+          ]
+        },
+        {
+          "name": "Naved Shah",
+          "email": null,
+          "role": "I&E Consultant",
+          "role_group": "I&E",
+          "contract_type": "3rd Party Partner",
+          "supplier": "Crosstide Ltd"
+        },
+        {
+          "name": "Neisha Grainger",
+          "email": "neisha.grainger@ovo.com",
+          "role": "Delivery Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Paolo Ventriglia",
+          "email": "paolo.ventriglia1@ovo.com",
+          "role": "I&E Consultant",
+          "role_group": "I&E",
+          "contract_type": "3rd Party Partner",
+          "supplier": "Crosstide Ltd"
+        },
+        {
+          "name": "Richard Fudge",
+          "email": "richard.fudge@ovo.com",
+          "role": "Production Engineer",
+          "role_group": "I&E",
+          "contract_type": "Permanent",
+          "careerSkillset": [
+            "Infrastructure"
+          ],
+          "teamSkillset": [
+            "Infrastructure"
+          ],
+          "dailySkillset": [
+            "Terraform/HCL"
+          ],
+          "generalCompetencies": [
+            "Terraform/HCL"
+          ]
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Principal Platform Engineer",
+          "role_group": "I&E",
+          "contract_type": "Vacancy"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Production Engineer",
+          "role_group": "I&E",
+          "contract_type": "Vacancy"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Production Engineer",
+          "role_group": "I&E",
+          "contract_type": "Vacancy"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Cloud Platform Engineer",
+          "role_group": "I&E",
+          "contract_type": "Vacancy"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Vacancy"
+        }
+      ]
+    },
+    {
+      "name": "Infrastructure Ops",
+      "members": [
+        {
+          "name": "Ben Wykeham",
+          "email": "ben.wykeham@ovo.com",
+          "role": "Senior Infrastructure Services Manager",
+          "role_group": "I&E",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "David Jennings",
+          "email": "dave.jennings@ovo.com",
+          "role": "Senior Network Engineer",
+          "role_group": "I&E",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Emily Horner",
+          "email": null,
+          "role": "BA",
+          "role_group": "BA",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Kenny Hall",
+          "email": "kenny.hall@ovo.com",
+          "role": "Senior Infrastructure Engineer",
+          "role_group": "I&E",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Neil Smith",
+          "email": "neil.smith@ovo.com",
+          "role": "Principal CloudOps Engineer",
+          "role_group": "I&E",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Neisha Grainger",
+          "email": "neisha.grainger@ovo.com",
+          "role": "Delivery Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Raf Mitura",
+          "email": "raf.mitura@ovo.com",
+          "role": "Infrastructure Architect",
+          "role_group": "I&E",
+          "contract_type": "Permanent",
+          "careerSkillset": [
+            "Infrastructure"
+          ],
+          "teamSkillset": [
+            "Infrastructure"
+          ],
+          "dailySkillset": [
+            "Python",
+            "Terraform/HCL",
+            "bash",
+            "ansible",
+            "powershell"
+          ],
+          "generalCompetencies": [
+            "Python",
+            "bash",
+            "ansible",
+            "powershell"
+          ]
+        },
+        {
+          "name": "Steve Godfrey",
+          "email": "steve.godfrey@ovo.com",
+          "role": "Network Architect",
+          "role_group": "I&E",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Vacancy"
+        }
+      ]
+    },
+    {
+      "name": "OVO Home Services",
+      "members": [
+        {
+          "name": "Andrii Tkachuk",
+          "email": "andrii.tkachuk@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "3rd Party Partner",
+          "supplier": "N-IX Ltd",
+          "careerSkillset": [
+            "Platform"
+          ],
+          "teamSkillset": [
+            "Platform"
+          ],
+          "dailySkillset": [
+            "AWS"
+          ],
+          "generalCompetencies": [
+            "AWS"
+          ]
+        },
+        {
+          "name": "Neisha Grainger",
+          "email": "neisha.grainger@ovo.com",
+          "role": "Delivery Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Oleksiy Korzhov",
+          "email": "oleksiy.korzhov@ovo.com",
+          "role": "Engineer",
+          "role_group": "Engineering",
+          "contract_type": "3rd Party Partner",
+          "supplier": "N-IX Ltd",
+          "careerSkillset": [
+            "Infrastructure",
+            "Platform"
+          ],
+          "teamSkillset": [
+            "Infrastructure",
+            "Platform"
+          ],
+          "dailySkillset": [
+            "Terraform/HCL",
+            "Python",
+            "AWS"
+          ],
+          "generalCompetencies": [
+            "Terraform/HCL",
+            "AWS"
+          ]
+        },
+        {
+          "name": "Philip Entwisle",
+          "email": "philip.entwisle@ovo.com",
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Permanent"
+        }
+      ]
+    },
+    {
+      "name": "SRE Ops",
+      "members": [
+        {
+          "name": "Emily Horner",
+          "email": null,
+          "role": "BA",
+          "role_group": "BA",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Kerri Watson",
+          "email": "kerri.watson@ovo.com",
+          "role": "Security Lead",
+          "role_group": "Security",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Mark Buss",
+          "email": "mark.buss@ovo.com",
+          "role": "Digital Sustainability Manager",
+          "role_group": "I&E",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Neisha Grainger",
+          "email": "neisha.grainger@ovo.com",
+          "role": "Delivery Manager",
+          "role_group": "Agile Delivery",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": "Nick Gooding",
+          "email": "nick.gooding@ovo.com",
+          "role": "SRE",
+          "role_group": "I&E",
+          "contract_type": "Permanent",
+          "careerSkillset": [
+            "Full stack"
+          ],
+          "teamSkillset": [
+            "Other"
+          ],
+          "dailySkillset": [
+            "Terraform/HCL",
+            "TypeScript/JavaScript/Node.js"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
+            "React",
+            "Python",
+            "Go",
+            "Terraform/HCL"
+          ]
+        },
+        {
+          "name": "Nick Tunstall",
+          "email": "nick.tunstall@ovo.com",
+          "role": "SRE",
+          "role_group": "I&E",
+          "contract_type": "Permanent",
+          "careerSkillset": [
+            "Infrastructure"
+          ],
+          "teamSkillset": [
+            "Infrastructure"
+          ],
+          "dailySkillset": [
+            "Terraform/HCL",
+            "TypeScript/JavaScript/Node.js",
+            "Python",
+            "Go"
+          ],
+          "generalCompetencies": [
+            "Python",
+            "Terraform/HCL"
+          ]
+        },
+        {
+          "name": "Ross Garrett",
+          "email": "ross.garrett@ovo.com",
+          "role": "SRE SEM",
+          "role_group": "I&E",
+          "contract_type": "Permanent",
+          "careerSkillset": [
+            "Full stack"
+          ],
+          "teamSkillset": [
+            "Full stack"
+          ],
+          "dailySkillset": [
+            "TypeScript/JavaScript/Node.js",
+            "Python",
+            "Go",
+            "Terraform/HCL"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
+            "Python",
+            "Go",
+            "Terraform/HCL"
+          ]
+        },
+        {
+          "name": "Simon Smart",
+          "email": "simon.smart@ovo.com",
+          "role": "DBA",
+          "role_group": "I&E",
+          "contract_type": "Permanent"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Principal Platform Engineer",
+          "role_group": "I&E",
+          "contract_type": "Vacancy"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Delivery & Growth Lead",
+          "role_group": "Delivery & Growth Lead",
+          "contract_type": "Vacancy"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Platform SRE",
+          "role_group": "I&E",
+          "contract_type": "Vacancy"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Platform SRE",
+          "role_group": "I&E",
+          "contract_type": "Vacancy"
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "FInOps",
+          "role_group": "I&E",
+          "contract_type": "Vacancy"
         }
       ]
     }
