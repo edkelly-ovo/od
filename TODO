@@ -1,12 +1,3 @@
 TODO
 
-Correct the schema to include the following:
-- onLeave: boolean
-- supplier: string
-- costPerDayGbp: number
-
-Ensure all 3PP are marked correctly
-
-Day rates are correct in the data
-
 Check PAYG Agent Experience

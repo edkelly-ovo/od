@@ -17,26 +17,37 @@
           "role": "Data Engineer",
           "role_group": "Data",
           "contract_type": "3rd Party Partner",
-          "skillset": [
-            "Data stack",
+          "supplier": "SR2 Rec Ltd",
+          "careerSkillset": [
+            "Data stack"
+          ],
+          "teamSkillset": [
+            "Data stack"
+          ],
+          "dailySkillset": [
             "Python",
             "TypeScript/JavaScript/Node.js",
             "Scala",
             "Terraform/HCL",
             "SQL",
-            "Shell Script",
-            "Java"
+            "Shell Script"
           ],
-          "supplier": "SR2 Rec Ltd",
-          "costPerDayGbp": null
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
+            "Scala",
+            "Java",
+            "Python",
+            "Terraform/HCL",
+            "SQL",
+            "Shell Script"
+          ]
         },
         {
           "name": null,
           "email": null,
           "role": "Agile Coach",
           "role_group": "Agile Coach",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         },
         {
           "name": "Palas Nogueira",
@@ -44,13 +55,19 @@
           "role": "Principal Engineer",
           "role_group": "Engineering",
           "contract_type": "Permanent",
-          "skillset": [
-            "Frontend - Mobile",
-            "Backend",
+          "careerSkillset": [
+            "Frontend - Mobile"
+          ],
+          "teamSkillset": [
+            "Backend"
+          ],
+          "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
             "Scala",
             "Python",
-            "Terraform/HCL",
+            "Terraform/HCL"
+          ],
+          "generalCompetencies": [
             "Swift",
             "Kotlin"
           ]
@@ -60,8 +77,7 @@
           "email": null,
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Chima Ogundipe-Hogan",
@@ -69,10 +85,18 @@
           "role": "Data Engineer",
           "role_group": "Data",
           "contract_type": "Permanent",
-          "skillset": [
-            "Data stack",
+          "careerSkillset": [
+            "Data stack"
+          ],
+          "teamSkillset": [
+            "Data stack"
+          ],
+          "dailySkillset": [
             "Python",
             "Terraform/HCL"
+          ],
+          "generalCompetencies": [
+            "Python"
           ]
         },
         {
@@ -80,8 +104,7 @@
           "email": "joseph.mcquade@ovo.com",
           "role": "Engineer",
           "role_group": "Engineering",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Tigran Karapetyan",
@@ -89,11 +112,19 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "Permanent",
-          "skillset": [
-            "Backend",
+          "careerSkillset": [
+            "Backend"
+          ],
+          "teamSkillset": [
+            "Backend"
+          ],
+          "dailySkillset": [
             "Python",
             "TypeScript/JavaScript/Node.js",
             "Terraform/HCL"
+          ],
+          "generalCompetencies": [
+            "Python"
           ]
         },
         {
@@ -101,16 +132,14 @@
           "email": "mayuri.mahajan@ovo.com",
           "role": "Product Manager",
           "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Sarah Wilson",
           "email": "sarah.wilson1@ovo.com",
           "role": "Principal Product Manager",
           "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         }
       ]
     },
@@ -122,8 +151,7 @@
           "email": null,
           "role": "Agile Coach",
           "role_group": "Agile Coach",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         },
         {
           "name": "Palas Nogueira",
@@ -131,13 +159,19 @@
           "role": "Principal Engineer",
           "role_group": "Engineering",
           "contract_type": "Permanent",
-          "skillset": [
-            "Frontend - Mobile",
-            "Backend",
+          "careerSkillset": [
+            "Frontend - Mobile"
+          ],
+          "teamSkillset": [
+            "Backend"
+          ],
+          "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
             "Scala",
             "Python",
-            "Terraform/HCL",
+            "Terraform/HCL"
+          ],
+          "generalCompetencies": [
             "Swift",
             "Kotlin"
           ]
@@ -147,16 +181,14 @@
           "email": null,
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "BA",
           "role_group": "BA",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         },
         {
           "name": "Jason Bullock",
@@ -164,8 +196,19 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "Permanent",
-          "skillset": [
-            "Backend",
+          "careerSkillset": [
+            "Backend"
+          ],
+          "teamSkillset": [
+            "Backend"
+          ],
+          "dailySkillset": [
+            "Scala",
+            "Python",
+            "Terraform/HCL",
+            "SQL"
+          ],
+          "generalCompetencies": [
             "Scala",
             "Python",
             "Terraform/HCL",
@@ -178,11 +221,21 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "Permanent",
-          "skillset": [
-            "Full stack",
-            "Frontend - Web",
+          "careerSkillset": [
+            "Full stack"
+          ],
+          "teamSkillset": [
+            "Frontend - Web"
+          ],
+          "dailySkillset": [
             "React",
             "TypeScript/JavaScript/Node.js",
+            "Scala",
+            "Terraform/HCL"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
+            "React",
             "Scala",
             "Terraform/HCL"
           ]
@@ -193,17 +246,14 @@
           "role": "QA",
           "role_group": "QA",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": "Architus Systems Ltd t/a Architus",
-          "costPerDayGbp": null
+          "supplier": "Architus Systems Ltd t/a Architus"
         },
         {
           "name": "Mayuri Mahajan",
           "email": "mayuri.mahajan@ovo.com",
           "role": "Product Manager",
           "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Greg Clifford",
@@ -211,14 +261,21 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "skillset": [
-            "Backend",
-            "Scala",
-            "Terraform/HCL",
-            ".NET"
-          ],
           "supplier": "The RAD Consulting Group Ltd",
-          "costPerDayGbp": null
+          "careerSkillset": [
+            "Backend"
+          ],
+          "teamSkillset": [
+            "Backend"
+          ],
+          "dailySkillset": [
+            "Scala",
+            "Terraform/HCL"
+          ],
+          "generalCompetencies": [
+            "Scala",
+            ".NET"
+          ]
         },
         {
           "name": "Poli Sigilipalli",
@@ -226,17 +283,14 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": "Lognormal Analytics Private Ltd",
-          "costPerDayGbp": null
+          "supplier": "Lognormal Analytics Private Ltd"
         },
         {
           "name": "Sarah Wilson",
           "email": "sarah.wilson1@ovo.com",
           "role": "Principal Product Manager",
           "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         }
       ]
     },
@@ -248,8 +302,7 @@
           "email": null,
           "role": "Agile Coach",
           "role_group": "Agile Coach",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         },
         {
           "name": "Palas Nogueira",
@@ -257,13 +310,19 @@
           "role": "Principal Engineer",
           "role_group": "Engineering",
           "contract_type": "Permanent",
-          "skillset": [
-            "Frontend - Mobile",
-            "Backend",
+          "careerSkillset": [
+            "Frontend - Mobile"
+          ],
+          "teamSkillset": [
+            "Backend"
+          ],
+          "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
             "Scala",
             "Python",
-            "Terraform/HCL",
+            "Terraform/HCL"
+          ],
+          "generalCompetencies": [
             "Swift",
             "Kotlin"
           ]
@@ -273,16 +332,14 @@
           "email": null,
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "BA",
           "role_group": "BA",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         },
         {
           "name": "Joe Ebrahim",
@@ -290,13 +347,23 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "Permanent",
-          "skillset": [
-            "Backend",
+          "careerSkillset": [
+            "Backend"
+          ],
+          "teamSkillset": [
+            "Backend"
+          ],
+          "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
             "Scala",
             "Python",
-            "Terraform/HCL",
-            "Java"
+            "Terraform/HCL"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
+            "Scala",
+            "Java",
+            "Terraform/HCL"
           ]
         },
         {
@@ -305,13 +372,23 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "Permanent",
-          "skillset": [
-            "Backend",
+          "careerSkillset": [
+            "Backend"
+          ],
+          "teamSkillset": [
+            "Backend"
+          ],
+          "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
             "Scala",
-            "Terraform/HCL",
+            "Terraform/HCL"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
+            "Scala",
             "Java",
             "Kotlin",
+            "Terraform/HCL",
             "Spring Framework (+Boot)",
             "SQL",
             "to some extent Dart and Flutter (generally speaking mostly backend + some web/mobile)"
@@ -322,24 +399,21 @@
           "email": "dean.haden@ovo.com",
           "role": "Senior Product Manager",
           "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "QA",
           "role_group": "QA",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         },
         {
           "name": "Shah Saraei",
           "email": null,
           "role": "Engineer",
           "role_group": "Engineering",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Paulius Sukuris",
@@ -347,17 +421,14 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": "Architus Systems Ltd t/a Architus",
-          "costPerDayGbp": null
+          "supplier": "Architus Systems Ltd t/a Architus"
         },
         {
           "name": "Sarah Wilson",
           "email": "sarah.wilson1@ovo.com",
           "role": "Principal Product Manager",
           "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         }
       ]
     },
@@ -369,8 +440,7 @@
           "email": null,
           "role": "Agile Coach",
           "role_group": "Agile Coach",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         },
         {
           "name": "Palas Nogueira",
@@ -378,13 +448,19 @@
           "role": "Principal Engineer",
           "role_group": "Engineering",
           "contract_type": "Permanent",
-          "skillset": [
-            "Frontend - Mobile",
-            "Backend",
+          "careerSkillset": [
+            "Frontend - Mobile"
+          ],
+          "teamSkillset": [
+            "Backend"
+          ],
+          "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
             "Scala",
             "Python",
-            "Terraform/HCL",
+            "Terraform/HCL"
+          ],
+          "generalCompetencies": [
             "Swift",
             "Kotlin"
           ]
@@ -394,8 +470,7 @@
           "email": null,
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "George Salter",
@@ -403,12 +478,21 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "Permanent",
-          "skillset": [
-            "Backend",
+          "careerSkillset": [
+            "Backend"
+          ],
+          "teamSkillset": [
+            "Backend"
+          ],
+          "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
             "Python",
-            "Terraform/HCL",
-            "Java"
+            "Terraform/HCL"
+          ],
+          "generalCompetencies": [
+            "Java",
+            "Python",
+            "Terraform/HCL"
           ]
         },
         {
@@ -417,25 +501,21 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": "Architus Systems Ltd t/a Architus",
-          "costPerDayGbp": null
+          "supplier": "Architus Systems Ltd t/a Architus"
         },
         {
           "name": "Dean Haden",
           "email": "dean.haden@ovo.com",
           "role": "Senior Product Manager",
           "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Sarah Wilson",
           "email": "sarah.wilson1@ovo.com",
           "role": "Principal Product Manager",
           "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Indrė Fedotova",
@@ -443,17 +523,14 @@
           "role": "QA",
           "role_group": "QA",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": "Architus Systems Ltd t/a Architus",
-          "costPerDayGbp": null
+          "supplier": "Architus Systems Ltd t/a Architus"
         },
         {
           "name": null,
           "email": null,
           "role": "Engineer",
           "role_group": "Engineering",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         }
       ]
     }

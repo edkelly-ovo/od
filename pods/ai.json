@@ -16,8 +16,7 @@
           "email": "hannah.trent@ovo.com",
           "role": "Lead Product Manager",
           "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Gourav Jain",
@@ -25,12 +24,22 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "Permanent",
-          "skillset": [
-            "Full stack",
+          "careerSkillset": [
+            "Full stack"
+          ],
+          "teamSkillset": [
+            "Full stack"
+          ],
+          "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
             "React",
-            "Scala",
+            "Scala"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
             "React Native",
+            "React",
+            "Scala",
             ".NET",
             "Terraform/HCL"
           ]
@@ -40,8 +49,7 @@
           "email": "anoop.vasantkumar@ovo.com",
           "role": "Data Engineer",
           "role_group": "Data",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Steven Beardwell",
@@ -49,8 +57,17 @@
           "role": "Data Scientist",
           "role_group": "Data",
           "contract_type": "Permanent",
-          "skillset": [
-            "Data stack",
+          "careerSkillset": [
+            "Data stack"
+          ],
+          "teamSkillset": [
+            "Data stack"
+          ],
+          "dailySkillset": [
+            "Python",
+            "SQL"
+          ],
+          "generalCompetencies": [
             "Python",
             "SQL",
             "R"
@@ -62,8 +79,17 @@
           "role": "Data Engineer",
           "role_group": "Data",
           "contract_type": "Permanent",
-          "skillset": [
-            "Data stack",
+          "careerSkillset": [
+            "Data stack"
+          ],
+          "teamSkillset": [
+            "Data stack"
+          ],
+          "dailySkillset": [
+            "Python",
+            "Terraform/HCL"
+          ],
+          "generalCompetencies": [
             "Python",
             "Terraform/HCL"
           ]
@@ -73,32 +99,28 @@
           "email": "paul.range@ovo.com",
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Simon Millington",
           "email": "simon.millington2@ovo.com",
           "role": "Agile Coach",
           "role_group": "Agile Coach",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "BA",
           "role_group": "BA",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         },
         {
           "name": null,
           "email": null,
           "role": "Engineer",
           "role_group": "Engineering",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         }
       ]
     }

@@ -14,9 +14,7 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": null,
-          "costPerDayGbp": null
+          "supplier": null
         },
         {
           "name": "Mohit Kumar",
@@ -24,33 +22,28 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": "Cynoteck Technology Solutions LLC",
-          "costPerDayGbp": null
+          "supplier": "Cynoteck Technology Solutions LLC"
         },
         {
           "name": "Aidan Walker",
           "email": "aidan.walker@ovo.com",
           "role": "Staff Product Designer",
           "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Alice Thorpe",
           "email": "alice.thorpe1@ovo.com",
           "role": "Staff Service Designer",
           "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Jamie Law",
           "email": "jamie.law@ovo.com",
           "role": "Product Manager",
           "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Daniel Mortensen",
@@ -58,10 +51,18 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "Permanent",
-          "skillset": [
-            "Other",
+          "careerSkillset": [
+            "Other"
+          ],
+          "teamSkillset": [
+            "Other"
+          ],
+          "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
-            "Apex",
+            "Apex"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
             "Apex which is a Java-like language native to Salesforce"
           ]
         },
@@ -71,11 +72,19 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "Permanent",
-          "skillset": [
-            "Full stack",
+          "careerSkillset": [
+            "Full stack"
+          ],
+          "teamSkillset": [
+            "Full stack"
+          ],
+          "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
             "We use salesforce proprietary languages apex",
-            "LWC on a daily basis within our team",
+            "LWC on a daily basis within our team"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
             "React",
             "Java",
             "Go",
@@ -88,41 +97,35 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": "LogNormal",
-          "costPerDayGbp": null
+          "supplier": "LogNormal"
         },
         {
           "name": "Toby Arnot",
           "email": "toby.arnot@ovo.com",
           "role": "BA",
           "role_group": "BA",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Catherine Brown",
           "email": "cathy.brown@ovo.com",
           "role": "Agile Coach",
           "role_group": "Agile Coach",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "David Ward",
           "email": "david.ward@ovo.com",
           "role": "Senior Product Designer",
           "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Kelzey Greening",
           "email": "kelzey.greening@ovo.com",
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Igor Savin",
@@ -130,33 +133,28 @@
           "role": "Principal Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": "Architus Systems Ltd t/a Architus",
-          "costPerDayGbp": null
+          "supplier": "Architus Systems Ltd t/a Architus"
         },
         {
           "name": "Hayley Wills",
           "email": "hayley.wills@ovo.com",
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Dan Fox",
           "email": null,
           "role": "Agile Coach",
           "role_group": "Agile Coach",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "QA",
           "role_group": "QA",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         }
       ]
     },
@@ -168,32 +166,28 @@
           "email": "aidan.walker@ovo.com",
           "role": "Staff Product Designer",
           "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Alice Thorpe",
           "email": "alice.thorpe1@ovo.com",
           "role": "Staff Service Designer",
           "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Jamie Law",
           "email": "jamie.law@ovo.com",
           "role": "Product Manager",
           "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Aniruddha Chatterjee",
           "email": "aniruddha.chatterjee@ovo.com",
           "role": "Senior BA",
           "role_group": "BA",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "James Kapella",
@@ -201,10 +195,18 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "Permanent",
-          "skillset": [
-            "Full stack",
+          "careerSkillset": [
+            "Full stack"
+          ],
+          "teamSkillset": [
+            "Full stack"
+          ],
+          "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
             "React"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js"
           ]
         },
         {
@@ -212,8 +214,7 @@
           "email": "tatiana.turtle@ovo.com",
           "role": "Engineer",
           "role_group": "Engineering",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Catherine Brown",
@@ -221,7 +222,6 @@
           "role": "Agile Coach",
           "role_group": "Agile Coach",
           "contract_type": "Permanent",
-          "skillset": [],
           "onLeave": true
         },
         {
@@ -229,8 +229,7 @@
           "email": "david.ward@ovo.com",
           "role": "Senior Product Designer",
           "role_group": "XD",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Manvydas Urniezius",
@@ -238,17 +237,14 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": "Architus Systems Ltd t/a Architus",
-          "costPerDayGbp": null
+          "supplier": "Architus Systems Ltd t/a Architus"
         },
         {
           "name": "Kelzey Greening",
           "email": "kelzey.greening@ovo.com",
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Igor Savin",
@@ -256,25 +252,21 @@
           "role": "Principal Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": "Architus Systems Ltd t/a Architus",
-          "costPerDayGbp": null
+          "supplier": "Architus Systems Ltd t/a Architus"
         },
         {
           "name": "Hayley Wills",
           "email": "hayley.wills@ovo.com",
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Dan Fox",
           "email": null,
           "role": "Agile Coach",
           "role_group": "Agile Coach",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         }
       ]
     }

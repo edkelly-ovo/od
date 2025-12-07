@@ -13,140 +13,119 @@
           "email": null,
           "role": "Service Expert",
           "role_group": "Enterprise Technology",
-          "contract_type": "Permanent",
-          "skillset": [
-            "#N/A"
-          ]
+          "contract_type": "Permanent"
         },
         {
           "name": "Anthony Fish",
           "email": "anthony.fish@ovo.com",
           "role": "Lead Service Expert",
           "role_group": "Enterprise Technology",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Campbell Wright",
           "email": "campbell.wright@ovo.com",
           "role": "Service Expert",
           "role_group": "Enterprise Technology",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Ethan Defoe",
           "email": "ethan.defoe@ovo.com",
           "role": "Senior Service Expert",
           "role_group": "Enterprise Technology",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Gary Munro",
           "email": "gary.munro@ovo.com",
           "role": "Lead Service Expert",
           "role_group": "Enterprise Technology",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Jack Woods",
           "email": "jack.woods@ovo.com",
           "role": "Lead Service Expert",
           "role_group": "Enterprise Technology",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Jamie Simms",
           "email": "jamie.simms@ovo.com",
           "role": "Senior Service Expert",
           "role_group": "Enterprise Technology",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Joshua Nicholls",
           "email": "Joshua.Nicholls@ovo.com",
           "role": "Service Expert",
           "role_group": "Enterprise Technology",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Paul Crook",
           "email": "paul.crook@ovo.com",
           "role": "Senior Service Expert",
           "role_group": "Enterprise Technology",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Rod Lucas",
           "email": "rod.lucas@ovo.com",
           "role": "Lead Service Expert",
           "role_group": "Enterprise Technology",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Ryan Appiah",
           "email": "ryan.appiah@ovo.com",
           "role": "Service Expert",
           "role_group": "Enterprise Technology",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Suleman Khan",
           "email": "suleman.khan@ovo.com",
           "role": "Service Expert",
           "role_group": "Enterprise Technology",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Nicola Spanton",
           "email": "nicola.spanton@ovo.com",
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Ashleigh Evans",
           "email": null,
           "role": "Tech Service Manager",
           "role_group": "Enterprise Technology",
-          "contract_type": "Permanent",
-          "skillset": [
-            "#N/A"
-          ]
+          "contract_type": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         },
         {
           "name": null,
           "email": null,
           "role": "Identity Engineer",
           "role_group": "Enterprise Technology",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         },
         {
           "name": null,
           "email": null,
           "role": "Identity Engineer",
           "role_group": "Enterprise Technology",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         }
       ]
     },
@@ -158,16 +137,14 @@
           "email": "nicola.spanton@ovo.com",
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Sakib Farooquie",
           "email": "sakib.farooquie@ovo.com",
           "role": "Identity Engineer",
           "role_group": "Enterprise Technology",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Satyaki Mahanti",
@@ -175,9 +152,7 @@
           "role": "Identity Engineer",
           "role_group": "Enterprise Technology",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": "Lognormal Analytics Private Ltd",
-          "costPerDayGbp": null
+          "supplier": "Lognormal Analytics Private Ltd"
         },
         {
           "name": "Ujwal Thapa",
@@ -185,17 +160,14 @@
           "role": "Identity Engineer",
           "role_group": "Enterprise Technology",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": "Lognormal Analytics Private Ltd",
-          "costPerDayGbp": null
+          "supplier": "Lognormal Analytics Private Ltd"
         },
         {
           "name": "Aaron Williams",
           "email": "aaron.williams@ovo.com",
           "role": "TechSol Expert",
           "role_group": "Enterprise Technology",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Pratik Bhatt",
@@ -203,17 +175,14 @@
           "role": "Lead Identity Engineer",
           "role_group": "Enterprise Technology",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": "YunoJuno Ltd",
-          "costPerDayGbp": null
+          "supplier": "YunoJuno Ltd"
         },
         {
           "name": null,
           "email": null,
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         }
       ]
     },
@@ -225,80 +194,70 @@
           "email": "nicola.spanton@ovo.com",
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "Enterprise Tech Principal Engineer",
           "role_group": "Enterprise Technology",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         },
         {
           "name": "Ross McDougall",
           "email": "ross.mcdougall1@ovo.com",
           "role": "DigiEx Engineer",
           "role_group": "Enterprise Technology",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Gareth Harris",
           "email": "gareth.harris@ovo.com",
           "role": "Senior DigiEx Engineer",
           "role_group": "Enterprise Technology",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "James Price",
           "email": "james.price@ovo.com",
           "role": "DigiEx Engineer",
           "role_group": "Enterprise Technology",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "DigiEx Engineer",
           "role_group": "Enterprise Technology",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         },
         {
           "name": "Elliot Allen",
           "email": "elliot.allen@ovo.com",
           "role": "Tech Service Specialist",
           "role_group": "Enterprise Technology",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Ken Hang",
           "email": "ken.hang@ovo.com",
           "role": "TechSol Expert",
           "role_group": "Enterprise Technology",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Scott Robertson",
           "email": "scott.robertson2@ovo.com",
           "role": "TechSol Expert",
           "role_group": "Enterprise Technology",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         }
       ]
     }

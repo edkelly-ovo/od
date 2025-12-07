@@ -13,64 +13,56 @@
           "email": "sally.greenwell@ovo.com",
           "role": "Principal Service Operations",
           "role_group": "Service Ops",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         },
         {
           "name": "Elizabeth Watkins",
           "email": "elizabeth.watkins@ovo.com",
           "role": "Service Assurance Manager",
           "role_group": "Service Ops",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Richard Moss",
           "email": "richard.moss@ovo.com",
           "role": "Reliability Standards Manager",
           "role_group": "Service Ops",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "Service Manager",
           "role_group": "Service Ops",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         },
         {
           "name": "Monday Haruna",
           "email": "monday.haruna@ovo.com",
           "role": "Delivery Manager",
           "role_group": "Agile Delivery",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Ahmed Yusuf",
           "email": "ahmed.yusuf@ovo.com",
           "role": "Service Desk Specialist",
           "role_group": "Service Ops",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Raminder Gharyal",
           "email": "raminder.gharyal@ovo.com",
           "role": "Service Desk Specialist",
           "role_group": "Service Ops",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Becky Jones",
@@ -78,7 +70,6 @@
           "role": "Customer Tech Support Analyst",
           "role_group": "Service Ops",
           "contract_type": "Permanent",
-          "skillset": [],
           "onLeave": true
         },
         {
@@ -86,40 +77,35 @@
           "email": "paulina.baba@ovo.com",
           "role": "Customer Tech Support Analyst",
           "role_group": "Service Ops",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Hannah Baker",
           "email": "hannah.baker@ovo.com",
           "role": "Junior Business Analyst",
           "role_group": "BA",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "John Geuley",
           "email": "john.geuley@ovo.com",
           "role": "Technical Support Manager",
           "role_group": "Service Ops",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Lissie Heath",
           "email": "alyssa.heath@ovo.com",
           "role": "Service Desk Analyst",
           "role_group": "Service Ops",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Sam Johnson",
           "email": "samuel.johnson2@ovo.com",
           "role": "Service Desk Analyst",
           "role_group": "Service Ops",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Kishor Dornala",
@@ -127,9 +113,7 @@
           "role": "Service Desk Analyst",
           "role_group": "Service Ops",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": "Lognormal Analytics Private Ltd",
-          "costPerDayGbp": null
+          "supplier": "Lognormal Analytics Private Ltd"
         },
         {
           "name": "Katyana Gaur",
@@ -137,9 +121,7 @@
           "role": "Service Desk Analyst",
           "role_group": "Service Ops",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": null,
-          "costPerDayGbp": null
+          "supplier": null
         },
         {
           "name": "Venkat Sai",
@@ -147,9 +129,7 @@
           "role": "Service Desk Analyst",
           "role_group": "Service Ops",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": "Lognormal Analytics Private Ltd",
-          "costPerDayGbp": null
+          "supplier": "Lognormal Analytics Private Ltd"
         },
         {
           "name": "Battala Kalyan",
@@ -157,9 +137,7 @@
           "role": "Service Desk Analyst",
           "role_group": "Service Ops",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": "Lognormal Analytics Private Ltd",
-          "costPerDayGbp": null
+          "supplier": "Lognormal Analytics Private Ltd"
         },
         {
           "name": "Sriharsha Gajawada",
@@ -167,17 +145,14 @@
           "role": "Service Desk Analyst",
           "role_group": "Service Ops",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": "Lognormal Analytics Private Ltd",
-          "costPerDayGbp": null
+          "supplier": "Lognormal Analytics Private Ltd"
         },
         {
           "name": "Adil Mahmood",
           "email": "adil.mahmood@ovo.com",
           "role": "Customer Tech Support Analyst",
           "role_group": "Service Ops",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         }
       ]
     },
@@ -189,48 +164,42 @@
           "email": "sally.greenwell@ovo.com",
           "role": "Principal Service Operations",
           "role_group": "Service Ops",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         },
         {
           "name": "John Munday",
           "email": "john.munday@ovo.com",
           "role": "Reliability Operations Manager",
           "role_group": "Service Ops",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Michael Wright",
           "email": "michael.wright@ovo.com",
           "role": "Senior Reliability Operations Specialist",
           "role_group": "Service Ops",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Darren Burrows",
           "email": "darren.burrows@ovo.com",
           "role": "Reliability Operations Specialist",
           "role_group": "Service Ops",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Phoebe Campbell-Black",
           "email": "phoebe.black@ovo.com",
           "role": "Reliability Operations Specialist",
           "role_group": "Service Ops",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         }
       ]
     },
@@ -242,56 +211,49 @@
           "email": "sally.greenwell@ovo.com",
           "role": "Principal Service Operations",
           "role_group": "Service Ops",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         },
         {
           "name": "Sarah Crown",
           "email": "sarah.crown@ovo.com",
           "role": "Lead Incident & Problem Manager",
           "role_group": "Service Ops",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Dan Elliott",
           "email": "danielle.elliott@ovo.com",
           "role": "Incident & Problem Manager",
           "role_group": "Service Ops",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Danielle Gregson",
           "email": "danielle.gregson@ovo.com",
           "role": "Junior Incident & Problem Manager",
           "role_group": "Service Ops",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "James Carpenter",
           "email": "james.carpenter@ovo.com",
           "role": "Major Incident & Problem Manager",
           "role_group": "Service Ops",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Tom Bradley",
           "email": "tom.bradley@ovo.com",
           "role": "Senior Incident & Problem Manager",
           "role_group": "Service Ops",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         }
       ]
     },
@@ -303,32 +265,28 @@
           "email": "sally.greenwell@ovo.com",
           "role": "Principal Service Operations",
           "role_group": "Service Ops",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         },
         {
           "name": "Phil Batt",
           "email": "phil.batt@ovo.com",
           "role": "Senior Service Continuity Manager",
           "role_group": "Service Ops",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "James Mitchell",
           "email": null,
           "role": "Service Continuity Analyst",
           "role_group": "Service Ops",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         }
       ]
     },
@@ -341,9 +299,7 @@
           "role": "Service Desk Analyst",
           "role_group": "Service Ops",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": "Accenture",
-          "costPerDayGbp": null
+          "supplier": "Accenture"
         },
         {
           "name": "Maria Marquez",
@@ -351,9 +307,7 @@
           "role": "Service Desk Analyst",
           "role_group": "Service Ops",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": "Accenture",
-          "costPerDayGbp": null
+          "supplier": "Accenture"
         },
         {
           "name": "Laurence Buenaventura",
@@ -361,9 +315,7 @@
           "role": "Service Desk Analyst",
           "role_group": "Service Ops",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": "Accenture",
-          "costPerDayGbp": null
+          "supplier": "Accenture"
         },
         {
           "name": "John Chan",
@@ -371,9 +323,7 @@
           "role": "Team Lead",
           "role_group": "Service Ops",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": "Accenture",
-          "costPerDayGbp": null
+          "supplier": "Accenture"
         }
       ]
     }

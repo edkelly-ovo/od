@@ -1,7 +1,7 @@
 {
   "name": "Core Tech - Industry Operations",
   "leadership": [
-    "Rich Tiffin",
+    "Richard Tiffin",
     "Claire Smith",
     "Renae Hudson",
     "Mike Pullin"
@@ -17,9 +17,7 @@
           "role": "BA",
           "role_group": "BA",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": "YunoJuno Ltd",
-          "costPerDayGbp": null
+          "supplier": "YunoJuno Ltd"
         },
         {
           "name": "Dimitar Rupkin",
@@ -27,15 +25,22 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "skillset": [
-            "Backend",
+          "supplier": "Techpods",
+          "careerSkillset": [
+            "Backend"
+          ],
+          "teamSkillset": [
+            "Backend"
+          ],
+          "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
             "Kotlin",
-            "Terraform/HCL",
-            "Java"
+            "Terraform/HCL"
           ],
-          "supplier": "Techpods",
-          "costPerDayGbp": null
+          "generalCompetencies": [
+            "Java",
+            "Kotlin"
+          ]
         },
         {
           "name": "Lyubomir Ivanov",
@@ -43,16 +48,24 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "skillset": [
-            "Backend",
+          "supplier": "Techpods",
+          "careerSkillset": [
+            "Backend"
+          ],
+          "teamSkillset": [
+            "Backend"
+          ],
+          "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
-            "Terraform/HCL",
+            "Terraform/HCL"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
             "Java",
             "Kotlin",
-            "Python"
-          ],
-          "supplier": "Techpods",
-          "costPerDayGbp": null
+            "Python",
+            "Terraform/HCL"
+          ]
         },
         {
           "name": "Rositsa Busarova",
@@ -60,15 +73,21 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "skillset": [
-            "Backend",
+          "supplier": "Techpods",
+          "careerSkillset": [
+            "Backend"
+          ],
+          "teamSkillset": [
+            "Backend"
+          ],
+          "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
-            "Terraform/HCL",
+            "Terraform/HCL"
+          ],
+          "generalCompetencies": [
             "Java",
             "Kotlin"
-          ],
-          "supplier": "Techpods",
-          "costPerDayGbp": null
+          ]
         },
         {
           "name": "Trilok Singh",
@@ -76,33 +95,28 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": "Lognormal Analytics Private Ltd",
-          "costPerDayGbp": null
+          "supplier": "Lognormal Analytics Private Ltd"
         },
         {
           "name": null,
           "email": null,
           "role": "Agile Coach",
           "role_group": "Agile Coach",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         },
         {
           "name": "Richard Tiffin",
           "email": "richard.tiffin@ovo.com",
           "role": "Principal Engineer",
           "role_group": "Engineering",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "John Naughton",
           "email": null,
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Dan Hemming",
@@ -110,11 +124,20 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "Permanent",
-          "skillset": [
-            "Backend",
+          "careerSkillset": [
+            "Backend"
+          ],
+          "teamSkillset": [
+            "Backend"
+          ],
+          "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
-            "Kotlin",
+            "Kotlin"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
             "Java",
+            "Kotlin",
             "Rust"
           ]
         },
@@ -124,7 +147,6 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "Permanent",
-          "skillset": [],
           "onLeave": true
         },
         {
@@ -132,8 +154,7 @@
           "email": "claire.smith@ovo.com",
           "role": "Lead Product Manager",
           "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         }
       ]
     },
@@ -146,9 +167,7 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": "Techpods",
-          "costPerDayGbp": null
+          "supplier": "Techpods"
         },
         {
           "name": "Todor Pashkulov",
@@ -156,15 +175,24 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "skillset": [
-            "Backend",
+          "supplier": "Techpods",
+          "careerSkillset": [
+            "Backend"
+          ],
+          "teamSkillset": [
+            "Backend"
+          ],
+          "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
             "Kotlin",
-            "Terraform/HCL",
-            "Java"
+            "Terraform/HCL"
           ],
-          "supplier": "Techpods",
-          "costPerDayGbp": null
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
+            "Java",
+            "Kotlin",
+            "Terraform/HCL"
+          ]
         },
         {
           "name": "Constantin Caraus",
@@ -172,32 +200,36 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "skillset": [
-            "Backend",
-            "Data stack",
+          "supplier": "Createq AG (formerly NSM Engineering AG)",
+          "careerSkillset": [
+            "Backend"
+          ],
+          "teamSkillset": [
+            "Data stack"
+          ],
+          "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
             "Kotlin",
-            "Terraform/HCL",
-            "Java"
+            "Terraform/HCL"
           ],
-          "supplier": "Createq AG (formerly NSM Engineering AG)",
-          "costPerDayGbp": null
+          "generalCompetencies": [
+            "Java",
+            "Kotlin"
+          ]
         },
         {
           "name": "Richard Tiffin",
           "email": "richard.tiffin@ovo.com",
           "role": "Principal Engineer",
           "role_group": "Engineering",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "John Naughton",
           "email": null,
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Shivani Sharma",
@@ -205,17 +237,14 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": "Lognormal Analytics Private Ltd",
-          "costPerDayGbp": null
+          "supplier": "Lognormal Analytics Private Ltd"
         },
         {
           "name": "Andy Tommey",
           "email": "andy.tommey@ovo.com",
           "role": "Senior BA",
           "role_group": "BA",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Alan Sage",
@@ -223,12 +252,22 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "Permanent",
-          "skillset": [
-            "Backend",
+          "careerSkillset": [
+            "Backend"
+          ],
+          "teamSkillset": [
+            "Backend"
+          ],
+          "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
             "Kotlin",
-            "Terraform/HCL",
-            ".NET"
+            "Terraform/HCL"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
+            "Kotlin",
+            ".NET",
+            "Terraform/HCL"
           ]
         },
         {
@@ -236,24 +275,21 @@
           "email": null,
           "role": "QA",
           "role_group": "QA",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         },
         {
           "name": "Claire Smith",
           "email": "claire.smith@ovo.com",
           "role": "Lead Product Manager",
           "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Ore Alemede",
           "email": "ore.alemede@ovo.com",
           "role": "Senior Agile Coach",
           "role_group": "Agile Coach",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         }
       ]
     },
@@ -266,9 +302,14 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "skillset": [
-            "Full stack",
-            "Infrastructure",
+          "supplier": "N-IX Ltd",
+          "careerSkillset": [
+            "Full stack"
+          ],
+          "teamSkillset": [
+            "Infrastructure"
+          ],
+          "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
             "React",
             "Scala",
@@ -276,11 +317,19 @@
             "Kotlin",
             "Python",
             "Go",
-            "Terraform/HCL",
-            "Clojure"
+            "Terraform/HCL"
           ],
-          "supplier": "N-IX Ltd",
-          "costPerDayGbp": null
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
+            "React",
+            "Scala",
+            "Java",
+            "Kotlin",
+            "Python",
+            "Go",
+            "Clojure",
+            "Terraform/HCL"
+          ]
         },
         {
           "name": "Roman Parkhomchuk",
@@ -288,8 +337,14 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "skillset": [
-            "Full stack",
+          "supplier": "N-IX Ltd",
+          "careerSkillset": [
+            "Full stack"
+          ],
+          "teamSkillset": [
+            "Full stack"
+          ],
+          "dailySkillset": [
             "Terraform/HCL",
             "TypeScript/JavaScript/Node.js",
             "React",
@@ -299,34 +354,36 @@
             "Python",
             "Go"
           ],
-          "supplier": "N-IX Ltd",
-          "costPerDayGbp": null
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
+            "React",
+            "Scala",
+            "Java",
+            "Kotlin",
+            "Go",
+            "Terraform/HCL"
+          ]
         },
         {
           "name": "Richard Tiffin",
           "email": "richard.tiffin@ovo.com",
           "role": "Principal Engineer",
           "role_group": "Engineering",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "John Naughton",
           "email": null,
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Idil Demircapa",
           "email": null,
           "role": "Lead Product Manager",
           "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": [
-            "#N/A"
-          ]
+          "contract_type": "Permanent"
         },
         {
           "name": "Saxon Zerbino",
@@ -334,15 +391,24 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "Permanent",
-          "skillset": [
-            "Full stack",
-            "Infrastructure",
+          "careerSkillset": [
+            "Full stack"
+          ],
+          "teamSkillset": [
+            "Infrastructure"
+          ],
+          "dailySkillset": [
             "Terraform/HCL",
             "React",
-            "Kotlin",
+            "Kotlin"
+          ],
+          "generalCompetencies": [
             "TypeScript/JavaScript/Node.js",
             "Flutter",
-            "Dart"
+            "Dart",
+            "React",
+            "Kotlin",
+            "Terraform/HCL"
           ]
         },
         {
@@ -351,8 +417,19 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "Permanent",
-          "skillset": [
-            "Full stack",
+          "careerSkillset": [
+            "Full stack"
+          ],
+          "teamSkillset": [
+            "Full stack"
+          ],
+          "dailySkillset": [
+            "TypeScript/JavaScript/Node.js",
+            "Kotlin",
+            "Python",
+            "Terraform/HCL"
+          ],
+          "generalCompetencies": [
             "TypeScript/JavaScript/Node.js",
             "Kotlin",
             "Python",
@@ -364,8 +441,7 @@
           "email": "claire.smith@ovo.com",
           "role": "Lead Product Manager",
           "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         }
       ]
     },
@@ -378,9 +454,7 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": "Techpods",
-          "costPerDayGbp": null
+          "supplier": "Techpods"
         },
         {
           "name": "Martin Yanev",
@@ -388,9 +462,7 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": "Techpods",
-          "costPerDayGbp": null
+          "supplier": "Techpods"
         },
         {
           "name": "Ivan Iliev",
@@ -398,43 +470,35 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": "Techpods",
-          "costPerDayGbp": null
+          "supplier": "Techpods"
         },
         {
           "name": "Richard Tiffin",
           "email": "richard.tiffin@ovo.com",
           "role": "Principal Engineer",
           "role_group": "Engineering",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "John Naughton",
           "email": null,
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Idil Demircapa",
           "email": null,
           "role": "Lead Product Manager",
           "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": [
-            "#N/A"
-          ]
+          "contract_type": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "BA",
           "role_group": "BA",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         },
         {
           "name": "Chris Armour",
@@ -442,14 +506,25 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "Permanent",
-          "skillset": [
-            "Full stack",
+          "careerSkillset": [
+            "Full stack"
+          ],
+          "teamSkillset": [
+            "Full stack"
+          ],
+          "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
             "React",
             "Kotlin",
-            "Terraform/HCL",
+            "Terraform/HCL"
+          ],
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
             "React Native",
-            ".NET"
+            "React",
+            "Kotlin",
+            ".NET",
+            "Terraform/HCL"
           ]
         },
         {
@@ -457,24 +532,21 @@
           "email": "adam.blackwater@ovo.com",
           "role": "Engineer",
           "role_group": "Engineering",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "QA",
           "role_group": "QA",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         },
         {
           "name": "Claire Smith",
           "email": "claire.smith@ovo.com",
           "role": "Lead Product Manager",
           "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         }
       ]
     }

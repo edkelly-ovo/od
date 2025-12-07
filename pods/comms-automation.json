@@ -18,23 +18,30 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "3rd Party Partner",
-          "skillset": [
-            "Full stack",
+          "supplier": "Intelligent Resource Ltd (Inactive)",
+          "careerSkillset": [
+            "Full stack"
+          ],
+          "teamSkillset": [
+            "Full stack"
+          ],
+          "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
             "AMPScript",
             "HTML",
             "CSS"
           ],
-          "supplier": "Intelligent Resource Ltd (Inactive)",
-          "costPerDayGbp": null
+          "generalCompetencies": [
+            "TypeScript/JavaScript/Node.js",
+            "AMPScript"
+          ]
         },
         {
           "name": "Lorne MacLennan",
           "email": "lorne.r.maclennan@ovo.com",
           "role": "Principal Product Manager",
           "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Robin Johnson",
@@ -42,8 +49,17 @@
           "role": "Senior Data Analyst",
           "role_group": "Data",
           "contract_type": "Permanent",
-          "skillset": [
-            "Data stack",
+          "careerSkillset": [
+            "Data stack"
+          ],
+          "teamSkillset": [
+            "Data stack"
+          ],
+          "dailySkillset": [
+            "Python",
+            "SQL"
+          ],
+          "generalCompetencies": [
             "Python",
             "SQL"
           ]
@@ -53,64 +69,56 @@
           "email": "david.m.jones@ovo.com",
           "role": "Data Analyst",
           "role_group": "Data",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Gavin Lee",
           "email": "gavin.lee@ovo.com",
           "role": "Data Analyst",
           "role_group": "Data",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Lisa Burnham",
           "email": "lisa.burnham1@ovo.com",
           "role": "Data Analyst",
           "role_group": "Data",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         },
         {
           "name": "Chris Parker",
           "email": "chris.parker@ovo.com",
           "role": "Product Manager",
           "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Ronnie Dowie",
           "email": "ronnie.dowie@ovo.com",
           "role": "Data and Platform Lead",
           "role_group": "Comms Automation",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Paul Linehan",
           "email": "paul.linehan@ovo.com",
           "role": "Data Analyst",
           "role_group": "Data",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "Principal Engineer",
           "role_group": "Engineering",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         }
       ]
     },
@@ -122,96 +130,84 @@
           "email": "lorne.r.maclennan@ovo.com",
           "role": "Principal Product Manager",
           "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Daniel Clissett",
           "email": "daniel.clissett@ovo.com",
           "role": "SFMC Lead",
           "role_group": "Comms Automation",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Andrew Ross",
           "email": "andrew.ross2@ovo.com",
           "role": "SFMC Analyst",
           "role_group": "Comms Automation",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Monica Balan",
           "email": "monica.balan@ovo.com",
           "role": "SFMC Analyst",
           "role_group": "Comms Automation",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Philip Howell",
           "email": "philip.howell@ovo.com",
           "role": "SFMC Analyst",
           "role_group": "Comms Automation",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Varun Reddy",
           "email": "varun.reddy@ovo.com",
           "role": "SFMC Analyst",
           "role_group": "Comms Automation",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Amanda Tomes",
           "email": "amanda.tomes@ovo.com",
           "role": "SFMC Analyst",
           "role_group": "Comms Automation",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Janet Winston",
           "email": "janet.winston@ovo.com",
           "role": "SFMC Analyst",
           "role_group": "Comms Automation",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         },
         {
           "name": "Hannah Mackley",
           "email": "hannah.mackley@ovo.com",
           "role": "Delivery Traffic Manager",
           "role_group": "Comms Automation",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Vaughan Griffiths",
           "email": "vaughan.griffiths@ovo.com",
           "role": "Campaign Delivery Lead",
           "role_group": "Comms Automation",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "Principal Engineer",
           "role_group": "Engineering",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         }
       ]
     },
@@ -223,56 +219,49 @@
           "email": "lorne.r.maclennan@ovo.com",
           "role": "Principal Product Manager",
           "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         },
         {
           "name": "Grahame Farr",
           "email": "grahame.farr@ovo.com",
           "role": "Print Manager",
           "role_group": "Comms Automation",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Lee Robinson",
           "email": "lee.robinson2@ovo.com",
           "role": "Print Manager",
           "role_group": "Comms Automation",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Helen Davies",
           "email": "helen.davies@ovo.com",
           "role": "Delivery Manager",
           "role_group": "Agile Delivery",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Christopher Mathews",
           "email": "christopher.mathews@ovo.com",
           "role": "Operations Lead",
           "role_group": "Engineering",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "Principal Engineer",
           "role_group": "Engineering",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         }
       ]
     },
@@ -284,8 +273,7 @@
           "email": "lorne.r.maclennan@ovo.com",
           "role": "Principal Product Manager",
           "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Alastair Martin",
@@ -293,10 +281,19 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "Permanent",
-          "skillset": [
-            "Full stack",
+          "careerSkillset": [
+            "Full stack"
+          ],
+          "teamSkillset": [
+            "Full stack"
+          ],
+          "dailySkillset": [
             "Python",
             "TypeScript/JavaScript/Node.js",
+            "Terraform/HCL"
+          ],
+          "generalCompetencies": [
+            "Python",
             "Terraform/HCL"
           ]
         },
@@ -306,10 +303,17 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "Permanent",
-          "skillset": [
-            "Other",
+          "careerSkillset": [
+            "Other"
+          ],
+          "teamSkillset": [
+            "Other"
+          ],
+          "dailySkillset": [
             "Python",
-            "plsql",
+            "plsql"
+          ],
+          "generalCompetencies": [
             "Unix and plsql"
           ]
         },
@@ -319,10 +323,19 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "Permanent",
-          "skillset": [
-            "Other",
+          "careerSkillset": [
+            "Other"
+          ],
+          "teamSkillset": [
+            "Other"
+          ],
+          "dailySkillset": [
             "Terraform/HCL",
             "Python"
+          ],
+          "generalCompetencies": [
+            "Python",
+            "Terraform/HCL"
           ]
         },
         {
@@ -331,11 +344,18 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "Permanent",
-          "skillset": [
-            "Other",
+          "careerSkillset": [
+            "Other"
+          ],
+          "teamSkillset": [
+            "Other"
+          ],
+          "dailySkillset": [
             "TypeScript/JavaScript/Node.js",
             "Postgres",
-            "Application Integration & SFMC",
+            "Application Integration & SFMC"
+          ],
+          "generalCompetencies": [
             "Middleware"
           ]
         },
@@ -344,24 +364,21 @@
           "email": "jenny.barron@ovo.com",
           "role": "QA",
           "role_group": "QA",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": null,
           "email": null,
           "role": "Delivery & Growth Lead",
           "role_group": "Delivery & Growth Lead",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         },
         {
           "name": "Chris Parker",
           "email": "chris.parker@ovo.com",
           "role": "Product Manager",
           "role_group": "Product Management",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Graham Vosper",
@@ -369,12 +386,19 @@
           "role": "Engineer",
           "role_group": "Engineering",
           "contract_type": "Permanent",
-          "skillset": [
-            "Other",
+          "careerSkillset": [
+            "Other"
+          ],
+          "teamSkillset": [
+            "Other"
+          ],
+          "dailySkillset": [
             "Python",
             "Apigee",
             "Google Application Integration",
-            "SFMC",
+            "SFMC"
+          ],
+          "generalCompetencies": [
             "Terraform/HCL",
             "Postgres",
             "SQL"
@@ -385,8 +409,7 @@
           "email": "glenise.netang@ovo.com",
           "role": "Agile Coach",
           "role_group": "Agile Coach",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "Permanent"
         },
         {
           "name": "Ruttala Ajay",
@@ -394,17 +417,14 @@
           "role": "BA",
           "role_group": "BA",
           "contract_type": "3rd Party Partner",
-          "skillset": [],
-          "supplier": "Lognormal Analytics Private Ltd",
-          "costPerDayGbp": null
+          "supplier": "Lognormal Analytics Private Ltd"
         },
         {
           "name": null,
           "email": null,
           "role": "Principal Engineer",
           "role_group": "Engineering",
-          "contract_type": "Vacancy",
-          "skillset": []
+          "contract_type": "Vacancy"
         }
       ]
     }
