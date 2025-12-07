@@ -19,8 +19,10 @@
           "email": "Yu.wang@ovo.com",
           "role": "ML Engineer",
           "role_group": "Data",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": "Datatonic Ltd",
+          "costPerDayGbp": null
         },
         {
           "name": "Aidan Walker",
@@ -327,7 +329,7 @@
           "email": "gus.porto@ovo.com",
           "role": "Engineer",
           "role_group": "Engineering",
-          "contract_type": "Permanent",
+          "contract_type": "3rd Party Partner",
           "skillset": [
             "Full stack",
             "Python",
@@ -336,7 +338,9 @@
             "Go",
             "Terraform/HCL",
             ".NET"
-          ]
+          ],
+          "supplier": "Transparity",
+          "costPerDayGbp": null
         }
       ]
     },
@@ -409,10 +413,12 @@
           "email": null,
           "role": "Data Scientist",
           "role_group": "Data",
-          "contract_type": "Permanent",
+          "contract_type": "3rd Party Partner",
           "skillset": [
             "#N/A"
-          ]
+          ],
+          "supplier": null,
+          "costPerDayGbp": null
         },
         {
           "name": "Monica Chua",
@@ -473,8 +479,10 @@
           "email": "miles.trevethan@ovo.com",
           "role": "Engineer",
           "role_group": "Engineering",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": "Datatonic Ltd",
+          "costPerDayGbp": null
         }
       ]
     },

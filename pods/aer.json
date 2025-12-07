@@ -242,10 +242,12 @@
           "email": null,
           "role": "Engineer",
           "role_group": "Engineering",
-          "contract_type": "Permanent",
+          "contract_type": "3rd Party Partner",
           "skillset": [
             "#N/A"
-          ]
+          ],
+          "supplier": null,
+          "costPerDayGbp": null
         },
         {
           "name": "Pete McLean",
@@ -499,7 +501,7 @@
           "email": "nuno.azevedo@ovo.com",
           "role": "Engineer",
           "role_group": "Engineering",
-          "contract_type": "Permanent",
+          "contract_type": "3rd Party Partner",
           "skillset": [
             "Full stack",
             "TypeScript/JavaScript/Node.js",
@@ -508,20 +510,24 @@
             "Swift",
             "Java",
             "Python"
-          ]
+          ],
+          "supplier": "YunoJuno Ltd",
+          "costPerDayGbp": null
         },
         {
           "name": "André Lino",
           "email": "andre.lino@ovo.com",
           "role": "Engineer",
           "role_group": "Engineering",
-          "contract_type": "Permanent",
+          "contract_type": "3rd Party Partner",
           "skillset": [
             "Full stack",
             "Frontend  - Web & mobile",
             "React",
             "TypeScript/JavaScript/Node.js"
-          ]
+          ],
+          "supplier": "YunoJuno Ltd",
+          "costPerDayGbp": null
         },
         {
           "name": "Daniel McCaughan",
@@ -698,10 +704,12 @@
           "email": null,
           "role": "QA",
           "role_group": "QA",
-          "contract_type": "Permanent",
+          "contract_type": "3rd Party Partner",
           "skillset": [
             "#N/A"
-          ]
+          ],
+          "supplier": null,
+          "costPerDayGbp": null
         },
         {
           "name": "Ionut Balan",

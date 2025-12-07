@@ -340,32 +340,40 @@
           "email": "ruvy.flores@ovo.com",
           "role": "Service Desk Analyst",
           "role_group": "Service Ops",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": "Accenture",
+          "costPerDayGbp": null
         },
         {
           "name": "Maria Marquez",
           "email": "maria.marquez@ovo.com",
           "role": "Service Desk Analyst",
           "role_group": "Service Ops",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": "Accenture",
+          "costPerDayGbp": null
         },
         {
           "name": "Laurence Buenaventura",
           "email": "laurence.buenaventura@ovo.com",
           "role": "Service Desk Analyst",
           "role_group": "Service Ops",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": "Accenture",
+          "costPerDayGbp": null
         },
         {
           "name": "John Chan",
           "email": "john.chan@ovo.com",
           "role": "Team Lead",
           "role_group": "Service Ops",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": "Accenture",
+          "costPerDayGbp": null
         }
       ]
     }

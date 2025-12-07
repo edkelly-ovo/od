@@ -156,13 +156,15 @@
           "email": null,
           "role": "Engineer",
           "role_group": "Engineering",
-          "contract_type": "Permanent",
+          "contract_type": "3rd Party Partner",
           "skillset": [
             "Mobile/Web",
             "React",
             "React Native",
             "iOS and/or Android native"
-          ]
+          ],
+          "supplier": null,
+          "costPerDayGbp": null
         },
         {
           "name": "Eleri Smith",

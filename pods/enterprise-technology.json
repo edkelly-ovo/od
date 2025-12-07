@@ -202,8 +202,10 @@
           "email": null,
           "role": "Lead Identity Engineer",
           "role_group": "Enterprise Technology",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": "YunoJuno Ltd",
+          "costPerDayGbp": null
         },
         {
           "name": null,

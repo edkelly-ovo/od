@@ -386,10 +386,12 @@
           "email": null,
           "role": "BA",
           "role_group": "BA",
-          "contract_type": "Permanent",
+          "contract_type": "3rd Party Partner",
           "skillset": [
             "#N/A"
-          ]
+          ],
+          "supplier": null,
+          "costPerDayGbp": null
         }
       ]
     },
@@ -537,7 +539,7 @@
           "email": null,
           "role": "Engineer",
           "role_group": "Engineering",
-          "contract_type": "Third Party Partner",
+          "contract_type": "3rd Party Partner",
           "skillset": [],
           "supplier": "Architus Systems Ltd t/a Architus",
           "costPerDayGbp": null
@@ -1662,8 +1664,10 @@
           "email": null,
           "role": "Engineer",
           "role_group": "Engineering",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": "Oliver Bernard Ltd",
+          "costPerDayGbp": null
         }
       ]
     },
@@ -2150,10 +2154,12 @@
           "email": null,
           "role": "Engineer",
           "role_group": "Engineering",
-          "contract_type": "Permanent",
+          "contract_type": "3rd Party Partner",
           "skillset": [
             "#N/A"
-          ]
+          ],
+          "supplier": null,
+          "costPerDayGbp": null
         },
         {
           "name": "Dominic Tunstill",

@@ -435,16 +435,20 @@
           "email": "paolo.ventriglia1@ovo.com",
           "role": "I&E Consultant",
           "role_group": "I&E",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": "Crosstide Ltd",
+          "costPerDayGbp": null
         },
         {
           "name": "Naved Shah",
           "email": null,
           "role": "I&E Consultant",
           "role_group": "I&E",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": "Crosstide Ltd",
+          "costPerDayGbp": null
         }
       ]
     },

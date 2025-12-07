@@ -17,14 +17,16 @@
           "email": "kwame.agyemang@ovo.com",
           "role": "Engineer",
           "role_group": "Engineering",
-          "contract_type": "Permanent",
+          "contract_type": "3rd Party Partner",
           "skillset": [
             "Full stack",
             "TypeScript/JavaScript/Node.js",
             "AMPScript",
             "HTML",
             "CSS"
-          ]
+          ],
+          "supplier": "Intelligent Resource Ltd (Inactive)",
+          "costPerDayGbp": null
         },
         {
           "name": "Lorne MacLennan",

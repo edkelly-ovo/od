@@ -186,10 +186,12 @@
           "email": null,
           "role": "QA",
           "role_group": "QA",
-          "contract_type": "Permanent",
+          "contract_type": "3rd Party Partner",
           "skillset": [
             "#N/A"
-          ]
+          ],
+          "supplier": null,
+          "costPerDayGbp": null
         },
         {
           "name": "Paul Grosvenor",
@@ -510,10 +512,12 @@
           "email": null,
           "role": "QA",
           "role_group": "QA",
-          "contract_type": "Permanent",
+          "contract_type": "3rd Party Partner",
           "skillset": [
             "#N/A"
-          ]
+          ],
+          "supplier": "Lognormal Analytics Private Ltd",
+          "costPerDayGbp": null
         },
         {
           "name": "Thomas Gray",
@@ -608,8 +612,10 @@
           "email": "rahul.sharma@ovo.com",
           "role": "QA",
           "role_group": "QA",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": "Irysan Ltd",
+          "costPerDayGbp": null
         },
         {
           "name": "Vincent Mary",

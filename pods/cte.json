@@ -17,8 +17,10 @@
           "email": null,
           "role": "BA",
           "role_group": "BA",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": "Thoughtworks, Ltd",
+          "costPerDayGbp": null
         },
         {
           "name": "Modestas Kažinauskas",
@@ -167,15 +169,17 @@
           "email": null,
           "role": "QA",
           "role_group": "QA",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": "Thoughtworks, Ltd",
+          "costPerDayGbp": null
         },
         {
           "name": "Lohan Bodevan",
           "email": "lohan.bodevan@ovo.com",
           "role": "Engineer",
           "role_group": "Engineering",
-          "contract_type": "Permanent",
+          "contract_type": "3rd Party Partner",
           "skillset": [
             "Full stack",
             "Backend",
@@ -187,7 +191,9 @@
             "Java",
             "Python",
             "Go"
-          ]
+          ],
+          "supplier": "Thoughtworks, Ltd",
+          "costPerDayGbp": null
         },
         {
           "name": "Renae Hudson",
@@ -310,14 +316,16 @@
           "email": "florin.pinciuc@ovo.com",
           "role": "Engineer",
           "role_group": "Engineering",
-          "contract_type": "Permanent",
+          "contract_type": "3rd Party Partner",
           "skillset": [
             "Full stack",
             "Backend",
             "TypeScript/JavaScript/Node.js",
             "React",
             "Java"
-          ]
+          ],
+          "supplier": "Thoughtworks, Ltd",
+          "costPerDayGbp": null
         },
         {
           "name": "Zilvinas Jocius",
@@ -334,7 +342,7 @@
           "email": "burak.ince@ovo.com",
           "role": "Data Engineer",
           "role_group": "Data",
-          "contract_type": "Permanent",
+          "contract_type": "3rd Party Partner",
           "skillset": [
             "Data stack",
             "Backend",
@@ -350,7 +358,9 @@
             "Terraform/HCL",
             "Ruby",
             "Lua"
-          ]
+          ],
+          "supplier": "Thoughtworks, Ltd",
+          "costPerDayGbp": null
         },
         {
           "name": "Renae Hudson",
@@ -613,7 +623,6 @@
           "contract_type": "Vacancy",
           "skillset": []
         }
-
       ]
     },
     {

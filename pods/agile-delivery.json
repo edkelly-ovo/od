@@ -137,16 +137,20 @@
           "email": "stuart.jones5@ovo.com",
           "role": "PMO Analyst",
           "role_group": "Agile Delivery",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": "Leading Resolutions Ltd",
+          "costPerDayGbp": null
         },
         {
           "name": "Logesh Bhoopathi",
           "email": "logesh.bhoopathi@ovo.com",
           "role": "Defect Manager",
           "role_group": "Agile Delivery",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": "Leading Resolutions Ltd",
+          "costPerDayGbp": null
         },
         {
           "name": null,

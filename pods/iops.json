@@ -16,8 +16,10 @@
           "email": "gregory.driscoll@ovo.com",
           "role": "BA",
           "role_group": "BA",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": "YunoJuno Ltd",
+          "costPerDayGbp": null
         },
         {
           "name": "Dimitar Rupkin",

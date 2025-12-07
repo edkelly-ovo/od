@@ -94,8 +94,10 @@
           "email": null,
           "role": "Technology Consultant",
           "role_group": "PTLT",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": "YunoJuno Ltd",
+          "costPerDayGbp": null
         },
         {
           "name": null,
@@ -118,24 +120,30 @@
           "email": "luke.hohmann@ovo.com",
           "role": "Consultant",
           "role_group": "PTLT",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": "Applied Frameworks Ltd",
+          "costPerDayGbp": null
         },
         {
           "name": "Scott Selhorst",
           "email": "scott.selhorst@ovo.com",
           "role": "Consultant",
           "role_group": "PTLT",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": "Applied Frameworks Ltd",
+          "costPerDayGbp": null
         },
         {
           "name": "Kelly Looney",
           "email": "kelly.looney@ovo.com",
           "role": "Director, Cloud Infrastructure",
           "role_group": "PTLT",
-          "contract_type": "Permanent",
-          "skillset": []
+          "contract_type": "3rd Party Partner",
+          "skillset": [],
+          "supplier": "YunoJuno Ltd",
+          "costPerDayGbp": null
         }
       ]
     },
