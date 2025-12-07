@@ -450,13 +450,6 @@
         {
           "name": null,
           "email": null,
-          "role": "Principal Platform Engineer",
-          "roleGroup": "I&E",
-          "contractType": "Vacancy"
-        },
-        {
-          "name": null,
-          "email": null,
           "role": "Production Engineer",
           "roleGroup": "I&E",
           "contractType": "Vacancy"
@@ -490,7 +483,14 @@
           "role": "Delivery & Growth Lead",
           "roleGroup": "Delivery & Growth Lead",
           "contractType": "Vacancy"
-        }
+        },
+        {
+          "name": null,
+          "email": null,
+          "role": "Principal Platform Engineer",
+          "roleGroup": "I&E",
+          "contractType": "Vacancy"
+        }        
       ]
     },
     {
@@ -740,13 +740,6 @@
         {
           "name": null,
           "email": null,
-          "role": "Principal Platform Engineer",
-          "roleGroup": "I&E",
-          "contractType": "Vacancy"
-        },
-        {
-          "name": null,
-          "email": null,
           "role": "Platform SRE",
           "roleGroup": "I&E",
           "contractType": "Vacancy"
@@ -767,6 +760,13 @@
         }
       ],
       "supporting": [
+        {
+          "name": null,
+          "email": null,
+          "role": "Principal Platform Engineer",
+          "roleGroup": "I&E",
+          "contractType": "Vacancy"
+        },
         {
           "name": "Neisha Grainger",
           "email": "neisha.grainger@ovo.com",
