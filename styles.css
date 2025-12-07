@@ -19,6 +19,40 @@ body {
     min-width: fit-content;
 }
 
+.version-selector {
+    background: white;
+    padding: 15px 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    display: inline-block;
+}
+
+.version-selector label {
+    font-weight: 600;
+    color: #333;
+    font-size: 1em;
+}
+
+#versionSelect {
+    padding: 8px 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 16px;
+    background: white;
+    cursor: pointer;
+    min-width: 120px;
+    transition: border-color 0.3s;
+}
+
+#versionSelect:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
 header {
     background: white;
     padding: 30px;
@@ -154,6 +188,7 @@ header h1 {
 .pod-content.collapsed {
     max-height: 0;
     opacity: 0;
+    display: none;
     padding-top: 0;
     padding-bottom: 0;
     margin-top: 0;
@@ -245,6 +280,7 @@ header h1 {
 .solutions-list.collapsed {
     max-height: 0;
     opacity: 0;
+    display: none;
     padding-top: 0;
     padding-bottom: 0;
     margin-top: 0;
@@ -352,6 +388,7 @@ header h1 {
 .team-members-list.collapsed {
     max-height: 0;
     opacity: 0;
+    display: none;
     padding-top: 0;
     padding-bottom: 0;
     margin-top: 0;
@@ -555,7 +592,7 @@ header h1 {
 .no-results {
     text-align: center;
     padding: 60px 20px;
-    color: #666;
+    color: #fff;
     font-size: 1.2em;
 }
 

@@ -8,6 +8,13 @@
 </head>
 <body>
     <div class="container">
+        <div class="version-selector">
+            <label for="versionSelect">Version:</label>
+            <select id="versionSelect" onchange="changeVersion()">
+                <option value="v1" selected>v1</option>
+                <option value="v2">v2</option>
+            </select>
+        </div>
         <div id="podList" class="pod-list"></div>
 
         <div id="teamDetails" class="team-details hidden"></div>

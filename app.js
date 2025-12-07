@@ -1,6 +1,7 @@
 // Global state
 let allPods = [];
 let currentTeamDetails = null;
+let currentVersion = 'v1';
 
 // Initialize the application
 async function init() {
@@ -34,7 +35,7 @@ async function loadAllPods() {
       const pathParts = pathname.split('/').filter(p => p && p !== 'index.html');
       basePath = pathParts.length > 0 ? '/' + pathParts[0] : '';
     }
-    const podsPath = `${basePath}/pods`;
+    const podsPath = `${basePath}/pods/${currentVersion}`;
     
     const loadPromises = podFiles.map(async (file) => {
         try {
@@ -50,7 +51,7 @@ async function loadAllPods() {
     });
 
     const results = await Promise.all(loadPromises);
-    allPods = results.filter(pod => pod !== null);
+    allPods = results.filter(pod => pod !== undefined);
     
     // Sort pods alphabetically by name
     sortPods();
@@ -423,6 +424,21 @@ function escapeHtml(text) {
     const div = document.createElement('div');
     div.textContent = text;
     return div.innerHTML;
+}
+
+// Change version and reload pods
+async function changeVersion() {
+    const versionSelect = document.getElementById('versionSelect');
+    currentVersion = versionSelect.value;
+    
+    // Clear all pods first
+    allPods = [];
+    const podList = document.getElementById('podList');
+    podList.innerHTML = '<div class="loading">Loading pods...</div>';
+    
+    // Reload pods for the new version
+    await loadAllPods();
+    renderPods();
 }
 
 // Initialize when DOM is ready
