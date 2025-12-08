@@ -11,6 +11,12 @@ env:
   GAR_LOCATION: ${{ secrets.GCP_REGION || 'europe-west1' }}
   SERVICE: ovo-product-tech-visualisation
   REGION: ${{ secrets.GCP_REGION || 'europe-west1' }}
+  GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
+  GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+  GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+  ALLOWED_DOMAIN: ${{ secrets.ALLOWED_DOMAIN }}
+  CALLBACK_URL: ${{ secrets.CALLBACK_URL }}
+  SESSION_SECRET: ${{ secrets.SESSION_SECRET }}
 
 jobs:
   deploy:
@@ -25,6 +31,12 @@ jobs:
           echo "GAR_LOCATION=$GAR_LOCATION"
           echo "SERVICE=$SERVICE"
           echo "REGION=$REGION"
+          echo "GCP_SA_KEY=$GCP_SA_KEY"
+          echo "GOOGLE_CLIENT_ID=$GOOGLE_CLIENT_ID"
+          echo "GOOGLE_CLIENT_SECRET=$GOOGLE_CLIENT_SECRET"
+          echo "ALLOWED_DOMAIN=$ALLOWED_DOMAIN"
+          echo "CALLBACK_URL=$CALLBACK_URL"
+          echo "SESSION_SECRET=$SESSION_SECRET"
     
       - name: Checkout
         uses: actions/checkout@v4
@@ -33,7 +45,7 @@ jobs:
         id: auth
         uses: google-github-actions/auth@v2
         with:
-          credentials_json: ${{ secrets.GCP_SA_KEY }}
+          credentials_json: ${{ env.GCP_SA_KEY }}
 
       - name: Set up Cloud SDK
         uses: google-github-actions/setup-gcloud@v2
