@@ -52,8 +52,13 @@ jobs:
           service: ovo-product-tech-visualisation
           image: ${{ env.IMAGE }}
           region: europe-west1
-          flags: '--set-env-vars=GOOGLE_CLIENT_ID=${{ secrets.GOOGLE_CLIENT_ID }},GOOGLE_CLIENT_SECRET=${{ secrets.GOOGLE_CLIENT_SECRET }},ALLOWED_DOMAIN=${{ secrets.ALLOWED_DOMAIN }},CALLBACK_URL=${{ secrets.CALLBACK_URL }},SESSION_SECRET=${{ secrets.SESSION_SECRET }},NODE_ENV=production'
-          allow-unauthenticated: false
+          env_vars: |-
+            GOOGLE_CLIENT_ID=${{ secrets.GOOGLE_CLIENT_ID }}
+            GOOGLE_CLIENT_SECRET=${{ secrets.GOOGLE_CLIENT_SECRET }}
+            ALLOWED_DOMAIN=${{ secrets.ALLOWED_DOMAIN }}
+            CALLBACK_URL=${{ secrets.CALLBACK_URL }}
+            SESSION_SECRET=${{ secrets.SESSION_SECRET }}
+            NODE_ENV=production
 
       - name: Show Output
         run: |
