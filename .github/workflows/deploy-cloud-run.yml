@@ -32,7 +32,7 @@ jobs:
 
       - name: Create Artifact Registry repository (if it doesn't exist)
         run: |
-          gcloud artifacts repositories create cloud-run-source-deploy \
+          gcloud artifacts repositories create ovo-product-tech-visualisation \
             --repository-format=docker \
             --location=europe-west1 \
             --description="Docker repository for Cloud Run deployments" \
@@ -40,7 +40,7 @@ jobs:
 
       - name: Build and Push Docker image
         run: |
-          IMAGE="europe-west1-docker.pkg.dev/rise-sandbox/cloud-run-source-deploy/ovo-product-tech-visualisation:${{ github.sha }}"
+          IMAGE="europe-west1-docker.pkg.dev/rise-sandbox/ovo-product-tech-visualisation/ovo-product-tech-visualisation:${{ github.sha }}"
           docker build -t $IMAGE .
           docker push $IMAGE
           echo "IMAGE=$IMAGE" >> $GITHUB_ENV
