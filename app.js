@@ -23,7 +23,8 @@ async function loadAllPods() {
         'experience-foundations.json', 'fulfil.json', 'home-services.json',
         'infrastructure-and-enablement.json', 'iops.json', 'payments.json',
         'payments-strategy.json', 'ptlt.json', 'release-operations.json',
-        'enterprise-security.json', 'serve.json', 'service-operations.json'
+        'enterprise-security.json', 'serve.json', 'service-operations.json',
+        'holding-area.json'
     ];
 
     // Detect base path for GitHub Pages compatibility
