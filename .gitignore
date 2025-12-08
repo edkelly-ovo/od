@@ -23,7 +23,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Node modules (if you add any in the future)
+# Node modules
 node_modules/
 
 # Environment variables

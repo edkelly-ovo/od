@@ -2,59 +2,135 @@
 let allPods = [];
 let currentTeamDetails = null;
 let currentVersion = 'v1';
+let isAuthenticated = false;
+let currentUser = null;
+
+// Check authentication status
+async function checkAuthStatus() {
+    try {
+        const response = await fetch('/auth/status');
+        const data = await response.json();
+        isAuthenticated = data.authenticated;
+        currentUser = data.user || null;
+        updateAuthUI();
+        return isAuthenticated;
+    } catch (error) {
+        console.error('Error checking auth status:', error);
+        isAuthenticated = false;
+        currentUser = null;
+        updateAuthUI();
+        return false;
+    }
+}
+
+// Update authentication UI
+function updateAuthUI() {
+    const authContainer = document.getElementById('authContainer');
+    if (!authContainer) return;
+
+    if (isAuthenticated && currentUser) {
+        authContainer.innerHTML = `
+            <div class="user-info">
+                ${currentUser.picture ? `<img src="${escapeHtml(currentUser.picture)}" alt="Profile" class="user-avatar">` : ''}
+                <span class="user-name">${escapeHtml(currentUser.name || currentUser.email)}</span>
+                <button onclick="logout()" class="logout-btn">Logout</button>
+            </div>
+        `;
+    } else {
+        authContainer.innerHTML = `
+            <button onclick="login()" class="login-btn">Login with Google</button>
+        `;
+    }
+}
+
+// Login function
+function login() {
+    window.location.href = '/auth/google';
+}
+
+// Logout function
+async function logout() {
+    try {
+        const response = await fetch('/auth/logout');
+        if (response.ok) {
+            isAuthenticated = false;
+            currentUser = null;
+            updateAuthUI();
+            allPods = [];
+            const podList = document.getElementById('podList');
+            if (podList) {
+                podList.innerHTML = '<div class="loading">Please log in to access the application.</div>';
+            }
+        }
+    } catch (error) {
+        console.error('Error logging out:', error);
+    }
+}
+
 
 // Initialize the application
 async function init() {
+    // Check authentication first
+    const authenticated = await checkAuthStatus();
+    
+    if (!authenticated) {
+        const podList = document.getElementById('podList');
+        if (podList) {
+            podList.innerHTML = '<div class="loading">Please log in to access the application.</div>';
+        }
+        return;
+    }
+
     try {
         await loadAllPods();
         renderPods();
     } catch (error) {
         console.error('Error initializing app:', error);
-        document.body.innerHTML = '<div class="loading">Error loading data. Please check the console.</div>';
+        if (error.status === 401) {
+            // Session expired - update auth status
+            isAuthenticated = false;
+            currentUser = null;
+            updateAuthUI();
+            const podList = document.getElementById('podList');
+            if (podList) {
+                podList.innerHTML = '<div class="loading">Session expired. Please log in again.</div>';
+            }
+        } else {
+            document.getElementById('podList').innerHTML = '<div class="loading">Error loading data. Please check the console.</div>';
+        }
     }
 }
 
-// Load all pod JSON files
+// Load all pod JSON files via Express API
 async function loadAllPods() {
-    const podFiles = [
-        'aer.json', 'agile-delivery.json', 'ai.json', 'ava.json', 'bpc.json',
-        'comms-automation.json', 'cte.json', 'data-and-ai-platform.json',
-        'drive-home-and-exports.json', 'emo.json', 'enterprise-technology.json',
-        'experience-foundations.json', 'fulfil.json', 'home-services.json',
-        'infrastructure-and-enablement.json', 'iops.json', 'payments.json',
-        'payments-strategy.json', 'ptlt.json', 'release-operations.json',
-        'enterprise-security.json', 'serve.json', 'service-operations.json'
-    ];
-
-    // Detect base path for GitHub Pages compatibility
-    // Handles both root domain (username.github.io) and project pages (username.github.io/repo-name)
-    const pathname = window.location.pathname;
-    let basePath = '';
-    if (pathname !== '/' && pathname !== '/index.html') {
-      // Extract base path (everything before the filename)
-      const pathParts = pathname.split('/').filter(p => p && p !== 'index.html');
-      basePath = pathParts.length > 0 ? '/' + pathParts[0] : '';
-    }
-    const podsPath = `${basePath}/pods/${currentVersion}`;
-    
-    const loadPromises = podFiles.map(async (file) => {
-        try {
-            const response = await fetch(`${podsPath}/${file}`);
-            if (response.ok) {
-                const data = await response.json();
-                return data;
-            }
-        } catch (error) {
-            console.warn(`Could not load ${file}:`, error);
-            return null;
+    try {
+        const response = await fetch(`/api/pods/${currentVersion}`, {
+            credentials: 'include' // Include cookies for session
+        });
+        
+        if (response.status === 401) {
+            // Unauthorized - session expired
+            isAuthenticated = false;
+            currentUser = null;
+            updateAuthUI();
+            throw { status: 401, message: 'Unauthorized' };
         }
-    });
-
-    const results = await Promise.all(loadPromises);
-    allPods = results.filter(pod => pod !== undefined);
-    
-    // Sort pods alphabetically by name
-    sortPods();
+        
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        
+        allPods = await response.json();
+        // Pods are already sorted by the API
+    } catch (error) {
+        console.error('Error loading pods:', error);
+        if (error.status === 401) {
+            // Re-throw auth errors
+            throw error;
+        }
+        allPods = [];
+        throw error;
+    }
 }
 
 // Sort pods alphabetically by name
@@ -434,11 +510,24 @@ async function changeVersion() {
     // Clear all pods first
     allPods = [];
     const podList = document.getElementById('podList');
-    podList.innerHTML = '<div class="loading">Loading pods...</div>';
+    if (podList) {
+        podList.innerHTML = '<div class="loading">Loading pods...</div>';
+    }
     
     // Reload pods for the new version
-    await loadAllPods();
-    renderPods();
+    try {
+        await loadAllPods();
+        renderPods();
+    } catch (error) {
+        if (error.status === 401) {
+            // Session expired - redirect to login (handled in loadAllPods)
+            return;
+        }
+        console.error('Error changing version:', error);
+        if (podList) {
+            podList.innerHTML = '<div class="loading">Error loading pods. Please try again.</div>';
+        }
+    }
 }
 
 // Initialize when DOM is ready

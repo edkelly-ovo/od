@@ -1,0 +1,78 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+*.min.js
+*.min.css
+
+# Documentation
+README.md
+CHANGELOG
+TODO
+
+# Data files (sensitive)
+data/
+
+# Scripts (not needed in production)
+scripts/
+
+# Test files
+*.test.js
+*.spec.js
+test/
+tests/
+__tests__/
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Docker
+Dockerfile*
+.dockerignore
+docker-compose*.yml
+docker-compose*.yaml
+
+# Development files
+nodemon.json
+.editorconfig
+.eslintrc*
+.prettierrc*
+
+# Logs
+*.log
+logs/
+
