@@ -48,19 +48,19 @@ jobs:
 
       - name: Configure Docker to use gcloud as a credential helper
         run: |
-          gcloud auth configure-docker $GCP_REGION-docker.pkg.dev --quiet
+          gcloud auth configure-docker ${GCP_REGION}-docker.pkg.dev --quiet
 
       - name: Create Artifact Registry repository (if it doesn't exist)
         run: |
           gcloud artifacts repositories create cloud-run-source-deploy \
             --repository-format=docker \
-            --location=${{ env.GCP_REGION }} \
+            --location=${GCP_REGION} \
             --description="Docker repository for Cloud Run deployments" \
             || echo "Repository already exists"
 
       - name: Build and Push Docker image
         run: |
-          IMAGE="${{ env.GCP_REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/cloud-run-source-deploy/${{ env.SERVICE }}:${{ env.GITHUB_SHA }}"
+          IMAGE="${GCP_REGION}-docker.pkg.dev/${PROJECT_ID}/cloud-run-source-deploy/${SERVICE}:${{ github.sha }}"
           docker build -t $IMAGE .
           docker push $IMAGE
           echo "IMAGE=$IMAGE" >> $GITHUB_ENV
