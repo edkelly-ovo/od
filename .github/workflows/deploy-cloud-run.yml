@@ -59,6 +59,7 @@ jobs:
             CALLBACK_URL=${{ secrets.CALLBACK_URL }}
             SESSION_SECRET=${{ secrets.SESSION_SECRET }}
             NODE_ENV=production
+          allow-unauthenticated: true
 
       - name: Show Output
         run: |
