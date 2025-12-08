@@ -6,16 +6,6 @@ on:
       - main
   workflow_dispatch:
 
-env:
-  PROJECT_ID: ${{ secrets.GCP_PROJECT_ID || 'rise-sandbox' }}
-  GCP_REGION: ${{ secrets.GCP_REGION || 'europe-west1' }}
-  SERVICE: ovo-product-tech-visualisation
-  GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
-  GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
-  ALLOWED_DOMAIN: ${{ secrets.ALLOWED_DOMAIN }}
-  CALLBACK_URL: ${{ secrets.CALLBACK_URL }}
-  SESSION_SECRET: ${{ secrets.SESSION_SECRET }}
-
 jobs:
   deploy:
     permissions:
@@ -23,16 +13,6 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
-      - name: Show env
-        run: |
-          echo "PROJECT_ID=$PROJECT_ID"
-          echo "GCP_REGION=$GCP_REGION"
-          echo "SERVICE=$SERVICE"
-          echo "GOOGLE_CLIENT_ID=$GOOGLE_CLIENT_ID"
-          echo "GOOGLE_CLIENT_SECRET=$GOOGLE_CLIENT_SECRET"
-          echo "ALLOWED_DOMAIN=$ALLOWED_DOMAIN"
-          echo "CALLBACK_URL=$CALLBACK_URL"
-          echo "SESSION_SECRET=$SESSION_SECRET"
 
       - name: Checkout
         uses: actions/checkout@v4
@@ -48,20 +28,19 @@ jobs:
 
       - name: Configure Docker to use gcloud as a credential helper
         run: |
-          echo $GCP_REGION
-          gcloud auth configure-docker ${GCP_REGION}-docker.pkg.dev --quiet
+          gcloud auth configure-docker ${{ secrets.GCP_REGION || 'europe-west1' }}-docker.pkg.dev --quiet
 
       - name: Create Artifact Registry repository (if it doesn't exist)
         run: |
           gcloud artifacts repositories create cloud-run-source-deploy \
             --repository-format=docker \
-            --location=${GCP_REGION} \
+            --location=${{ secrets.GCP_REGION || 'europe-west1' }} \
             --description="Docker repository for Cloud Run deployments" \
             || echo "Repository already exists"
 
       - name: Build and Push Docker image
         run: |
-          IMAGE="${GCP_REGION}-docker.pkg.dev/${PROJECT_ID}/cloud-run-source-deploy/${SERVICE}:${{ github.sha }}"
+          IMAGE="${{ secrets.GCP_REGION || 'europe-west1' }}-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID || 'rise-sandbox' }}/cloud-run-source-deploy/ovo-product-tech-visualisation:${{ github.sha }}"
           docker build -t $IMAGE .
           docker push $IMAGE
           echo "IMAGE=$IMAGE" >> $GITHUB_ENV
@@ -70,9 +49,9 @@ jobs:
         id: deploy
         uses: google-github-actions/deploy-cloudrun@v2
         with:
-          service: ${{ env.SERVICE }}
+          service: ovo-product-tech-visualisation
           image: ${{ env.IMAGE }}
-          region: ${{ env.GCP_REGION }}
+          region: ${{ secrets.GCP_REGION || 'europe-west1' }}
           flags: '--set-env-vars=GOOGLE_CLIENT_ID=${{ secrets.GOOGLE_CLIENT_ID }},GOOGLE_CLIENT_SECRET=${{ secrets.GOOGLE_CLIENT_SECRET }},ALLOWED_DOMAIN=${{ secrets.ALLOWED_DOMAIN }},CALLBACK_URL=${{ secrets.CALLBACK_URL }},SESSION_SECRET=${{ secrets.SESSION_SECRET }},NODE_ENV=production'
           allow-unauthenticated: false
 
