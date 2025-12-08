@@ -32,6 +32,11 @@ jobs:
           echo "SERVICE=$SERVICE"
           echo "REGION=$REGION"
           echo "GCP_SA_KEY=$GCP_SA_KEY"
+          echo "GOOGLE_CLIENT_ID=$GOOGLE_CLIENT_ID"
+          echo "GOOGLE_CLIENT_SECRET=$GOOGLE_CLIENT_SECRET"
+          echo "ALLOWED_DOMAIN=$ALLOWED_DOMAIN"
+          echo "CALLBACK_URL=$CALLBACK_URL"
+          echo "SESSION_SECRET=$SESSION_SECRET"
     
       - name: Checkout
         uses: actions/checkout@v4
@@ -40,7 +45,7 @@ jobs:
         id: auth
         uses: google-github-actions/auth@v2
         with:
-          credentials_json: $GCP_SA_KEY
+          credentials_json: ${{ secrets.GCP_SA_KEY.json }}
 
       - name: Set up Cloud SDK
         uses: google-github-actions/setup-gcloud@v2
