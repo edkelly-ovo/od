@@ -8,9 +8,8 @@ on:
 
 env:
   PROJECT_ID: ${{ secrets.GCP_PROJECT_ID || 'rise-sandbox' }}
-  GAR_LOCATION: ${{ secrets.GCP_REGION || 'europe-west1' }}
+  GCP_REGION: ${{ secrets.GCP_REGION || 'europe-west1' }}
   SERVICE: ovo-product-tech-visualisation
-  REGION: ${{ secrets.GCP_REGION || 'europe-west1' }}
   GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
   GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
   ALLOWED_DOMAIN: ${{ secrets.ALLOWED_DOMAIN }}
@@ -27,9 +26,8 @@ jobs:
       - name: Show env
         run: |
           echo "PROJECT_ID=$PROJECT_ID"
-          echo "GAR_LOCATION=$GAR_LOCATION"
+          echo "GCP_REGION=$GCP_REGION"
           echo "SERVICE=$SERVICE"
-          echo "REGION=$REGION"
           echo "GOOGLE_CLIENT_ID=$GOOGLE_CLIENT_ID"
           echo "GOOGLE_CLIENT_SECRET=$GOOGLE_CLIENT_SECRET"
           echo "ALLOWED_DOMAIN=$ALLOWED_DOMAIN"
@@ -50,19 +48,19 @@ jobs:
 
       - name: Configure Docker to use gcloud as a credential helper
         run: |
-          gcloud auth configure-docker ${$GAR_LOCATION}-docker.pkg.dev --quiet
+          gcloud auth configure-docker ${{ env.GCP_REGION }}-docker.pkg.dev --quiet
 
       - name: Create Artifact Registry repository (if it doesn't exist)
         run: |
           gcloud artifacts repositories create cloud-run-source-deploy \
             --repository-format=docker \
-            --location=${{ env.GAR_LOCATION }} \
+            --location=${{ env.GCP_REGION }} \
             --description="Docker repository for Cloud Run deployments" \
             || echo "Repository already exists"
 
       - name: Build and Push Docker image
         run: |
-          IMAGE="${{ env.GAR_LOCATION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/cloud-run-source-deploy/${{ env.SERVICE }}:${{ env.GITHUB_SHA }}"
+          IMAGE="${{ env.GCP_REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/cloud-run-source-deploy/${{ env.SERVICE }}:${{ env.GITHUB_SHA }}"
           docker build -t $IMAGE .
           docker push $IMAGE
           echo "IMAGE=$IMAGE" >> $GITHUB_ENV
@@ -73,7 +71,7 @@ jobs:
         with:
           service: ${{ env.SERVICE }}
           image: ${{ env.IMAGE }}
-          region: ${{ env.GAR_LOCATION }}
+          region: ${{ env.GCP_REGION }}
           flags: '--set-env-vars=GOOGLE_CLIENT_ID=${{ secrets.GOOGLE_CLIENT_ID }},GOOGLE_CLIENT_SECRET=${{ secrets.GOOGLE_CLIENT_SECRET }},ALLOWED_DOMAIN=${{ secrets.ALLOWED_DOMAIN }},CALLBACK_URL=${{ secrets.CALLBACK_URL }},SESSION_SECRET=${{ secrets.SESSION_SECRET }},NODE_ENV=production'
           allow-unauthenticated: false
 
