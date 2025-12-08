@@ -16,14 +16,21 @@ jobs:
   deploy:
     permissions:
       contents: read
-      id-token: write
 
     runs-on: ubuntu-latest
     steps:
+      - name: Show env
+        run: |
+          echo "PROJECT_ID=$PROJECT_ID"
+          echo "GAR_LOCATION=$GAR_LOCATION"
+          echo "SERVICE=$SERVICE"
+          echo "REGION=$REGION"
+          echo "GCP_SA_KEY=${{ secrets.GCP_SA_KEY }}"
+    
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Google Auth
+      - name: Authenticate to Google Cloud
         id: auth
         uses: google-github-actions/auth@v2
         with:
