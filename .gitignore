@@ -38,3 +38,5 @@ build/
 *.min.css
 
 data/*
+
+key.json

@@ -149,11 +149,83 @@ docker-compose up -d
 
 ## Deployment
 
-For full Express.js functionality, deploy to a Node.js hosting service:
+### Google Cloud Run (Automated via GitHub Actions)
 
-**Docker-based platforms (recommended):**
-- **Docker Hub / AWS ECS / Google Cloud Run**: Use the provided Dockerfile
-- **Kubernetes**: Deploy using the Docker image
+The repository includes a GitHub Actions workflow that automatically deploys to Google Cloud Run on pushes to `main`.
+
+#### Setup Instructions
+
+1. **Create a Google Cloud Project:**
+   ```bash
+   gcloud projects create YOUR_PROJECT_ID
+   gcloud config set project YOUR_PROJECT_ID
+   ```
+
+2. **Enable required APIs:**
+   ```bash
+   gcloud services enable cloudbuild.googleapis.com
+   gcloud services enable run.googleapis.com
+   gcloud services enable artifactregistry.googleapis.com
+   ```
+
+3. **Create a Service Account:**
+   ```bash
+   gcloud iam service-accounts create github-actions \
+     --display-name="GitHub Actions Service Account"
+   
+   gcloud projects add-iam-policy-binding YOUR_PROJECT_ID \
+     --member="serviceAccount:github-actions@YOUR_PROJECT_ID.iam.gserviceaccount.com" \
+     --role="roles/run.admin"
+   
+   gcloud projects add-iam-policy-binding YOUR_PROJECT_ID \
+     --member="serviceAccount:github-actions@YOUR_PROJECT_ID.iam.gserviceaccount.com" \
+     --role="roles/artifactregistry.writer"
+   
+   gcloud projects add-iam-policy-binding YOUR_PROJECT_ID \
+     --member="serviceAccount:github-actions@YOUR_PROJECT_ID.iam.gserviceaccount.com" \
+     --role="roles/iam.serviceAccountUser"
+   ```
+
+4. **Create and download Service Account key:**
+   ```bash
+   gcloud iam service-accounts keys create key.json \
+     --iam-account=github-actions@YOUR_PROJECT_ID.iam.gserviceaccount.com
+   ```
+
+5. **Configure GitHub Secrets:**
+   Go to your GitHub repository → Settings → Secrets and variables → Actions, and add:
+   - `GCP_PROJECT_ID`: Your Google Cloud project ID
+   - `GCP_REGION`: Your preferred region (e.g., `us-central1`, `europe-west1`)
+   - `GCP_SA_KEY`: Contents of the `key.json` file (the entire JSON)
+   - `GOOGLE_CLIENT_ID`: Your Google OAuth client ID
+   - `GOOGLE_CLIENT_SECRET`: Your Google OAuth client secret
+   - `ALLOWED_DOMAIN`: Domain restriction (e.g., `ovo.com`)
+   - `CALLBACK_URL`: Your Cloud Run service URL + `/auth/google/callback` (update after first deployment)
+   - `SESSION_SECRET`: A strong random string for session encryption
+
+6. **Deploy:**
+   - Push to `main` branch to trigger automatic deployment
+   - Or manually trigger via GitHub Actions → "Deploy to Google Cloud Run" → Run workflow
+
+#### Manual Cloud Run Deployment
+
+```bash
+# Build and push image
+gcloud builds submit --tag gcr.io/YOUR_PROJECT_ID/ovo-product-tech-visualization
+
+# Deploy to Cloud Run
+gcloud run deploy ovo-product-tech-visualization \
+  --image gcr.io/YOUR_PROJECT_ID/ovo-product-tech-visualization \
+  --platform managed \
+  --region us-central1 \
+  --allow-unauthenticated=false \
+  --set-env-vars="GOOGLE_CLIENT_ID=your-client-id,GOOGLE_CLIENT_SECRET=your-secret,ALLOWED_DOMAIN=ovo.com,CALLBACK_URL=https://your-service-url.run.app/auth/google/callback,SESSION_SECRET=your-session-secret,NODE_ENV=production"
+```
+
+### Other Deployment Options
+
+**Docker-based platforms:**
+- **Docker Hub / AWS ECS / Kubernetes**: Use the provided Dockerfile
 
 **Heroku:**
 ```bash

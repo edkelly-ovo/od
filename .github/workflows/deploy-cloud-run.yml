@@ -1,0 +1,68 @@
+name: Deploy to Google Cloud Run
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+env:
+  PROJECT_ID: ${{ secrets.GCP_PROJECT_ID || 'rise-sandbox' }}
+  GAR_LOCATION: ${{ secrets.GCP_REGION || 'europe-west1' }}
+  SERVICE: ovo-product-tech-visualisation
+  REGION: ${{ secrets.GCP_REGION || 'europe-west1' }}
+
+jobs:
+  deploy:
+    permissions:
+      contents: read
+      id-token: write
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Google Auth
+        id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v2
+
+      - name: Configure Docker to use gcloud as a credential helper
+        run: |
+          gcloud auth configure-docker $GAR_LOCATION-docker.pkg.dev --quiet
+
+      - name: Create Artifact Registry repository (if it doesn't exist)
+        run: |
+          gcloud artifacts repositories create cloud-run-source-deploy \
+            --repository-format=docker \
+            --location=$GAR_LOCATION \
+            --description="Docker repository for Cloud Run deployments" \
+            || echo "Repository already exists"
+
+      - name: Build and Push Docker image
+        run: |
+          IMAGE="$GAR_LOCATION-docker.pkg.dev/$PROJECT_ID/cloud-run-source-deploy/$SERVICE:$GITHUB_SHA"
+          docker build -t $IMAGE .
+          docker push $IMAGE
+          echo "IMAGE=$IMAGE" >> $GITHUB_ENV
+
+      - name: Deploy to Cloud Run
+        id: deploy
+        uses: google-github-actions/deploy-cloudrun@v2
+        with:
+          service: ${{ env.SERVICE }}
+          image: ${{ env.IMAGE }}
+          region: ${{ env.REGION }}
+          flags: '--set-env-vars=GOOGLE_CLIENT_ID=${{ secrets.GOOGLE_CLIENT_ID }},GOOGLE_CLIENT_SECRET=${{ secrets.GOOGLE_CLIENT_SECRET }},ALLOWED_DOMAIN=${{ secrets.ALLOWED_DOMAIN }},CALLBACK_URL=${{ secrets.CALLBACK_URL }},SESSION_SECRET=${{ secrets.SESSION_SECRET }},NODE_ENV=production'
+          allow-unauthenticated: false
+
+      - name: Show Output
+        run: |
+          echo "Service deployed successfully!"
+          echo "Service URL: ${{ steps.deploy.outputs.url }}"
+
