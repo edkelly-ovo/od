@@ -28,19 +28,19 @@ jobs:
 
       - name: Configure Docker to use gcloud as a credential helper
         run: |
-          gcloud auth configure-docker ${{ secrets.GCP_REGION || 'europe-west1' }}-docker.pkg.dev --quiet
+          gcloud auth configure-docker europe-west1-docker.pkg.dev --quiet
 
       - name: Create Artifact Registry repository (if it doesn't exist)
         run: |
           gcloud artifacts repositories create cloud-run-source-deploy \
             --repository-format=docker \
-            --location=${{ secrets.GCP_REGION || 'europe-west1' }} \
+            --location=europe-west1 \
             --description="Docker repository for Cloud Run deployments" \
             || echo "Repository already exists"
 
       - name: Build and Push Docker image
         run: |
-          IMAGE="${{ secrets.GCP_REGION || 'europe-west1' }}-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID || 'rise-sandbox' }}/cloud-run-source-deploy/ovo-product-tech-visualisation:${{ github.sha }}"
+          IMAGE="europe-west1-docker.pkg.dev/rise-sandbox/cloud-run-source-deploy/ovo-product-tech-visualisation:${{ github.sha }}"
           docker build -t $IMAGE .
           docker push $IMAGE
           echo "IMAGE=$IMAGE" >> $GITHUB_ENV
@@ -51,7 +51,7 @@ jobs:
         with:
           service: ovo-product-tech-visualisation
           image: ${{ env.IMAGE }}
-          region: ${{ secrets.GCP_REGION || 'europe-west1' }}
+          region: europe-west1
           flags: '--set-env-vars=GOOGLE_CLIENT_ID=${{ secrets.GOOGLE_CLIENT_ID }},GOOGLE_CLIENT_SECRET=${{ secrets.GOOGLE_CLIENT_SECRET }},ALLOWED_DOMAIN=${{ secrets.ALLOWED_DOMAIN }},CALLBACK_URL=${{ secrets.CALLBACK_URL }},SESSION_SECRET=${{ secrets.SESSION_SECRET }},NODE_ENV=production'
           allow-unauthenticated: false
 
